@@ -1,0 +1,54 @@
+/**
+ * Ropa Mujer styles
+ */
+.product-row {
+  border: 1px #EEE solid;
+  float: left;
+  margin: 0 4% 2% 0;
+  padding: 10px 0;
+  text-align: center;
+  width: 45%;
+
+  @include border-radius(5px);
+
+  @include breakpoint(max-width 719px) {
+
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }  
+
+    &:nth-child(2n+3) {
+      clear: left;
+    }
+  }
+
+  & > div {
+    margin-bottom: 5px;
+  }
+
+  @include breakpoint(720px 959px) {
+    margin-right: 1%;
+    width: 32%;
+
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }  
+
+    &:nth-child(3n+4) {
+      clear: left;
+    }    
+  }
+
+  @include breakpoint(960px) {
+    margin-right: 1%;
+    width: 24%;
+
+    &:nth-child(4n+4) {
+      margin-right: 0;
+    }  
+
+    &:nth-child(4n+5) {
+      clear: left;
+    }    
+  }  
+}
