@@ -444,10 +444,12 @@ select {
   }
 }
 .region-branding-inner {
-  & > div {
+  & > div, & > section {
     float: left;
     min-height: 20px;
     padding: 20px 5px 0;
+    position: relative;
+    z-index: 500;
   }
 
   .branding-data {
