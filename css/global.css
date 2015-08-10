@@ -8,7 +8,18 @@
 /**
  * Ropa Mujer styles
  */
-/* line 4, ../scss/_ropa.scss */
+/**
+ * Header Styles
+ */
+/* line 7, ../scss/_ropa.scss */
+#block-block-9 {
+  border: 1px #000 solid;
+}
+
+/**
+ * Products view Style
+ */
+/* line 16, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -21,45 +32,45 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 16, ../scss/_ropa.scss */
+  /* line 28, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 20, ../scss/_ropa.scss */
+  /* line 32, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 25, ../scss/_ropa.scss */
+/* line 37, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 4, ../scss/_ropa.scss */
+  /* line 16, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 33, ../scss/_ropa.scss */
+  /* line 45, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 37, ../scss/_ropa.scss */
+  /* line 49, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 4, ../scss/_ropa.scss */
+  /* line 16, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 46, ../scss/_ropa.scss */
+  /* line 58, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 50, ../scss/_ropa.scss */
+  /* line 62, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
