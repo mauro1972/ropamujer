@@ -15,23 +15,24 @@
 #block-block-9 {
   display: block;
   float: left;
+  padding-top: 0;
   position: relative;
   width: 120px;
   z-index: 500;
 }
-/* line 14, ../scss/_ropa.scss */
+/* line 15, ../scss/_ropa.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 0 no-repeat;
   height: 60px;
   text-indent: -9999px;
 }
-/* line 20, ../scss/_ropa.scss */
+/* line 21, ../scss/_ropa.scss */
 #block-block-9 .content {
   background: #FFF;
   display: none;
   padding: 5px 10px;
 }
-/* line 26, ../scss/_ropa.scss */
+/* line 27, ../scss/_ropa.scss */
 #block-block-9:hover .content {
   display: block;
   position: absolute;
@@ -41,7 +42,7 @@
 /**
  * Products view Style
  */
-/* line 38, ../scss/_ropa.scss */
+/* line 39, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -54,45 +55,45 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 50, ../scss/_ropa.scss */
+  /* line 51, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 54, ../scss/_ropa.scss */
+  /* line 55, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 59, ../scss/_ropa.scss */
+/* line 60, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 38, ../scss/_ropa.scss */
+  /* line 39, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 67, ../scss/_ropa.scss */
+  /* line 68, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 71, ../scss/_ropa.scss */
+  /* line 72, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 38, ../scss/_ropa.scss */
+  /* line 39, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 80, ../scss/_ropa.scss */
+  /* line 81, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 84, ../scss/_ropa.scss */
+  /* line 85, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
