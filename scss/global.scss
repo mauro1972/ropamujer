@@ -323,7 +323,7 @@ select {
   float: left;
   margin: 0 auto;
   padding-top: 20px;
-  width: 120px;
+  width: 80px;
   /*margin-left: 50px; /* LTR */
   h2.block-title {
     background-image: url('../images/picto_cart.png');
@@ -447,6 +447,7 @@ select {
 .region-branding-inner {
   & > div, & > section {
     float: left;
+    margin-right: 5px;
     min-height: 20px;
     padding: 20px 5px 0;
     position: relative;
