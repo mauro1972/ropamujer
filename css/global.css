@@ -591,7 +591,7 @@ select {
 **********************************************/
 /* line 437, ../scss/global.scss */
 .zone-branding .region-branding {
-  margin: 10px 0 15px 0;
+  margin: 10px 0 0;
 }
 /* line 440, ../scss/global.scss */
 .zone-branding .region-branding .logo-img {
