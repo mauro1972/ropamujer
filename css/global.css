@@ -596,7 +596,7 @@ select {
 /* line 440, ../scss/global.scss */
 .zone-branding .region-branding .logo-img {
   float: none;
-  margin: 10px 0;
+  margin: 10px 0 5px;
   text-align: center;
 }
 
