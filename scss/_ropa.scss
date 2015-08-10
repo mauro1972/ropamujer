@@ -5,14 +5,25 @@
   * Header Styles
   */
 #block-block-9 {
-  border: 1px #000 solid; 
   display: block;
+  float: left;
+  position: relative;
 
   h2.block-title {
     background: url(../images/icon_whatsapp.png) 50% 0 no-repeat;
     border: 1px #e00 solid;
+    height: 60px;
     text-indent: -9999px;
+  }
 
+  .content {
+    display: none;
+  }
+
+  &:hover {
+    display: block;
+    position: absolute;
+    top: 60px;
   }
 }
 
