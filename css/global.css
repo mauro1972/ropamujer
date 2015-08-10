@@ -14,12 +14,19 @@
 /* line 7, ../scss/_ropa.scss */
 #block-block-9 {
   border: 1px #000 solid;
+  display: block;
+}
+/* line 11, ../scss/_ropa.scss */
+#block-block-9 h2.block-title {
+  background: url(../images/icon_whatsapp.png) 50% 0 no-repeat;
+  border: 1px #e00 solid;
+  text-indent: -9999px;
 }
 
 /**
  * Products view Style
  */
-/* line 16, ../scss/_ropa.scss */
+/* line 24, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -32,45 +39,45 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 28, ../scss/_ropa.scss */
+  /* line 36, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 32, ../scss/_ropa.scss */
+  /* line 40, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 37, ../scss/_ropa.scss */
+/* line 45, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 16, ../scss/_ropa.scss */
+  /* line 24, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 45, ../scss/_ropa.scss */
+  /* line 53, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 49, ../scss/_ropa.scss */
+  /* line 57, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 16, ../scss/_ropa.scss */
+  /* line 24, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 58, ../scss/_ropa.scss */
+  /* line 66, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 62, ../scss/_ropa.scss */
+  /* line 70, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
