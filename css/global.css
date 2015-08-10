@@ -29,8 +29,9 @@
 #block-block-9 .content {
   background: #FFF;
   display: none;
+  padding: 5px 10px;
 }
-/* line 25, ../scss/_ropa.scss */
+/* line 26, ../scss/_ropa.scss */
 #block-block-9:hover .content {
   display: block;
   position: absolute;
@@ -40,7 +41,7 @@
 /**
  * Products view Style
  */
-/* line 37, ../scss/_ropa.scss */
+/* line 38, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -53,45 +54,45 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 49, ../scss/_ropa.scss */
+  /* line 50, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 53, ../scss/_ropa.scss */
+  /* line 54, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 58, ../scss/_ropa.scss */
+/* line 59, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 37, ../scss/_ropa.scss */
+  /* line 38, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 66, ../scss/_ropa.scss */
+  /* line 67, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 70, ../scss/_ropa.scss */
+  /* line 71, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 37, ../scss/_ropa.scss */
+  /* line 38, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 79, ../scss/_ropa.scss */
+  /* line 80, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 83, ../scss/_ropa.scss */
+  /* line 84, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
