@@ -4,6 +4,20 @@
  /**
   * Header Styles
   */
+#block-search-form form {
+  border: 1px #CCC solid;
+  padding: 2px 5px;
+
+  .form-text {
+    border: none;
+  }
+
+  .form-submit {
+    background: transparent;
+    border: none;
+  }
+}
+
 #block-block-8 {
 
   .content {

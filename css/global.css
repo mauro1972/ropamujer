@@ -11,12 +11,27 @@
 /**
  * Header Styles
  */
-/* line 10, ../scss/_ropa.scss */
+/* line 7, ../scss/_ropa.scss */
+#block-search-form form {
+  border: 1px #CCC solid;
+  padding: 2px 5px;
+}
+/* line 11, ../scss/_ropa.scss */
+#block-search-form form .form-text {
+  border: none;
+}
+/* line 15, ../scss/_ropa.scss */
+#block-search-form form .form-submit {
+  background: transparent;
+  border: none;
+}
+
+/* line 24, ../scss/_ropa.scss */
 #block-block-8 .content p {
   border: 1px #000 solid;
 }
 
-/* line 16, ../scss/_ropa.scss */
+/* line 30, ../scss/_ropa.scss */
 #block-block-9 {
   display: block;
   float: left;
@@ -25,19 +40,19 @@
   width: 120px;
   z-index: 500;
 }
-/* line 24, ../scss/_ropa.scss */
+/* line 38, ../scss/_ropa.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 0 no-repeat;
   height: 60px;
   text-indent: -9999px;
 }
-/* line 30, ../scss/_ropa.scss */
+/* line 44, ../scss/_ropa.scss */
 #block-block-9 .content {
   background: #FFF;
   display: none;
   padding: 5px 10px;
 }
-/* line 36, ../scss/_ropa.scss */
+/* line 50, ../scss/_ropa.scss */
 #block-block-9:hover .content {
   display: block;
   position: absolute;
@@ -47,7 +62,7 @@
 /**
  * Products view Style
  */
-/* line 48, ../scss/_ropa.scss */
+/* line 62, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -60,45 +75,45 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 60, ../scss/_ropa.scss */
+  /* line 74, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 64, ../scss/_ropa.scss */
+  /* line 78, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 69, ../scss/_ropa.scss */
+/* line 83, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 48, ../scss/_ropa.scss */
+  /* line 62, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 77, ../scss/_ropa.scss */
+  /* line 91, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 81, ../scss/_ropa.scss */
+  /* line 95, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 48, ../scss/_ropa.scss */
+  /* line 62, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 90, ../scss/_ropa.scss */
+  /* line 104, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 94, ../scss/_ropa.scss */
+  /* line 108, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
