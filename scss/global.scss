@@ -328,7 +328,8 @@ select {
   h2.block-title {
     background-image: url('../images/picto_cart.png');
     background-position: 50% 0%; /* LTR */
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;   
+    height: 51px; 
     text-indent: -9999px;
   }
 
@@ -341,9 +342,9 @@ select {
     display: none;
     float: right; /* LTR */
     /*margin-left: -60px; /* LTR */
-    padding-left: 50px; /* LTR */
+    padding:10px 0 0 20px; /* LTR */
     position: absolute;
-    top: 45px;
+    top: 50px;
     width: 300px;
 
     &:hover {
