@@ -29,7 +29,7 @@
   display: none;
 }
 /* line 23, ../scss/_ropa.scss */
-#block-block-9:hover {
+#block-block-9:hover .content {
   display: block;
   position: absolute;
   top: 60px;

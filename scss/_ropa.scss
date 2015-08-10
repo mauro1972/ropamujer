@@ -20,7 +20,7 @@
     display: none;
   }
 
-  &:hover {
+  &:hover .content {
     display: block;
     position: absolute;
     top: 60px;
