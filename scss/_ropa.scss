@@ -122,9 +122,24 @@
   position: relative;
 
   .price {
-    border: 1px #000 solid;
+    background: #f37324;
     bottom: 125px;
+    color: #FFF;
     left: -5px;
+    padding: 5px 10px;
     position: absolute;
+
+    @include border-radius(5px 5px 5px 0);
+
+    &:after {
+      content: "";
+      display: block;
+      border-width: 5px 0 0 5px;
+      border-color: #d15102 transparent transparent transparent;
+      border-style: solid;
+      position: absolute;
+      left: 0;
+      bottom: -5px;  
+    }
   }
 }
