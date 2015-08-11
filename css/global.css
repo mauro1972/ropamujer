@@ -128,6 +128,11 @@
   }
 }
 
+/* line 122, ../scss/_ropa.scss */
+.product-row .price {
+  border: 1px #000 solid;
+}
+
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
