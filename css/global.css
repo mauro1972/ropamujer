@@ -748,23 +748,25 @@ select {
 }
 /* line 535, ../scss/global.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1.2em;
 }
 /* line 539, ../scss/global.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a a.active {
+  color: #FFF;
   background: #B4239E;
 }
-/* line 543, ../scss/global.scss */
+/* line 544, ../scss/global.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:focus, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a.active {
   background: #B4239E;
+  color: #FFF;
   text-decoration: none;
 }
 
 /**
 * Navigation
 */
-/* line 555, ../scss/global.scss */
+/* line 557, ../scss/global.scss */
 .menu-toggle {
   background: #666;
   -moz-border-radius: 3px;
@@ -782,11 +784,11 @@ select {
   top: -46px;
   width: 36px;
 }
-/* line 568, ../scss/global.scss */
+/* line 570, ../scss/global.scss */
 .menu-toggle:hover {
   background: #777;
 }
-/* line 572, ../scss/global.scss */
+/* line 574, ../scss/global.scss */
 .menu-toggle .toggle-help {
   color: #999;
   font-family: "Muli", "Open Sans", sans-serif;
@@ -800,23 +802,23 @@ select {
   /* LTR */
   top: 6px;
 }
-/* line 584, ../scss/global.scss */
+/* line 586, ../scss/global.scss */
 .menu-toggle .line {
   border-bottom: 2px solid #CCC;
   display: block;
   margin: 4px auto 4px auto;
   width: 26px;
 }
-/* line 590, ../scss/global.scss */
+/* line 592, ../scss/global.scss */
 .menu-toggle .first-line {
   padding-top: 4px;
 }
-/* line 593, ../scss/global.scss */
+/* line 595, ../scss/global.scss */
 .menu-toggle .last-line {
   padding-bottom: 0;
 }
 
-/* line 597, ../scss/global.scss */
+/* line 599, ../scss/global.scss */
 .navigation {
   background: #444;
   display: none;
@@ -824,7 +826,7 @@ select {
   /* Main menu */
   /* Secondary menu */
 }
-/* line 602, ../scss/global.scss */
+/* line 604, ../scss/global.scss */
 .navigation h2 {
   color: #999;
   font-family: "Muli", "Open Sans", sans-serif;
@@ -834,7 +836,7 @@ select {
   margin: 0;
   padding: 0 0 10px 0;
 }
-/* line 611, ../scss/global.scss */
+/* line 613, ../scss/global.scss */
 .navigation .primary-menu,
 .navigation .second-menu {
   display: block;
@@ -842,12 +844,12 @@ select {
   margin: 0 10px;
   padding: 10px 0 0 0;
 }
-/* line 618, ../scss/global.scss */
+/* line 620, ../scss/global.scss */
 .navigation .primary-menu ul,
 .navigation .second-menu ul {
   margin: 0;
 }
-/* line 620, ../scss/global.scss */
+/* line 622, ../scss/global.scss */
 .navigation .primary-menu ul li,
 .navigation .second-menu ul li {
   display: inline-block;
@@ -855,7 +857,7 @@ select {
   padding: 0;
   width: 100%;
 }
-/* line 625, ../scss/global.scss */
+/* line 627, ../scss/global.scss */
 .navigation .primary-menu ul li a,
 .navigation .second-menu ul li a {
   display: block;
@@ -864,36 +866,36 @@ select {
   padding: 12px 16px;
   text-decoration: none;
 }
-/* line 631, ../scss/global.scss */
+/* line 633, ../scss/global.scss */
 .navigation .primary-menu ul li a:hover,
 .navigation .second-menu ul li a:hover {
   text-decoration: none;
 }
-/* line 640, ../scss/global.scss */
+/* line 642, ../scss/global.scss */
 .navigation .primary-menu ul li a {
   background-color: #EEE;
   border: 1px solid #CCC;
   color: #888;
   text-transform: capitalize;
 }
-/* line 646, ../scss/global.scss */
+/* line 648, ../scss/global.scss */
 .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover {
   background-color: #FFF;
   border: 1px solid #CCC;
 }
-/* line 651, ../scss/global.scss */
+/* line 653, ../scss/global.scss */
 .navigation .primary-menu ul li a.active {
   color: #000;
 }
-/* line 654, ../scss/global.scss */
+/* line 656, ../scss/global.scss */
 .navigation .primary-menu ul li a:hover {
   color: #999;
 }
-/* line 660, ../scss/global.scss */
+/* line 662, ../scss/global.scss */
 .navigation .second-menu {
   clear: left;
 }
-/* line 663, ../scss/global.scss */
+/* line 665, ../scss/global.scss */
 .navigation .second-menu ul li a {
   background-color: #EEE;
   border: 1px solid #CCC;
@@ -901,28 +903,28 @@ select {
   padding: 12px 18px;
   text-transform: capitalize;
 }
-/* line 670, ../scss/global.scss */
+/* line 672, ../scss/global.scss */
 .navigation .second-menu ul li a.active, .navigation .second-menu ul li a:hover {
   background-color: #FFF;
   border: 1px solid #CCC;
 }
-/* line 675, ../scss/global.scss */
+/* line 677, ../scss/global.scss */
 .navigation .second-menu ul li a.active {
   color: #000;
 }
-/* line 678, ../scss/global.scss */
+/* line 680, ../scss/global.scss */
 .navigation .second-menu ul li a:hover {
   color: #999;
 }
 
-/* line 686, ../scss/global.scss */
+/* line 688, ../scss/global.scss */
 .zone-menu .block-menu {
   display: block;
   font-size: 1em;
   margin: 0;
   padding: 10px 0 0 0;
 }
-/* line 693, ../scss/global.scss */
+/* line 695, ../scss/global.scss */
 .zone-menu .block-menu ul.menu li {
   display: inline-block;
   float: left;
@@ -931,7 +933,7 @@ select {
   padding: 0;
   width: 100%;
 }
-/* line 701, ../scss/global.scss */
+/* line 703, ../scss/global.scss */
 .zone-menu .block-menu ul.menu li a {
   background-color: #EEE;
   border: 1px solid #CCC;
@@ -943,27 +945,27 @@ select {
   text-decoration: none;
   text-transform: capitalize;
 }
-/* line 712, ../scss/global.scss */
+/* line 714, ../scss/global.scss */
 .zone-menu .block-menu ul.menu li a.active, .zone-menu .block-menu ul.menu li a:hover {
   background-color: #FFF;
   border: 1px solid #CCC;
 }
-/* line 717, ../scss/global.scss */
+/* line 719, ../scss/global.scss */
 .zone-menu .block-menu ul.menu li a.active {
   color: #000;
 }
-/* line 720, ../scss/global.scss */
+/* line 722, ../scss/global.scss */
 .zone-menu .block-menu ul.menu li a:hover {
   color: #999;
   text-decoration: none;
 }
 
-/* line 729, ../scss/global.scss */
+/* line 731, ../scss/global.scss */
 .region-preface-first {
   /*border: 1px #000 solid;*/
 }
 
-/* line 732, ../scss/global.scss */
+/* line 734, ../scss/global.scss */
 .region-preface-third {
   /*border: 1px #e00 solid;*/
 }
@@ -973,13 +975,13 @@ select {
 * 3. Section content
 * --
 **************************************************/
-/* line 740, ../scss/global.scss */
+/* line 742, ../scss/global.scss */
 .section-content {
   min-height: 500px;
   height: 100%;
 }
 
-/* line 744, ../scss/global.scss */
+/* line 746, ../scss/global.scss */
 .front .section-content {
   min-height: 100%;
 }
@@ -987,7 +989,7 @@ select {
 /**********************************************
 * 3.1. Zone preface
 **********************************************/
-/* line 750, ../scss/global.scss */
+/* line 752, ../scss/global.scss */
 .zone-preface {
   background-color: #ffffff;
   margin-bottom: 0;
@@ -995,7 +997,7 @@ select {
   position: relative;
 }
 
-/* line 756, ../scss/global.scss */
+/* line 758, ../scss/global.scss */
 .breadcrumb,
 #region-breadcrumb .pseudo-breadcrumb {
   -moz-border-radius: 8px;
@@ -1007,25 +1009,25 @@ select {
 /**
 * Pseudo Breadcrumb
 */
-/* line 763, ../scss/global.scss */
+/* line 765, ../scss/global.scss */
 #region-breadcrumb {
   margin: 0px 10px;
   padding-bottom: 0;
   position: relative;
 }
-/* line 768, ../scss/global.scss */
+/* line 770, ../scss/global.scss */
 #region-breadcrumb .pseudo-breadcrumb-total-results {
   font-family: "Muli", "Open Sans", sans-serif;
   font-weight: 400;
   margin: 0 0 0 10px;
   /* LTR */
 }
-/* line 773, ../scss/global.scss */
+/* line 775, ../scss/global.scss */
 #region-breadcrumb .pseudo-breadcrumb-total-results em {
   color: #2698F2;
   font-style: normal;
 }
-/* line 779, ../scss/global.scss */
+/* line 781, ../scss/global.scss */
 #region-breadcrumb .pseudo-breadcrumb {
   background-color: #eeeeee;
   border: 1px solid #d7d7d7;
@@ -1033,7 +1035,7 @@ select {
   padding: 10px 21px 35px 5px;
   /* LTR */
 }
-/* line 785, ../scss/global.scss */
+/* line 787, ../scss/global.scss */
 #region-breadcrumb .pseudo-breadcrumb li {
   color: #898a8c;
   float: left;
@@ -1042,7 +1044,7 @@ select {
   line-height: 23px;
   text-decoration: none;
 }
-/* line 792, ../scss/global.scss */
+/* line 794, ../scss/global.scss */
 #region-breadcrumb .pseudo-breadcrumb li a {
   background: url("../images/btn_close.png") 0px 4px no-repeat;
   color: #898a8c;
@@ -1059,7 +1061,7 @@ select {
 /**
 * Breadcrumb
 */
-/* line 810, ../scss/global.scss */
+/* line 812, ../scss/global.scss */
 .breadcrumb {
   background-color: #eeeeee;
   border: 1px solid #d7d7d7;
@@ -1067,13 +1069,13 @@ select {
   margin: 20px 0;
   padding: 13px 27px;
 }
-/* line 816, ../scss/global.scss */
+/* line 818, ../scss/global.scss */
 .breadcrumb a {
   color: #898a8c;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 820, ../scss/global.scss */
+/* line 822, ../scss/global.scss */
 .breadcrumb a:hover {
   text-decoration: underline;
 }
@@ -1081,11 +1083,11 @@ select {
 /**********************************************
 * 3.2. Zone content
 **********************************************/
-/* line 828, ../scss/global.scss */
+/* line 830, ../scss/global.scss */
 .zone-content-wrapper {
   height: 100%;
 }
-/* line 831, ../scss/global.scss */
+/* line 833, ../scss/global.scss */
 .zone-content-wrapper .zone-content {
   margin-bottom: 40px;
   padding-top: 10px;
@@ -1097,7 +1099,7 @@ select {
 * 3.2.1. Sidebar first
 *******************************************/
 /* Search api facet blocks */
-/* line 842, ../scss/global.scss */
+/* line 844, ../scss/global.scss */
 .region-sidebar-first .block-facetapi {
   border-top: 1px solid #000000;
   margin-top: 15px;
@@ -1108,7 +1110,7 @@ select {
   padding-left: 15px;
   /* LTR */
 }
-/* line 850, ../scss/global.scss */
+/* line 852, ../scss/global.scss */
 .region-sidebar-first .block-facetapi h2 {
   font-family: "Muli", "Open Sans", sans-serif;
   font-size: 16px;
@@ -1116,12 +1118,12 @@ select {
   line-height: 30px;
   padding-bottom: 8%;
 }
-/* line 858, ../scss/global.scss */
+/* line 860, ../scss/global.scss */
 .region-sidebar-first .block-facetapi ul {
   list-style: none;
   list-style-image: none;
 }
-/* line 862, ../scss/global.scss */
+/* line 864, ../scss/global.scss */
 .region-sidebar-first .block-facetapi ul li {
   background: none;
   line-height: 22px;
@@ -1129,18 +1131,18 @@ select {
   list-style-image: none;
   margin: 0;
 }
-/* line 869, ../scss/global.scss */
+/* line 871, ../scss/global.scss */
 .region-sidebar-first .block-facetapi ul li a {
   color: #8e8e8e;
   font-family: "Muli", "Open Sans", sans-serif;
   font-weight: 700;
   text-decoration: none;
 }
-/* line 874, ../scss/global.scss */
+/* line 876, ../scss/global.scss */
 .region-sidebar-first .block-facetapi ul li a:hover {
   text-decoration: underline;
 }
-/* line 877, ../scss/global.scss */
+/* line 879, ../scss/global.scss */
 .region-sidebar-first .block-facetapi ul li a.facetapi-active {
   background-image: url("../images/btn_close.png");
   background-position: left top;
@@ -1155,21 +1157,21 @@ select {
   text-indent: -9999px;
   width: 20px;
 }
-/* line 888, ../scss/global.scss */
+/* line 890, ../scss/global.scss */
 .region-sidebar-first .block-facetapi ul li a.facetapi-inactive {
   padding-left: 21px;
   /* LTR */
 }
 
 /* Price range */
-/* line 896, ../scss/global.scss */
+/* line 898, ../scss/global.scss */
 #search-api-ranges-block-slider-view-form,
 #search-api-ranges-block-slider-view-form .range-box-left,
 #search-api-ranges-block-slider-view-form .range-box-right {
   position: relative;
 }
 
-/* line 902, ../scss/global.scss */
+/* line 904, ../scss/global.scss */
 #search-api-ranges-block-slider-view-form .text-range {
   display: none;
   font-size: 12px;
@@ -1177,16 +1179,16 @@ select {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 909, ../scss/global.scss */
+/* line 911, ../scss/global.scss */
 #search-api-ranges-block-slider-view-form .range-slider-box {
   display: none;
 }
-/* line 912, ../scss/global.scss */
+/* line 914, ../scss/global.scss */
 #search-api-ranges-block-slider-view-form .range-box {
   float: left;
   /* LTR */
 }
-/* line 915, ../scss/global.scss */
+/* line 917, ../scss/global.scss */
 #search-api-ranges-block-slider-view-form label {
   float: left;
   /* LTR */
@@ -1196,18 +1198,18 @@ select {
   white-space: nowrap;
   width: 40%;
 }
-/* line 922, ../scss/global.scss */
+/* line 924, ../scss/global.scss */
 #search-api-ranges-block-slider-view-form label:after {
   content: ":";
 }
-/* line 927, ../scss/global.scss */
+/* line 929, ../scss/global.scss */
 #search-api-ranges-block-slider-view-form #edit-range-from,
 #search-api-ranges-block-slider-view-form #edit-range-to {
   float: left;
   /* LTR */
   width: 80px;
 }
-/* line 932, ../scss/global.scss */
+/* line 934, ../scss/global.scss */
 #search-api-ranges-block-slider-view-form #edit-submit {
   background: #cecece;
   border: 0;
@@ -1228,30 +1230,30 @@ select {
 /**
 * Blocks
 */
-/* line 949, ../scss/global.scss */
+/* line 951, ../scss/global.scss */
 #block-views-demo-content-slideshow-block-1 {
   /* HP blocks: Slideshow */
   position: relative;
 }
-/* line 952, ../scss/global.scss */
+/* line 954, ../scss/global.scss */
 #block-views-demo-content-slideshow-block-1 .bx-wrapper {
   position: relative;
 }
-/* line 955, ../scss/global.scss */
+/* line 957, ../scss/global.scss */
 #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-window,
 #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-viewport {
   overflow: visible !important;
 }
-/* line 960, ../scss/global.scss */
+/* line 962, ../scss/global.scss */
 #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li {
   margin: 0;
   overflow: hidden;
 }
-/* line 964, ../scss/global.scss */
+/* line 966, ../scss/global.scss */
 #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li a {
   display: block;
 }
-/* line 970, ../scss/global.scss */
+/* line 972, ../scss/global.scss */
 #block-views-demo-content-slideshow-block-1 .views-field-nothing,
 #block-views-demo-content-slideshow-block-1 .bx-prev,
 #block-views-demo-content-slideshow-block-1 .bx-next {
@@ -1259,7 +1261,7 @@ select {
   text-indent: -9999px;
 }
 
-/* line 978, ../scss/global.scss */
+/* line 980, ../scss/global.scss */
 .front .node {
   border: 1px solid #E0E3E6;
   display: block;
@@ -1267,64 +1269,64 @@ select {
   padding: 10px 15px;
   width: auto;
 }
-/* line 985, ../scss/global.scss */
+/* line 987, ../scss/global.scss */
 .front .node h2 {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 0;
   text-transform: uppercase;
 }
-/* line 991, ../scss/global.scss */
+/* line 993, ../scss/global.scss */
 .front .node h2 a {
   color: #656565;
   text-decoration: none;
 }
-/* line 996, ../scss/global.scss */
+/* line 998, ../scss/global.scss */
 .front .node .submitted {
   color: #A0A0A0;
   font-size: 12px;
   margin: 5px 0;
   text-transform: uppercase;
 }
-/* line 1001, ../scss/global.scss */
+/* line 1003, ../scss/global.scss */
 .front .node .submitted a {
   color: #A0A0A0;
 }
-/* line 1006, ../scss/global.scss */
+/* line 1008, ../scss/global.scss */
 .front .node .content .field-name-field-image {
   margin: 0 0 15px;
 }
-/* line 1009, ../scss/global.scss */
+/* line 1011, ../scss/global.scss */
 .front .node .content .field-type-taxonomy-term-reference .field-items .field-item {
   padding-right: 0;
 }
-/* line 1012, ../scss/global.scss */
+/* line 1014, ../scss/global.scss */
 .front .node .content .field-name-field-tags {
   border-top: 1px dotted #777777;
   font-size: 11px;
   margin-bottom: 5px;
   padding: 3px;
 }
-/* line 1018, ../scss/global.scss */
+/* line 1020, ../scss/global.scss */
 .front .node .content .field-name-field-blog-category {
   font-size: 11px;
   padding: 3px;
 }
-/* line 1023, ../scss/global.scss */
+/* line 1025, ../scss/global.scss */
 .front .node .node-links {
   font-size: 12px;
 }
-/* line 1025, ../scss/global.scss */
+/* line 1027, ../scss/global.scss */
 .front .node .node-links a {
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 1030, ../scss/global.scss */
+/* line 1032, ../scss/global.scss */
 .front .node .node-links ul {
   margin: 0;
 }
-/* line 1033, ../scss/global.scss */
+/* line 1035, ../scss/global.scss */
 .front .node .node-links ul li {
   margin: 0;
 }
@@ -1332,7 +1334,7 @@ select {
 /*******************************************
 * 3.2.3. Sidebar second
 *******************************************/
-/* line 1044, ../scss/global.scss */
+/* line 1046, ../scss/global.scss */
 #block-views-blog-category-list-block .block-title,
 #block-views-blog-block-1 .block-title {
   font-size: 16px;
@@ -1340,27 +1342,27 @@ select {
   text-transform: uppercase;
 }
 
-/* line 1050, ../scss/global.scss */
+/* line 1052, ../scss/global.scss */
 #block-views-blog-category-list-block table {
   width: 100%;
 }
-/* line 1052, ../scss/global.scss */
+/* line 1054, ../scss/global.scss */
 #block-views-blog-category-list-block table td {
   width: 50%;
 }
 
-/* line 1056, ../scss/global.scss */
+/* line 1058, ../scss/global.scss */
 #block-views-blog-block-1 .views-row {
   border-bottom: 1px solid #E0E3E6;
   padding: 4px 4px 10px 4px;
 }
-/* line 1059, ../scss/global.scss */
+/* line 1061, ../scss/global.scss */
 #block-views-blog-block-1 .views-row .views-field-title {
   line-height: 13px;
   padding-bottom: 4px;
   text-transform: uppercase;
 }
-/* line 1064, ../scss/global.scss */
+/* line 1066, ../scss/global.scss */
 #block-views-blog-block-1 .views-row .views-row-last {
   border-bottom: 0;
 }
@@ -1368,18 +1370,18 @@ select {
 /**********************************************
 * 3.3. Zone postscript
 **********************************************/
-/* line 1071, ../scss/global.scss */
+/* line 1073, ../scss/global.scss */
 .region-postscript-first,
 .region-postscript-second {
   margin-bottom: 5px;
 }
 
-/* line 1075, ../scss/global.scss */
+/* line 1077, ../scss/global.scss */
 .region-postscript-third {
   margin-right: 0;
 }
 
-/* line 1078, ../scss/global.scss */
+/* line 1080, ../scss/global.scss */
 .zone-postscript .grid-8 {
   float: left;
   /* LTR */
@@ -1388,20 +1390,20 @@ select {
   width: 30%;
 }
 
-/* line 1085, ../scss/global.scss */
+/* line 1087, ../scss/global.scss */
 #zone-postscript {
   margin-top: 20px;
   margin-bottom: 24px;
   /* HP blocks */
 }
-/* line 1090, ../scss/global.scss */
+/* line 1092, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row,
 #zone-postscript .block-blog-block .block-inner {
   background-color: #cccccc;
   border: 1px solid #b1b1b1;
   padding: 10px;
 }
-/* line 1098, ../scss/global.scss */
+/* line 1100, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row .field-content a,
 #zone-postscript .view-ad-push .views-row .content a,
 #zone-postscript .block-blog-block .block-inner .field-content a,
@@ -1409,7 +1411,7 @@ select {
   border: 4px solid #ffffff;
   display: block;
 }
-/* line 1102, ../scss/global.scss */
+/* line 1104, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row .field-content img,
 #zone-postscript .view-ad-push .views-row .content img,
 #zone-postscript .block-blog-block .block-inner .field-content img,
@@ -1417,22 +1419,22 @@ select {
   display: block;
   margin: auto;
 }
-/* line 1107, ../scss/global.scss */
+/* line 1109, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline,
 #zone-postscript .view-ad-push .views-row .views-field-title,
 #zone-postscript .block-blog-block .block-inner .views-field-field-tagline,
 #zone-postscript .block-blog-block .block-inner .views-field-title {
   margin: 10px auto 0 auto;
 }
-/* line 1114, ../scss/global.scss */
+/* line 1116, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row .views-field-field-image {
   display: block;
 }
-/* line 1117, ../scss/global.scss */
+/* line 1119, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row .views-field-field-headline {
   font-family: Georgia, 'Times New Roman', serif;
 }
-/* line 1123, ../scss/global.scss */
+/* line 1125, ../scss/global.scss */
 #zone-postscript .block-blog-block .block-inner .block-title {
   background: transparent url("../images/bg_block_homepage_title.png") -18% 100% no-repeat;
   /* LTR */
@@ -1455,28 +1457,28 @@ select {
   width: 112px;
   z-index: 1;
 }
-/* line 1141, ../scss/global.scss */
+/* line 1143, ../scss/global.scss */
 #zone-postscript .block-blog-block .block-inner .views-field-title .field-content {
   display: block;
   width: 100%;
 }
-/* line 1144, ../scss/global.scss */
+/* line 1146, ../scss/global.scss */
 #zone-postscript .block-blog-block .block-inner .views-field-title .field-content p {
   margin-bottom: 0;
 }
-/* line 1150, ../scss/global.scss */
+/* line 1152, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline,
 #zone-postscript .block-blog-block .views-field-title {
   display: block;
 }
-/* line 1154, ../scss/global.scss */
+/* line 1156, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content,
 #zone-postscript .block-blog-block .views-field-title .field-content {
   color: #FFF;
   line-height: 18px;
   padding: 0px;
 }
-/* line 1159, ../scss/global.scss */
+/* line 1161, ../scss/global.scss */
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content a,
 #zone-postscript .block-blog-block .views-field-title .field-content a {
   background: #666;
@@ -1496,7 +1498,7 @@ select {
 * 4. Section footer
 * --
 **************************************************/
-/* line 1179, ../scss/global.scss */
+/* line 1181, ../scss/global.scss */
 .section-footer {
   background-color: #FFF;
 }
@@ -1504,7 +1506,7 @@ select {
 /**********************************************
 * 4.1. Zone footer
 **********************************************/
-/* line 1185, ../scss/global.scss */
+/* line 1187, ../scss/global.scss */
 .zone-footer-wrapper {
   padding-top: 32px;
   padding-bottom: 36px;
@@ -1513,12 +1515,12 @@ select {
 /**
 * Menu footer navigation
 */
-/* line 1192, ../scss/global.scss */
+/* line 1194, ../scss/global.scss */
 .block-menu-menu-footer-navigation {
   width: auto;
 }
 
-/* line 1195, ../scss/global.scss */
+/* line 1197, ../scss/global.scss */
 .section-footer ul.menu,
 .section-footer ul.menu li {
   list-style: none;
@@ -1527,52 +1529,52 @@ select {
   padding: 0 25px 0 0;
 }
 
-/* line 1203, ../scss/global.scss */
+/* line 1205, ../scss/global.scss */
 .section-footer ul.menu {
   width: 100%;
 }
-/* line 1205, ../scss/global.scss */
+/* line 1207, ../scss/global.scss */
 .section-footer ul.menu li.expanded {
   list-style: none;
   list-style-image: none;
   padding-bottom: 10px;
 }
-/* line 1210, ../scss/global.scss */
+/* line 1212, ../scss/global.scss */
 .section-footer ul.menu li.expanded span,
 .section-footer ul.menu li.expanded a {
   font-family: "Muli", "Open Sans", sans-serif;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 1216, ../scss/global.scss */
+/* line 1218, ../scss/global.scss */
 .section-footer ul.menu li.expanded span {
   color: #FFF;
 }
-/* line 1219, ../scss/global.scss */
+/* line 1221, ../scss/global.scss */
 .section-footer ul.menu li.expanded ul.menu {
   margin: 10px 0 0 0;
 }
-/* line 1222, ../scss/global.scss */
+/* line 1224, ../scss/global.scss */
 .section-footer ul.menu li.expanded ul.menu li {
   display: block;
   float: none;
   padding: 0;
 }
-/* line 1227, ../scss/global.scss */
+/* line 1229, ../scss/global.scss */
 .section-footer ul.menu li.expanded ul.menu li a {
   color: #999;
   font-family: "Muli", "Open Sans", sans-serif;
   font-weight: normal;
 }
-/* line 1232, ../scss/global.scss */
+/* line 1234, ../scss/global.scss */
 .section-footer ul.menu li.expanded ul.menu li a.active {
   color: #000;
 }
-/* line 1234, ../scss/global.scss */
+/* line 1236, ../scss/global.scss */
 .section-footer ul.menu li.expanded ul.menu li a.active:hover {
   text-decoration: underline;
 }
-/* line 1238, ../scss/global.scss */
+/* line 1240, ../scss/global.scss */
 .section-footer ul.menu li.expanded ul.menu li a:hover {
   text-decoration: underline;
 }
@@ -1580,7 +1582,7 @@ select {
 /**
 * Connect with us
 */
-/* line 1251, ../scss/global.scss */
+/* line 1253, ../scss/global.scss */
 #block-menu-menu-social-connection h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
@@ -1589,11 +1591,11 @@ select {
   text-align: left;
   /* LTR */
 }
-/* line 1259, ../scss/global.scss */
+/* line 1261, ../scss/global.scss */
 #block-menu-menu-social-connection .content ul.menu {
   list-style: none;
 }
-/* line 1261, ../scss/global.scss */
+/* line 1263, ../scss/global.scss */
 #block-menu-menu-social-connection .content ul.menu li {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -1602,7 +1604,7 @@ select {
   margin-bottom: 15px;
   margin-left: 0;
 }
-/* line 1268, ../scss/global.scss */
+/* line 1270, ../scss/global.scss */
 #block-menu-menu-social-connection .content ul.menu li:hover {
   background-color: #cecece;
   -moz-border-radius: 4px;
@@ -1611,7 +1613,7 @@ select {
   border-radius: 4px;
   cursor: pointer;
 }
-/* line 1273, ../scss/global.scss */
+/* line 1275, ../scss/global.scss */
 #block-menu-menu-social-connection .content ul.menu li span,
 #block-menu-menu-social-connection .content ul.menu li a {
   background-position: 2% 50%;
@@ -1628,15 +1630,15 @@ select {
   /* LTR */
   text-decoration: none;
 }
-/* line 1288, ../scss/global.scss */
+/* line 1290, ../scss/global.scss */
 #block-menu-menu-social-connection .content ul.menu li a.facebook {
   background-image: url("../images/icon_facebook.png");
 }
-/* line 1291, ../scss/global.scss */
+/* line 1293, ../scss/global.scss */
 #block-menu-menu-social-connection .content ul.menu li a.twitter {
   background-image: url("../images/icon_twitter.png");
 }
-/* line 1294, ../scss/global.scss */
+/* line 1296, ../scss/global.scss */
 #block-menu-menu-social-connection .content ul.menu li a.pinterest {
   background-image: url("../images/icon_pinterest.png");
 }
@@ -1644,14 +1646,14 @@ select {
 /**********************************************
 * 4.2. Zone footer2
 **********************************************/
-/* line 1303, ../scss/global.scss */
+/* line 1305, ../scss/global.scss */
 .zone-footer2-wrapper {
   background-color: #222;
   min-height: 60px;
   padding: 20px 0;
 }
 
-/* line 1308, ../scss/global.scss */
+/* line 1310, ../scss/global.scss */
 body.activebar-container .zone-footer2-wrapper {
   min-height: 100px;
 }
@@ -1659,7 +1661,7 @@ body.activebar-container .zone-footer2-wrapper {
 /**
 * Powered by Drupal Commerce
 */
-/* line 1314, ../scss/global.scss */
+/* line 1316, ../scss/global.scss */
 .block-powered-drupal-commerce a {
   color: #1d76bc;
   font-weight: 600;
@@ -1669,22 +1671,22 @@ body.activebar-container .zone-footer2-wrapper {
 /**
 * Payment blocks
 */
-/* line 1322, ../scss/global.scss */
+/* line 1324, ../scss/global.scss */
 #block-menu-menu-payment-methods {
   background-color: #ffffff;
   color: #3f3f3f;
   padding: 10px;
 }
-/* line 1327, ../scss/global.scss */
+/* line 1329, ../scss/global.scss */
 #block-menu-menu-payment-methods h2 {
   display: none;
 }
-/* line 1330, ../scss/global.scss */
+/* line 1332, ../scss/global.scss */
 #block-menu-menu-payment-methods ul.menu {
   height: 40px;
   margin-bottom: 0;
 }
-/* line 1334, ../scss/global.scss */
+/* line 1336, ../scss/global.scss */
 #block-menu-menu-payment-methods ul.menu li {
   display: inline;
   float: left;
@@ -1694,12 +1696,12 @@ body.activebar-container .zone-footer2-wrapper {
   width: 24%;
   padding: 0;
 }
-/* line 1341, ../scss/global.scss */
+/* line 1343, ../scss/global.scss */
 #block-menu-menu-payment-methods ul.menu li:first-child {
   padding-left: 10px;
   /* LTR */
 }
-/* line 1345, ../scss/global.scss */
+/* line 1347, ../scss/global.scss */
 #block-menu-menu-payment-methods ul.menu li a {
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -1709,19 +1711,19 @@ body.activebar-container .zone-footer2-wrapper {
   text-indent: -9999px;
   width: 50px;
 }
-/* line 1354, ../scss/global.scss */
+/* line 1356, ../scss/global.scss */
 #block-menu-menu-payment-methods ul.menu li .visa {
   background-image: url("../images/picto_visa_premier.png");
 }
-/* line 1357, ../scss/global.scss */
+/* line 1359, ../scss/global.scss */
 #block-menu-menu-payment-methods ul.menu li .paypal {
   background-image: url("../images/picto_paypal.png");
 }
-/* line 1360, ../scss/global.scss */
+/* line 1362, ../scss/global.scss */
 #block-menu-menu-payment-methods ul.menu li .mastercard {
   background-image: url("../images/picto_mastercard.png");
 }
-/* line 1363, ../scss/global.scss */
+/* line 1365, ../scss/global.scss */
 #block-menu-menu-payment-methods ul.menu li .american-express {
   background-image: url("../images/picto_american_express.png");
 }
@@ -1737,23 +1739,23 @@ body.activebar-container .zone-footer2-wrapper {
 /**
 * Collection page
 */
-/* line 1383, ../scss/global.scss */
+/* line 1385, ../scss/global.scss */
 .page-product-category h1#page-title,
 .page-collection h1#page-title {
   display: none;
 }
-/* line 1386, ../scss/global.scss */
+/* line 1388, ../scss/global.scss */
 .page-product-category .block-search-api-sorts,
 .page-collection .block-search-api-sorts {
   margin-bottom: 10px;
 }
-/* line 1389, ../scss/global.scss */
+/* line 1391, ../scss/global.scss */
 .page-product-category .block-main,
 .page-collection .block-main {
   clear: both;
 }
 
-/* line 1395, ../scss/global.scss */
+/* line 1397, ../scss/global.scss */
 .view-collection-products .view-header,
 .view-collection-taxonomy-term .view-header {
   background-color: #888;
@@ -1763,7 +1765,7 @@ body.activebar-container .zone-footer2-wrapper {
   margin-bottom: 35px;
   position: relative;
 }
-/* line 1404, ../scss/global.scss */
+/* line 1406, ../scss/global.scss */
 .view-collection-products .view-header .taxonomy-title,
 .view-collection-taxonomy-term .view-header .taxonomy-title {
   clear: both;
@@ -1781,21 +1783,21 @@ body.activebar-container .zone-footer2-wrapper {
   text-shadow: 0 1px 1px #C3C3C3;
   text-transform: capitalize;
 }
-/* line 1419, ../scss/global.scss */
+/* line 1421, ../scss/global.scss */
 .view-collection-products .view-header .views-row,
 .view-collection-taxonomy-term .view-header .views-row {
   border: 1px solid #d7d7d7;
   margin: 0;
   margin-bottom: 20px;
 }
-/* line 1424, ../scss/global.scss */
+/* line 1426, ../scss/global.scss */
 .view-collection-products .view-header .view-collection-products,
 .view-collection-products .view-header .collection-terms,
 .view-collection-taxonomy-term .view-header .view-collection-products,
 .view-collection-taxonomy-term .view-header .collection-terms {
   /*padding-top: 6em;*/
 }
-/* line 1429, ../scss/global.scss */
+/* line 1431, ../scss/global.scss */
 .view-collection-products .view-header .view-collection-products .view-content .item-list,
 .view-collection-products .view-header .collection-terms .view-content .item-list,
 .view-collection-taxonomy-term .view-header .view-collection-products .view-content .item-list,
@@ -1809,14 +1811,14 @@ body.activebar-container .zone-footer2-wrapper {
   /* LTR */
   margin-bottom: 7px;
 }
-/* line 1437, ../scss/global.scss */
+/* line 1439, ../scss/global.scss */
 .view-collection-products .view-header .view-collection-products .view-content .item-list h3,
 .view-collection-products .view-header .collection-terms .view-content .item-list h3,
 .view-collection-taxonomy-term .view-header .view-collection-products .view-content .item-list h3,
 .view-collection-taxonomy-term .view-header .collection-terms .view-content .item-list h3 {
   margin-bottom: 0;
 }
-/* line 1440, ../scss/global.scss */
+/* line 1442, ../scss/global.scss */
 .view-collection-products .view-header .view-collection-products .view-content .item-list h3 a,
 .view-collection-products .view-header .collection-terms .view-content .item-list h3 a,
 .view-collection-taxonomy-term .view-header .view-collection-products .view-content .item-list h3 a,
@@ -1834,7 +1836,7 @@ body.activebar-container .zone-footer2-wrapper {
   padding: 5px 15px;
   text-decoration: none;
 }
-/* line 1450, ../scss/global.scss */
+/* line 1452, ../scss/global.scss */
 .view-collection-products .view-header .view-collection-products .view-content .item-list h3 a:hover,
 .view-collection-products .view-header .collection-terms .view-content .item-list h3 a:hover,
 .view-collection-taxonomy-term .view-header .view-collection-products .view-content .item-list h3 a:hover,
@@ -1843,7 +1845,7 @@ body.activebar-container .zone-footer2-wrapper {
   border: 1px solid #cecece;
   color: #000000;
 }
-/* line 1457, ../scss/global.scss */
+/* line 1459, ../scss/global.scss */
 .view-collection-products .view-header .view-collection-products .view-content .item-list ul,
 .view-collection-products .view-header .collection-terms .view-content .item-list ul,
 .view-collection-taxonomy-term .view-header .view-collection-products .view-content .item-list ul,
@@ -1851,19 +1853,19 @@ body.activebar-container .zone-footer2-wrapper {
   display: none;
 }
 
-/* line 1466, ../scss/global.scss */
+/* line 1468, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li.views-row,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li.views-row {
   float: left;
   /* LTR */
 }
-/* line 1469, ../scss/global.scss */
+/* line 1471, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li.views-row.last,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li.views-row.last {
   padding-right: 0;
   /* LTR */
 }
-/* line 1473, ../scss/global.scss */
+/* line 1475, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li .commerce-product-field,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li .commerce-product-field {
   color: #000000;
@@ -1871,13 +1873,13 @@ body.activebar-container .zone-footer2-wrapper {
   margin-bottom: 5px;
   text-decoration: none;
 }
-/* line 1479, ../scss/global.scss */
+/* line 1481, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li header,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li header {
   background: url("../images/bg_product_attributes_top.png") center top no-repeat;
   padding-top: 20px;
 }
-/* line 1482, ../scss/global.scss */
+/* line 1484, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li header h2,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li header h2 {
   clear: both;
@@ -1887,14 +1889,14 @@ body.activebar-container .zone-footer2-wrapper {
   line-height: 16px;
   margin: 0 4px;
 }
-/* line 1489, ../scss/global.scss */
+/* line 1491, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li header h2 a,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li header h2 a {
   color: #000000;
   font-size: 14px;
   text-decoration: none;
 }
-/* line 1499, ../scss/global.scss */
+/* line 1501, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li .field-type-commerce-price,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li .field-type-commerce-price {
   color: #858787;
@@ -1902,12 +1904,12 @@ body.activebar-container .zone-footer2-wrapper {
   font-size: 14px;
   font-weight: 400;
 }
-/* line 1505, ../scss/global.scss */
+/* line 1507, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li .field-type-commerce-price .price_prefix p,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li .field-type-commerce-price .price_prefix p {
   display: inline;
 }
-/* line 1510, ../scss/global.scss */
+/* line 1512, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li .field-name-field-color .vocabulary-color,
 .view-collection-products .view-content .item-list .products-per-collection li .views-field-field-extractor-field-product ul li,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li .field-name-field-color .vocabulary-color,
@@ -1919,7 +1921,7 @@ body.activebar-container .zone-footer2-wrapper {
   /* LTR */
   padding: 2px;
 }
-/* line 1517, ../scss/global.scss */
+/* line 1519, ../scss/global.scss */
 .view-collection-products .view-content .item-list .products-per-collection li .field-name-field-color .vocabulary-color .commerce-fancy-attributes-color,
 .view-collection-products .view-content .item-list .products-per-collection li .views-field-field-extractor-field-product ul li .commerce-fancy-attributes-color,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li .field-name-field-color .vocabulary-color .commerce-fancy-attributes-color,
@@ -1930,11 +1932,11 @@ body.activebar-container .zone-footer2-wrapper {
 /**********************************************
 * 5.2. All products page
 **********************************************/
-/* line 1526, ../scss/global.scss */
+/* line 1528, ../scss/global.scss */
 .page-products .view-display-products {
   margin-top: 20px;
 }
-/* line 1529, ../scss/global.scss */
+/* line 1531, ../scss/global.scss */
 .page-products .view-display-products li.views-row {
   display: inline;
   float: left;
@@ -1947,32 +1949,32 @@ body.activebar-container .zone-footer2-wrapper {
   padding-bottom: 0;
   width: 19%;
 }
-/* line 1538, ../scss/global.scss */
+/* line 1540, ../scss/global.scss */
 .page-products .view-display-products li.views-row.last {
   padding-right: 0;
   /* LTR */
 }
-/* line 1542, ../scss/global.scss */
+/* line 1544, ../scss/global.scss */
 .page-products .view-display-products li.views-row:nth-child(5n) {
   padding-right: 0;
   /* LTR */
 }
-/* line 1545, ../scss/global.scss */
+/* line 1547, ../scss/global.scss */
 .page-products .view-display-products li.views-row:nth-child(5n+6) {
   clear: left;
   /* LTR */
   float: left;
   /* LTR */
 }
-/* line 1550, ../scss/global.scss */
+/* line 1552, ../scss/global.scss */
 .page-products .view-display-products li .commerce-product-field {
   margin-bottom: 5px;
 }
-/* line 1553, ../scss/global.scss */
+/* line 1555, ../scss/global.scss */
 .page-products .view-display-products li header {
   background: transparent url("../images/bg_product_attributes_top.png") center top no-repeat;
 }
-/* line 1555, ../scss/global.scss */
+/* line 1557, ../scss/global.scss */
 .page-products .view-display-products li header h2 {
   clear: both;
   font-size: 14px;
@@ -1981,31 +1983,31 @@ body.activebar-container .zone-footer2-wrapper {
   margin: 0 4px;
   padding-top: 20px;
 }
-/* line 1563, ../scss/global.scss */
+/* line 1565, ../scss/global.scss */
 .page-products .view-display-products li header a {
   color: #000;
   font-size: 14px;
   text-decoration: none;
 }
-/* line 1573, ../scss/global.scss */
+/* line 1575, ../scss/global.scss */
 .page-products .view-display-products li .content .commerce-product-field {
   font-size: 14px;
   float: left;
   margin-right: 10px;
   text-decoration: none;
 }
-/* line 1580, ../scss/global.scss */
+/* line 1582, ../scss/global.scss */
 .page-products .view-display-products li .content .field-name-commerce-price {
   color: #858787;
   font-family: "Muli", "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
-/* line 1586, ../scss/global.scss */
+/* line 1588, ../scss/global.scss */
 .page-products .view-display-products li .content .field-name-commerce-price .price_prefix p {
   display: inline;
 }
-/* line 1591, ../scss/global.scss */
+/* line 1593, ../scss/global.scss */
 .page-products .view-display-products li .field-name-field-color .vocabulary-color,
 .page-products .view-display-products li .views-field-field-extractor-field-product ul li {
   border: 1px solid #CBCDCC;
@@ -2014,12 +2016,12 @@ body.activebar-container .zone-footer2-wrapper {
   margin: 0 5px 0 0;
   padding: 2px;
 }
-/* line 1599, ../scss/global.scss */
+/* line 1601, ../scss/global.scss */
 .page-products .view-display-products li .field-name-field-color .vocabulary-color .commerce-fancy-attributes-color,
 .page-products .view-display-products li .views-field-field-extractor-field-product ul li .commerce-fancy-attributes-color {
   border: none;
 }
-/* line 1605, ../scss/global.scss */
+/* line 1607, ../scss/global.scss */
 .page-products .view-display-products .attachment .view-header {
   font-size: 35px;
   font-weight: bold;
@@ -2038,7 +2040,7 @@ body.activebar-container .zone-footer2-wrapper {
 /**
 * Search sort block
 */
-/* line 1625, ../scss/global.scss */
+/* line 1627, ../scss/global.scss */
 .block-search-api-sorts:after {
   clear: both;
   content: ".";
@@ -2046,14 +2048,14 @@ body.activebar-container .zone-footer2-wrapper {
   height: 0;
   visibility: hidden;
 }
-/* line 1632, ../scss/global.scss */
+/* line 1634, ../scss/global.scss */
 .block-search-api-sorts .block-inner {
   float: right;
   /* LTR */
   clear: right;
   /* LTR */
 }
-/* line 1636, ../scss/global.scss */
+/* line 1638, ../scss/global.scss */
 .block-search-api-sorts .block-inner h2.block-title {
   display: inline;
   float: left;
@@ -2064,16 +2066,16 @@ body.activebar-container .zone-footer2-wrapper {
   /* LTR */
   text-transform: uppercase;
 }
-/* line 1645, ../scss/global.scss */
+/* line 1647, ../scss/global.scss */
 .block-search-api-sorts .content {
   float: left;
   /* LTR */
 }
-/* line 1648, ../scss/global.scss */
+/* line 1650, ../scss/global.scss */
 .block-search-api-sorts .content ul.search-api-sorts {
   margin: 0;
 }
-/* line 1650, ../scss/global.scss */
+/* line 1652, ../scss/global.scss */
 .block-search-api-sorts .content ul.search-api-sorts li {
   color: #FFF;
   display: inline;
@@ -2085,7 +2087,7 @@ body.activebar-container .zone-footer2-wrapper {
   text-align: center;
   text-decoration: none;
 }
-/* line 1659, ../scss/global.scss */
+/* line 1661, ../scss/global.scss */
 .block-search-api-sorts .content ul.search-api-sorts li span,
 .block-search-api-sorts .content ul.search-api-sorts li a {
   background-color: #8e8e8e;
@@ -2096,13 +2098,13 @@ body.activebar-container .zone-footer2-wrapper {
   display: block;
   padding: 5px 12px;
 }
-/* line 1666, ../scss/global.scss */
+/* line 1668, ../scss/global.scss */
 .block-search-api-sorts .content ul.search-api-sorts li a {
   background-color: #cecece;
   color: #FFF;
   text-decoration: none;
 }
-/* line 1671, ../scss/global.scss */
+/* line 1673, ../scss/global.scss */
 .block-search-api-sorts .content ul.search-api-sorts li span a {
   background: none;
   display: block;
@@ -2115,7 +2117,7 @@ body.activebar-container .zone-footer2-wrapper {
   height: 13px;
   width: 13px;
 }
-/* line 1682, ../scss/global.scss */
+/* line 1684, ../scss/global.scss */
 .block-search-api-sorts .content ul.search-api-sorts li .search-api-sort-active {
   color: #FFF;
   position: relative;
@@ -2125,14 +2127,14 @@ body.activebar-container .zone-footer2-wrapper {
   /* LTR */
   text-decoration: none;
 }
-/* line 1689, ../scss/global.scss */
+/* line 1691, ../scss/global.scss */
 .block-search-api-sorts .content ul.search-api-sorts li .search-api-sort-active .search-api-sort-remove {
   display: block;
   float: left;
   text-indent: -9999px;
   width: 0;
 }
-/* line 1695, ../scss/global.scss */
+/* line 1697, ../scss/global.scss */
 .block-search-api-sorts .content ul.search-api-sorts li .search-api-sort-active .sort-asc img,
 .block-search-api-sorts .content ul.search-api-sorts li .search-api-sort-active .sort-desc img {
   vertical-align: baseline;
@@ -2144,7 +2146,7 @@ body.activebar-container .zone-footer2-wrapper {
 /**
 * Add to cart popin.
 */
-/* line 1710, ../scss/global.scss */
+/* line 1712, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation {
   background-color: #E4F5FE;
   border-color: #D7D7D7;
@@ -2154,11 +2156,11 @@ div.messages.commerce-add-to-cart-confirmation {
   text-align: center;
   width: 60%;
 }
-/* line 1719, ../scss/global.scss */
+/* line 1721, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .commerce-add-to-cart-confirmation-close {
   background: url("../images/btn_close.png") no-repeat 0 0;
 }
-/* line 1723, ../scss/global.scss */
+/* line 1725, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
   color: #696458;
   float: none;
@@ -2169,28 +2171,28 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-tit
   text-transform: uppercase;
   width: auto;
 }
-/* line 1733, ../scss/global.scss */
+/* line 1735, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
   height: auto;
   position: relative;
   right: none;
   width: auto;
 }
-/* line 1740, ../scss/global.scss */
+/* line 1742, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button.checkout {
   background-color: #2698F2;
 }
-/* line 1743, ../scss/global.scss */
+/* line 1745, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button.continue {
   background-color: #b3b3b3;
 }
-/* line 1749, ../scss/global.scss */
+/* line 1751, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display {
   clear: both;
   float: none;
   width: auto;
 }
-/* line 1754, ../scss/global.scss */
+/* line 1756, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content {
   margin: 0;
   margin-bottom: 15px;
@@ -2198,7 +2200,7 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
   /* LTR */
   width: 90%;
 }
-/* line 1760, ../scss/global.scss */
+/* line 1762, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content:after {
   clear: both;
   content: ".";
@@ -2206,23 +2208,23 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
   height: 0;
   visibility: hidden;
 }
-/* line 1768, ../scss/global.scss */
+/* line 1770, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product h2 {
   display: none;
 }
-/* line 1772, ../scss/global.scss */
+/* line 1774, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field-name-field-images {
   position: relative;
   left: 0;
 }
-/* line 1775, ../scss/global.scss */
+/* line 1777, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field-name-field-images img {
   border: #D7D7D7 solid 1px;
   text-align: left;
   /* LTR */
   width: auto;
 }
-/* line 1781, ../scss/global.scss */
+/* line 1783, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .commerce-product-sku .commerce-product-sku-label {
   color: #878380;
   display: inline;
@@ -2230,7 +2232,7 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
   padding-right: 5px;
   /* LTR */
 }
-/* line 1787, ../scss/global.scss */
+/* line 1789, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .commerce-product-sku,
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field {
   clear: both;
@@ -2239,30 +2241,30 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
   margin-right: 20px;
   /* LTR */
 }
-/* line 1794, ../scss/global.scss */
+/* line 1796, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .commerce-product-title-label,
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .commerce-product-status-label {
   display: inline;
 }
-/* line 1800, ../scss/global.scss */
+/* line 1802, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-quantity {
   font-size: 12px;
 }
-/* line 1803, ../scss/global.scss */
+/* line 1805, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-quantity .views-label-quantity {
   color: #878380;
   font-weight: bold;
   padding-right: 5px;
   /* LTR */
 }
-/* line 1809, ../scss/global.scss */
+/* line 1811, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-total {
   clear: both;
   display: inline;
   font-size: 20px;
   font-weight: 300;
 }
-/* line 1815, ../scss/global.scss */
+/* line 1817, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-total .views-label-commerce-total {
   color: #878380;
   float: left;
@@ -2271,7 +2273,7 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
   padding-right: 5px;
   /* LTR */
 }
-/* line 1821, ../scss/global.scss */
+/* line 1823, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-total .field-content {
   color: #2698F2;
   display: inline;
@@ -2280,72 +2282,72 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
   font-size: 20px;
   padding-top: 25px;
 }
-/* line 1829, ../scss/global.scss */
+/* line 1831, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .field-label {
   color: #878380;
   padding-right: 5px;
   /* LTR */
 }
-/* line 1837, ../scss/global.scss */
+/* line 1839, ../scss/global.scss */
 div.messages.commerce-add-to-cart-confirmation .views-field-title {
   text-align: left;
   /* LTR */
 }
 
-/* line 1843, ../scss/global.scss */
+/* line 1845, ../scss/global.scss */
 .node-product-type .product-title {
   clear: both;
   font-family: "Muli", "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
-/* line 1849, ../scss/global.scss */
+/* line 1851, ../scss/global.scss */
 .node-product-type .commerce-product-sku {
   color: #b1b1b1;
   font-family: "Muli", "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
 }
-/* line 1854, ../scss/global.scss */
+/* line 1856, ../scss/global.scss */
 .node-product-type .commerce-product-sku .commerce-product-sku-label {
   font-weight: normal;
 }
-/* line 1858, ../scss/global.scss */
+/* line 1860, ../scss/global.scss */
 .node-product-type .field-name-commerce-price {
   font-family: "Muli", "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 700;
   /*margin-bottom: 20px;*/
 }
-/* line 1864, ../scss/global.scss */
+/* line 1866, ../scss/global.scss */
 .node-product-type .cloud-zoom-container {
   margin-bottom: 20px;
 }
-/* line 1866, ../scss/global.scss */
+/* line 1868, ../scss/global.scss */
 .node-product-type .cloud-zoom-container #wrap {
   float: inherit;
   z-index: 10 !important;
   /* Fix overlay */
 }
-/* line 1870, ../scss/global.scss */
+/* line 1872, ../scss/global.scss */
 .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs {
   clear: both;
 }
-/* line 1873, ../scss/global.scss */
+/* line 1875, ../scss/global.scss */
 .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs .cloud-zoom-gallery {
   border: 1px solid #5b5b5b;
   display: inline-block;
   float: none;
   margin: 5px 0;
 }
-/* line 1881, ../scss/global.scss */
+/* line 1883, ../scss/global.scss */
 .node-product-type .field-name-body {
   font-family: "Muli", "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 20px;
 }
-/* line 1887, ../scss/global.scss */
+/* line 1889, ../scss/global.scss */
 .node-product-type .field-name-body .read-more,
 .node-product-type .field-name-body .read-less,
 .node-product-type .field-name-body .read-more a,
@@ -2354,7 +2356,7 @@ div.messages.commerce-add-to-cart-confirmation .views-field-title {
   font-size: 14px;
   font-weight: 400;
 }
-/* line 1895, ../scss/global.scss */
+/* line 1897, ../scss/global.scss */
 .node-product-type .field-name-body .read-more a,
 .node-product-type .field-name-body .read-less a {
   background-position: left top;
@@ -2370,37 +2372,37 @@ div.messages.commerce-add-to-cart-confirmation .views-field-title {
   text-indent: 25px;
   text-transform: capitalize;
 }
-/* line 1908, ../scss/global.scss */
+/* line 1910, ../scss/global.scss */
 .node-product-type .field-name-body .read-more a:hover,
 .node-product-type .field-name-body .read-less a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-/* line 1913, ../scss/global.scss */
+/* line 1915, ../scss/global.scss */
 .node-product-type .field-name-body .read-more a {
   background-image: url("../images/btn_read_more.png");
 }
-/* line 1916, ../scss/global.scss */
+/* line 1918, ../scss/global.scss */
 .node-product-type .field-name-body .read-less a {
   background-image: url("../images/btn_read_less.png");
 }
-/* line 1920, ../scss/global.scss */
+/* line 1922, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference {
   background: url("../images/bg_product_attributes_bottom.png") center bottom no-repeat;
   margin-bottom: 15px;
   padding-bottom: 50px;
 }
-/* line 1925, ../scss/global.scss */
+/* line 1927, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart {
   background: url("../images/bg_product_attributes_top.png") center top no-repeat;
   padding-top: 40px;
 }
-/* line 1930, ../scss/global.scss */
+/* line 1932, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item {
   position: relative;
   /* Positions the throbber */
 }
-/* line 1933, ../scss/global.scss */
+/* line 1935, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item:after {
   clear: both;
   content: ".";
@@ -2408,23 +2410,23 @@ div.messages.commerce-add-to-cart-confirmation .views-field-title {
   height: 0;
   visibility: hidden;
 }
-/* line 1940, ../scss/global.scss */
+/* line 1942, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item div#edit-attributes-field-color {
   float: left;
   /* LTR */
   width: 50%;
 }
-/* line 1944, ../scss/global.scss */
+/* line 1946, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item .ajax-progress-throbber {
   /* Positions the throbber */
   display: none;
   position: absolute;
 }
-/* line 1948, ../scss/global.scss */
+/* line 1950, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item .description {
   position: relative;
 }
-/* line 1953, ../scss/global.scss */
+/* line 1955, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item-attributes-field-color .form-item.form-item-attributes-field-color {
   float: left;
   /* LTR */
@@ -2432,21 +2434,21 @@ div.messages.commerce-add-to-cart-confirmation .views-field-title {
   /* LTR */
   width: auto;
 }
-/* line 1958, ../scss/global.scss */
+/* line 1960, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item-attributes-field-color .commerce-fancy-attributes-color {
   height: 20px;
   width: 20px;
 }
-/* line 1962, ../scss/global.scss */
+/* line 1964, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item-attributes-field-color .description .field {
   border: 1px solid #CBCDCC;
   padding: 3px;
 }
-/* line 1966, ../scss/global.scss */
+/* line 1968, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item-attributes-field-color .description-selected .field {
   border-color: #2698F2;
 }
-/* line 1971, ../scss/global.scss */
+/* line 1973, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart label {
   float: left;
   /* LTR */
@@ -2457,16 +2459,16 @@ div.messages.commerce-add-to-cart-confirmation .views-field-title {
   white-space: nowrap;
   width: 45%;
 }
-/* line 1979, ../scss/global.scss */
+/* line 1981, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart label:after {
   content: " :";
 }
-/* line 1983, ../scss/global.scss */
+/* line 1985, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-item {
   margin: 0;
   padding-bottom: 1em;
 }
-/* line 1987, ../scss/global.scss */
+/* line 1989, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit {
   background-color: #2698F2;
   background-image: url("../images/bg_add_to_cart.png");
@@ -2488,18 +2490,18 @@ div.messages.commerce-add-to-cart-confirmation .views-field-title {
   padding: 5px 50px 5px 10px;
   /* LTR */
 }
-/* line 2002, ../scss/global.scss */
+/* line 2004, ../scss/global.scss */
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit:hover {
   cursor: pointer;
 }
 
-/* line 2010, ../scss/global.scss */
+/* line 2012, ../scss/global.scss */
 .service-links {
   float: right;
   /* LTR */
   width: 315px;
 }
-/* line 2014, ../scss/global.scss */
+/* line 2016, ../scss/global.scss */
 .service-links ul li {
   display: inline;
   float: left;
@@ -2508,7 +2510,7 @@ div.messages.commerce-add-to-cart-confirmation .views-field-title {
   padding: 0;
   width: 90px;
 }
-/* line 2020, ../scss/global.scss */
+/* line 2022, ../scss/global.scss */
 .service-links ul li:first {
   margin-left: 0;
 }
@@ -2519,19 +2521,19 @@ div.messages.commerce-add-to-cart-confirmation .views-field-title {
 /**
 * Checkout progress
 */
-/* line 2032, ../scss/global.scss */
+/* line 2034, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li {
   display: block;
   float: left;
 }
 
-/* line 2037, ../scss/global.scss */
+/* line 2039, ../scss/global.scss */
 ul.inline.commerce-checkout-progress,
 ol.inline.commerce-checkout-progress {
   margin-bottom: 0;
   margin-left: 10px;
 }
-/* line 2041, ../scss/global.scss */
+/* line 2043, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li,
 ol.inline.commerce-checkout-progress li {
   background-color: #efefef;
@@ -2545,7 +2547,7 @@ ol.inline.commerce-checkout-progress li {
   position: relative;
   width: auto;
 }
-/* line 2051, ../scss/global.scss */
+/* line 2053, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li:after,
 ol.inline.commerce-checkout-progress li:after {
   background: transparent url("../images/bg_checkout_progress.png") right center no-repeat;
@@ -2563,39 +2565,39 @@ ol.inline.commerce-checkout-progress li:after {
   width: 25px;
   z-index: 2;
 }
-/* line 2064, ../scss/global.scss */
+/* line 2066, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li.last:after,
 ol.inline.commerce-checkout-progress li.last:after {
   background: #efefef url("../images/bg_checkout_progress_last.png") right center no-repeat;
   /* LTR */
 }
-/* line 2067, ../scss/global.scss */
+/* line 2069, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li.active, ul.inline.commerce-checkout-progress li.last.active,
 ol.inline.commerce-checkout-progress li.active,
 ol.inline.commerce-checkout-progress li.last.active {
   background-color: #3aa1f3;
   color: #ffffff;
 }
-/* line 2072, ../scss/global.scss */
+/* line 2074, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li.active:after, ul.inline.commerce-checkout-progress li.last.active:after,
 ol.inline.commerce-checkout-progress li.active:after,
 ol.inline.commerce-checkout-progress li.last.active:after {
   background: transparent url("../images/bg_checkout_progress_active.png") right center no-repeat;
   /* LTR */
 }
-/* line 2077, ../scss/global.scss */
+/* line 2079, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li.previous, ul.inline.commerce-checkout-progress li.visited,
 ol.inline.commerce-checkout-progress li.previous,
 ol.inline.commerce-checkout-progress li.visited {
   color: #3aae3f;
 }
-/* line 2080, ../scss/global.scss */
+/* line 2082, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li.previous a, ul.inline.commerce-checkout-progress li.visited a,
 ol.inline.commerce-checkout-progress li.previous a,
 ol.inline.commerce-checkout-progress li.visited a {
   color: #3aae3f;
 }
-/* line 2083, ../scss/global.scss */
+/* line 2085, ../scss/global.scss */
 ul.inline.commerce-checkout-progress li a,
 ol.inline.commerce-checkout-progress li a {
   font-size: 16px;
@@ -2605,7 +2607,7 @@ ol.inline.commerce-checkout-progress li a {
 /**
 * Shopping cart page
 */
-/* line 2098, ../scss/global.scss */
+/* line 2100, ../scss/global.scss */
 #views-form-commerce-cart-form-default table,
 #commerce-checkout-form-checkout .view-commerce-cart-summary table,
 #commerce-checkout-form-review .view-commerce-cart-summary table,
@@ -2614,7 +2616,7 @@ ol.inline.commerce-checkout-progress li a {
   border-collapse: collapse;
   width: 100%;
 }
-/* line 2102, ../scss/global.scss */
+/* line 2104, ../scss/global.scss */
 #views-form-commerce-cart-form-default table th,
 #commerce-checkout-form-checkout .view-commerce-cart-summary table th,
 #commerce-checkout-form-review .view-commerce-cart-summary table th,
@@ -2627,7 +2629,7 @@ ol.inline.commerce-checkout-progress li a {
   /* LTR */
   text-transform: uppercase;
 }
-/* line 2109, ../scss/global.scss */
+/* line 2111, ../scss/global.scss */
 #views-form-commerce-cart-form-default table tr.even,
 #views-form-commerce-cart-form-default table tr.odd,
 #commerce-checkout-form-checkout .view-commerce-cart-summary table tr.even,
@@ -2641,7 +2643,7 @@ ol.inline.commerce-checkout-progress li a {
   background-color: transparent;
   border: 0;
 }
-/* line 2114, ../scss/global.scss */
+/* line 2116, ../scss/global.scss */
 #views-form-commerce-cart-form-default table td,
 #commerce-checkout-form-checkout .view-commerce-cart-summary table td,
 #commerce-checkout-form-review .view-commerce-cart-summary table td,
@@ -2652,7 +2654,7 @@ ol.inline.commerce-checkout-progress li a {
   margin: 0;
   padding: 25px 10px;
 }
-/* line 2124, ../scss/global.scss */
+/* line 2126, ../scss/global.scss */
 #views-form-commerce-cart-form-default table .views-field-edit-delete,
 #views-form-commerce-cart-form-default table .views-field-commerce-total,
 #commerce-checkout-form-checkout .view-commerce-cart-summary table .views-field-edit-delete,
@@ -2666,7 +2668,7 @@ ol.inline.commerce-checkout-progress li a {
   text-align: right;
   /* LTR */
 }
-/* line 2130, ../scss/global.scss */
+/* line 2132, ../scss/global.scss */
 #views-form-commerce-cart-form-default .commerce-line-item-actions,
 #commerce-checkout-form-checkout .view-commerce-cart-summary .commerce-line-item-actions,
 #commerce-checkout-form-review .view-commerce-cart-summary .commerce-line-item-actions,
@@ -2674,7 +2676,7 @@ ol.inline.commerce-checkout-progress li a {
 .view-commerce-backoffice-user-orders .commerce-line-item-actions {
   clear: both;
 }
-/* line 2135, ../scss/global.scss */
+/* line 2137, ../scss/global.scss */
 #views-form-commerce-cart-form-default table.commerce-price-formatted-components td,
 #commerce-checkout-form-checkout .view-commerce-cart-summary table.commerce-price-formatted-components td,
 #commerce-checkout-form-review .view-commerce-cart-summary table.commerce-price-formatted-components td,
@@ -2683,17 +2685,17 @@ ol.inline.commerce-checkout-progress li a {
   white-space: normal;
 }
 
-/* line 2141, ../scss/global.scss */
+/* line 2143, ../scss/global.scss */
 .page-user-orders .view-commerce-line-item-table table td {
   white-space: normal;
 }
 
 /* Order total table */
-/* line 2145, ../scss/global.scss */
+/* line 2147, ../scss/global.scss */
 .field-name-commerce-order-total {
   float: none;
 }
-/* line 2148, ../scss/global.scss */
+/* line 2150, ../scss/global.scss */
 .field-name-commerce-order-total .field-items {
   background-color: #E5E5E5;
   float: right;
@@ -2703,35 +2705,35 @@ ol.inline.commerce-checkout-progress li a {
   min-width: 280px;
   width: 280px;
 }
-/* line 2156, ../scss/global.scss */
+/* line 2158, ../scss/global.scss */
 .field-name-commerce-order-total .field-items table.commerce-price-formatted-components {
   width: 100%;
 }
-/* line 2158, ../scss/global.scss */
+/* line 2160, ../scss/global.scss */
 .field-name-commerce-order-total .field-items table.commerce-price-formatted-components tr, .field-name-commerce-order-total .field-items table.commerce-price-formatted-components even,
 .field-name-commerce-order-total .field-items table.commerce-price-formatted-components tr, .field-name-commerce-order-total .field-items table.commerce-price-formatted-components odd {
   background: none;
   border: 0;
   padding: 10px !important;
 }
-/* line 2165, ../scss/global.scss */
+/* line 2167, ../scss/global.scss */
 .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td {
   border-bottom: 1px solid #CCC;
   padding: 10px !important;
   width: auto !important;
 }
-/* line 2170, ../scss/global.scss */
+/* line 2172, ../scss/global.scss */
 .field-name-commerce-order-total .field-items table.commerce-price-formatted-components td.component-title {
   text-align: left;
   /* LTR */
 }
 
 /* Checkout button */
-/* line 2180, ../scss/global.scss */
+/* line 2182, ../scss/global.scss */
 .page-checkout .checkout-buttons {
   margin: 0 10px;
 }
-/* line 2183, ../scss/global.scss */
+/* line 2185, ../scss/global.scss */
 .page-checkout .checkout-buttons input#edit-cancel,
 .page-checkout .checkout-buttons input#edit-back,
 .page-checkout .checkout-buttons input.checkout-back {
@@ -2749,7 +2751,7 @@ ol.inline.commerce-checkout-progress li a {
   padding: 0 0 1px 0;
   overlay: 0;
 }
-/* line 2196, ../scss/global.scss */
+/* line 2198, ../scss/global.scss */
 .page-checkout .checkout-buttons input#edit-continue,
 .page-checkout .checkout-buttons input.checkout-continue {
   background: #2698F2 none 0 0 no-repeat;
@@ -2768,11 +2770,11 @@ ol.inline.commerce-checkout-progress li a {
   padding: 10px 15px;
 }
 
-/* line 2212, ../scss/global.scss */
+/* line 2214, ../scss/global.scss */
 .page-cart #views-form-commerce-cart-form-default {
   /* Button styling */
 }
-/* line 2213, ../scss/global.scss */
+/* line 2215, ../scss/global.scss */
 .page-cart #views-form-commerce-cart-form-default table {
   /*.views-field-line-item-title {
     width: 400px; // used ??
@@ -2781,7 +2783,7 @@ ol.inline.commerce-checkout-progress li a {
     position: relative; >> commerce kickstart
   }*/
 }
-/* line 2214, ../scss/global.scss */
+/* line 2216, ../scss/global.scss */
 .page-cart #views-form-commerce-cart-form-default table tbody {
       /*td {
           // used ?
@@ -2830,13 +2832,13 @@ ol.inline.commerce-checkout-progress li a {
         }
       }*/
 }
-/* line 2261, ../scss/global.scss */
+/* line 2263, ../scss/global.scss */
 .page-cart #views-form-commerce-cart-form-default table tbody a.view_product_details {
   color: #7d7d7d;
   font-size: 11px;
   margin-top: 5px;
 }
-/* line 2275, ../scss/global.scss */
+/* line 2277, ../scss/global.scss */
 .page-cart #views-form-commerce-cart-form-default .views-field-edit-delete input.delete-line-item {
   background: none;
   border: none transparent;
@@ -2849,7 +2851,7 @@ ol.inline.commerce-checkout-progress li a {
   font-weight: normal;
   padding: 0 0 1px 0;
 }
-/* line 2285, ../scss/global.scss */
+/* line 2287, ../scss/global.scss */
 .page-cart #views-form-commerce-cart-form-default .commerce-line-item-actions input#edit-submit {
   background: none;
   border: none transparent;
@@ -2864,7 +2866,7 @@ ol.inline.commerce-checkout-progress li a {
   /* LTR */
   padding: 0 0 1px 0;
 }
-/* line 2295, ../scss/global.scss */
+/* line 2297, ../scss/global.scss */
 .page-cart #views-form-commerce-cart-form-default .commerce-line-item-actions input#edit-checkout {
   background: #2698F2 none 0 0 no-repeat;
   border: 0;
@@ -2885,29 +2887,29 @@ ol.inline.commerce-checkout-progress li a {
 * Review order page
 * Checkout complete page
 */
-/* line 2314, ../scss/global.scss */
+/* line 2316, ../scss/global.scss */
 .page-checkout {
   /* Checkout complete */
 }
-/* line 2315, ../scss/global.scss */
+/* line 2317, ../scss/global.scss */
 .page-checkout .checkout-help {
   margin: 0 0 10px 10px;
   /* LTR */
 }
-/* line 2324, ../scss/global.scss */
+/* line 2326, ../scss/global.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset.customer_profile_billing .form-item, .page-checkout #commerce-checkout-form-checkout fieldset.customer_profile_shipping .form-item,
 .page-checkout #commerce-checkout-form-review fieldset.customer_profile_billing .form-item,
 .page-checkout #commerce-checkout-form-review fieldset.customer_profile_shipping .form-item {
   width: 100%;
 }
-/* line 2328, ../scss/global.scss */
+/* line 2330, ../scss/global.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset.customer_profile_billing .locality-block .form-item, .page-checkout #commerce-checkout-form-checkout fieldset.customer_profile_shipping .locality-block .form-item,
 .page-checkout #commerce-checkout-form-review fieldset.customer_profile_billing .locality-block .form-item,
 .page-checkout #commerce-checkout-form-review fieldset.customer_profile_shipping .locality-block .form-item {
   margin-bottom: 0;
   width: inherit;
 }
-/* line 2332, ../scss/global.scss */
+/* line 2334, ../scss/global.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset.customer_profile_billing .locality-block .form-item label, .page-checkout #commerce-checkout-form-checkout fieldset.customer_profile_shipping .locality-block .form-item label,
 .page-checkout #commerce-checkout-form-review fieldset.customer_profile_billing .locality-block .form-item label,
 .page-checkout #commerce-checkout-form-review fieldset.customer_profile_shipping .locality-block .form-item label {
@@ -2915,7 +2917,7 @@ ol.inline.commerce-checkout-progress li a {
   float: none;
   width: inherit;
 }
-/* line 2340, ../scss/global.scss */
+/* line 2342, ../scss/global.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset legend,
 .page-checkout #commerce-checkout-form-review fieldset legend {
   border-bottom: 1px solid #d7d7d7;
@@ -2923,7 +2925,7 @@ ol.inline.commerce-checkout-progress li a {
   padding: 0px;
   width: 100%;
 }
-/* line 2345, ../scss/global.scss */
+/* line 2347, ../scss/global.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset legend span,
 .page-checkout #commerce-checkout-form-review fieldset legend span {
   font-weight: 600;
@@ -2931,18 +2933,18 @@ ol.inline.commerce-checkout-progress li a {
   /* LTR */
   text-transform: uppercase;
 }
-/* line 2351, ../scss/global.scss */
+/* line 2353, ../scss/global.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset .fieldset-wrapper,
 .page-checkout #commerce-checkout-form-review fieldset .fieldset-wrapper {
   margin: 0 10px;
 }
-/* line 2354, ../scss/global.scss */
+/* line 2356, ../scss/global.scss */
 .page-checkout #commerce-checkout-form-checkout fieldset label,
 .page-checkout #commerce-checkout-form-review fieldset label {
   float: none;
   width: inherit;
 }
-/* line 2361, ../scss/global.scss */
+/* line 2363, ../scss/global.scss */
 .page-checkout #commerce-checkout-form-complete {
   margin: 0 10px;
   padding-top: 15px;
@@ -2951,11 +2953,11 @@ ol.inline.commerce-checkout-progress li a {
 /**
 * Shipping page
 */
-/* line 2370, ../scss/global.scss */
+/* line 2372, ../scss/global.scss */
 .page-checkout-shipping .commerce_shipping {
   margin: 0 10px;
 }
-/* line 2373, ../scss/global.scss */
+/* line 2375, ../scss/global.scss */
 .page-checkout-shipping .form-item-commerce-shipping-shipping-service {
   clear: left;
   /* LTR */
@@ -2966,7 +2968,7 @@ ol.inline.commerce-checkout-progress li a {
   position: relative;
   width: 400px;
 }
-/* line 2381, ../scss/global.scss */
+/* line 2383, ../scss/global.scss */
 .page-checkout-shipping .form-item-commerce-shipping-shipping-service label {
   float: none;
   font-weight: 400;
@@ -2974,13 +2976,13 @@ ol.inline.commerce-checkout-progress li a {
   /* LTR */
   width: inherit;
 }
-/* line 2387, ../scss/global.scss */
+/* line 2389, ../scss/global.scss */
 .page-checkout-shipping .form-item-commerce-shipping-shipping-service .ajax-progress-throbber {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 2392, ../scss/global.scss */
+/* line 2394, ../scss/global.scss */
 .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover, .page-checkout-shipping .form-item-commerce-shipping-shipping-service:hover .option {
   background-color: #ececec;
   cursor: pointer;
@@ -2989,54 +2991,54 @@ ol.inline.commerce-checkout-progress li a {
 /**
 * Review order page
 */
-/* line 2404, ../scss/global.scss */
+/* line 2406, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review {
   /* Payment information */
 }
-/* line 2405, ../scss/global.scss */
+/* line 2407, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review .checkout-help {
   margin: 0 0 10px 10px;
   /* LTR */
 }
-/* line 2408, ../scss/global.scss */
+/* line 2410, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review .checkout_review table {
   width: 100%;
 }
-/* line 2412, ../scss/global.scss */
+/* line 2414, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review .checkout_review table tbody tr {
   background-color: transparent;
   border: 0;
 }
-/* line 2416, ../scss/global.scss */
+/* line 2418, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review .checkout_review table tbody tr.pane-title td {
   border-bottom: 1px solid #d7d7d7;
   font-weight: 600;
   padding: 5px 10px;
   text-transform: uppercase;
 }
-/* line 2422, ../scss/global.scss */
+/* line 2424, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review .checkout_review table tbody tr.pane-title td .pane-data-full {
   padding: 20px;
 }
-/* line 2427, ../scss/global.scss */
+/* line 2429, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review .checkout_review table tbody tr.pane-data td.pane-data-full {
   border-bottom: 0;
   padding: 20px;
   padding-bottom: 10px;
 }
-/* line 2432, ../scss/global.scss */
+/* line 2434, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review .checkout_review table tbody tr.pane-data td.pane-data-full .view-commerce-cart-summary {
   margin-top: 5px;
 }
-/* line 2439, ../scss/global.scss */
+/* line 2441, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review table.commerce-price-formatted-components {
   margin: 0;
 }
-/* line 2443, ../scss/global.scss */
+/* line 2445, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review fieldset.commerce_payment .fieldset-wrapper {
   padding: 0 10px;
 }
-/* line 2445, ../scss/global.scss */
+/* line 2447, ../scss/global.scss */
 .page-checkout-review #commerce-checkout-form-review fieldset.commerce_payment .fieldset-wrapper label {
   float: none;
 }
@@ -3072,7 +3074,7 @@ ol.inline.commerce-checkout-progress li a {
   text-decoration: none;
   text-shadow: 0 1px 1px #FFFFFF;
 }
-/* line 2455, ../scss/global.scss */
+/* line 2457, ../scss/global.scss */
 .page-user-orders .field-name-commerce-order-total {
   /**
    * For modern browsers
@@ -3100,7 +3102,7 @@ ol.inline.commerce-checkout-progress li a {
 .page-user-orders .field-name-commerce-order-total:after {
   clear: both;
 }
-/* line 2458, ../scss/global.scss */
+/* line 2460, ../scss/global.scss */
 .page-user-orders .field-name-commerce-order-total:after {
   content: ".";
   display: block;
@@ -3108,12 +3110,12 @@ ol.inline.commerce-checkout-progress li a {
   clear: both;
   visibility: hidden;
 }
-/* line 2465, ../scss/global.scss */
+/* line 2467, ../scss/global.scss */
 .page-user-orders .field-name-commerce-order-total .commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount {
   background-color: transparent;
   color: #000000;
 }
-/* line 2470, ../scss/global.scss */
+/* line 2472, ../scss/global.scss */
 .page-user-orders .field-name-commerce-customer-billing,
 .page-user-orders .field-name-commerce-customer-shipping {
   float: left;
@@ -3122,51 +3124,51 @@ ol.inline.commerce-checkout-progress li a {
   /* LTR */
   width: 45%;
 }
-/* line 2475, ../scss/global.scss */
+/* line 2477, ../scss/global.scss */
 .page-user-orders .field-name-commerce-customer-billing .field-label,
 .page-user-orders .field-name-commerce-customer-shipping .field-label {
   background-color: #E5E5E5;
   font-size: 14px;
   padding: 7px 10px;
 }
-/* line 2480, ../scss/global.scss */
+/* line 2482, ../scss/global.scss */
 .page-user-orders .field-name-commerce-customer-billing .field-items,
 .page-user-orders .field-name-commerce-customer-shipping .field-items {
   padding: 5px;
 }
-/* line 2484, ../scss/global.scss */
+/* line 2486, ../scss/global.scss */
 .page-user-orders .commerce-backoffice-order-status-form {
   clear: both;
   padding: 20px 0;
 }
-/* line 2488, ../scss/global.scss */
+/* line 2490, ../scss/global.scss */
 .page-user-orders .commerce-backoffice-order-status-form .form-type-select,
 .page-user-orders .commerce-backoffice-order-status-form .form-submit {
   display: inline;
 }
 
-/* line 2495, ../scss/global.scss */
+/* line 2497, ../scss/global.scss */
 .view-commerce-backoffice-user-orders th a {
   color: #777777;
   text-decoration: none;
 }
-/* line 2498, ../scss/global.scss */
+/* line 2500, ../scss/global.scss */
 .view-commerce-backoffice-user-orders th a img {
   vertical-align: baseline;
 }
 
 /* Order history */
-/* line 2504, ../scss/global.scss */
+/* line 2506, ../scss/global.scss */
 .view-commerce-backoffice-order-messages {
   /* Order activity stream */
   /* Order states */
   /* Need generic markup */
 }
-/* line 2505, ../scss/global.scss */
+/* line 2507, ../scss/global.scss */
 .view-commerce-backoffice-order-messages table {
   width: 100%;
 }
-/* line 2508, ../scss/global.scss */
+/* line 2510, ../scss/global.scss */
 .view-commerce-backoffice-order-messages th {
   color: #777777;
   font-size: 13px;
@@ -3175,28 +3177,28 @@ ol.inline.commerce-checkout-progress li a {
   /* LTR */
   text-transform: uppercase;
 }
-/* line 2515, ../scss/global.scss */
+/* line 2517, ../scss/global.scss */
 .view-commerce-backoffice-order-messages td {
   background-color: transparent;
   padding: 25px 10px;
 }
-/* line 2519, ../scss/global.scss */
+/* line 2521, ../scss/global.scss */
 .view-commerce-backoffice-order-messages tr.even,
 .view-commerce-backoffice-order-messages tr.odd {
   background-color: transparent;
 }
-/* line 2524, ../scss/global.scss */
+/* line 2526, ../scss/global.scss */
 .view-commerce-backoffice-order-messages .views-field-timestamp {
   color: #898A8C;
   font-size: 13px;
 }
-/* line 2529, ../scss/global.scss */
+/* line 2531, ../scss/global.scss */
 .view-commerce-backoffice-order-messages h2.title {
   background-color: #E5E5E5;
   font-size: 14px;
   padding: 7px 10px;
 }
-/* line 2537, ../scss/global.scss */
+/* line 2539, ../scss/global.scss */
 .view-commerce-backoffice-order-messages .commerce_order_state,
 .view-commerce-backoffice-order-messages .commerce_order_payment_entered {
   border: 1px solid #E5E5E5;
@@ -3208,24 +3210,24 @@ ol.inline.commerce-checkout-progress li a {
 }
 
 /* Comment form */
-/* line 2547, ../scss/global.scss */
+/* line 2549, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset {
   position: relative;
   margin: 0;
   margin-top: 40px;
   padding-top: 20px;
 }
-/* line 2553, ../scss/global.scss */
+/* line 2555, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset legend {
   position: absolute;
   top: -10px;
 }
-/* line 2558, ../scss/global.scss */
+/* line 2560, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper {
   background-color: #ececec;
   padding: 15px;
 }
-/* line 2562, ../scss/global.scss */
+/* line 2564, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper .form-item label {
   float: left;
   /* LTR */
@@ -3235,37 +3237,37 @@ ol.inline.commerce-checkout-progress li a {
   /* LTR */
   width: 110px;
 }
-/* line 2567, ../scss/global.scss */
+/* line 2569, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper .form-item label:after {
   clear: both;
   content: ":";
 }
-/* line 2573, ../scss/global.scss */
+/* line 2575, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper .form-textarea-wrapper {
   float: left;
   /* LTR */
   width: 65%;
 }
-/* line 2577, ../scss/global.scss */
+/* line 2579, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper .filter-wrapper {
   clear: both;
 }
-/* line 2579, ../scss/global.scss */
+/* line 2581, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper .filter-wrapper .fieldset-wrapper {
   font-size: 11px;
   margin: 0 auto;
   width: 80%;
 }
-/* line 2584, ../scss/global.scss */
+/* line 2586, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper .filter-wrapper .form-item {
   margin-top: 0;
 }
-/* line 2586, ../scss/global.scss */
+/* line 2588, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper .filter-wrapper .form-item label {
   text-align: inherit;
   width: inherit;
 }
-/* line 2592, ../scss/global.scss */
+/* line 2594, ../scss/global.scss */
 #commerce-backoffice-order-message-form fieldset .fieldset-wrapper .filter-wrapper .form-submit {
   font: normal 16px/21px "Open Sans", Arial, sans-serif;
   line-height: 30px;
@@ -3280,12 +3282,12 @@ ol.inline.commerce-checkout-progress li a {
 /**********************************************
 * 6.1. Homepage elements
 **********************************************/
-/* line 2609, ../scss/global.scss */
+/* line 2611, ../scss/global.scss */
 .front .zone-content {
   margin-bottom: 0;
 }
 
-/* line 2612, ../scss/global.scss */
+/* line 2614, ../scss/global.scss */
 .front .region-content-inner {
   min-height: 100%;
   padding: 0;
@@ -3296,13 +3298,13 @@ ol.inline.commerce-checkout-progress li a {
 * 7. Blog
 * --
 **************************************************/
-/* line 2622, ../scss/global.scss */
+/* line 2624, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row,
 .page-blog .region-content .view-content .views-row-even {
   clear: none;
   float: none;
 }
-/* line 2627, ../scss/global.scss */
+/* line 2629, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row {
   border: 1px solid #E0E3E6;
   display: block;
@@ -3310,70 +3312,70 @@ ol.inline.commerce-checkout-progress li a {
   padding: 0px;
   width: auto;
 }
-/* line 2633, ../scss/global.scss */
+/* line 2635, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .node-blog-post {
   padding: 10px 15px;
   position: relative;
 }
-/* line 2637, ../scss/global.scss */
+/* line 2639, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row h2 {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 0;
   text-transform: uppercase;
 }
-/* line 2643, ../scss/global.scss */
+/* line 2645, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row h2 a {
   color: #656565;
   text-decoration: none;
 }
-/* line 2648, ../scss/global.scss */
+/* line 2650, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .submitted {
   color: #A0A0A0;
   font-size: 12px;
   margin: 5px 0;
   text-transform: uppercase;
 }
-/* line 2653, ../scss/global.scss */
+/* line 2655, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .submitted a {
   color: #A0A0A0;
 }
-/* line 2658, ../scss/global.scss */
+/* line 2660, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .content .field-name-field-image {
   margin: 0 0 15px;
 }
-/* line 2661, ../scss/global.scss */
+/* line 2663, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .content .field-type-taxonomy-term-reference .field-items .field-item {
   padding-right: 3px;
 }
-/* line 2664, ../scss/global.scss */
+/* line 2666, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .content .field-name-field-tags {
   border-top: 1px dotted #777777;
   font-size: 11px;
   margin-bottom: 5px;
   padding: 3px;
 }
-/* line 2670, ../scss/global.scss */
+/* line 2672, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .content .field-name-field-blog-category {
   font-size: 11px;
   padding: 3px;
 }
-/* line 2675, ../scss/global.scss */
+/* line 2677, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .node-links {
   font-size: 12px;
 }
-/* line 2677, ../scss/global.scss */
+/* line 2679, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .node-links a {
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
 }
-/* line 2682, ../scss/global.scss */
+/* line 2684, ../scss/global.scss */
 .page-blog .region-content .view-content .views-row .node-links ul li {
   margin: 0;
 }
 
-/* line 2690, ../scss/global.scss */
+/* line 2692, ../scss/global.scss */
 .node-type-blog-post h1#page-title,
 .node-type-blog-post .comment-wrapper .title {
   color: #656565;
@@ -3381,33 +3383,33 @@ ol.inline.commerce-checkout-progress li a {
   margin-bottom: 0;
   text-transform: uppercase;
 }
-/* line 2698, ../scss/global.scss */
+/* line 2700, ../scss/global.scss */
 .node-type-blog-post .submitted {
   color: #A0A0A0;
   font-size: 12px;
   margin: 5px 0;
   text-transform: uppercase;
 }
-/* line 2703, ../scss/global.scss */
+/* line 2705, ../scss/global.scss */
 .node-type-blog-post .submitted a {
   color: #A0A0A0;
 }
-/* line 2708, ../scss/global.scss */
+/* line 2710, ../scss/global.scss */
 .node-type-blog-post .content .field-name-field-image {
   margin: 0 0 15px;
 }
-/* line 2711, ../scss/global.scss */
+/* line 2713, ../scss/global.scss */
 .node-type-blog-post .content .field-type-taxonomy-term-reference .field-items .field-item {
   padding-right: 3px;
 }
-/* line 2714, ../scss/global.scss */
+/* line 2716, ../scss/global.scss */
 .node-type-blog-post .content .field-name-field-tags {
   border-top: 1px dotted #777777;
   font-size: 11px;
   margin-bottom: 5px;
   padding: 3px;
 }
-/* line 2720, ../scss/global.scss */
+/* line 2722, ../scss/global.scss */
 .node-type-blog-post .content .field-name-field-blog-category {
   font-size: 11px;
   padding: 3px;
@@ -3418,11 +3420,11 @@ ol.inline.commerce-checkout-progress li a {
 * 8. Comments
 * --
 **************************************************/
-/* line 2732, ../scss/global.scss */
+/* line 2734, ../scss/global.scss */
 article.comment {
   padding: 10px 4px 5px 4px;
 }
-/* line 2735, ../scss/global.scss */
+/* line 2737, ../scss/global.scss */
 article.comment header em {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -3434,27 +3436,27 @@ article.comment header em {
   padding: 2px 4px;
   text-transform: uppercase;
 }
-/* line 2742, ../scss/global.scss */
+/* line 2744, ../scss/global.scss */
 article.comment header em.new {
   background-color: #207cca;
   color: #ffffff;
 }
-/* line 2746, ../scss/global.scss */
+/* line 2748, ../scss/global.scss */
 article.comment header em.unpublished {
   font-weight: 700;
 }
-/* line 2750, ../scss/global.scss */
+/* line 2752, ../scss/global.scss */
 article.comment footer.comment-submitted {
   border-bottom: 1px dotted #E0E3E6;
   font-size: 12px;
   margin: 5px 0;
   text-transform: uppercase;
 }
-/* line 2756, ../scss/global.scss */
+/* line 2758, ../scss/global.scss */
 article.comment .field-name-comment-body {
   padding: 0px 10px;
 }
-/* line 2759, ../scss/global.scss */
+/* line 2761, ../scss/global.scss */
 article.comment .comment-links {
   font-size: 13px;
   padding: 5px;
@@ -3462,11 +3464,11 @@ article.comment .comment-links {
 }
 
 /* Comment form */
-/* line 2766, ../scss/global.scss */
+/* line 2768, ../scss/global.scss */
 .comment-wrapper {
   padding: 0px 12px;
 }
-/* line 2769, ../scss/global.scss */
+/* line 2771, ../scss/global.scss */
 .comment-wrapper .title {
   border-bottom: 1px dotted #656565;
   color: #656565;
@@ -3474,18 +3476,18 @@ article.comment .comment-links {
   margin-bottom: 0;
   text-transform: uppercase;
 }
-/* line 2776, ../scss/global.scss */
+/* line 2778, ../scss/global.scss */
 .comment-wrapper h2.comment-form {
   border-bottom: 1px solid #E0E3E6;
   margin-top: 20px;
 }
 
-/* line 2781, ../scss/global.scss */
+/* line 2783, ../scss/global.scss */
 .comment-form {
   background-color: #ececec;
   padding: 15px;
 }
-/* line 2784, ../scss/global.scss */
+/* line 2786, ../scss/global.scss */
 .comment-form .form-wrapper {
   /**
    * For modern browsers
@@ -3515,109 +3517,109 @@ article.comment .comment-links {
 .comment-form .form-wrapper:after {
   clear: both;
 }
-/* line 2789, ../scss/global.scss */
+/* line 2791, ../scss/global.scss */
 .comment-form .form-item {
   clear: left;
 }
-/* line 2793, ../scss/global.scss */
+/* line 2795, ../scss/global.scss */
 .comment-form .form-item.form-item-notify label, .comment-form .form-item.form-item-notify-type label {
   float: none;
 }
-/* line 2795, ../scss/global.scss */
+/* line 2797, ../scss/global.scss */
 .comment-form .form-item.form-item-notify label:after, .comment-form .form-item.form-item-notify-type label:after {
   content: none;
 }
-/* line 2801, ../scss/global.scss */
+/* line 2803, ../scss/global.scss */
 .comment-form .form-item label {
   float: left;
   padding-right: 8px;
   text-align: right;
   width: 110px;
 }
-/* line 2806, ../scss/global.scss */
+/* line 2808, ../scss/global.scss */
 .comment-form .form-item label:after {
   clear: both;
   content: ":";
 }
-/* line 2811, ../scss/global.scss */
+/* line 2813, ../scss/global.scss */
 .comment-form .form-item .form-radios,
 .comment-form .form-item .form-checkboxes {
   float: left;
 }
-/* line 2814, ../scss/global.scss */
+/* line 2816, ../scss/global.scss */
 .comment-form .form-item .form-radios label,
 .comment-form .form-item .form-checkboxes label {
   float: inherit;
   text-align: inherit;
   width: auto;
 }
-/* line 2818, ../scss/global.scss */
+/* line 2820, ../scss/global.scss */
 .comment-form .form-item .form-radios label:after,
 .comment-form .form-item .form-checkboxes label:after {
   content: none;
 }
-/* line 2822, ../scss/global.scss */
+/* line 2824, ../scss/global.scss */
 .comment-form .form-item .form-radios .form-item,
 .comment-form .form-item .form-checkboxes .form-item {
   white-space: nowrap;
 }
-/* line 2824, ../scss/global.scss */
+/* line 2826, ../scss/global.scss */
 .comment-form .form-item .form-radios .form-item label,
 .comment-form .form-item .form-checkboxes .form-item label {
   float: none;
   text-align: inherit;
   width: auto;
 }
-/* line 2831, ../scss/global.scss */
+/* line 2833, ../scss/global.scss */
 .comment-form .form-item .description {
   clear: both;
 }
-/* line 2835, ../scss/global.scss */
+/* line 2837, ../scss/global.scss */
 .comment-form #edit-author--2 {
   margin: 0;
 }
-/* line 2837, ../scss/global.scss */
+/* line 2839, ../scss/global.scss */
 .comment-form #edit-author--2 label {
   display: inline;
 }
-/* line 2841, ../scss/global.scss */
+/* line 2843, ../scss/global.scss */
 .comment-form .form-textarea-wrapper {
   float: left;
   width: 65%;
 }
-/* line 2845, ../scss/global.scss */
+/* line 2847, ../scss/global.scss */
 .comment-form .filter-wrapper {
   clear: both;
 }
-/* line 2847, ../scss/global.scss */
+/* line 2849, ../scss/global.scss */
 .comment-form .filter-wrapper .fieldset-wrapper {
   font-size: 11px;
   margin: 0 auto;
   width: 80%;
 }
-/* line 2852, ../scss/global.scss */
+/* line 2854, ../scss/global.scss */
 .comment-form .filter-wrapper .form-item {
   margin-top: 0;
 }
-/* line 2854, ../scss/global.scss */
+/* line 2856, ../scss/global.scss */
 .comment-form .filter-wrapper .form-item label {
   float: inherit;
   text-align: inherit;
   width: inherit;
 }
-/* line 2860, ../scss/global.scss */
+/* line 2862, ../scss/global.scss */
 .comment-form .filter-wrapper .form-submit {
   font: normal 16px/21px "Open Sans", Arial, sans-serif;
   line-height: 30px;
   padding: 4px 15px;
 }
-/* line 2865, ../scss/global.scss */
+/* line 2867, ../scss/global.scss */
 .comment-form .filter-wrapper .form-actions {
   clear: both;
 }
 
 /* Comment links */
-/* line 2871, ../scss/global.scss */
+/* line 2873, ../scss/global.scss */
 .links.node-links {
   float: right;
   margin-top: 10px;
@@ -3626,12 +3628,12 @@ article.comment .comment-links {
   white-space: nowrap;
 }
 
-/* line 2878, ../scss/global.scss */
+/* line 2880, ../scss/global.scss */
 .node-teaser .links.node-links {
   float: none;
 }
 
-/* line 2881, ../scss/global.scss */
+/* line 2883, ../scss/global.scss */
 .node-links .links {
   background-color: #ececec;
   -moz-border-radius: 3px;
@@ -3641,16 +3643,16 @@ article.comment .comment-links {
   padding: 3px 5px;
 }
 
-/* line 2887, ../scss/global.scss */
+/* line 2889, ../scss/global.scss */
 .node-teaser .links.node-links .links {
   background-color: transparent;
 }
-/* line 2890, ../scss/global.scss */
+/* line 2892, ../scss/global.scss */
 .node-teaser .links.node-links .links li {
   margin: 0;
   padding: 0;
 }
-/* line 2894, ../scss/global.scss */
+/* line 2896, ../scss/global.scss */
 .node-teaser .links.node-links .links .node-readmore a,
 .node-teaser .links.node-links .links .comment-comments a,
 .node-teaser .links.node-links .links .comment-new-comments a {
@@ -3660,26 +3662,26 @@ article.comment .comment-links {
   margin: 4px 0;
   padding: 4px 8px;
 }
-/* line 2903, ../scss/global.scss */
+/* line 2905, ../scss/global.scss */
 .node-teaser .links.node-links .links .comment-new-comments {
   border-left-width: 0;
   border-right-width: 1px;
   margin-left: -1px;
 }
-/* line 2907, ../scss/global.scss */
+/* line 2909, ../scss/global.scss */
 .node-teaser .links.node-links .links .comment-new-comments:hover {
   background-color: transparent;
 }
-/* line 2910, ../scss/global.scss */
+/* line 2912, ../scss/global.scss */
 .node-teaser .links.node-links .links .comment-new-comments a {
   color: #ff2424;
 }
-/* line 2914, ../scss/global.scss */
+/* line 2916, ../scss/global.scss */
 .node-teaser .links.node-links .links li:hover a {
   background-color: #e7f3fd;
   cursor: pointer;
 }
-/* line 2918, ../scss/global.scss */
+/* line 2920, ../scss/global.scss */
 .node-teaser .links.node-links .links .first a {
   -moz-border-radius-topleft: 3px;
   border-top-left-radius: 3px;
@@ -3691,7 +3693,7 @@ article.comment .comment-links {
   -webkit-border-bottom-left-radius: 3px;
   padding-right: 8px;
 }
-/* line 2925, ../scss/global.scss */
+/* line 2927, ../scss/global.scss */
 .node-teaser .links.node-links .links .last a {
   -moz-border-radius-topright: 3px;
   border-top-right-radius: 3px;
@@ -3710,7 +3712,7 @@ article.comment .comment-links {
 * 9. User account
 * --
 **************************************************/
-/* line 2939, ../scss/global.scss */
+/* line 2941, ../scss/global.scss */
 .page-user,
 .page-checkout {
   /* Registration form */
@@ -3718,7 +3720,7 @@ article.comment .comment-links {
   /* Password form */
   /* actions links */
 }
-/* line 2941, ../scss/global.scss */
+/* line 2943, ../scss/global.scss */
 .page-user #user_register_form,
 .page-user #user_login_form,
 .page-user .create-account,
@@ -3731,7 +3733,7 @@ article.comment .comment-links {
   float: none;
   width: auto;
 }
-/* line 2953, ../scss/global.scss */
+/* line 2955, ../scss/global.scss */
 .page-user #user-register-form .form-submit,
 .page-user #user-profile-form .form-submit,
 .page-user #user_login_form .form-submit,
@@ -3751,7 +3753,7 @@ article.comment .comment-links {
   color: #ffffff;
   padding: 10px 15px;
 }
-/* line 2961, ../scss/global.scss */
+/* line 2963, ../scss/global.scss */
 .page-user #user-register-form .form-submit:hover,
 .page-user #user-profile-form .form-submit:hover,
 .page-user #user_login_form .form-submit:hover,
@@ -3762,7 +3764,7 @@ article.comment .comment-links {
 .page-checkout #user_pass_form .form-submit:hover {
   background: #60aa20;
 }
-/* line 2966, ../scss/global.scss */
+/* line 2968, ../scss/global.scss */
 .page-user #user-register-form h1,
 .page-user #user_login_form h1,
 .page-user .create-account h2,
@@ -3773,7 +3775,7 @@ article.comment .comment-links {
 .page-checkout #user_pass_form h1 {
   font: normal 300 38px/38px "Open Sans", Arial, sans-serif;
 }
-/* line 2975, ../scss/global.scss */
+/* line 2977, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass,
 .page-user form#user-profile-form .form-item-pass,
 .page-checkout form#user-register-form .form-item-pass,
@@ -3781,14 +3783,14 @@ article.comment .comment-links {
   position: relative;
   margin-bottom: 80px;
 }
-/* line 2979, ../scss/global.scss */
+/* line 2981, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass .password-parent,
 .page-user form#user-profile-form .form-item-pass .password-parent,
 .page-checkout form#user-register-form .form-item-pass .password-parent,
 .page-checkout form#user-profile-form .form-item-pass .password-parent {
   width: inherit;
 }
-/* line 2982, ../scss/global.scss */
+/* line 2984, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass .password-parent .password-strength,
 .page-user form#user-profile-form .form-item-pass .password-parent .password-strength,
 .page-checkout form#user-register-form .form-item-pass .password-parent .password-strength,
@@ -3804,14 +3806,14 @@ article.comment .comment-links {
   bottom: -50px;
   width: 90%;
 }
-/* line 2992, ../scss/global.scss */
+/* line 2994, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass .confirm-parent,
 .page-user form#user-profile-form .form-item-pass .confirm-parent,
 .page-checkout form#user-register-form .form-item-pass .confirm-parent,
 .page-checkout form#user-profile-form .form-item-pass .confirm-parent {
   width: inherit;
 }
-/* line 2995, ../scss/global.scss */
+/* line 2997, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
 .page-user form#user-profile-form .form-item-pass .confirm-parent div.password-confirm,
 .page-checkout form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
@@ -3827,7 +3829,7 @@ article.comment .comment-links {
   bottom: -80px;
   width: 90%;
 }
-/* line 3004, ../scss/global.scss */
+/* line 3006, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass .confirm-parent div.password-confirm .ok,
 .page-user form#user-profile-form .form-item-pass .confirm-parent div.password-confirm .ok,
 .page-checkout form#user-register-form .form-item-pass .confirm-parent div.password-confirm .ok,
@@ -3835,7 +3837,7 @@ article.comment .comment-links {
   color: #60aa20;
   font-weight: bold;
 }
-/* line 3008, ../scss/global.scss */
+/* line 3010, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass .confirm-parent div.password-confirm .error,
 .page-user form#user-profile-form .form-item-pass .confirm-parent div.password-confirm .error,
 .page-checkout form#user-register-form .form-item-pass .confirm-parent div.password-confirm .error,
@@ -3843,35 +3845,35 @@ article.comment .comment-links {
   color: #EA2C2C;
   font-weight: bold;
 }
-/* line 3014, ../scss/global.scss */
+/* line 3016, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass .password-suggestions,
 .page-user form#user-profile-form .form-item-pass .password-suggestions,
 .page-checkout form#user-register-form .form-item-pass .password-suggestions,
 .page-checkout form#user-profile-form .form-item-pass .password-suggestions {
   width: inherit;
 }
-/* line 3017, ../scss/global.scss */
+/* line 3019, ../scss/global.scss */
 .page-user form#user-register-form .form-item-pass .password-suggestions ul,
 .page-user form#user-profile-form .form-item-pass .password-suggestions ul,
 .page-checkout form#user-register-form .form-item-pass .password-suggestions ul,
 .page-checkout form#user-profile-form .form-item-pass .password-suggestions ul {
   margin-left: 20px;
 }
-/* line 3022, ../scss/global.scss */
+/* line 3024, ../scss/global.scss */
 .page-user form#user-register-form .form-actions,
 .page-user form#user-profile-form .form-actions,
 .page-checkout form#user-register-form .form-actions,
 .page-checkout form#user-profile-form .form-actions {
   margin-top: 90px;
 }
-/* line 3025, ../scss/global.scss */
+/* line 3027, ../scss/global.scss */
 .page-user form#user-register-form .form-actions .form-submit,
 .page-user form#user-profile-form .form-actions .form-submit,
 .page-checkout form#user-register-form .form-actions .form-submit,
 .page-checkout form#user-profile-form .form-actions .form-submit {
   float: left;
 }
-/* line 3028, ../scss/global.scss */
+/* line 3030, ../scss/global.scss */
 .page-user form#user-register-form .form-actions .back-to-login,
 .page-user form#user-profile-form .form-actions .back-to-login,
 .page-checkout form#user-register-form .form-actions .back-to-login,
@@ -3879,7 +3881,7 @@ article.comment .comment-links {
   float: right;
   margin: 0;
 }
-/* line 3031, ../scss/global.scss */
+/* line 3033, ../scss/global.scss */
 .page-user form#user-register-form .form-actions .back-to-login .login-account,
 .page-user form#user-profile-form .form-actions .back-to-login .login-account,
 .page-checkout form#user-register-form .form-actions .back-to-login .login-account,
@@ -3887,12 +3889,12 @@ article.comment .comment-links {
   display: block;
   float: left;
 }
-/* line 3039, ../scss/global.scss */
+/* line 3041, ../scss/global.scss */
 .page-user form#user-login,
 .page-checkout form#user-login {
   /* Login form */
 }
-/* line 3041, ../scss/global.scss */
+/* line 3043, ../scss/global.scss */
 .page-user form#user-login #user_login_form,
 .page-checkout form#user-login #user_login_form {
   border: 0;
@@ -3900,36 +3902,36 @@ article.comment .comment-links {
   padding-right: 0;
   padding-bottom: 20px;
 }
-/* line 3047, ../scss/global.scss */
+/* line 3049, ../scss/global.scss */
 .page-user form#user-login #user_login_form .login-password,
 .page-checkout form#user-login #user_login_form .login-password {
   color: #2698F2;
 }
-/* line 3049, ../scss/global.scss */
+/* line 3051, ../scss/global.scss */
 .page-user form#user-login #user_login_form .login-password:hover,
 .page-checkout form#user-login #user_login_form .login-password:hover {
   color: #2698F2;
   text-decoration: underline;
 }
-/* line 3055, ../scss/global.scss */
+/* line 3057, ../scss/global.scss */
 .page-user form#user-login .create-account,
 .page-checkout form#user-login .create-account {
   margin-top: 20px;
 }
-/* line 3061, ../scss/global.scss */
+/* line 3063, ../scss/global.scss */
 .page-user form#user-pass .form-actions,
 .page-checkout form#user-pass .form-actions {
   float: left;
   margin-right: 20px;
 }
-/* line 3065, ../scss/global.scss */
+/* line 3067, ../scss/global.scss */
 .page-user form#user-pass .back-to-login,
 .page-checkout form#user-pass .back-to-login {
   float: right;
   margin: 1em 0;
   padding-top: 9px;
 }
-/* line 3072, ../scss/global.scss */
+/* line 3074, ../scss/global.scss */
 .page-user a.login-register,
 .page-user a.login-account,
 .page-checkout a.login-register,
@@ -3946,21 +3948,21 @@ article.comment .comment-links {
   margin-left: 0px;
   padding: 15px 20px;
 }
-/* line 3082, ../scss/global.scss */
+/* line 3084, ../scss/global.scss */
 .page-user a.login-register:hover,
 .page-user a.login-account:hover,
 .page-checkout a.login-register:hover,
 .page-checkout a.login-account:hover {
   background: #2698F2;
 }
-/* line 3086, ../scss/global.scss */
+/* line 3088, ../scss/global.scss */
 .page-user a.login-register,
 .page-checkout a.login-register {
   display: block;
   float: left;
   margin-top: 20px;
 }
-/* line 3091, ../scss/global.scss */
+/* line 3093, ../scss/global.scss */
 .page-user a.login-account,
 .page-checkout a.login-account {
   display: block;
@@ -3969,11 +3971,11 @@ article.comment .comment-links {
 }
 
 /* User home */
-/* line 3101, ../scss/global.scss */
+/* line 3103, ../scss/global.scss */
 .page-user .block-system-main {
   margin: 10px;
 }
-/* line 3105, ../scss/global.scss */
+/* line 3107, ../scss/global.scss */
 .page-user .profile h3 {
   border-bottom: 0 transparent;
   background-color: #ECECEC;
@@ -3984,11 +3986,11 @@ article.comment .comment-links {
   padding: 5px 10px;
   text-transform: uppercase;
 }
-/* line 3116, ../scss/global.scss */
+/* line 3118, ../scss/global.scss */
 .page-user .profile ul.user-information {
   width: 100%;
 }
-/* line 3118, ../scss/global.scss */
+/* line 3120, ../scss/global.scss */
 .page-user .profile ul.user-information li {
   border-bottom: 1px solid #444;
   float: left;
@@ -4002,60 +4004,60 @@ article.comment .comment-links {
   padding-bottom: 30px;
   width: 100%;
 }
-/* line 3130, ../scss/global.scss */
+/* line 3132, ../scss/global.scss */
 .page-user .profile ul.user-information li h4 {
   font-size: 14px;
   text-transform: uppercase;
 }
-/* line 3134, ../scss/global.scss */
+/* line 3136, ../scss/global.scss */
 .page-user .profile ul.user-information li a {
   border: 1px solid #D8D8D8;
   padding: 5px 10px;
   position: absolute;
   bottom: 10px;
 }
-/* line 3139, ../scss/global.scss */
+/* line 3141, ../scss/global.scss */
 .page-user .profile ul.user-information li a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-/* line 3144, ../scss/global.scss */
+/* line 3146, ../scss/global.scss */
 .page-user .profile ul.user-information li .view-commerce-backoffice-user-orders td {
   padding: 10px;
 }
-/* line 3149, ../scss/global.scss */
+/* line 3151, ../scss/global.scss */
 .page-user .profile ul.user-recent-orders {
   list-style: none;
   list-style-image: none;
 }
-/* line 3153, ../scss/global.scss */
+/* line 3155, ../scss/global.scss */
 .page-user .profile ul.user-recent-orders li {
   list-style: none;
   list-style-image: none;
 }
-/* line 3160, ../scss/global.scss */
+/* line 3162, ../scss/global.scss */
 .page-user .tabs ul {
   /* User primary menu/tabs */
   /* User secondary menu/tabs */
 }
-/* line 3162, ../scss/global.scss */
+/* line 3164, ../scss/global.scss */
 .page-user .tabs ul.primary {
   border-bottom: 1px solid #D8D8D8;
   border-top: 1px solid #D8D8D8;
   margin: 0 0 30px 0;
 }
-/* line 3166, ../scss/global.scss */
+/* line 3168, ../scss/global.scss */
 .page-user .tabs ul.primary li {
   float: left;
   /* LTR */
   padding: 10px 0;
 }
-/* line 3169, ../scss/global.scss */
+/* line 3171, ../scss/global.scss */
 .page-user .tabs ul.primary li.active a {
   color: #000000;
   font-weight: bold;
 }
-/* line 3173, ../scss/global.scss */
+/* line 3175, ../scss/global.scss */
 .page-user .tabs ul.primary li a {
   background-color: transparent;
   border: 0 none;
@@ -4065,16 +4067,16 @@ article.comment .comment-links {
   border-radius: 0px;
   color: #898A8C;
 }
-/* line 3179, ../scss/global.scss */
+/* line 3181, ../scss/global.scss */
 .page-user .tabs ul.primary li a .active {
   color: #000000;
   font-weight: bold;
 }
-/* line 3187, ../scss/global.scss */
+/* line 3189, ../scss/global.scss */
 .page-user .tabs ul.secondary {
   border-bottom: 0 transparent;
 }
-/* line 3190, ../scss/global.scss */
+/* line 3192, ../scss/global.scss */
 .page-user .tabs ul.secondary li {
   border-right: 0 transparent;
   /* LTR */
@@ -4082,13 +4084,13 @@ article.comment .comment-links {
   /* LTR */
   padding: 0.5em 0;
 }
-/* line 3195, ../scss/global.scss */
+/* line 3197, ../scss/global.scss */
 .page-user .tabs ul.secondary li a {
   color: #898A8C;
   border: 1px solid #D8D8D8;
   padding: 5px 10px;
 }
-/* line 3200, ../scss/global.scss */
+/* line 3202, ../scss/global.scss */
 .page-user .tabs ul.secondary li a.active {
   color: #000000;
   font-weight: bold;
@@ -4126,7 +4128,7 @@ article.comment .comment-links {
   text-decoration: none;
   text-shadow: 0 1px 1px #FFFFFF;
 }
-/* line 3214, ../scss/global.scss */
+/* line 3216, ../scss/global.scss */
 .page-user-addressbook .view-commerce-addressbook-defaults .views-field {
   background-color: #F0F0F0;
   border: 1px solid #D8D8D8;
@@ -4137,12 +4139,12 @@ article.comment .comment-links {
   padding: 20px;
   min-width: 200px;
 }
-/* line 3222, ../scss/global.scss */
+/* line 3224, ../scss/global.scss */
 .page-user-addressbook .view-commerce-addressbook td {
   display: block;
   padding: 0;
 }
-/* line 3226, ../scss/global.scss */
+/* line 3228, ../scss/global.scss */
 .page-user-addressbook .view-commerce-addressbook td .views-field {
   border: 1px solid #D8D8D8;
   margin: 0 15px 15px 0;
@@ -4150,13 +4152,13 @@ article.comment .comment-links {
   padding: 20px;
   position: relative;
 }
-/* line 3232, ../scss/global.scss */
+/* line 3234, ../scss/global.scss */
 .page-user-addressbook .view-commerce-addressbook td .views-field .field-name-commerce-customer-address {
   color: #5F6061;
   font-size: 13px;
   margin-bottom: 15px;
 }
-/* line 3237, ../scss/global.scss */
+/* line 3239, ../scss/global.scss */
 .page-user-addressbook .view-commerce-addressbook td .views-field .ajax-progress-throbber {
   /* Positions the throbber */
   position: absolute;
@@ -4164,21 +4166,21 @@ article.comment .comment-links {
   right: 0;
   /* LTR */
 }
-/* line 3244, ../scss/global.scss */
+/* line 3246, ../scss/global.scss */
 .page-user-addressbook #commerce-addressbook-billing-list,
 .page-user-addressbook #commerce-addressbook-shipping-list {
   clear: both;
 }
 
 /* Add comment */
-/* line 3251, ../scss/global.scss */
+/* line 3253, ../scss/global.scss */
 html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   background-image: url("../images/icon_add.png");
   background-position: 0 50%;
   padding: 0 0 0 30px;
 }
 
-/* line 3256, ../scss/global.scss */
+/* line 3258, ../scss/global.scss */
 #commerce-backoffice-message-form .fieldset-legend a {
   color: #2698F2;
   font-family: 'Open Sans', sans-serif;
@@ -4188,13 +4190,13 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 }
 
 /* Connector */
-/* line 3265, ../scss/global.scss */
+/* line 3267, ../scss/global.scss */
 .not-logged-in #block-connector-one-click-block {
   margin-left: 10px;
   /* LTR */
 }
 
-/* line 3269, ../scss/global.scss */
+/* line 3271, ../scss/global.scss */
 .not-logged-in #block-connector-one-click-block .connector-button {
   color: transparent;
   cursor: pointer;
@@ -4207,39 +4209,39 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   border-radius: 0px;
 }
 
-/* line 3279, ../scss/global.scss */
+/* line 3281, ../scss/global.scss */
 .not-logged-in #block-connector-one-click-block #edit-oauthconnector-facebook {
   background: url("../images/btn_facebook.png") no-repeat;
 }
-/* line 3282, ../scss/global.scss */
+/* line 3284, ../scss/global.scss */
 .not-logged-in #block-connector-one-click-block #edit-oauthconnector-twitter {
   background: url("../images/btn_twitter.png") no-repeat;
 }
-/* line 3285, ../scss/global.scss */
+/* line 3287, ../scss/global.scss */
 .not-logged-in #block-connector-one-click-block #edit-oauthconnector-google {
   background: url("../images/btn_google.png") no-repeat;
 }
 
 /* Maintenance Page Styles */
-/* line 3291, ../scss/global.scss */
+/* line 3293, ../scss/global.scss */
 .in-maintenance {
   margin: 0;
 }
-/* line 3294, ../scss/global.scss */
+/* line 3296, ../scss/global.scss */
 .in-maintenance .body-wrapper {
   border-top: 5px solid #8E8E8E;
 }
-/* line 3297, ../scss/global.scss */
+/* line 3299, ../scss/global.scss */
 .in-maintenance #branding,
 .in-maintenance #page {
   margin: 0 auto;
   width: 960px;
 }
-/* line 3302, ../scss/global.scss */
+/* line 3304, ../scss/global.scss */
 .in-maintenance #branding {
   padding: 20px 0 10px 0;
 }
-/* line 3305, ../scss/global.scss */
+/* line 3307, ../scss/global.scss */
 .in-maintenance #page .page-wrapper {
   background: #fff;
   padding: 10px 10px 20px 10px;
@@ -4248,12 +4250,12 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 /**
  * Carousel Style
  */
-/* line 3314, ../scss/global.scss */
+/* line 3316, ../scss/global.scss */
 .jcarousel-skin-default .jcarousel-container-horizontal {
   height: auto;
 }
 
-/* line 3317, ../scss/global.scss */
+/* line 3319, ../scss/global.scss */
 .jcarousel-skin-default .jcarousel-item {
   height: auto;
 }

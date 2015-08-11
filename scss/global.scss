@@ -533,16 +533,18 @@ select {
       margin-left: 0;
 
       a {
-        color: #FFF;
+        color: #F5F5F5;
         font-size: 1.2em;
 
         a.active {
+          color: #FFF;
           background: #B4239E; 
         }
 
         &:hover,&:active, 
         &:focus, &.active {
           background: #B4239E;
+          color: #FFF;
           text-decoration: none;
         }
       }
