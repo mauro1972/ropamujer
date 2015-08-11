@@ -752,7 +752,7 @@ select {
   font-size: 1.2em;
 }
 /* line 539, ../scss/global.scss */
-#zone-menu-wrapper .sf-menu.sf-style-space-teal li a a.active {
+#zone-menu-wrapper .sf-menu.sf-style-space-teal li a.active {
   color: #FFF;
   background: #B4239E;
 }

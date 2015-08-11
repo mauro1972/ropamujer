@@ -536,7 +536,7 @@ select {
         color: #D2DAdB;
         font-size: 1.2em;
 
-        a.active {
+        &.active {
           color: #FFF;
           background: #B4239E; 
         }
