@@ -15,9 +15,9 @@
 #block-search-form form {
   border: 1px #CCC solid;
   padding: 2px 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 /* line 12, ../scss/_ropa.scss */
 #block-search-form form .form-text {

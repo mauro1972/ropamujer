@@ -7,7 +7,7 @@
 #block-search-form form {
   border: 1px #CCC solid;
   padding: 2px 5px;
-  @include border-radius(5px);
+  @include border-radius(10px);
 
   .form-text {
     background: transparent;
