@@ -521,7 +521,7 @@ select {
 * 2.3. Zone menu
 **********************************************/
 #zone-menu-wrapper {
-  background: #EEE;
+  background: #006680;
 
   .sf-menu.sf-style-space-teal {
     background: transparent;
@@ -530,15 +530,17 @@ select {
     li {
       background: transparent;
       color: #666;
+      margin-left: 0;
 
       a {
-        color: #666;
+        background: #B4239E;
+        color: #FFF;
         font-size: 1.2em;
 
         &:hover,&:active, 
         &:focus, &.active {
           background: transparent;
-          text-decoration: underline;
+          text-decoration: none;
         }
       }
     }
