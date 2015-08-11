@@ -10,6 +10,7 @@
   @include border-radius(5px);
 
   .form-text {
+    background: transparent;
     border: none;
 
     &:focus {
