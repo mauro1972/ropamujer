@@ -543,6 +543,7 @@ select {
 
         &:hover,&:active, 
         &:focus, &.active {
+          background: transparent;
           color: #FFF;
           text-decoration: none;
         }
