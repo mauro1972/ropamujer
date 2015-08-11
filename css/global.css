@@ -757,7 +757,7 @@ select {
   background: #B4239E;
 }
 /* line 544, ../scss/global.scss */
-#zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:focus, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a.active {
+#zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:focus {
   background: transparent;
   color: #FFF;
   text-decoration: none;

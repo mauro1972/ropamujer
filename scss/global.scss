@@ -542,7 +542,7 @@ select {
         }
 
         &:hover,&:active, 
-        &:focus, &.active {
+        &:focus {
           background: transparent;
           color: #FFF;
           text-decoration: none;
