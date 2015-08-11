@@ -135,8 +135,9 @@
 /* line 124, ../scss/_ropa.scss */
 .product-row .price {
   background: #f37324;
-  bottom: 100px;
+  bottom: 80px;
   color: #FFF;
+  font-weight: bold;
   left: -5px;
   padding: 5px 10px;
   position: absolute;
@@ -144,7 +145,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 134, ../scss/_ropa.scss */
+/* line 135, ../scss/_ropa.scss */
 .product-row .price:after {
   content: "";
   display: block;
