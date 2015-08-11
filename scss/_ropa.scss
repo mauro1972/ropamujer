@@ -11,6 +11,10 @@
 
   .form-text {
     border: none;
+
+    &:focus {
+      box-shadow: none;
+    }
   }
 
   .form-submit {
