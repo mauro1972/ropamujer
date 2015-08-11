@@ -128,9 +128,16 @@
   }
 }
 
-/* line 122, ../scss/_ropa.scss */
+/* line 121, ../scss/_ropa.scss */
+.product-row {
+  position: relative;
+}
+/* line 124, ../scss/_ropa.scss */
 .product-row .price {
   border: 1px #000 solid;
+  bottom: 125px;
+  left: -5px;
+  position: absolute;
 }
 
 /* End Variables & Mixins */

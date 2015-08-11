@@ -119,7 +119,12 @@
 }
 
 .product-row {
+  position: relative;
+
   .price {
     border: 1px #000 solid;
+    bottom: 125px;
+    left: -5px;
+    position: absolute;
   }
 }
