@@ -1397,11 +1397,9 @@ body.activebar-container .zone-footer2-wrapper {
 
 .view-collection-products .view-header,
 .view-collection-taxonomy-term .view-header {
-  background-color: #888;
-  background-position: left top;
-  background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 35px;
+  overflow: hidden;
   position: relative;
 
   .taxonomy-title {
