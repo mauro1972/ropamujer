@@ -177,6 +177,13 @@
 .product-row input[disabled] {
   background: #CCC;
 }
+/* line 163, ../scss/_ropa.scss */
+.product-row input[disabled]:hover, .product-row input[disabled]:active {
+  background: #CCC;
+  -moz-box-shadow: transparent 0 0 0;
+  -webkit-box-shadow: transparent 0 0 0;
+  box-shadow: transparent 0 0 0;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------

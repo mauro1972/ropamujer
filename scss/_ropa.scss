@@ -159,5 +159,10 @@
 
   input[disabled] {
     background: #CCC;
+
+    &:hover, &:active {
+      background: #CCC;
+      @include box-shadow(transparent 0 0 0);
+    }    
   }
 }
