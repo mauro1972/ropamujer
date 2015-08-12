@@ -322,6 +322,7 @@ select {
 .block-shopping-cart-block {
   float: left;
   margin: 0 auto;
+  min-height: 55px;
   padding-top: 20px;
   width: 80px;
   /*margin-left: 50px; /* LTR */
@@ -329,7 +330,6 @@ select {
     background-image: url('../images/picto_cart.png');
     background-position: 50% 0%; /* LTR */
     background-repeat: no-repeat;   
-    height: 51px; 
     text-indent: -9999px;
   }
 
@@ -341,14 +341,20 @@ select {
     background-color: #ffffff;
     display: none;
     float: right; /* LTR */
+    max-height: 0;
+    left: 0;
     /*margin-left: -60px; /* LTR */
     padding:10px 0 0 20px; /* LTR */
     position: absolute;
-    top: 50px;
+    top: 48px;
     width: 300px;
+
+    @include transition-property(max-height);
+    @include transition-duration(2s);
 
     &:hover {
       display: block;
+      max-height: auto;
     }
 
     .view-shopping-cart {
