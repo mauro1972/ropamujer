@@ -586,10 +586,10 @@ select {
   -o-transition-property: "height";
   -webkit-transition-property: "height";
   transition-property: "height";
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
 /* line 352, ../scss/global.scss */
 .block-shopping-cart-block .content .view-shopping-cart .view-content,

@@ -346,7 +346,7 @@ select {
     width: 300px;
 
     @include transition-property("height");
-    @include transition-duration(2s);
+    @include transition-duration(0.8s);
 
     .view-shopping-cart {
       .view-content,
