@@ -598,7 +598,7 @@ select {
 /* line 355, ../scss/global.scss */
 .block-shopping-cart-block .content:hover {
   display: block;
-  max-height: auto;
+  max-height: 40px;
 }
 /* line 361, ../scss/global.scss */
 .block-shopping-cart-block .content .view-shopping-cart .view-content,
