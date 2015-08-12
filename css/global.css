@@ -173,6 +173,10 @@
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
+/* line 160, ../scss/_ropa.scss */
+.product-row input[disabled] {
+  background: #CCC;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
