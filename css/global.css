@@ -156,6 +156,19 @@
   left: 0;
   bottom: -5px;
 }
+/* line 147, ../scss/_ropa.scss */
+.product-row input[type="submit"] {
+  color: #FFF;
+  background: #B4239E;
+  padding: 5px 10px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 153, ../scss/_ropa.scss */
+.product-row input[type="submit"]:hover, .product-row input[type="submit"]:active {
+  background: #d733be;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------

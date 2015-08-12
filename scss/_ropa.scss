@@ -143,4 +143,15 @@
       bottom: -5px;  
     }
   }
+
+  input[type="submit"] {
+    color: #FFF;
+    background: #B4239E;
+    padding: 5px 10px;
+    @include border-radius(2px);
+
+    &:hover, &:active {
+      background: lighten(#B4239E, 10%);
+    }
+  }
 }
