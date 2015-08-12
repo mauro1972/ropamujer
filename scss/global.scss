@@ -340,6 +340,7 @@ select {
     height: 0;
     left: 0;
     /*margin-left: -60px; /* LTR */
+    overflow: hidden;
     padding:10px 0 0 20px; /* LTR */
     position: absolute;
     top: 48px;
