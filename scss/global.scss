@@ -335,7 +335,6 @@ select {
 
   .content {
     background-color: #ffffff;
-    display: none;
     float: right; /* LTR */
     height: 0;
     left: 0;
@@ -431,7 +430,6 @@ select {
   }
 
   &:hover .content {
-    display: block;
     height: 40px;
   }   
 }
