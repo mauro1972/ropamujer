@@ -578,7 +578,7 @@ select {
   display: none;
   float: right;
   /* LTR */
-  max-height: 0;
+  height: 0;
   left: 0;
   /*margin-left: -60px; /* LTR */
   padding: 10px 0 0 20px;
@@ -586,10 +586,10 @@ select {
   position: absolute;
   top: 48px;
   width: 300px;
-  -moz-transition-property: max-height;
-  -o-transition-property: max-height;
-  -webkit-transition-property: max-height;
-  transition-property: max-height;
+  -moz-transition-property: "height";
+  -o-transition-property: "height";
+  -webkit-transition-property: "height";
+  transition-property: "height";
   -moz-transition-duration: 2s;
   -o-transition-duration: 2s;
   -webkit-transition-duration: 2s;
@@ -598,7 +598,7 @@ select {
 /* line 355, ../scss/global.scss */
 .block-shopping-cart-block .content:hover {
   display: block;
-  max-height: 40px;
+  height: 40px;
 }
 /* line 361, ../scss/global.scss */
 .block-shopping-cart-block .content .view-shopping-cart .view-content,
