@@ -333,10 +333,6 @@ select {
     text-indent: -9999px;
   }
 
-  &:hover .content {
-    display: block;
-  }
-
   .content {
     background-color: #ffffff;
     display: none;
@@ -351,11 +347,6 @@ select {
 
     @include transition-property("height");
     @include transition-duration(2s);
-
-    &:hover {
-      display: block;
-      height: 40px;
-    }
 
     .view-shopping-cart {
       .view-content,
@@ -437,6 +428,11 @@ select {
       }
     }
   }
+
+  &:hover .content {
+    display: block;
+    height: 40px;
+  }   
 }
 /**********************************************
 * 2.2. Zone branding
