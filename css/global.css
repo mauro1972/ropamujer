@@ -158,16 +158,20 @@
 }
 /* line 147, ../scss/_ropa.scss */
 .product-row input[type="submit"] {
+  border: none;
   color: #FFF;
   background: #B4239E;
-  padding: 5px 10px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
+  padding: 7px 15px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
-/* line 153, ../scss/_ropa.scss */
+/* line 154, ../scss/_ropa.scss */
 .product-row input[type="submit"]:hover, .product-row input[type="submit"]:active {
   background: #d733be;
+  -moz-box-shadow: transparent 0 0 0;
+  -webkit-box-shadow: transparent 0 0 0;
+  box-shadow: transparent 0 0 0;
 }
 
 /* End Variables & Mixins */
