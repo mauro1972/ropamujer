@@ -91,9 +91,18 @@
 }
 
 /**
+ * Zone preface style
+ */
+/* line 90, ../scss/_ropa.scss */
+.zone-preface > div {
+  border: 1px #000 solid !important;
+  display: inline-block !important;
+}
+
+/**
  * Products view Style
  */
-/* line 91, ../scss/_ropa.scss */
+/* line 98, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -106,60 +115,60 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 103, ../scss/_ropa.scss */
+  /* line 110, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 107, ../scss/_ropa.scss */
+  /* line 114, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 112, ../scss/_ropa.scss */
+/* line 119, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 91, ../scss/_ropa.scss */
+  /* line 98, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 120, ../scss/_ropa.scss */
+  /* line 127, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 124, ../scss/_ropa.scss */
+  /* line 131, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 91, ../scss/_ropa.scss */
+  /* line 98, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 133, ../scss/_ropa.scss */
+  /* line 140, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 137, ../scss/_ropa.scss */
+  /* line 144, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 143, ../scss/_ropa.scss */
+/* line 150, ../scss/_ropa.scss */
 .product-row {
   position: relative;
 }
-/* line 146, ../scss/_ropa.scss */
+/* line 153, ../scss/_ropa.scss */
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 151, ../scss/_ropa.scss */
+/* line 158, ../scss/_ropa.scss */
 .product-row .price {
   background: #f37324;
   bottom: 80px;
@@ -172,7 +181,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 162, ../scss/_ropa.scss */
+/* line 169, ../scss/_ropa.scss */
 .product-row .price:after {
   content: "";
   display: block;
@@ -183,7 +192,7 @@
   left: 0;
   bottom: -5px;
 }
-/* line 174, ../scss/_ropa.scss */
+/* line 181, ../scss/_ropa.scss */
 .product-row input[type="submit"] {
   border: none;
   color: #FFF;
@@ -193,18 +202,18 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 181, ../scss/_ropa.scss */
+/* line 188, ../scss/_ropa.scss */
 .product-row input[type="submit"]:hover, .product-row input[type="submit"]:active {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 187, ../scss/_ropa.scss */
+/* line 194, ../scss/_ropa.scss */
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 190, ../scss/_ropa.scss */
+/* line 197, ../scss/_ropa.scss */
 .product-row input[disabled]:hover, .product-row input[disabled]:active {
   background: #CCC;
   -moz-box-shadow: transparent 0 0 0;

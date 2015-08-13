@@ -83,7 +83,14 @@
   }
 }
 
+/**
+ * Zone preface style
+ */
 
+.zone-preface > div {
+  border: 1px #000 solid !important;
+  display: inline-block !important;
+}
 
  /**
   * Products view Style
