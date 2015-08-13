@@ -46,18 +46,10 @@
     height: 60px;
     text-indent: -9999px;
 
-    &:after {
-      border: 10px #000 solid;
-      border-color: transparent transparent #f4f4f4 transparent;
-      bottom: 0;
-      display: block;
-      content: "";
-      position: relative;
-    }     
   }
 
   .content {
-    background: #FFF;
+    background: #F4F4F4;
     height: 0;
     overflow: hidden;
     padding-left: 10px;
@@ -70,9 +62,24 @@
 
   }
 
-  &:hover .content {
-    height: 40px;
-    padding-top: 5px;    
+  &:hover {
+    h2.block-title {
+      &:after {
+        border: 7px #000 solid;
+        border-color: transparent transparent #f4f4f4 transparent;
+        bottom: 0;
+        display: block;
+        content: "";
+        position: absolute;
+        height: 0;
+        left: 40%;
+        width: 0;
+      }
+    }
+    .content {
+      height: 40px;
+      padding-top: 5px;  
+    }  
   }
 }
 
