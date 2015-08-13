@@ -57,7 +57,15 @@
     width: 120px;
 
     @include transition-property("height");
-    @include transition-duration(0.8s);    
+    @include transition-duration(0.8s);
+
+    &:before {
+      border: 1px #000 solid;
+      display: block;
+      content: "";
+      height: 5px;
+      width: 5px;
+    }    
   }
 
   &:hover .content {
