@@ -51,6 +51,7 @@
     background: #FFF;
     height: 0;
     overflow: hidden;
+    padding-left: 10px;
     position: absolute;
     top: 60px;    
     width: 120px;
@@ -61,7 +62,7 @@
 
   &:hover .content {
     height: 40px;
-    padding: 5px 10px;    
+    padding-top: 5px;    
   }
 }
 
