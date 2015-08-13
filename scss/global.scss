@@ -335,7 +335,7 @@ select {
   }
 
   .content {
-    background-color: #ffffff;
+    background-color: #F4F4F4;
     float: right; /* LTR */
     height: 0;
     left: 0;
@@ -433,6 +433,20 @@ select {
   &:hover {
     height: 40px;
     overflow: visible;
+
+    h2.block-title {
+      &:after {
+        border: 7px #000 solid;
+        border-color: transparent transparent #f4f4f4 transparent;
+        bottom: 0;
+        display: block;
+        content: "";
+        position: absolute;
+        height: 0;
+        left: 40%;
+        width: 0;
+      }
+    }    
 
     .content {
       height: 40px;
