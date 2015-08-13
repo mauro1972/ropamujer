@@ -49,13 +49,17 @@
 
   .content {
     background: #FFF;
-    display: none;
+    height: 0;
+    overflow: hidden;
     padding: 5px 10px;
     width: 120px;
+
+    @include transition-property("height");
+    @include transition-duration(0.8s);    
   }
 
   &:hover .content {
-    display: block;
+    height: auto;
     position: absolute;
     top: 60px;
   }
