@@ -322,7 +322,7 @@ select {
 .block-shopping-cart-block {
   float: left;
   margin: 0 auto;
-  min-height: 55px;
+  min-height: 56px;
   padding-top: 20px;
   width: 80px;
   /*margin-left: 50px; /* LTR */
@@ -342,7 +342,7 @@ select {
     overflow: hidden;
     padding:10px 0 0 20px; /* LTR */
     position: absolute;
-    top: 48px;
+    top: 55px;
     width: 300px;
 
     @include transition-property("height");
