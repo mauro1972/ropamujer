@@ -45,6 +45,15 @@
     background: transparent url(../images/icon_whatsapp.png) 50% 0 no-repeat;
     height: 60px;
     text-indent: -9999px;
+
+    &:after {
+      border: 10px #000 solid;
+      border-color: transparent transparent #f4f4f4 transparent;
+      bottom: 0;
+      display: block;
+      content: "";
+      position: relative;
+    }     
   }
 
   .content {
@@ -59,13 +68,6 @@
     @include transition-property("height");
     @include transition-duration(0.8s);
 
-    &:before {
-      border: 1px #000 solid;
-      display: block;
-      content: "";
-      height: 5px;
-      width: 5px;
-    }    
   }
 
   &:hover .content {
