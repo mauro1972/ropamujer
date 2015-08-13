@@ -431,8 +431,9 @@ select {
   }
 
   &:hover {
+    height: 40px;
     overflow: visible;
-    
+
     .content {
       height: 40px;
     }
