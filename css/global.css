@@ -59,7 +59,6 @@
   background: #FFF;
   height: 0;
   overflow: hidden;
-  padding: 5px 10px;
   position: absolute;
   top: 60px;
   width: 120px;
@@ -72,9 +71,10 @@
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-/* line 63, ../scss/_ropa.scss */
+/* line 62, ../scss/_ropa.scss */
 #block-block-9:hover .content {
   height: 40px;
+  padding: 5px 10px;
 }
 
 /**
