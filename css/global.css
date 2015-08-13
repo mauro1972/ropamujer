@@ -60,6 +60,8 @@
   height: 0;
   overflow: hidden;
   padding: 5px 10px;
+  position: absolute;
+  top: 60px;
   width: 120px;
   -moz-transition-property: "height";
   -o-transition-property: "height";
@@ -70,11 +72,9 @@
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-/* line 61, ../scss/_ropa.scss */
+/* line 63, ../scss/_ropa.scss */
 #block-block-9:hover .content {
-  height: auto;
-  position: absolute;
-  top: 60px;
+  height: 40px;
 }
 
 /**

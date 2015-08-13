@@ -52,6 +52,8 @@
     height: 0;
     overflow: hidden;
     padding: 5px 10px;
+    position: absolute;
+    top: 60px;    
     width: 120px;
 
     @include transition-property("height");
@@ -59,9 +61,7 @@
   }
 
   &:hover .content {
-    height: auto;
-    position: absolute;
-    top: 60px;
+    height: 40px;
   }
 }
 
