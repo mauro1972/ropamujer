@@ -773,7 +773,7 @@ select {
 **********************************************/
 /* line 466, ../scss/global.scss */
 .zone-branding .region-branding {
-  margin: 10px 0 0;
+  margin: 0;
 }
 /* line 469, ../scss/global.scss */
 .zone-branding .region-branding .logo-img {
