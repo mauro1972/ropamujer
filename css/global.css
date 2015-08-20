@@ -76,8 +76,9 @@
 }
 /* line 67, ../scss/_ropa.scss */
 #block-block-9:hover {
-  border-left: 1px #CCC solid;
-  border-right: 1px #CCC solid;
+  background-color: #DDE4EA;
+  border-left: 1px #AFBCC8 solid;
+  border-right: 1px #AFBCC8 solid;
 }
 /* line 73, ../scss/_ropa.scss */
 #block-block-9:hover h2.block-title:after {
