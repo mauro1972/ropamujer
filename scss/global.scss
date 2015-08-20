@@ -320,6 +320,8 @@ select {
   white-space: nowrap;
 }
 .block-shopping-cart-block {
+  border-left: 1px transparent solid;
+  border-right: 1px transparent solid; 
   float: left;
   margin: 0 auto;
   min-height: 56px;
@@ -433,6 +435,11 @@ select {
   &:hover {
     height: 40px;
     overflow: visible;
+
+    background-color: #DDE4EA; 
+    border-left: 1px #AFBCC8 solid;
+    border-right: 1px #AFBCC8 solid;
+    @include background-image(linear-gradient(#FFF, #DDE4EA));    
 
     h2.block-title {
       &:after {
