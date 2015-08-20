@@ -77,7 +77,7 @@
     h2.block-title {
       &:after {
         border: 7px #000 solid;
-        border-color: transparent transparent #f4f4f4 transparent;
+        border-color: transparent transparent darken(#f4f4f4, 10) transparent;
         bottom: 0;
         display: block;
         content: "";

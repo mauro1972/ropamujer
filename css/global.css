@@ -95,7 +95,7 @@
 /* line 78, ../scss/_ropa.scss */
 #block-block-9:hover h2.block-title:after {
   border: 7px #000 solid;
-  border-color: transparent transparent #f4f4f4 transparent;
+  border-color: transparent transparent #dbdbdb transparent;
   bottom: 0;
   display: block;
   content: "";
@@ -754,7 +754,7 @@ select {
 /* line 445, ../scss/global.scss */
 .block-shopping-cart-block:hover h2.block-title:after {
   border: 7px #000 solid;
-  border-color: transparent transparent #f4f4f4 transparent;
+  border-color: transparent transparent #dbdbdb transparent;
   bottom: 5px;
   display: block;
   content: "";
