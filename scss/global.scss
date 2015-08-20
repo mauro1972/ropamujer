@@ -337,7 +337,7 @@ select {
   }
 
   .content {
-    background-color: #F4F4F4;
+    background-color: darken(#F4F4F4, 10);
     float: right; /* LTR */
     height: 0;
     left: 0;
