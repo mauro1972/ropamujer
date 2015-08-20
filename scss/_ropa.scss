@@ -4,6 +4,9 @@
  /**
   * Header Styles
   */
+#section-header {
+  background: lighten(#f2f2f2, 10);
+}
 #block-search-form form {
   border: 1px #CCC solid;
   padding: 2px 5px;
