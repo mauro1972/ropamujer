@@ -60,6 +60,7 @@
 #block-block-9 .content {
   background: #F4F4F4;
   height: 0;
+  left: 0;
   overflow: hidden;
   padding-left: 10px;
   position: absolute;
@@ -74,7 +75,7 @@
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-/* line 67, ../scss/_ropa.scss */
+/* line 68, ../scss/_ropa.scss */
 #block-block-9:hover {
   background-color: #DDE4EA;
   border-left: 1px #AFBCC8 solid;
@@ -86,7 +87,7 @@
   background-image: -webkit-linear-gradient(#ffffff, #dde4ea);
   background-image: linear-gradient(#ffffff, #dde4ea);
 }
-/* line 74, ../scss/_ropa.scss */
+/* line 75, ../scss/_ropa.scss */
 #block-block-9:hover h2.block-title:after {
   border: 7px #000 solid;
   border-color: transparent transparent #f4f4f4 transparent;
@@ -98,7 +99,7 @@
   left: 40%;
   width: 0;
 }
-/* line 86, ../scss/_ropa.scss */
+/* line 87, ../scss/_ropa.scss */
 #block-block-9:hover .content {
   height: 40px;
   padding-top: 5px;
@@ -107,7 +108,7 @@
 /**
  * Zone preface style
  */
-/* line 97, ../scss/_ropa.scss */
+/* line 98, ../scss/_ropa.scss */
 .zone-preface > div {
   border: 1px #000 solid !important;
   display: inline-block !important;
@@ -116,7 +117,7 @@
 /**
  * Products view Style
  */
-/* line 105, ../scss/_ropa.scss */
+/* line 106, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -129,60 +130,60 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 117, ../scss/_ropa.scss */
+  /* line 118, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 121, ../scss/_ropa.scss */
+  /* line 122, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 126, ../scss/_ropa.scss */
+/* line 127, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 105, ../scss/_ropa.scss */
+  /* line 106, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 134, ../scss/_ropa.scss */
+  /* line 135, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 138, ../scss/_ropa.scss */
+  /* line 139, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 105, ../scss/_ropa.scss */
+  /* line 106, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 147, ../scss/_ropa.scss */
+  /* line 148, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 151, ../scss/_ropa.scss */
+  /* line 152, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 157, ../scss/_ropa.scss */
+/* line 158, ../scss/_ropa.scss */
 .product-row {
   position: relative;
 }
-/* line 160, ../scss/_ropa.scss */
+/* line 161, ../scss/_ropa.scss */
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 165, ../scss/_ropa.scss */
+/* line 166, ../scss/_ropa.scss */
 .product-row .price {
   background: #f37324;
   bottom: 80px;
@@ -195,7 +196,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 176, ../scss/_ropa.scss */
+/* line 177, ../scss/_ropa.scss */
 .product-row .price:after {
   content: "";
   display: block;
@@ -206,7 +207,7 @@
   left: 0;
   bottom: -5px;
 }
-/* line 188, ../scss/_ropa.scss */
+/* line 189, ../scss/_ropa.scss */
 .product-row input[type="submit"] {
   border: none;
   color: #FFF;
@@ -216,18 +217,18 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 195, ../scss/_ropa.scss */
+/* line 196, ../scss/_ropa.scss */
 .product-row input[type="submit"]:hover, .product-row input[type="submit"]:active {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 201, ../scss/_ropa.scss */
+/* line 202, ../scss/_ropa.scss */
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 204, ../scss/_ropa.scss */
+/* line 205, ../scss/_ropa.scss */
 .product-row input[disabled]:hover, .product-row input[disabled]:active {
   background: #CCC;
   -moz-box-shadow: transparent 0 0 0;
