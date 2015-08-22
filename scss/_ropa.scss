@@ -28,7 +28,6 @@
 }
 #block-block-10,
 #block-block-8 {
-  padding-top: 10px;
 
   .content {
     p {
@@ -36,7 +35,7 @@
       border: 3px #FFF solid;
       color: #FFF;
       display: block;
-      padding: 10px;
+      padding: 5px 10px;
 
       @include background-image(linear-gradient(lighten(#B4239E, 20), #B4239E));
       @include border-radius(10px);

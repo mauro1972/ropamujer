@@ -39,19 +39,14 @@
   border: none;
 }
 
-/* line 29, ../scss/_ropa.scss */
-#block-block-10,
-#block-block-8 {
-  padding-top: 10px;
-}
-/* line 34, ../scss/_ropa.scss */
+/* line 33, ../scss/_ropa.scss */
 #block-block-10 .content p,
 #block-block-8 .content p {
   background: #B4239E;
   border: 3px #FFF solid;
   color: #FFF;
   display: block;
-  padding: 10px;
+  padding: 5px 10px;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwNWRjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I0MjM5ZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e05dcc), color-stop(100%, #b4239e));
@@ -65,18 +60,18 @@
   -webkit-box-shadow: #CCC 1px 1px 2px;
   box-shadow: #CCC 1px 1px 2px;
 }
-/* line 46, ../scss/_ropa.scss */
+/* line 45, ../scss/_ropa.scss */
 #block-block-10 .content a,
 #block-block-8 .content a {
   color: #F5F5F5;
 }
-/* line 49, ../scss/_ropa.scss */
+/* line 48, ../scss/_ropa.scss */
 #block-block-10 .content a:hover,
 #block-block-8 .content a:hover {
   color: #FFF;
 }
 
-/* line 56, ../scss/_ropa.scss */
+/* line 55, ../scss/_ropa.scss */
 #block-block-9 {
   border-left: 1px transparent solid;
   border-right: 1px transparent solid;
@@ -87,14 +82,14 @@
   width: 70px;
   z-index: 500;
 }
-/* line 66, ../scss/_ropa.scss */
+/* line 65, ../scss/_ropa.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 10px no-repeat;
   background-size: 45px;
   height: 60px;
   text-indent: -9999px;
 }
-/* line 74, ../scss/_ropa.scss */
+/* line 73, ../scss/_ropa.scss */
 #block-block-9 .content {
   background: #dbdbdb;
   height: 0;
@@ -113,7 +108,7 @@
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-/* line 89, ../scss/_ropa.scss */
+/* line 88, ../scss/_ropa.scss */
 #block-block-9:hover {
   background-color: #DDE4EA;
   border-left: 1px #AFBCC8 solid;
@@ -125,7 +120,7 @@
   background-image: -webkit-linear-gradient(#ffffff, #dde4ea);
   background-image: linear-gradient(#ffffff, #dde4ea);
 }
-/* line 96, ../scss/_ropa.scss */
+/* line 95, ../scss/_ropa.scss */
 #block-block-9:hover h2.block-title:after {
   border: 7px #000 solid;
   border-color: transparent transparent #dbdbdb transparent;
@@ -137,7 +132,7 @@
   left: 40%;
   width: 0;
 }
-/* line 108, ../scss/_ropa.scss */
+/* line 107, ../scss/_ropa.scss */
 #block-block-9:hover .content {
   height: 40px;
   padding-top: 5px;
@@ -146,7 +141,7 @@
 /**
  * Zone preface style
  */
-/* line 119, ../scss/_ropa.scss */
+/* line 118, ../scss/_ropa.scss */
 .zone-preface > div {
   border: 1px #000 solid !important;
   display: inline-block !important;
@@ -155,7 +150,7 @@
 /**
  * Products view Style
  */
-/* line 127, ../scss/_ropa.scss */
+/* line 126, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -168,60 +163,60 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 139, ../scss/_ropa.scss */
+  /* line 138, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 143, ../scss/_ropa.scss */
+  /* line 142, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 148, ../scss/_ropa.scss */
+/* line 147, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 127, ../scss/_ropa.scss */
+  /* line 126, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 156, ../scss/_ropa.scss */
+  /* line 155, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 160, ../scss/_ropa.scss */
+  /* line 159, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 127, ../scss/_ropa.scss */
+  /* line 126, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 169, ../scss/_ropa.scss */
+  /* line 168, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 173, ../scss/_ropa.scss */
+  /* line 172, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 179, ../scss/_ropa.scss */
+/* line 178, ../scss/_ropa.scss */
 .product-row {
   position: relative;
 }
-/* line 182, ../scss/_ropa.scss */
+/* line 181, ../scss/_ropa.scss */
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 187, ../scss/_ropa.scss */
+/* line 186, ../scss/_ropa.scss */
 .product-row .price {
   background: #f37324;
   bottom: 80px;
@@ -234,7 +229,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 198, ../scss/_ropa.scss */
+/* line 197, ../scss/_ropa.scss */
 .product-row .price:after {
   content: "";
   display: block;
@@ -245,7 +240,7 @@
   left: 0;
   bottom: -5px;
 }
-/* line 210, ../scss/_ropa.scss */
+/* line 209, ../scss/_ropa.scss */
 .product-row input[type="submit"] {
   border: none;
   color: #FFF;
@@ -255,18 +250,18 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 217, ../scss/_ropa.scss */
+/* line 216, ../scss/_ropa.scss */
 .product-row input[type="submit"]:hover, .product-row input[type="submit"]:active {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 223, ../scss/_ropa.scss */
+/* line 222, ../scss/_ropa.scss */
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 226, ../scss/_ropa.scss */
+/* line 225, ../scss/_ropa.scss */
 .product-row input[disabled]:hover, .product-row input[disabled]:active {
   background: #CCC;
   -moz-box-shadow: transparent 0 0 0;
