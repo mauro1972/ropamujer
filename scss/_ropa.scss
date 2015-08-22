@@ -192,6 +192,11 @@
       .view-footer {
         display: block;
         float: none;
+
+        ul {
+          background: transparent;
+          margin: 0;
+        }
       }
       .view-empty,
       .line-item-quantity {
