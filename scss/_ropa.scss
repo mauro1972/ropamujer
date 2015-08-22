@@ -31,7 +31,14 @@
 
   .content {
     p {
+      background: #B4239E;
       border: 1px #000 solid;
+      color: #FFF;
+      display: block;
+      padding: 10px;
+
+      @include background-image(linear-gradient(lighten(#B4239E, 20), #B4239E));
+      @include border-radius(10px);
     }
   }
 }

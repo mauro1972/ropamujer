@@ -41,10 +41,23 @@
 
 /* line 33, ../scss/_ropa.scss */
 #block-block-8 .content p {
+  background: #B4239E;
   border: 1px #000 solid;
+  color: #FFF;
+  display: block;
+  padding: 10px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwNWRjYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I0MjM5ZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e05dcc), color-stop(100%, #b4239e));
+  background-image: -moz-linear-gradient(#e05dcc, #b4239e);
+  background-image: -webkit-linear-gradient(#e05dcc, #b4239e);
+  background-image: linear-gradient(#e05dcc, #b4239e);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
-/* line 39, ../scss/_ropa.scss */
+/* line 46, ../scss/_ropa.scss */
 #block-block-9 {
   border-left: 1px transparent solid;
   border-right: 1px transparent solid;
@@ -55,13 +68,13 @@
   width: 70px;
   z-index: 500;
 }
-/* line 49, ../scss/_ropa.scss */
+/* line 56, ../scss/_ropa.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 0 no-repeat;
   height: 60px;
   text-indent: -9999px;
 }
-/* line 56, ../scss/_ropa.scss */
+/* line 63, ../scss/_ropa.scss */
 #block-block-9 .content {
   background: #dbdbdb;
   height: 0;
@@ -80,7 +93,7 @@
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-/* line 71, ../scss/_ropa.scss */
+/* line 78, ../scss/_ropa.scss */
 #block-block-9:hover {
   background-color: #DDE4EA;
   border-left: 1px #AFBCC8 solid;
@@ -92,7 +105,7 @@
   background-image: -webkit-linear-gradient(#ffffff, #dde4ea);
   background-image: linear-gradient(#ffffff, #dde4ea);
 }
-/* line 78, ../scss/_ropa.scss */
+/* line 85, ../scss/_ropa.scss */
 #block-block-9:hover h2.block-title:after {
   border: 7px #000 solid;
   border-color: transparent transparent #dbdbdb transparent;
@@ -104,7 +117,7 @@
   left: 40%;
   width: 0;
 }
-/* line 90, ../scss/_ropa.scss */
+/* line 97, ../scss/_ropa.scss */
 #block-block-9:hover .content {
   height: 40px;
   padding-top: 5px;
@@ -113,7 +126,7 @@
 /**
  * Zone preface style
  */
-/* line 101, ../scss/_ropa.scss */
+/* line 108, ../scss/_ropa.scss */
 .zone-preface > div {
   border: 1px #000 solid !important;
   display: inline-block !important;
@@ -122,7 +135,7 @@
 /**
  * Products view Style
  */
-/* line 109, ../scss/_ropa.scss */
+/* line 116, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -135,60 +148,60 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 121, ../scss/_ropa.scss */
+  /* line 128, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 125, ../scss/_ropa.scss */
+  /* line 132, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 130, ../scss/_ropa.scss */
+/* line 137, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 109, ../scss/_ropa.scss */
+  /* line 116, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 138, ../scss/_ropa.scss */
+  /* line 145, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 142, ../scss/_ropa.scss */
+  /* line 149, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 109, ../scss/_ropa.scss */
+  /* line 116, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 151, ../scss/_ropa.scss */
+  /* line 158, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 155, ../scss/_ropa.scss */
+  /* line 162, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 161, ../scss/_ropa.scss */
+/* line 168, ../scss/_ropa.scss */
 .product-row {
   position: relative;
 }
-/* line 164, ../scss/_ropa.scss */
+/* line 171, ../scss/_ropa.scss */
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 169, ../scss/_ropa.scss */
+/* line 176, ../scss/_ropa.scss */
 .product-row .price {
   background: #f37324;
   bottom: 80px;
@@ -201,7 +214,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 180, ../scss/_ropa.scss */
+/* line 187, ../scss/_ropa.scss */
 .product-row .price:after {
   content: "";
   display: block;
@@ -212,7 +225,7 @@
   left: 0;
   bottom: -5px;
 }
-/* line 192, ../scss/_ropa.scss */
+/* line 199, ../scss/_ropa.scss */
 .product-row input[type="submit"] {
   border: none;
   color: #FFF;
@@ -222,18 +235,18 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 199, ../scss/_ropa.scss */
+/* line 206, ../scss/_ropa.scss */
 .product-row input[type="submit"]:hover, .product-row input[type="submit"]:active {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 205, ../scss/_ropa.scss */
+/* line 212, ../scss/_ropa.scss */
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 208, ../scss/_ropa.scss */
+/* line 215, ../scss/_ropa.scss */
 .product-row input[disabled]:hover, .product-row input[disabled]:active {
   background: #CCC;
   -moz-box-shadow: transparent 0 0 0;
