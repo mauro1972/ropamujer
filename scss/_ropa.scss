@@ -137,7 +137,7 @@
     &:hover {
       color: #FFF;
       text-decoration: none !important;
-      @include background-image(linear-gradient(lighten(#B4239E, 40), lighten(#B4239E, 20)));
+      @include background-image(linear-gradient(lighten(#B4239E, 25), lighten(#B4239E, 10)));
     }
   }
 }
