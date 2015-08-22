@@ -124,13 +124,20 @@
   height: 100%;
   white-space: nowrap;
 }
-.line-item-summary-checkout a {
-  background: #B4239E; 
-  color: #f5f5f5;
+.line-item-summary-checkout {
+  background: transparent;
 
-  &:hover {
-    color: #FFF;
-    text-decoration: none;
+  a {
+    background: #B4239E; 
+    color: #f5f5f5;
+    padding: 5px 10px;
+    @include border-radius(5px);
+    @include background-image(linear-gradient(lighten(#B4239E, 10), #B4239E));
+
+    &:hover {
+      color: #FFF;
+      text-decoration: none;
+    }
   }
 }
 .block-shopping-cart-block {
