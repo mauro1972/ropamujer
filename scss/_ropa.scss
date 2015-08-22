@@ -132,11 +132,11 @@
     color: #f5f5f5;
     padding: 5px 10px;
     @include border-radius(5px);
-    @include background-image(linear-gradient(lighten(#B4239E, 10), #B4239E));
+    @include background-image(linear-gradient(lighten(#B4239E, 20), #B4239E));
 
     &:hover {
       color: #FFF;
-      text-decoration: none;
+      text-decoration: none !important;
     }
   }
 }
