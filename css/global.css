@@ -39,11 +39,13 @@
   border: none;
 }
 
-/* line 30, ../scss/_ropa.scss */
+/* line 29, ../scss/_ropa.scss */
+#block-block-10,
 #block-block-8 {
   padding-top: 10px;
 }
 /* line 34, ../scss/_ropa.scss */
+#block-block-10 .content p,
 #block-block-8 .content p {
   background: #B4239E;
   border: 3px #FFF solid;
