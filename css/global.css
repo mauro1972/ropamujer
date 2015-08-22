@@ -77,19 +77,20 @@
   border-right: 1px transparent solid;
   display: block;
   float: left;
+  overflow: hidden;
   padding-top: 0;
   position: relative;
   width: 70px;
   z-index: 500;
 }
-/* line 65, ../scss/_ropa.scss */
+/* line 66, ../scss/_ropa.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 10px no-repeat;
   background-size: 45px;
   height: 60px;
   text-indent: -9999px;
 }
-/* line 73, ../scss/_ropa.scss */
+/* line 74, ../scss/_ropa.scss */
 #block-block-9 .content {
   background: #FFF;
   border: 1px #dbdbdb solid;
@@ -109,11 +110,12 @@
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-/* line 89, ../scss/_ropa.scss */
+/* line 90, ../scss/_ropa.scss */
 #block-block-9:hover {
   background-color: #DDE4EA;
   border-left: 1px #AFBCC8 solid;
   border-right: 1px #AFBCC8 solid;
+  overflow: visible;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkZTRlYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dde4ea));
@@ -121,7 +123,7 @@
   background-image: -webkit-linear-gradient(#ffffff, #dde4ea);
   background-image: linear-gradient(#ffffff, #dde4ea);
 }
-/* line 96, ../scss/_ropa.scss */
+/* line 98, ../scss/_ropa.scss */
 #block-block-9:hover h2.block-title:after {
   border: 7px #000 solid;
   border-color: transparent transparent #dbdbdb transparent;
@@ -133,7 +135,7 @@
   left: 40%;
   width: 0;
 }
-/* line 108, ../scss/_ropa.scss */
+/* line 110, ../scss/_ropa.scss */
 #block-block-9:hover .content {
   height: 40px;
   padding-top: 5px;
@@ -142,7 +144,7 @@
 /**
 * Cart block
 */
-/* line 118, ../scss/_ropa.scss */
+/* line 120, ../scss/_ropa.scss */
 .block-shopping-cart-block,
 .block-shopping-cart-block .block-inner,
 .block-shopping-cart-block .content {
@@ -150,7 +152,7 @@
   white-space: nowrap;
 }
 
-/* line 124, ../scss/_ropa.scss */
+/* line 126, ../scss/_ropa.scss */
 .block-shopping-cart-block {
   border-left: 1px transparent solid;
   border-right: 1px transparent solid;
@@ -162,7 +164,7 @@
   width: 80px;
   /*margin-left: 50px; /* LTR */
 }
-/* line 134, ../scss/_ropa.scss */
+/* line 136, ../scss/_ropa.scss */
 .block-shopping-cart-block h2.block-title {
   background-image: url("../images/picto_cart.png");
   background-position: 50% 0%;
@@ -170,7 +172,7 @@
   background-repeat: no-repeat;
   text-indent: -9999px;
 }
-/* line 141, ../scss/_ropa.scss */
+/* line 143, ../scss/_ropa.scss */
 .block-shopping-cart-block .content {
   background: #FFF;
   border: 1px #dbdbdb solid;
@@ -194,7 +196,7 @@
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-/* line 158, ../scss/_ropa.scss */
+/* line 160, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .view-content,
 .block-shopping-cart-block .content .view-shopping-cart .view-footer,
 .block-shopping-cart-block .content .view-shopping-cart .view-empty {
@@ -204,30 +206,30 @@
   font-family: "Muli", "Open Sans", sans-serif;
   font-weight: 400;
 }
-/* line 167, ../scss/_ropa.scss */
+/* line 169, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .view-content ul,
 .block-shopping-cart-block .content .view-shopping-cart .view-content li {
   margin: 0;
   padding: 0;
 }
-/* line 173, ../scss/_ropa.scss */
+/* line 175, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .view-footer {
   display: block;
   float: none;
 }
-/* line 177, ../scss/_ropa.scss */
+/* line 179, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .view-empty,
 .block-shopping-cart-block .content .view-shopping-cart .line-item-quantity {
   margin: 0;
   vertical-align: middle;
 }
-/* line 182, ../scss/_ropa.scss */
+/* line 184, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .view-empty p {
   float: left;
   /* LTR */
   line-height: 30px;
 }
-/* line 186, ../scss/_ropa.scss */
+/* line 188, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary {
   display: inline;
   float: left;
@@ -236,12 +238,12 @@
   line-height: 30px;
   margin: 0;
 }
-/* line 193, ../scss/_ropa.scss */
+/* line 195, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-quantity {
   color: #2698F2;
   text-decoration: none;
 }
-/* line 197, ../scss/_ropa.scss */
+/* line 199, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total {
   color: #888888;
   float: left;
@@ -252,11 +254,11 @@
   line-height: 30px;
   padding: 0 12px 0 6px;
 }
-/* line 206, ../scss/_ropa.scss */
+/* line 208, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total-label {
   display: none;
 }
-/* line 209, ../scss/_ropa.scss */
+/* line 211, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links {
   background-color: #999;
   clear: none;
@@ -272,21 +274,21 @@
   /* LTR */
   padding: 0 10px;
 }
-/* line 221, ../scss/_ropa.scss */
+/* line 223, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li {
   margin: 0;
   padding: 0;
 }
-/* line 225, ../scss/_ropa.scss */
+/* line 227, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li a {
   color: #FFF;
   font-weight: 700;
 }
-/* line 228, ../scss/_ropa.scss */
+/* line 230, ../scss/_ropa.scss */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li a:hover {
   text-decoration: underline;
 }
-/* line 238, ../scss/_ropa.scss */
+/* line 240, ../scss/_ropa.scss */
 .block-shopping-cart-block:hover {
   height: 40px;
   overflow: visible;
@@ -300,7 +302,7 @@
   background-image: -webkit-linear-gradient(#ffffff, #dde4ea);
   background-image: linear-gradient(#ffffff, #dde4ea);
 }
-/* line 248, ../scss/_ropa.scss */
+/* line 250, ../scss/_ropa.scss */
 .block-shopping-cart-block:hover h2.block-title:after {
   border: 7px #000 solid;
   border-color: transparent transparent #dbdbdb transparent;
@@ -312,7 +314,7 @@
   left: 40%;
   width: 0;
 }
-/* line 261, ../scss/_ropa.scss */
+/* line 263, ../scss/_ropa.scss */
 .block-shopping-cart-block:hover .content {
   height: 40px;
 }
@@ -320,7 +322,7 @@
 /**
  * Zone preface style
  */
-/* line 271, ../scss/_ropa.scss */
+/* line 273, ../scss/_ropa.scss */
 .zone-preface > div {
   border: 1px #000 solid !important;
   display: inline-block !important;
@@ -329,7 +331,7 @@
 /**
  * Products view Style
  */
-/* line 279, ../scss/_ropa.scss */
+/* line 281, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -342,60 +344,60 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 291, ../scss/_ropa.scss */
+  /* line 293, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 295, ../scss/_ropa.scss */
+  /* line 297, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 300, ../scss/_ropa.scss */
+/* line 302, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 279, ../scss/_ropa.scss */
+  /* line 281, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 308, ../scss/_ropa.scss */
+  /* line 310, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 312, ../scss/_ropa.scss */
+  /* line 314, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 279, ../scss/_ropa.scss */
+  /* line 281, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 321, ../scss/_ropa.scss */
+  /* line 323, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 325, ../scss/_ropa.scss */
+  /* line 327, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 331, ../scss/_ropa.scss */
+/* line 333, ../scss/_ropa.scss */
 .product-row {
   position: relative;
 }
-/* line 334, ../scss/_ropa.scss */
+/* line 336, ../scss/_ropa.scss */
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 339, ../scss/_ropa.scss */
+/* line 341, ../scss/_ropa.scss */
 .product-row .price {
   background: #f37324;
   bottom: 80px;
@@ -408,7 +410,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 350, ../scss/_ropa.scss */
+/* line 352, ../scss/_ropa.scss */
 .product-row .price:after {
   content: "";
   display: block;
@@ -419,7 +421,7 @@
   left: 0;
   bottom: -5px;
 }
-/* line 362, ../scss/_ropa.scss */
+/* line 364, ../scss/_ropa.scss */
 .product-row input[type="submit"] {
   border: none;
   color: #FFF;
@@ -429,18 +431,18 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 369, ../scss/_ropa.scss */
+/* line 371, ../scss/_ropa.scss */
 .product-row input[type="submit"]:hover, .product-row input[type="submit"]:active {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 375, ../scss/_ropa.scss */
+/* line 377, ../scss/_ropa.scss */
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 378, ../scss/_ropa.scss */
+/* line 380, ../scss/_ropa.scss */
 .product-row input[disabled]:hover, .product-row input[disabled]:active {
   background: #CCC;
   -moz-box-shadow: transparent 0 0 0;

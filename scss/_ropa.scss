@@ -57,6 +57,7 @@
   border-right: 1px transparent solid;  
   display: block;
   float: left;
+  overflow: hidden;
   padding-top: 0;
   position: relative;
   width: 70px;
@@ -90,6 +91,7 @@
     background-color: #DDE4EA; 
     border-left: 1px #AFBCC8 solid;
     border-right: 1px #AFBCC8 solid;
+    overflow: visible;
     @include background-image(linear-gradient(#FFF, #DDE4EA));
 
     h2.block-title {
