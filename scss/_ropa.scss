@@ -193,9 +193,10 @@
         display: block;
         float: none;
 
-        ul {
+        ul.links {
           background: transparent;
           margin: 0;
+          padding: 0;
         }
       }
       .view-empty,
