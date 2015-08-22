@@ -73,7 +73,7 @@
 
   .content {
     background: #FFF;
-    border: 1px darken(#f4f4f4, 10) solid;
+    border: 1px darken(#f4f4f4, 30) solid;
     height: 0;
     left: 0;
     overflow: hidden;
@@ -97,7 +97,7 @@
     h2.block-title {
       &:after {
         border: 7px #000 solid;
-        border-color: transparent transparent darken(#f4f4f4, 10) transparent;
+        border-color: transparent transparent darken(#f4f4f4, 30) transparent;
         bottom: 0;
         display: block;
         content: "";
@@ -142,7 +142,7 @@
 
   .content {
     background: #FFF;
-    border: 1px darken(#f4f4f4, 10) solid;
+    border: 1px darken(#f4f4f4, 30) solid;
     float: right; /* LTR */
     height: 0;
     left: 0;
@@ -249,7 +249,7 @@
     h2.block-title {
       &:after {
         border: 7px #000 solid;
-        border-color: transparent transparent darken(#f4f4f4, 10) transparent;
+        border-color: transparent transparent darken(#f4f4f4, 30) transparent;
         bottom: 5px;
         display: block;
         content: "";

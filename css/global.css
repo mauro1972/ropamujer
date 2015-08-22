@@ -93,7 +93,7 @@
 /* line 74, ../scss/_ropa.scss */
 #block-block-9 .content {
   background: #FFF;
-  border: 1px #dbdbdb solid;
+  border: 1px #a8a8a8 solid;
   height: 0;
   left: 0;
   overflow: hidden;
@@ -126,7 +126,7 @@
 /* line 98, ../scss/_ropa.scss */
 #block-block-9:hover h2.block-title:after {
   border: 7px #000 solid;
-  border-color: transparent transparent #dbdbdb transparent;
+  border-color: transparent transparent #a8a8a8 transparent;
   bottom: 0;
   display: block;
   content: "";
@@ -175,7 +175,7 @@
 /* line 143, ../scss/_ropa.scss */
 .block-shopping-cart-block .content {
   background: #FFF;
-  border: 1px #dbdbdb solid;
+  border: 1px #a8a8a8 solid;
   float: right;
   /* LTR */
   height: 0;
@@ -305,7 +305,7 @@
 /* line 250, ../scss/_ropa.scss */
 .block-shopping-cart-block:hover h2.block-title:after {
   border: 7px #000 solid;
-  border-color: transparent transparent #dbdbdb transparent;
+  border-color: transparent transparent #a8a8a8 transparent;
   bottom: 5px;
   display: block;
   content: "";
