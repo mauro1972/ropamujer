@@ -401,7 +401,7 @@ select {
 **********************************************/
 #zone-menu-wrapper {
   background: #006680;
-  @include background-image(linear-gradient(lighten(#006680, 5), #006680));
+  @include background-image(linear-gradient(lighten(#006680, 10), #006680));
 
   .sf-menu.sf-style-space-teal {
     background: transparent;
