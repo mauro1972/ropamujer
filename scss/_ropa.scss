@@ -414,3 +414,11 @@
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
+
+#block-menu-menu-social-connection ul.menu li {
+  float: left;
+
+  a {
+    text-indent: -9999px;
+  }
+}

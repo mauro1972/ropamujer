@@ -500,6 +500,15 @@
   float: left;
 }
 
+/* line 418, ../scss/_ropa.scss */
+#block-menu-menu-social-connection ul.menu li {
+  float: left;
+}
+/* line 421, ../scss/_ropa.scss */
+#block-menu-menu-social-connection ul.menu li a {
+  text-indent: -9999px;
+}
+
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
