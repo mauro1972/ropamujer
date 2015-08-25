@@ -517,20 +517,24 @@
 /**
  * slides Styles
  */
-/* line 5, ../scss/_slides.scss */
+/* line 4, ../scss/_slides.scss */
+#block-views-categorias-block,
 #block-views-demo-content-slideshow-block-1 {
   border: 1px #e00 solid;
 }
 /* line 8, ../scss/_slides.scss */
+#block-views-categorias-block .jcarousel-skin-default .jcarousel-container-horizontal,
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
   width: 100%;
 }
 /* line 13, ../scss/_slides.scss */
+#block-views-categorias-block .jcarousel-skin-default .jcarousel-clip-horizontal,
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
 /* line 17, ../scss/_slides.scss */
+#block-views-categorias-block .jcarousel-skin-default .jcarousel-item,
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
   width: 100%;
 }
