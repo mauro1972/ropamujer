@@ -527,6 +527,10 @@
   width: 100%;
 }
 /* line 13, ../scss/_slides.scss */
+#block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 100%;
+}
+/* line 17, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
   width: 100%;
 }
