@@ -366,14 +366,13 @@
  */
 /* line 297, ../scss/_ropa.scss */
 .zone-preface > div {
-  border: 1px #000 solid !important;
   display: inline-block !important;
 }
 
 /**
  * Products view Style
  */
-/* line 305, ../scss/_ropa.scss */
+/* line 304, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -386,60 +385,60 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 317, ../scss/_ropa.scss */
+  /* line 316, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 321, ../scss/_ropa.scss */
+  /* line 320, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 326, ../scss/_ropa.scss */
+/* line 325, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 305, ../scss/_ropa.scss */
+  /* line 304, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 334, ../scss/_ropa.scss */
+  /* line 333, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 338, ../scss/_ropa.scss */
+  /* line 337, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 305, ../scss/_ropa.scss */
+  /* line 304, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 347, ../scss/_ropa.scss */
+  /* line 346, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 351, ../scss/_ropa.scss */
+  /* line 350, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 357, ../scss/_ropa.scss */
+/* line 356, ../scss/_ropa.scss */
 .product-row {
   position: relative;
 }
-/* line 360, ../scss/_ropa.scss */
+/* line 359, ../scss/_ropa.scss */
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 365, ../scss/_ropa.scss */
+/* line 364, ../scss/_ropa.scss */
 .product-row .price {
   background: #f37324;
   bottom: 80px;
@@ -452,7 +451,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 376, ../scss/_ropa.scss */
+/* line 375, ../scss/_ropa.scss */
 .product-row .price:after {
   content: "";
   display: block;
@@ -463,7 +462,7 @@
   left: 0;
   bottom: -5px;
 }
-/* line 388, ../scss/_ropa.scss */
+/* line 387, ../scss/_ropa.scss */
 .product-row input[type="submit"] {
   border: none;
   color: #FFF;
@@ -473,18 +472,18 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 395, ../scss/_ropa.scss */
+/* line 394, ../scss/_ropa.scss */
 .product-row input[type="submit"]:hover, .product-row input[type="submit"]:active {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 401, ../scss/_ropa.scss */
+/* line 400, ../scss/_ropa.scss */
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 404, ../scss/_ropa.scss */
+/* line 403, ../scss/_ropa.scss */
 .product-row input[disabled]:hover, .product-row input[disabled]:active {
   background: #CCC;
   -moz-box-shadow: transparent 0 0 0;
@@ -495,20 +494,20 @@
 /**
  * Footer Style
  */
-/* line 414, ../scss/_ropa.scss */
+/* line 413, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 418, ../scss/_ropa.scss */
+/* line 417, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 421, ../scss/_ropa.scss */
+/* line 420, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 425, ../scss/_ropa.scss */
+/* line 424, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;
@@ -517,25 +516,21 @@
 /**
  * slides Styles
  */
-/* line 5, ../scss/_slides.scss */
-#block-views-demo-content-slideshow-block-1 {
-  border: 1px #e00 solid;
-}
-/* line 8, ../scss/_slides.scss */
+/* line 7, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
   width: 100%;
 }
-/* line 13, ../scss/_slides.scss */
+/* line 12, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 17, ../scss/_slides.scss */
+/* line 16, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
   width: 100%;
 }
 
-/* line 24, ../scss/_slides.scss */
+/* line 23, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
   width: 500px;
 }
