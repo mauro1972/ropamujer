@@ -521,6 +521,10 @@
 #block-views-demo-content-slideshow-block-1 {
   border: 1px #e00 solid;
 }
+/* line 8, ../scss/_slides.scss */
+#block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-container-horizontal {
+  padding: 0;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
