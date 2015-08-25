@@ -535,6 +535,11 @@
   width: 100%;
 }
 
+/* line 24, ../scss/_slides.scss */
+#block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
+  width: 400px;
+}
+
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
