@@ -505,8 +505,13 @@
   float: left;
 }
 /* line 421, ../scss/_ropa.scss */
+#block-menu-menu-social-connection ul.menu li:hover {
+  background: transparent;
+}
+/* line 425, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
+  width: 0;
 }
 
 /* End Variables & Mixins */

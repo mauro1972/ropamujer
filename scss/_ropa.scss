@@ -418,7 +418,12 @@
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 
+  &:hover {
+    background: transparent;
+  }
+
   a {
     text-indent: -9999px;
+    width: 0;
   }
 }
