@@ -525,6 +525,10 @@
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
 }
+/* line 12, ../scss/_slides.scss */
+#block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
+  width: 100%;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
