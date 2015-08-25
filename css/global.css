@@ -492,6 +492,14 @@
   box-shadow: transparent 0 0 0;
 }
 
+/**
+ * Footer Style
+ */
+/* line 414, ../scss/_ropa.scss */
+#block-menu-menu-footer-navigation li.expanded {
+  float: left;
+}
+
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
