@@ -524,8 +524,9 @@
 /* line 8, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
+  width: 100%;
 }
-/* line 12, ../scss/_slides.scss */
+/* line 13, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
   width: 100%;
 }
