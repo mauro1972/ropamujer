@@ -499,24 +499,28 @@
   border: 1px #000 solid;
   text-align: center;
 }
+/* line 417, ../scss/_ropa.scss */
+.block-simplenews label, .block-simplenews input {
+  display: inline;
+}
 
 /**
  * Footer Style
  */
-/* line 421, ../scss/_ropa.scss */
+/* line 425, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 425, ../scss/_ropa.scss */
+/* line 429, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 428, ../scss/_ropa.scss */
+/* line 432, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 432, ../scss/_ropa.scss */
+/* line 436, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;

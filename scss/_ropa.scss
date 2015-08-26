@@ -413,6 +413,10 @@
 .block-simplenews {
   border: 1px #000 solid;
   text-align: center;
+
+  label, input {
+    display: inline;
+  }
 }
 
 /**
