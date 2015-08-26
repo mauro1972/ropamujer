@@ -497,22 +497,23 @@
 /* line 413, ../scss/_ropa.scss */
 .block-simplenews {
   border: 1px #000 solid;
+  padding: 10px 0;
   text-align: center;
 }
-/* line 421, ../scss/_ropa.scss */
+/* line 422, ../scss/_ropa.scss */
 .block-simplenews .form-item {
   display: inline;
 }
-/* line 425, ../scss/_ropa.scss */
+/* line 426, ../scss/_ropa.scss */
 .block-simplenews input {
   display: inline;
   font-size: 1.4em;
 }
-/* line 430, ../scss/_ropa.scss */
+/* line 431, ../scss/_ropa.scss */
 .block-simplenews input[type="submit"] {
   font-weight: normal;
 }
-/* line 434, ../scss/_ropa.scss */
+/* line 435, ../scss/_ropa.scss */
 .block-simplenews label,
 .block-simplenews .issues-link,
 .block-simplenews .feed-icon {
@@ -522,20 +523,20 @@
 /**
  * Footer Style
  */
-/* line 444, ../scss/_ropa.scss */
+/* line 445, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 448, ../scss/_ropa.scss */
+/* line 449, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 451, ../scss/_ropa.scss */
+/* line 452, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 455, ../scss/_ropa.scss */
+/* line 456, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;
