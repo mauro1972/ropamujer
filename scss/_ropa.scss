@@ -414,6 +414,10 @@
   border: 1px #000 solid;
   text-align: center;
 
+  .form-item {
+    display: inline;
+  }
+
   label, input {
     display: inline;
   }
