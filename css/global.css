@@ -531,6 +531,10 @@
 }
 
 /* line 23, ../scss/_slides.scss */
+#block-views-categorias-block .jcarousel-skin-default .jcarousel-container-horizontal {
+  padding: 0;
+}
+/* line 27, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
   width: 500px;
 }
