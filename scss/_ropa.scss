@@ -414,12 +414,27 @@
   border: 1px #000 solid;
   text-align: center;
 
+  form.simplenews-subscribe {
+    font-size: ;
+  }
+
   .form-item {
     display: inline;
   }
 
-  label, input {
+  input {
     display: inline;
+    font-size: 1.4em;
+  }
+
+  input[type="submit"] {
+    font-weight: normal;
+  }
+
+  label,
+  .issues-link,
+  .feed-icon {
+    display: none;
   }
 }
 
