@@ -398,15 +398,16 @@
     padding: 7px 15px;
     @include border-radius(5px);
 
-    &:hover, &:active {
-      background: lighten(#B4239E, 10%);
-      @include box-shadow(transparent 0 0 0);
-    }
     @extend .fa;
     @extend .fa-opencart;
     &:before {
       font-family: "FontAwesome";
-    }    
+    }     
+
+    &:hover, &:active {
+      background: lighten(#B4239E, 10%);
+      @include box-shadow(transparent 0 0 0);
+    }
   }
 
   input[disabled] {
