@@ -49,6 +49,13 @@
       &:hover {
         color: #FFF;
       }
+      @extend .fa;
+      @extend .fa-camera-retro;
+      font-family: $verdana;
+      &:before {
+        font-family: "FontAwesome";
+      }
+
     }
   }
 }
