@@ -571,6 +571,11 @@
   width: 550px;
 }
 
+/* line 33, ../scss/_slides.scss */
+.outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
+  width: 100%;
+}
+
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
