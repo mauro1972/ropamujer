@@ -401,7 +401,12 @@
     &:hover, &:active {
       background: lighten(#B4239E, 10%);
       @include box-shadow(transparent 0 0 0);
-      }
+    }
+    @extend .fa;
+    @extend .fa-shopping-cart;
+    &:after {
+      font-family: "FontAwesome";
+    }    
   }
 
   input[disabled] {
