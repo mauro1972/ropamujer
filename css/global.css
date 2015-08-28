@@ -3762,8 +3762,8 @@
   box-shadow: transparent 0 0 0;
 }
 /* line 407, ../scss/_ropa.scss */
-.outlet-carousel .jcarousel-item input[type="submit"]:after,
-.product-row input[type="submit"]:after {
+.outlet-carousel .jcarousel-item input[type="submit"]:before,
+.product-row input[type="submit"]:before {
   font-family: "FontAwesome";
 }
 /* line 412, ../scss/_ropa.scss */

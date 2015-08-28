@@ -404,7 +404,7 @@
     }
     @extend .fa;
     @extend .fa-opencart;
-    &:after {
+    &:before {
       font-family: "FontAwesome";
     }    
   }
