@@ -576,6 +576,10 @@
   width: 100%;
 }
 /* line 37, ../scss/_slides.scss */
+.outlet-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 100%;
+}
+/* line 41, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-item {
   width: 20%;
 }
