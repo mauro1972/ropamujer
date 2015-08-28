@@ -610,6 +610,11 @@
 .outlet-carousel .title {
   padding: 20px 0 10px;
 }
+/* line 60, ../scss/_slides.scss */
+.outlet-carousel .price {
+  bottom: auto;
+  top: 50%;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
