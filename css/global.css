@@ -608,7 +608,7 @@
 }
 /* line 56, ../scss/_slides.scss */
 .outlet-carousel .title {
-  padding: 10px 0;
+  padding: 20px 0 10px;
 }
 
 /* End Variables & Mixins */
