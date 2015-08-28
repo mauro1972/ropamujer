@@ -606,6 +606,10 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
+/* line 56, ../scss/_slides.scss */
+.outlet-carousel .title {
+  padding: 10px 0;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
