@@ -403,7 +403,7 @@
       @include box-shadow(transparent 0 0 0);
     }
     @extend .fa;
-    @extend .fa-shopping-cart;
+    @extend .fa-opencart;
     &:after {
       font-family: "FontAwesome";
     }    

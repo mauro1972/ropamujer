@@ -845,8 +845,7 @@
 }
 
 /* line 129, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
-.fa-shopping-cart:before, .outlet-carousel .jcarousel-item input[type="submit"]:before,
-.product-row input[type="submit"]:before {
+.fa-shopping-cart:before {
   content: "";
 }
 
@@ -2949,7 +2948,8 @@
 }
 
 /* line 604, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
-.fa-opencart:before {
+.fa-opencart:before, .outlet-carousel .jcarousel-item input[type="submit"]:before,
+.product-row input[type="submit"]:before {
   content: "";
 }
 
