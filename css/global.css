@@ -575,6 +575,10 @@
 .outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
+/* line 37, ../scss/_slides.scss */
+.outlet-carousel .jcarousel-skin-default .jcarousel-item {
+  width: 20%;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
