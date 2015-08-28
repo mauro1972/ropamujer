@@ -269,7 +269,8 @@
 }
 
 /* line 7, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
-.fa-envelope-o:before {
+.fa-envelope-o:before, #block-block-10 .content a:before,
+#block-block-8 .content a:before {
   content: "";
 }
 
@@ -880,8 +881,7 @@
 }
 
 /* line 138, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
-.fa-camera-retro:before, #block-block-10 .content a:before,
-#block-block-8 .content a:before {
+.fa-camera-retro:before {
   content: "";
 }
 
