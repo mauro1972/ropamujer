@@ -612,7 +612,7 @@
 }
 /* line 60, ../scss/_slides.scss */
 .outlet-carousel .price {
-  bottom: auto;
+  bottom: auto !important;
   top: 50%;
 }
 
