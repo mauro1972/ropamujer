@@ -394,7 +394,7 @@
     &:hover, &:active {
       background: lighten(#B4239E, 10%);
       @include box-shadow(transparent 0 0 0);
-    }
+      }
   }
 
   input[disabled] {

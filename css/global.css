@@ -571,15 +571,20 @@
   width: 550px;
 }
 
-/* line 33, ../scss/_slides.scss */
+/* line 32, ../scss/_slides.scss */
+.front .region-postscript-second-inner h2.block-title {
+  font-size: 2.5em;
+}
+
+/* line 37, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 37, ../scss/_slides.scss */
+/* line 41, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 41, ../scss/_slides.scss */
+/* line 45, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-item {
   width: 230px;
 }
