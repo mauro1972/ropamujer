@@ -336,8 +336,10 @@
   padding: 20px 0;
 
   .row {
+    border: 1px #000 solid;
+    float: left;
     text-align: center;
-    width: 50%;
+    width: 49%;
   }
 }
 
