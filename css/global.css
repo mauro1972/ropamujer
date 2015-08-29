@@ -3641,26 +3641,31 @@
   display: none;
 }
 
+/* line 303, ../scss/_ropa.scss */
+.page-nuevos-productos h1#page-title {
+  text-align: center;
+}
+
 /**
  * Zone preface style
  */
-/* line 307, ../scss/_ropa.scss */
+/* line 311, ../scss/_ropa.scss */
 .zone-preface > div {
   display: inline-block !important;
 }
 
-/* line 311, ../scss/_ropa.scss */
+/* line 315, ../scss/_ropa.scss */
 #block-views-categorias-block-big-cat,
 #block-views-categorias-block-cat-list {
   padding: 20px 0;
 }
-/* line 315, ../scss/_ropa.scss */
+/* line 319, ../scss/_ropa.scss */
 #block-views-categorias-block-big-cat .row,
 #block-views-categorias-block-cat-list .row {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 319, ../scss/_ropa.scss */
+/* line 323, ../scss/_ropa.scss */
 #block-views-categorias-block-big-cat .row .title a,
 #block-views-categorias-block-cat-list .row .title a {
   display: block;
@@ -3672,7 +3677,7 @@
   width: 50%;
 }
 @media (min-width: 720px) {
-  /* line 315, ../scss/_ropa.scss */
+  /* line 319, ../scss/_ropa.scss */
   #block-views-categorias-block-big-cat .row,
   #block-views-categorias-block-cat-list .row {
     float: left;
@@ -3681,24 +3686,24 @@
 }
 
 @media (min-width: 720px) {
-  /* line 338, ../scss/_ropa.scss */
+  /* line 342, ../scss/_ropa.scss */
   #block-views-categorias-block-big-cat .row {
     width: 48%;
   }
-  /* line 343, ../scss/_ropa.scss */
+  /* line 347, ../scss/_ropa.scss */
   #block-views-categorias-block-big-cat .row:last-child {
     float: right;
   }
 }
 
-/* line 350, ../scss/_ropa.scss */
+/* line 354, ../scss/_ropa.scss */
 #block-block-11 {
   border: 1px #000 solid;
   font-size: 2em;
   text-align: center;
   margin-top: 50px;
 }
-/* line 356, ../scss/_ropa.scss */
+/* line 360, ../scss/_ropa.scss */
 #block-block-11 .content {
   padding: 50px 30px;
 }
@@ -3706,7 +3711,7 @@
 /**
  * Products view Style
  */
-/* line 364, ../scss/_ropa.scss */
+/* line 368, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -3719,62 +3724,62 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 376, ../scss/_ropa.scss */
+  /* line 380, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 380, ../scss/_ropa.scss */
+  /* line 384, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 385, ../scss/_ropa.scss */
+/* line 389, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 364, ../scss/_ropa.scss */
+  /* line 368, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 393, ../scss/_ropa.scss */
+  /* line 397, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 397, ../scss/_ropa.scss */
+  /* line 401, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 364, ../scss/_ropa.scss */
+  /* line 368, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 406, ../scss/_ropa.scss */
+  /* line 410, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 410, ../scss/_ropa.scss */
+  /* line 414, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 416, ../scss/_ropa.scss */
+/* line 420, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item,
 .product-row {
   position: relative;
 }
-/* line 420, ../scss/_ropa.scss */
+/* line 424, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .title,
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 425, ../scss/_ropa.scss */
+/* line 429, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price,
 .product-row .price {
   background: #f37324;
@@ -3788,7 +3793,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 436, ../scss/_ropa.scss */
+/* line 440, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price:after,
 .product-row .price:after {
   content: "";
@@ -3800,7 +3805,7 @@
   left: 0;
   bottom: -5px;
 }
-/* line 448, ../scss/_ropa.scss */
+/* line 452, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"],
 .product-row input[type="submit"] {
   border: none;
@@ -3811,12 +3816,12 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 457, ../scss/_ropa.scss */
+/* line 461, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:before,
 .product-row input[type="submit"]:before {
   font-family: "FontAwesome";
 }
-/* line 461, ../scss/_ropa.scss */
+/* line 465, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:hover, .outlet-carousel .jcarousel-item input[type="submit"]:active,
 .product-row input[type="submit"]:hover,
 .product-row input[type="submit"]:active {
@@ -3825,12 +3830,12 @@
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 467, ../scss/_ropa.scss */
+/* line 471, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled],
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 470, ../scss/_ropa.scss */
+/* line 474, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled]:hover, .outlet-carousel .jcarousel-item input[disabled]:active,
 .product-row input[disabled]:hover,
 .product-row input[disabled]:active {
@@ -3843,29 +3848,29 @@
 /**
  * Postscript style
  */
-/* line 480, ../scss/_ropa.scss */
+/* line 484, ../scss/_ropa.scss */
 .block-simplenews {
   padding: 10px 0;
   text-align: center;
 }
-/* line 484, ../scss/_ropa.scss */
+/* line 488, ../scss/_ropa.scss */
 .block-simplenews h2.block-title {
   font-size: 2.5em;
 }
-/* line 492, ../scss/_ropa.scss */
+/* line 496, ../scss/_ropa.scss */
 .block-simplenews .form-item {
   display: inline;
 }
-/* line 496, ../scss/_ropa.scss */
+/* line 500, ../scss/_ropa.scss */
 .block-simplenews input {
   display: inline;
   font-size: 1.4em;
 }
-/* line 501, ../scss/_ropa.scss */
+/* line 505, ../scss/_ropa.scss */
 .block-simplenews input[type="submit"] {
   font-weight: normal;
 }
-/* line 505, ../scss/_ropa.scss */
+/* line 509, ../scss/_ropa.scss */
 .block-simplenews label,
 .block-simplenews .issues-link,
 .block-simplenews .feed-icon {
@@ -3875,20 +3880,20 @@
 /**
  * Footer Style
  */
-/* line 515, ../scss/_ropa.scss */
+/* line 519, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 519, ../scss/_ropa.scss */
+/* line 523, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 522, ../scss/_ropa.scss */
+/* line 526, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 526, ../scss/_ropa.scss */
+/* line 530, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;
