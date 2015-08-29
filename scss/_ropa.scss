@@ -310,12 +310,11 @@
 
 #block-views-categorias-block-cat-list {
   padding: 20px 0;
-  
+
   .row {
     text-align: center;
 
     @include breakpoint(720px) {
-      border: 1px #000 solid;
       float: left;
       width: 33%;
     } 
