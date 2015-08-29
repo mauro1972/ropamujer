@@ -308,6 +308,7 @@
   display: inline-block !important;
 }
 
+#block-views-categorias-block-big-cat
 #block-views-categorias-block-cat-list {
   padding: 20px 0;
 
@@ -333,13 +334,13 @@
 }
 
 #block-views-categorias-block-big-cat {
-  padding: 20px 0;
 
   .row {
-    border: 1px #000 solid;
-    float: left;
-    text-align: center;
-    width: 49%;
+    width: 48%;
+
+    &:last-child {
+      float: right;
+    }
   }
 }
 
