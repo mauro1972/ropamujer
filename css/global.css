@@ -3650,18 +3650,18 @@
 }
 
 /* line 311, ../scss/_ropa.scss */
-#block-views-categorias-block-big-cat
+#block-views-categorias-block-big-cat,
 #block-views-categorias-block-cat-list {
   padding: 20px 0;
 }
 /* line 315, ../scss/_ropa.scss */
-#block-views-categorias-block-big-cat
+#block-views-categorias-block-big-cat .row,
 #block-views-categorias-block-cat-list .row {
   text-align: center;
   margin-bottom: 20px;
 }
 /* line 319, ../scss/_ropa.scss */
-#block-views-categorias-block-big-cat
+#block-views-categorias-block-big-cat .row .title a,
 #block-views-categorias-block-cat-list .row .title a {
   display: block;
   font-size: 1.3em;
@@ -3673,7 +3673,7 @@
 }
 @media (min-width: 720px) {
   /* line 315, ../scss/_ropa.scss */
-  #block-views-categorias-block-big-cat
+  #block-views-categorias-block-big-cat .row,
   #block-views-categorias-block-cat-list .row {
     float: left;
     width: 50%;
