@@ -336,10 +336,13 @@
 #block-views-categorias-block-big-cat {
 
   .row {
-    width: 48%;
 
-    &:last-child {
-      float: right;
+    @include breakpoint(720px) {
+      width: 48%;
+
+      &:last-child {
+        float: right;
+      }
     }
   }
 }
