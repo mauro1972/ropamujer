@@ -308,6 +308,14 @@
   display: inline-block !important;
 }
 
+#block-views-categorias-block-cat-list {
+  .row {
+    @include breakpoint(720px) {
+      border: 1px #000 solid;
+    } 
+  }
+}
+
  /**
   * Products view Style
   */
