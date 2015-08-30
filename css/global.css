@@ -3974,6 +3974,14 @@
 .page-nuevos-productos .region-branding-inner > section {
   height: 55px;
 }
+/* line 14, ../scss/_landing2.scss */
+.page-nuevos-productos #block-block-9 {
+  padding-top: 20px;
+}
+/* line 17, ../scss/_landing2.scss */
+.page-nuevos-productos #block-block-9 h2.block-title {
+  margin-top: -10px;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
