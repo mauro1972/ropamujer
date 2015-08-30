@@ -4075,7 +4075,12 @@
   min-height: 40px;
   width: 74%;
 }
-/* line 103, ../scss/_landing2.scss */
+/* line 101, ../scss/_landing2.scss */
+.page-nuevos-productos #block-search-form .content form .form-item .form-text {
+  line-height: 40px;
+  font-size: 1.4em;
+}
+/* line 108, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit {
   background: #222;
   color: #FFF;
@@ -4087,6 +4092,10 @@
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
+}
+/* line 119, ../scss/_landing2.scss */
+.page-nuevos-productos #block-search-form .content form .form-actions .form-submit:hover {
+  background: #CCC;
 }
 
 /* End Variables & Mixins */
