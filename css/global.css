@@ -4007,7 +4007,7 @@
 /* line 40, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block:hover h2.block-title:after,
 .page-nuevos-productos #block-block-9:hover h2.block-title:after {
-  bottom: 0;
+  bottom: 0 !important;
 }
 /* line 44, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block:hover .content,
