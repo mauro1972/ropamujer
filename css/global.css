@@ -3991,16 +3991,8 @@
   border-bottom: 2px transparent solid;
   color: #FFF;
   position: relative;
-  -moz-transition-property: "all";
-  -o-transition-property: "all";
-  -webkit-transition-property: "all";
-  transition-property: "all";
-  -moz-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  -webkit-transition-duration: 0.8s;
-  transition-duration: 0.8s;
 }
-/* line 35, ../scss/_landing2.scss */
+/* line 32, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content,
 .page-nuevos-productos #block-views-shopping-cart-block .content,
 .page-nuevos-productos #block-block-9 .content {
@@ -4012,6 +4004,14 @@
   position: absolute;
   top: 100px;
   z-index: 1000;
+  -moz-transition-property: "all";
+  -o-transition-property: "all";
+  -webkit-transition-property: "all";
+  transition-property: "all";
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
 /* line 48, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover,

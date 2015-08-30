@@ -29,9 +29,6 @@
       color: #FFF;
       position: relative;
 
-      @include transition-property("all");
-      @include transition-duration(0.8s);      
-
       .content {
         display: block;
         height: auto;
@@ -41,6 +38,9 @@
         position: absolute;
         top: 100px;
         z-index: 1000;
+
+        @include transition-property("all");
+        @include transition-duration(0.8s);        
       }
 
 
