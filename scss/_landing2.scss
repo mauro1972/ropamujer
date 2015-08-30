@@ -32,8 +32,14 @@
         z-index: 1000;
       }
 
+
+
       &:hover {
         border-color: #CCC;
+
+        h2.block-title:after {
+          bottom: 0;
+        }
 
         .content {
           opacity: 1;

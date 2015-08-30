@@ -3999,12 +3999,17 @@
   top: 100px;
   z-index: 1000;
 }
-/* line 35, ../scss/_landing2.scss */
+/* line 37, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block:hover,
 .page-nuevos-productos #block-block-9:hover {
   border-color: #CCC;
 }
-/* line 38, ../scss/_landing2.scss */
+/* line 40, ../scss/_landing2.scss */
+.page-nuevos-productos #block-views-shopping-cart-block:hover h2.block-title:after,
+.page-nuevos-productos #block-block-9:hover h2.block-title:after {
+  bottom: 0;
+}
+/* line 44, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block:hover .content,
 .page-nuevos-productos #block-block-9:hover .content {
   opacity: 1;
