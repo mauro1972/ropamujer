@@ -4075,8 +4075,8 @@
   min-height: 40px;
   width: 74%;
 }
-/* line 101, ../scss/_landing2.scss */
-.page-nuevos-productos #block-search-form .content form .form-actions {
+/* line 103, ../scss/_landing2.scss */
+.page-nuevos-productos #block-search-form .content form .form-actions .form-submit {
   background: #222;
   color: #FFF;
   display: inline-block;
