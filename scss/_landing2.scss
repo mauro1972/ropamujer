@@ -92,10 +92,13 @@
 
         .form-item {
           display: inline-block;
+          float: left;
           width: 80%;
         }
         .form-actions {
           display: inline-block;
+          float: right;
+          margin: 1em 0;
           width: 20%;
         }
       }
