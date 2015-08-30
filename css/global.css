@@ -3991,8 +3991,16 @@
   border-bottom: 2px transparent solid;
   color: #FFF;
   position: relative;
+  -moz-transition-property: "all";
+  -o-transition-property: "all";
+  -webkit-transition-property: "all";
+  transition-property: "all";
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
-/* line 32, ../scss/_landing2.scss */
+/* line 35, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content,
 .page-nuevos-productos #block-views-shopping-cart-block .content,
 .page-nuevos-productos #block-block-9 .content {
@@ -4005,7 +4013,7 @@
   top: 100px;
   z-index: 1000;
 }
-/* line 45, ../scss/_landing2.scss */
+/* line 48, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover,
 .page-nuevos-productos #block-views-shopping-cart-block:hover,
 .page-nuevos-productos #block-block-9:hover {
@@ -4013,14 +4021,14 @@
   border-color: transparent;
   border-bottom-color: #F4F4F4;
 }
-/* line 50, ../scss/_landing2.scss */
+/* line 53, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover h2.block-title:after,
 .page-nuevos-productos #block-views-shopping-cart-block:hover h2.block-title:after,
 .page-nuevos-productos #block-block-9:hover h2.block-title:after {
   bottom: 0 !important;
   color: #FFF;
 }
-/* line 55, ../scss/_landing2.scss */
+/* line 58, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover .content,
 .page-nuevos-productos #block-views-shopping-cart-block:hover .content,
 .page-nuevos-productos #block-block-9:hover .content {
