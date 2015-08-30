@@ -4040,10 +4040,14 @@
   color: #FFF;
   font-size: 2em;
   text-indent: -9999px;
+  width: 40px;
 }
-/* line 74, ../scss/_landing2.scss */
+/* line 75, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title:before {
   font-family: "FontAwesome";
+  left: 0;
+  position: absolute;
+  text-indent: 0;
 }
 
 /* End Variables & Mixins */

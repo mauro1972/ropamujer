@@ -68,11 +68,15 @@
       color: #FFF;
       font-size: 2em;
       text-indent: -9999px;
+      width: 40px;
 
       @extend .fa;
       @extend .fa-search;
       &:before {
         font-family: "FontAwesome";
+        left: 0;
+        position: absolute;
+        text-indent: 0;
       }      
     }
   }
