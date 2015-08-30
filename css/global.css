@@ -4066,6 +4066,16 @@
   border: none;
   width: 250px;
 }
+/* line 93, ../scss/_landing2.scss */
+.page-nuevos-productos #block-search-form .content form .form-item {
+  display: inline-block;
+  width: 80%;
+}
+/* line 97, ../scss/_landing2.scss */
+.page-nuevos-productos #block-search-form .content form .form-actions {
+  display: inline-block;
+  width: 20%;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------

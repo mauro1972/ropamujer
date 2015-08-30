@@ -89,6 +89,15 @@
       form {
         border: none;
         width: 250px;
+
+        .form-item {
+          display: inline-block;
+          width: 80%;
+        }
+        .form-actions {
+          display: inline-block;
+          width: 20%;
+        }
       }
     }
   }
