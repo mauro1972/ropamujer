@@ -3984,6 +3984,13 @@
 .page-nuevos-productos #block-block-9 h2.block-title {
   margin-top: -10px;
 }
+/* line 24, ../scss/_landing2.scss */
+.page-nuevos-productos #block-views-shopping-cart-block .content,
+.page-nuevos-productos #block-block-9 .content {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------

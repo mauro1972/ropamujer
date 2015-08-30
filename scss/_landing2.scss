@@ -18,4 +18,13 @@
         margin-top: -10px;
       }
     }
+
+    #block-views-shopping-cart-block,
+    #block-block-9 {
+      .content {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
  }
