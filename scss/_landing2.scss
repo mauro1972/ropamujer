@@ -68,10 +68,12 @@
     h2.block-title {
       background: transparent;
       color: #FFF;
+      display: inherit;      
       font-size: 2em;
+      margin: 0 auto;      
       position: relative;
       text-indent: -9999px;
-      width: 30px;
+      width: 40px;
       
       @extend .fa;
       @extend .fa-opencart;
@@ -89,9 +91,7 @@
     
     h2.block-title {
       color: #FFF;
-      display: inherit;
       font-size: 2em;
-      margin: 0 auto;
       position: relative;
       text-indent: -9999px;
       width: 40px;

@@ -4046,12 +4046,14 @@
 .page-nuevos-productos #block-views-shopping-cart-block h2.block-title {
   background: transparent;
   color: #FFF;
+  display: inherit;
   font-size: 2em;
+  margin: 0 auto;
   position: relative;
   text-indent: -9999px;
-  width: 30px;
+  width: 40px;
 }
-/* line 78, ../scss/_landing2.scss */
+/* line 80, ../scss/_landing2.scss */
 .page-nuevos-productos .block-shopping-cart-block h2.block-title:before,
 .page-nuevos-productos #block-views-shopping-cart-block h2.block-title:before {
   font-family: "FontAwesome";
@@ -4059,16 +4061,14 @@
   position: absolute;
   text-indent: 0;
 }
-/* line 87, ../scss/_landing2.scss */
+/* line 89, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form {
   padding: 20px 20px 0;
 }
-/* line 90, ../scss/_landing2.scss */
+/* line 92, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title {
   color: #FFF;
-  display: inherit;
   font-size: 2em;
-  margin: 0 auto;
   position: relative;
   text-indent: -9999px;
   width: 40px;
