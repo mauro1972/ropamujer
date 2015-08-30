@@ -4002,14 +4002,16 @@
 /* line 41, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block:hover,
 .page-nuevos-productos #block-block-9:hover {
+  background: transparent;
+  border-color: transparent;
   border-color: #CCC;
 }
-/* line 44, ../scss/_landing2.scss */
+/* line 46, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block:hover h2.block-title:after,
 .page-nuevos-productos #block-block-9:hover h2.block-title:after {
   bottom: 0 !important;
 }
-/* line 48, ../scss/_landing2.scss */
+/* line 50, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block:hover .content,
 .page-nuevos-productos #block-block-9:hover .content {
   opacity: 1;
