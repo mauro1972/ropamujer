@@ -3960,19 +3960,6 @@
   top: 50%;
 }
 
-/**
- * Landing page 2
- */
-/* line 5, ../scss/_landing2.scss */
-.page-nuevos-productos #region-branding {
-  border: 1px #000 solid;
-}
-/* line 9, ../scss/_landing2.scss */
-.page-nuevos-productos .region-branding-inner > div,
-.page-nuevos-productos .region-branding-inner > section {
-  min-height: auto;
-}
-
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
@@ -7984,4 +7971,17 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 /* line 3218, ../scss/global.scss */
 .jcarousel-skin-default .jcarousel-item {
   height: auto;
+}
+
+/**
+ * Landing page 2
+ */
+/* line 5, ../scss/_landing2.scss */
+.page-nuevos-productos #region-branding {
+  border: 1px #000 solid;
+}
+/* line 9, ../scss/_landing2.scss */
+.page-nuevos-productos .region-branding-inner > div,
+.page-nuevos-productos .region-branding-inner > section {
+  min-height: auto;
 }
