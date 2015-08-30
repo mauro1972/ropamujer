@@ -167,6 +167,7 @@
   .content {
     background: #FFF;
     border: 1px darken(#f4f4f4, 30) solid;
+    display: none;
     float: right; /* LTR */
     height: 0;
     left: 0;
@@ -291,6 +292,7 @@
     }    
 
     .content {
+      display: block;
       height: 40px;
     }
   }   
