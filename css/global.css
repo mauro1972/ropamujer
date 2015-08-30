@@ -3994,6 +3994,11 @@
   top: 120px;
   z-index: 1000;
 }
+/* line 33, ../scss/_landing2.scss */
+.page-nuevos-productos #block-views-shopping-cart-block:hover,
+.page-nuevos-productos #block-block-9:hover {
+  top: 75px;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
