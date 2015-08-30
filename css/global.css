@@ -4066,39 +4066,41 @@
 /* line 90, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title {
   color: #FFF;
+  display: inherit;
   font-size: 2em;
+  margin: 0 auto;
   position: relative;
   text-indent: -9999px;
-  width: 30px;
+  width: 40px;
 }
-/* line 99, ../scss/_landing2.scss */
+/* line 101, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title:before {
   font-family: "FontAwesome";
   right: 0;
   position: absolute;
   text-indent: 0;
 }
-/* line 107, ../scss/_landing2.scss */
+/* line 109, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content {
   background: #FFF;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 111, ../scss/_landing2.scss */
+/* line 113, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form {
   border: none;
   padding: 3px;
   width: 250px;
 }
-/* line 116, ../scss/_landing2.scss */
+/* line 118, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-item {
   display: inline-block;
   float: left;
   margin: 0;
   width: 74%;
 }
-/* line 122, ../scss/_landing2.scss */
+/* line 124, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-item .form-text {
   display: inline-block;
   border: 1px #F3F3F3 solid;
@@ -4106,7 +4108,7 @@
   font-size: 1.8em;
   padding: 10px 5px;
 }
-/* line 132, ../scss/_landing2.scss */
+/* line 134, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit {
   background: #222;
   color: #FFF;
@@ -4119,7 +4121,7 @@
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 143, ../scss/_landing2.scss */
+/* line 145, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit:hover {
   background: #CCC;
 }
