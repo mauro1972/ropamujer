@@ -4064,7 +4064,7 @@
 /* line 89, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form {
   border: none;
-  padding: 0;
+  padding: 3px;
   width: 250px;
 }
 /* line 94, ../scss/_landing2.scss */
@@ -4077,10 +4077,11 @@
 }
 /* line 101, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-item .form-text {
+  background: #F3F3F3;
   line-height: 40px;
   font-size: 1.4em;
 }
-/* line 108, ../scss/_landing2.scss */
+/* line 109, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit {
   background: #222;
   color: #FFF;
@@ -4093,7 +4094,7 @@
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 119, ../scss/_landing2.scss */
+/* line 120, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit:hover {
   background: #CCC;
 }
