@@ -21,7 +21,8 @@
 /* line 4, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_core.scss */
 .fa, #block-block-10 .content a,
 #block-block-8 .content a, .outlet-carousel .jcarousel-item input[type="submit"],
-.product-row input[type="submit"], .page-nuevos-productos #block-search-form h2.block-title {
+.product-row input[type="submit"], .page-nuevos-productos .block-shopping-cart-block h2.block-title,
+.page-nuevos-productos #block-views-shopping-cart-block h2.block-title, .page-nuevos-productos #block-search-form h2.block-title {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -108,13 +109,15 @@
 /* line 14, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-left, #block-block-10 .content a.fa-pull-left,
 #block-block-8 .content a.fa-pull-left, .outlet-carousel .jcarousel-item input.fa-pull-left[type="submit"],
-.product-row input.fa-pull-left[type="submit"], .page-nuevos-productos #block-search-form h2.fa-pull-left.block-title {
+.product-row input.fa-pull-left[type="submit"], .page-nuevos-productos .block-shopping-cart-block h2.fa-pull-left.block-title,
+.page-nuevos-productos #block-views-shopping-cart-block h2.fa-pull-left.block-title, .page-nuevos-productos #block-search-form h2.fa-pull-left.block-title {
   margin-right: .3em;
 }
 /* line 15, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-right, #block-block-10 .content a.fa-pull-right,
 #block-block-8 .content a.fa-pull-right, .outlet-carousel .jcarousel-item input.fa-pull-right[type="submit"],
-.product-row input.fa-pull-right[type="submit"], .page-nuevos-productos #block-search-form h2.fa-pull-right.block-title {
+.product-row input.fa-pull-right[type="submit"], .page-nuevos-productos .block-shopping-cart-block h2.fa-pull-right.block-title,
+.page-nuevos-productos #block-views-shopping-cart-block h2.fa-pull-right.block-title, .page-nuevos-productos #block-search-form h2.fa-pull-right.block-title {
   margin-left: .3em;
 }
 
@@ -132,13 +135,15 @@
 /* line 23, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.pull-left, #block-block-10 .content a.pull-left,
 #block-block-8 .content a.pull-left, .outlet-carousel .jcarousel-item input.pull-left[type="submit"],
-.product-row input.pull-left[type="submit"], .page-nuevos-productos #block-search-form h2.pull-left.block-title {
+.product-row input.pull-left[type="submit"], .page-nuevos-productos .block-shopping-cart-block h2.pull-left.block-title,
+.page-nuevos-productos #block-views-shopping-cart-block h2.pull-left.block-title, .page-nuevos-productos #block-search-form h2.pull-left.block-title {
   margin-right: .3em;
 }
 /* line 24, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.pull-right, #block-block-10 .content a.pull-right,
 #block-block-8 .content a.pull-right, .outlet-carousel .jcarousel-item input.pull-right[type="submit"],
-.product-row input.pull-right[type="submit"], .page-nuevos-productos #block-search-form h2.pull-right.block-title {
+.product-row input.pull-right[type="submit"], .page-nuevos-productos .block-shopping-cart-block h2.pull-right.block-title,
+.page-nuevos-productos #block-views-shopping-cart-block h2.pull-right.block-title, .page-nuevos-productos #block-search-form h2.pull-right.block-title {
   margin-left: .3em;
 }
 
@@ -2949,7 +2954,8 @@
 
 /* line 604, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
 .fa-opencart:before, .outlet-carousel .jcarousel-item input[type="submit"]:before,
-.product-row input[type="submit"]:before {
+.product-row input[type="submit"]:before, .page-nuevos-productos .block-shopping-cart-block h2.block-title:before,
+.page-nuevos-productos #block-views-shopping-cart-block h2.block-title:before {
   content: "";
 }
 
@@ -4035,11 +4041,29 @@
   opacity: 1;
   top: 77px;
 }
-/* line 65, ../scss/_landing2.scss */
+/* line 68, ../scss/_landing2.scss */
+.page-nuevos-productos .block-shopping-cart-block h2.block-title,
+.page-nuevos-productos #block-views-shopping-cart-block h2.block-title {
+  background: transparent;
+  color: #FFF;
+  font-size: 2em;
+  position: relative;
+  text-indent: -9999px;
+  width: 30px;
+}
+/* line 78, ../scss/_landing2.scss */
+.page-nuevos-productos .block-shopping-cart-block h2.block-title:before,
+.page-nuevos-productos #block-views-shopping-cart-block h2.block-title:before {
+  font-family: "FontAwesome";
+  right: 0;
+  position: absolute;
+  text-indent: 0;
+}
+/* line 87, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form {
   padding: 20px 20px 0;
 }
-/* line 68, ../scss/_landing2.scss */
+/* line 90, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title {
   color: #FFF;
   font-size: 2em;
@@ -4047,34 +4071,34 @@
   text-indent: -9999px;
   width: 30px;
 }
-/* line 77, ../scss/_landing2.scss */
+/* line 99, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title:before {
   font-family: "FontAwesome";
   right: 0;
   position: absolute;
   text-indent: 0;
 }
-/* line 85, ../scss/_landing2.scss */
+/* line 107, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content {
   background: #FFF;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 89, ../scss/_landing2.scss */
+/* line 111, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form {
   border: none;
   padding: 3px;
   width: 250px;
 }
-/* line 94, ../scss/_landing2.scss */
+/* line 116, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-item {
   display: inline-block;
   float: left;
   margin: 0;
   width: 74%;
 }
-/* line 100, ../scss/_landing2.scss */
+/* line 122, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-item .form-text {
   display: inline-block;
   border: 1px #F3F3F3 solid;
@@ -4082,7 +4106,7 @@
   font-size: 1.8em;
   padding: 10px 5px;
 }
-/* line 110, ../scss/_landing2.scss */
+/* line 132, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit {
   background: #222;
   color: #FFF;
@@ -4095,7 +4119,7 @@
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 121, ../scss/_landing2.scss */
+/* line 143, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit:hover {
   background: #CCC;
 }
