@@ -3973,7 +3973,6 @@
 .page-nuevos-productos .region-branding-inner > div,
 .page-nuevos-productos .region-branding-inner > section {
   height: 55px;
-  min-height: auto;
 }
 
 /* End Variables & Mixins */
