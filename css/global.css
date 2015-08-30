@@ -4054,6 +4054,13 @@
   position: absolute;
   text-indent: 0;
 }
+/* line 85, ../scss/_landing2.scss */
+.page-nuevos-productos #block-search-form .content {
+  background: #FFF;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------

@@ -81,5 +81,10 @@
         text-indent: 0;
       }      
     }
+
+    .content {
+      background: #FFF;
+      @include border-radius(0);
+    }
   }
 }
