@@ -21,6 +21,8 @@
 
     #block-views-shopping-cart-block,
     #block-block-9 {
+      border-bottom: 2px transparent solid;
+
       .content {
         display: block;
         height: auto;
@@ -30,9 +32,13 @@
         z-index: 1000;
       }
 
-      &:hover .content {
-        opacity: 1;
-        top: 75px;
+      &:hover {
+        border-color: #CCC;
+
+        .content {
+          opacity: 1;
+          top: 75px;
+        }
       }
     }
  }

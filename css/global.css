@@ -3984,7 +3984,12 @@
 .page-nuevos-productos #block-block-9 h2.block-title {
   margin-top: -10px;
 }
-/* line 24, ../scss/_landing2.scss */
+/* line 22, ../scss/_landing2.scss */
+.page-nuevos-productos #block-views-shopping-cart-block,
+.page-nuevos-productos #block-block-9 {
+  border-bottom: 2px transparent solid;
+}
+/* line 26, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block .content,
 .page-nuevos-productos #block-block-9 .content {
   display: block;
@@ -3994,7 +3999,12 @@
   top: 100px;
   z-index: 1000;
 }
-/* line 33, ../scss/_landing2.scss */
+/* line 35, ../scss/_landing2.scss */
+.page-nuevos-productos #block-views-shopping-cart-block:hover,
+.page-nuevos-productos #block-block-9:hover {
+  border-color: #CCC;
+}
+/* line 38, ../scss/_landing2.scss */
 .page-nuevos-productos #block-views-shopping-cart-block:hover .content,
 .page-nuevos-productos #block-block-9:hover .content {
   opacity: 1;
