@@ -4080,7 +4080,7 @@
   border: 1px #F3F3F3 solid;
   line-height: 40px;
   font-size: 1.8em;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 /* line 110, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit {
