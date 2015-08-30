@@ -65,8 +65,12 @@
   #block-search-form {
     
     h2.block-title {
+      color: #FFF;
+      font-size: 2em;
+      text-indent: -9999px;
+
       @extend .fa;
-      @extend .fa-envelope-o;
+      @extend .fa-search;
       &:before {
         font-family: "FontAwesome";
       }      

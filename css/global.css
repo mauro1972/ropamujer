@@ -269,13 +269,13 @@
 }
 
 /* line 6, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
-.fa-search:before {
+.fa-search:before, .page-nuevos-productos #block-search-form h2.block-title:before {
   content: "";
 }
 
 /* line 7, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
 .fa-envelope-o:before, #block-block-10 .content a:before,
-#block-block-8 .content a:before, .page-nuevos-productos #block-search-form h2.block-title:before {
+#block-block-8 .content a:before {
   content: "";
 }
 
@@ -4035,7 +4035,13 @@
   opacity: 1;
   top: 77px;
 }
-/* line 70, ../scss/_landing2.scss */
+/* line 67, ../scss/_landing2.scss */
+.page-nuevos-productos #block-search-form h2.block-title {
+  color: #FFF;
+  font-size: 2em;
+  text-indent: -9999px;
+}
+/* line 74, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title:before {
   font-family: "FontAwesome";
 }
