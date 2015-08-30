@@ -4002,6 +4002,7 @@
 .page-nuevos-productos #block-search-form .content,
 .page-nuevos-productos #block-views-shopping-cart-block .content,
 .page-nuevos-productos #block-block-9 .content {
+  color: #333;
   display: block;
   height: auto;
   left: 0;
@@ -4019,7 +4020,7 @@
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-/* line 48, ../scss/_landing2.scss */
+/* line 49, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover,
 .page-nuevos-productos #block-views-shopping-cart-block:hover,
 .page-nuevos-productos #block-block-9:hover {
@@ -4027,21 +4028,21 @@
   border-color: transparent;
   border-bottom-color: #F4F4F4;
 }
-/* line 53, ../scss/_landing2.scss */
+/* line 54, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover h2.block-title:after,
 .page-nuevos-productos #block-views-shopping-cart-block:hover h2.block-title:after,
 .page-nuevos-productos #block-block-9:hover h2.block-title:after {
   bottom: 0 !important;
   color: #FFF;
 }
-/* line 58, ../scss/_landing2.scss */
+/* line 59, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover .content,
 .page-nuevos-productos #block-views-shopping-cart-block:hover .content,
 .page-nuevos-productos #block-block-9:hover .content {
   opacity: 1;
   top: 77px;
 }
-/* line 68, ../scss/_landing2.scss */
+/* line 69, ../scss/_landing2.scss */
 .page-nuevos-productos .block-shopping-cart-block h2.block-title,
 .page-nuevos-productos #block-views-shopping-cart-block h2.block-title {
   background: transparent;
@@ -4054,7 +4055,7 @@
   text-indent: -9999px;
   width: 40px;
 }
-/* line 81, ../scss/_landing2.scss */
+/* line 82, ../scss/_landing2.scss */
 .page-nuevos-productos .block-shopping-cart-block h2.block-title:before,
 .page-nuevos-productos #block-views-shopping-cart-block h2.block-title:before {
   font-family: "FontAwesome";
@@ -4062,11 +4063,11 @@
   position: absolute;
   text-indent: 0;
 }
-/* line 90, ../scss/_landing2.scss */
+/* line 91, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form {
   padding: 20px 20px 0;
 }
-/* line 93, ../scss/_landing2.scss */
+/* line 94, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title {
   color: #FFF;
   font-size: 2em;
@@ -4074,34 +4075,34 @@
   text-indent: -9999px;
   width: 40px;
 }
-/* line 102, ../scss/_landing2.scss */
+/* line 103, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form h2.block-title:before {
   font-family: "FontAwesome";
   right: 0;
   position: absolute;
   text-indent: 0;
 }
-/* line 110, ../scss/_landing2.scss */
+/* line 111, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content {
   background: #FFF;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 114, ../scss/_landing2.scss */
+/* line 115, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form {
   border: none;
   padding: 3px;
   width: 250px;
 }
-/* line 119, ../scss/_landing2.scss */
+/* line 120, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-item {
   display: inline-block;
   float: left;
   margin: 0;
   width: 74%;
 }
-/* line 125, ../scss/_landing2.scss */
+/* line 126, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-item .form-text {
   display: inline-block;
   border: 1px #F3F3F3 solid;
@@ -4109,7 +4110,7 @@
   font-size: 1.8em;
   padding: 10px 5px;
 }
-/* line 135, ../scss/_landing2.scss */
+/* line 136, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit {
   background: #222;
   color: #FFF;
@@ -4122,7 +4123,7 @@
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 146, ../scss/_landing2.scss */
+/* line 147, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit:hover {
   background: #CCC;
 }
