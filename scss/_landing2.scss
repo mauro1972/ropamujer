@@ -22,16 +22,20 @@
         margin-top: -10px;
       }
     }
-
+    #block-search-form,
     #block-views-shopping-cart-block,
     #block-block-9 {
       border-bottom: 2px transparent solid;
+      color: #FFF;
+      position: relative;
 
       .content {
         display: block;
         height: auto;
+        left: 0;
         visibility: visible;
         opacity: 0;
+        position: absolute;
         top: 100px;
         z-index: 1000;
       }
@@ -45,6 +49,7 @@
 
         h2.block-title:after {
           bottom: 0 !important;
+          color: #FFF;
         }
 
         .content {
