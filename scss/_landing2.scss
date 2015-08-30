@@ -62,6 +62,27 @@
     }
   }
 
+  #block-views-shopping-cart-block {
+    
+    h2.block-title {
+      background: transparent;
+      color: #FFF;
+      font-size: 2em;
+      position: relative;
+      text-indent: -9999px;
+      width: 30px;
+      
+      @extend .fa;
+      @extend .fa-opencart;
+      &:before {
+        font-family: "FontAwesome";
+        right: 0;
+        position: absolute;
+        text-indent: 0;
+      } 
+    }
+  }
+
   #block-search-form {
     padding: 20px 20px 0;
     
