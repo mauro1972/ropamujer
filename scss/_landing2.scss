@@ -63,18 +63,20 @@
   }
 
   #block-search-form {
+    padding: 20px 20px 0;
     
     h2.block-title {
       color: #FFF;
       font-size: 2em;
+      position: relative;
       text-indent: -9999px;
-      width: 40px;
+      width: 30px;
 
       @extend .fa;
       @extend .fa-search;
       &:before {
         font-family: "FontAwesome";
-        left: 0;
+        right: 0;
         position: absolute;
         text-indent: 0;
       }      
