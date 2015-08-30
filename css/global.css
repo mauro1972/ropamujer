@@ -3967,10 +3967,6 @@
 /**
  * Landing page 2
  */
-/* line 5, ../scss/_landing2.scss */
-.page-nuevos-productos #region-branding {
-  border: 1px #000 solid;
-}
 /* line 9, ../scss/_landing2.scss */
 .page-nuevos-productos .region-branding-inner > div,
 .page-nuevos-productos .region-branding-inner > section {
