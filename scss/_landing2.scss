@@ -5,4 +5,9 @@
     #region-branding {
       border: 1px #000 solid;
     }
+
+    .region-branding-inner > div, 
+    .region-branding-inner > section {
+      min-height: auto;
+    }
  }
