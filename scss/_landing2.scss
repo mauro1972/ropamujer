@@ -23,8 +23,11 @@
     #block-block-9 {
       .content {
         display: block;
+        height: auto;
         visibility: visible;
         opacity: 1;
+        top: 120px;
+        z-index: 1000;
       }
     }
  }
