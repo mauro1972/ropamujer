@@ -21,7 +21,7 @@
 /* line 4, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_core.scss */
 .fa, #block-block-10 .content a,
 #block-block-8 .content a, .outlet-carousel .jcarousel-item input[type="submit"],
-.product-row input[type="submit"] {
+.product-row input[type="submit"], .page-nuevos-productos #block-search-form h2.block-title {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -108,13 +108,13 @@
 /* line 14, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-left, #block-block-10 .content a.fa-pull-left,
 #block-block-8 .content a.fa-pull-left, .outlet-carousel .jcarousel-item input.fa-pull-left[type="submit"],
-.product-row input.fa-pull-left[type="submit"] {
+.product-row input.fa-pull-left[type="submit"], .page-nuevos-productos #block-search-form h2.fa-pull-left.block-title {
   margin-right: .3em;
 }
 /* line 15, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-right, #block-block-10 .content a.fa-pull-right,
 #block-block-8 .content a.fa-pull-right, .outlet-carousel .jcarousel-item input.fa-pull-right[type="submit"],
-.product-row input.fa-pull-right[type="submit"] {
+.product-row input.fa-pull-right[type="submit"], .page-nuevos-productos #block-search-form h2.fa-pull-right.block-title {
   margin-left: .3em;
 }
 
@@ -132,13 +132,13 @@
 /* line 23, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.pull-left, #block-block-10 .content a.pull-left,
 #block-block-8 .content a.pull-left, .outlet-carousel .jcarousel-item input.pull-left[type="submit"],
-.product-row input.pull-left[type="submit"] {
+.product-row input.pull-left[type="submit"], .page-nuevos-productos #block-search-form h2.pull-left.block-title {
   margin-right: .3em;
 }
 /* line 24, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.pull-right, #block-block-10 .content a.pull-right,
 #block-block-8 .content a.pull-right, .outlet-carousel .jcarousel-item input.pull-right[type="submit"],
-.product-row input.pull-right[type="submit"] {
+.product-row input.pull-right[type="submit"], .page-nuevos-productos #block-search-form h2.pull-right.block-title {
   margin-left: .3em;
 }
 
@@ -275,7 +275,7 @@
 
 /* line 7, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
 .fa-envelope-o:before, #block-block-10 .content a:before,
-#block-block-8 .content a:before {
+#block-block-8 .content a:before, .page-nuevos-productos #block-search-form h2.block-title:before {
   content: "";
 }
 
@@ -4034,6 +4034,10 @@
 .page-nuevos-productos #block-block-9:hover .content {
   opacity: 1;
   top: 77px;
+}
+/* line 70, ../scss/_landing2.scss */
+.page-nuevos-productos #block-search-form h2.block-title:before {
+  font-family: "FontAwesome";
 }
 
 /* End Variables & Mixins */

@@ -1,64 +1,75 @@
 /**
  * Landing page 2
  */
- .page-nuevos-productos {
-    #section-header {
-      background: #222;
+.page-nuevos-productos {
+  #section-header {
+    background: #222;
+  }
+
+  #region-branding {
+
+  }
+
+  .region-branding-inner > div, 
+  .region-branding-inner > section {
+    height: 55px;
+  }
+
+  #block-block-9 {
+    padding-top: 20px;
+
+    h2.block-title {
+      margin-top: -10px;
+    }
+  }
+  #block-search-form,
+  #block-views-shopping-cart-block,
+  #block-block-9 {
+    border-bottom: 2px transparent solid;
+    color: #FFF;
+    position: relative;
+
+    .content {
+      display: block;
+      height: auto;
+      left: 0;
+      visibility: visible;
+      opacity: 0;
+      position: absolute;
+      top: 100px;
+      z-index: 1000;
+
+      @include transition-property("all");
+      @include transition-duration(0.8s);        
     }
 
-    #region-branding {
 
-    }
 
-    .region-branding-inner > div, 
-    .region-branding-inner > section {
-      height: 55px;
-    }
+    &:hover {
+      background: transparent;
+      border-color: transparent;
+      border-bottom-color: #F4F4F4;
 
-    #block-block-9 {
-      padding-top: 20px;
-
-      h2.block-title {
-        margin-top: -10px;
+      h2.block-title:after {
+        bottom: 0 !important;
+        color: #FFF;
       }
-    }
-    #block-search-form,
-    #block-views-shopping-cart-block,
-    #block-block-9 {
-      border-bottom: 2px transparent solid;
-      color: #FFF;
-      position: relative;
 
       .content {
-        display: block;
-        height: auto;
-        left: 0;
-        visibility: visible;
-        opacity: 0;
-        position: absolute;
-        top: 100px;
-        z-index: 1000;
-
-        @include transition-property("all");
-        @include transition-duration(0.8s);        
-      }
-
-
-
-      &:hover {
-        background: transparent;
-        border-color: transparent;
-        border-bottom-color: #F4F4F4;
-
-        h2.block-title:after {
-          bottom: 0 !important;
-          color: #FFF;
-        }
-
-        .content {
-          opacity: 1;
-          top: 77px;
-        }
+        opacity: 1;
+        top: 77px;
       }
     }
- }
+  }
+
+  #block-search-form {
+    
+    h2.block-title {
+      @extend .fa;
+      @extend .fa-envelope-o;
+      &:before {
+        font-family: "FontAwesome";
+      }      
+    }
+  }
+}
