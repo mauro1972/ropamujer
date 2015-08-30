@@ -4340,7 +4340,7 @@ select {
 .region-branding-inner > div, .region-branding-inner > section {
   float: left;
   margin-right: 5px;
-  min-height: 20px;
+  /*min-height: 20px;*/
   padding: 20px 5px 0;
   position: relative;
   z-index: 500;
