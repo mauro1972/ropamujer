@@ -108,6 +108,21 @@
       }      
     }
 
+    &:hover h2.block-title {
+
+      &:after {
+        border: 7px #000 solid;
+        border-color: transparent transparent #B4239E transparent;
+        bottom: 0;
+        display: block;
+        content: "";
+        position: absolute;
+        height: 0;
+        left: 40%;
+        width: 0;
+      }      
+    }
+
     .content {
       background: #FFF;
       @include border-radius(0);
