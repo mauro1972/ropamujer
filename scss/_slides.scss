@@ -4,6 +4,17 @@
 
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   border: 1px #000 solid;
+  background: none;
+  height: 58px;
+  left: 5px;
+  width: 30px;
+
+  @extend .fa;
+  @extend .fa-angle-double-left;
+  &:before {
+    font-family: "FontAwesome";
+    color: #FFF;
+  }  
 }
 
 #block-views-demo-content-slideshow-block-1 {
