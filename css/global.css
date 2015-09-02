@@ -4015,10 +4015,10 @@
   -o-transition-property: "all";
   -webkit-transition-property: "all";
   transition-property: "all";
-  -moz-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  -webkit-transition-duration: 0.8s;
-  transition-duration: 0.8s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 /* line 49, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover,
