@@ -3922,47 +3922,51 @@
 /* line 13, ../scss/_slides.scss */
 .jcarousel-skin-default .jcarousel-prev-horizontal:before {
   font-family: "FontAwesome";
+  font-size: 1.6em;
   color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
-/* line 21, ../scss/_slides.scss */
+/* line 25, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
   width: 100%;
 }
-/* line 26, ../scss/_slides.scss */
+/* line 30, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 30, ../scss/_slides.scss */
+/* line 34, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
   width: 100%;
 }
 
-/* line 37, ../scss/_slides.scss */
+/* line 41, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
 }
-/* line 41, ../scss/_slides.scss */
+/* line 45, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
   width: 550px;
 }
 
-/* line 46, ../scss/_slides.scss */
+/* line 50, ../scss/_slides.scss */
 .front .region-postscript-second-inner h2.block-title {
   font-size: 2.5em;
   text-align: center;
 }
 
-/* line 52, ../scss/_slides.scss */
+/* line 56, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 56, ../scss/_slides.scss */
+/* line 60, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 60, ../scss/_slides.scss */
+/* line 64, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-item {
   margin-left: 10px;
   margin-right: 10px;
@@ -3973,11 +3977,11 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 70, ../scss/_slides.scss */
+/* line 74, ../scss/_slides.scss */
 .outlet-carousel .title {
   padding: 20px 0 10px;
 }
-/* line 74, ../scss/_slides.scss */
+/* line 78, ../scss/_slides.scss */
 .outlet-carousel .price {
   bottom: auto !important;
   top: 50%;
