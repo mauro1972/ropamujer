@@ -3914,56 +3914,55 @@
  */
 /* line 5, ../scss/_slides.scss */
 .jcarousel-skin-default .jcarousel-prev-horizontal {
-  border: 1px #000 solid;
-  background: none;
+  background: #666;
   height: 58px;
   left: 5px;
   width: 30px;
 }
-/* line 14, ../scss/_slides.scss */
+/* line 13, ../scss/_slides.scss */
 .jcarousel-skin-default .jcarousel-prev-horizontal:before {
   font-family: "FontAwesome";
   color: #FFF;
 }
 
-/* line 22, ../scss/_slides.scss */
+/* line 21, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
   width: 100%;
 }
-/* line 27, ../scss/_slides.scss */
+/* line 26, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 31, ../scss/_slides.scss */
+/* line 30, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
   width: 100%;
 }
 
-/* line 38, ../scss/_slides.scss */
+/* line 37, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
 }
-/* line 42, ../scss/_slides.scss */
+/* line 41, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
   width: 550px;
 }
 
-/* line 47, ../scss/_slides.scss */
+/* line 46, ../scss/_slides.scss */
 .front .region-postscript-second-inner h2.block-title {
   font-size: 2.5em;
   text-align: center;
 }
 
-/* line 53, ../scss/_slides.scss */
+/* line 52, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 57, ../scss/_slides.scss */
+/* line 56, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 61, ../scss/_slides.scss */
+/* line 60, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-item {
   margin-left: 10px;
   margin-right: 10px;
@@ -3974,11 +3973,11 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 71, ../scss/_slides.scss */
+/* line 70, ../scss/_slides.scss */
 .outlet-carousel .title {
   padding: 20px 0 10px;
 }
-/* line 75, ../scss/_slides.scss */
+/* line 74, ../scss/_slides.scss */
 .outlet-carousel .price {
   bottom: auto !important;
   top: 50%;
