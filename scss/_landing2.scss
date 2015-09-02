@@ -141,7 +141,7 @@
 
           .form-text {
             display: inline-block;
-            border: 1px #F3F3F3 solid;
+            border: 1px darken(#F3F3F3, 20) solid;
             line-height: 40px;
             font-size: 1.8em;
             padding: 10px 5px;
