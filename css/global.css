@@ -4128,7 +4128,7 @@
 }
 /* line 152, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit {
-  background: #222;
+  background: #B4239E;
   color: #FFF;
   display: inline-block;
   float: right;
@@ -4141,7 +4141,7 @@
 }
 /* line 163, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form .content form .form-actions .form-submit:hover {
-  background: #CCC;
+  background: #d733be;
 }
 
 /* End Variables & Mixins */

@@ -150,7 +150,7 @@
         .form-actions {
 
           .form-submit {
-            background: #222;
+            background: #B4239E;
             color: #FFF;
             display: inline-block;
             float: right;
@@ -161,7 +161,7 @@
             @include border-radius(0px);
 
             &:hover {
-              background: #CCC;
+              background: lighten(#B4239E, 10);
             }
           }
         }
