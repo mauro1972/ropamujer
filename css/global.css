@@ -3413,7 +3413,7 @@
 /* line 106, ../scss/_ropa.scss */
 #block-block-9:hover h2.block-title:after {
   border: 7px #000 solid;
-  border-color: transparent transparent #a8a8a8 transparent;
+  border-color: transparent transparent #B4239E transparent;
   bottom: 0;
   display: block;
   content: "";
@@ -3631,7 +3631,7 @@
 /* line 283, ../scss/_ropa.scss */
 .block-shopping-cart-block:hover h2.block-title:after {
   border: 7px #000 solid;
-  border-color: transparent transparent #a8a8a8 transparent;
+  border-color: transparent transparent #B4239E transparent;
   bottom: 5px;
   display: block;
   content: "";
@@ -4026,7 +4026,7 @@
 .page-nuevos-productos #block-block-9:hover {
   background: rgba(0, 0, 0, 0.2);
   border-color: transparent;
-  border-bottom-color: #F4F4F4;
+  border-bottom-color: #B4239E;
 }
 /* line 54, ../scss/_landing2.scss */
 .page-nuevos-productos #block-search-form:hover h2.block-title:after,

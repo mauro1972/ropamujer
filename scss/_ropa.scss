@@ -105,7 +105,7 @@
     h2.block-title {
       &:after {
         border: 7px #000 solid;
-        border-color: transparent transparent darken(#f4f4f4, 30) transparent;
+        border-color: transparent transparent #B4239E transparent;
         bottom: 0;
         display: block;
         content: "";
@@ -282,7 +282,7 @@
     h2.block-title {
       &:after {
         border: 7px #000 solid;
-        border-color: transparent transparent darken(#f4f4f4, 30) transparent;
+        border-color: transparent transparent #B4239E transparent;
         bottom: 5px;
         display: block;
         content: "";
