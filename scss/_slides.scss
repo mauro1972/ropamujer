@@ -1,15 +1,15 @@
 /**
  * slides Styles
  */
-
+.jcarousel-skin-default .jcarousel-next-horizontal,
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   background: #666;
   height: 68px;
   left: 5px;
+  top: 40%;
   width: 30px;
 
   @extend .fa;
-  @extend .fa-angle-double-left;
   &:before {
     font-family: "FontAwesome";
     font-size: 1.6em;
@@ -20,6 +20,12 @@
     margin-top: -14px;
     margin-left: -5px;
   }  
+}
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+  @extend .fa-angle-double-left;
+}
+.jcarousel-skin-default .jcarousel-next-horizontal {
+  @extend .fa-angle-double-right;
 }
 
 #block-views-demo-content-slideshow-block-1 {
