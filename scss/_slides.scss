@@ -8,6 +8,9 @@
   top: 40%;
   width: 30px;
 
+  @include transition-property("all");
+  @include transition-duration(0.4s);   
+
   @extend .fa;
   &:before {
     font-family: "FontAwesome";
@@ -18,11 +21,15 @@
     left: 50%;
     margin-top: -14px;
     margin-left: -5px;
-  }  
+  } 
+
+  &:hover {
+    background: #B4239E;
+  } 
 }
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   left: 5px;
-    
+
   @extend .fa-angle-double-left;
 }
 .jcarousel-skin-default .jcarousel-next-horizontal {

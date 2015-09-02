@@ -3924,8 +3924,16 @@
   height: 68px;
   top: 40%;
   width: 30px;
+  -moz-transition-property: "all";
+  -o-transition-property: "all";
+  -webkit-transition-property: "all";
+  transition-property: "all";
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
-/* line 12, ../scss/_slides.scss */
+/* line 15, ../scss/_slides.scss */
 .jcarousel-skin-default .jcarousel-next-horizontal:before,
 .jcarousel-skin-default .jcarousel-prev-horizontal:before {
   font-family: "FontAwesome";
@@ -3937,55 +3945,60 @@
   margin-top: -14px;
   margin-left: -5px;
 }
+/* line 26, ../scss/_slides.scss */
+.jcarousel-skin-default .jcarousel-next-horizontal:hover,
+.jcarousel-skin-default .jcarousel-prev-horizontal:hover {
+  background: #B4239E;
+}
 
-/* line 23, ../scss/_slides.scss */
+/* line 30, ../scss/_slides.scss */
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   left: 5px;
 }
 
-/* line 28, ../scss/_slides.scss */
+/* line 35, ../scss/_slides.scss */
 .jcarousel-skin-default .jcarousel-next-horizontal {
   right: 5px;
 }
 
-/* line 36, ../scss/_slides.scss */
+/* line 43, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
   width: 100%;
 }
-/* line 41, ../scss/_slides.scss */
+/* line 48, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 45, ../scss/_slides.scss */
+/* line 52, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
   width: 100%;
 }
 
-/* line 52, ../scss/_slides.scss */
+/* line 59, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
 }
-/* line 56, ../scss/_slides.scss */
+/* line 63, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
   width: 550px;
 }
 
-/* line 61, ../scss/_slides.scss */
+/* line 68, ../scss/_slides.scss */
 .front .region-postscript-second-inner h2.block-title {
   font-size: 2.5em;
   text-align: center;
 }
 
-/* line 67, ../scss/_slides.scss */
+/* line 74, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 71, ../scss/_slides.scss */
+/* line 78, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 75, ../scss/_slides.scss */
+/* line 82, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-item {
   margin-left: 10px;
   margin-right: 10px;
@@ -3996,11 +4009,11 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 85, ../scss/_slides.scss */
+/* line 92, ../scss/_slides.scss */
 .outlet-carousel .title {
   padding: 20px 0 10px;
 }
-/* line 89, ../scss/_slides.scss */
+/* line 96, ../scss/_slides.scss */
 .outlet-carousel .price {
   bottom: auto !important;
   top: 50%;
