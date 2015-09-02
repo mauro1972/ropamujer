@@ -48,9 +48,10 @@
 
 
     &:hover {
-      background: transparent;
+      background: #000;
       border-color: transparent;
       border-bottom-color: #F4F4F4;
+      opacity: 0.2;
 
       h2.block-title:after {
         bottom: 0 !important;
