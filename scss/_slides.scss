@@ -70,6 +70,13 @@
   .jcarousel-skin-default .jcarousel-item  {
     position: relative;
     width: 550px;
+
+    &:hover {
+
+      .title {
+        border-color: #e00;
+      }
+    }
   }  
 }
 
