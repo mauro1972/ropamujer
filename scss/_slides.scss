@@ -61,6 +61,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0.5;
     text-align: center;
     width: 100%;
 
@@ -68,20 +69,23 @@
     @include transition-property(all);
     @include transition-duration(0.5s);    
   }
-  
+  .jcarousel-skin-default .jcarousel-clip-horizonta {
+    width: 100%;
+  } 
   .jcarousel-skin-default .jcarousel-container-horizontal {
     padding: 0;
   }  
   
   .jcarousel-skin-default .jcarousel-item  {
     position: relative;
-    width: 550px;
+    width: 100%;
 
     &:hover {
 
       .title {
         border-color: #e00;
-        @include translate(0, 40%);
+        opacity: 1;
+        @include translate(0, 100px);
       }
     }
   }  
