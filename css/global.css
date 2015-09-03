@@ -3978,31 +3978,35 @@
 /* line 59, ../scss/_slides.scss */
 #block-views-categorias-block .title {
   border: 1px #000 solid;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-/* line 63, ../scss/_slides.scss */
+/* line 66, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0;
 }
-/* line 67, ../scss/_slides.scss */
+/* line 70, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
+  position: relative;
   width: 550px;
 }
 
-/* line 72, ../scss/_slides.scss */
+/* line 76, ../scss/_slides.scss */
 .front .region-postscript-second-inner h2.block-title {
   font-size: 2.5em;
   text-align: center;
 }
 
-/* line 78, ../scss/_slides.scss */
+/* line 82, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 82, ../scss/_slides.scss */
+/* line 86, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 86, ../scss/_slides.scss */
+/* line 90, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-item {
   margin-left: 10px;
   margin-right: 10px;
@@ -4013,11 +4017,11 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 96, ../scss/_slides.scss */
+/* line 100, ../scss/_slides.scss */
 .outlet-carousel .title {
   padding: 20px 0 10px;
 }
-/* line 100, ../scss/_slides.scss */
+/* line 104, ../scss/_slides.scss */
 .outlet-carousel .price {
   bottom: auto !important;
   top: 50%;
