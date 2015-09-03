@@ -68,7 +68,13 @@
 
     @include translate(0, 0);
     @include transition-property(all);
-    @include transition-duration(0.5s);    
+    @include transition-duration(0.5s); 
+
+    a {
+      color: #FFF !important;
+      font-size: 2em;
+      z-index: 100;
+    }   
   }
 
   /*.jcarousel-skin-default .jcarousel-container-horizontal {
