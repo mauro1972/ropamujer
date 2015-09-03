@@ -4023,9 +4023,10 @@
 /* line 92, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
   max-width: 550px;
+  position: relative;
   width: 100%;
 }
-/* line 98, ../scss/_slides.scss */
+/* line 99, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item:hover .title {
   border-color: #e00;
   opacity: 1;
@@ -4035,21 +4036,21 @@
   transform: translate(0, 100px);
 }
 
-/* line 107, ../scss/_slides.scss */
+/* line 108, ../scss/_slides.scss */
 .front .region-postscript-second-inner h2.block-title {
   font-size: 2.5em;
   text-align: center;
 }
 
-/* line 113, ../scss/_slides.scss */
+/* line 114, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 117, ../scss/_slides.scss */
+/* line 118, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 121, ../scss/_slides.scss */
+/* line 122, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-item {
   margin-left: 10px;
   margin-right: 10px;
@@ -4060,11 +4061,11 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 131, ../scss/_slides.scss */
+/* line 132, ../scss/_slides.scss */
 .outlet-carousel .title {
   padding: 20px 0 10px;
 }
-/* line 135, ../scss/_slides.scss */
+/* line 136, ../scss/_slides.scss */
 .outlet-carousel .price {
   bottom: auto !important;
   top: 50%;
