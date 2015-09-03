@@ -61,6 +61,12 @@
     position: absolute;
     top: 0;
     left: 0;
+    text-align: center;
+    width: 100%;
+
+    @include translate(0, 0);
+    @include transition-property(all);
+    @include transition-duration(0.5s);    
   }
   
   .jcarousel-skin-default .jcarousel-container-horizontal {
@@ -75,6 +81,7 @@
 
       .title {
         border-color: #e00;
+        @include translate(0, 40%);
       }
     }
   }  
