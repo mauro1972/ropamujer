@@ -58,7 +58,6 @@
 #block-views-categorias-block {
 
   .title {
-    border: 1px #000 solid;
     position: absolute;
     top: 0;
     left: 0;
@@ -97,7 +96,6 @@
     &:hover {
 
       .title {
-        border-color: #e00;
         opacity: 1;
         @include translate(0, 100px);
       }
