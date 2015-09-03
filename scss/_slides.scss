@@ -69,15 +69,19 @@
     @include transition-property(all);
     @include transition-duration(0.5s);    
   }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal {
+    padding: 0;
+    width: 100%;
+  } 
+
   .jcarousel-skin-default .jcarousel-clip-horizonta {
     width: 100%;
   } 
-  .jcarousel-skin-default .jcarousel-container-horizontal {
-    padding: 0;
-  }  
   
   .jcarousel-skin-default .jcarousel-item  {
     position: relative;
+    width: 200px;
 
     &:hover {
 

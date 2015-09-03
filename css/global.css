@@ -3997,19 +3997,21 @@
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 72, ../scss/_slides.scss */
+/* line 73, ../scss/_slides.scss */
+#block-views-categorias-block .jcarousel-skin-default .jcarousel-container-horizontal {
+  padding: 0;
+  width: 100%;
+}
+/* line 78, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-clip-horizonta {
   width: 100%;
 }
-/* line 75, ../scss/_slides.scss */
-#block-views-categorias-block .jcarousel-skin-default .jcarousel-container-horizontal {
-  padding: 0;
-}
-/* line 79, ../scss/_slides.scss */
+/* line 82, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
   position: relative;
+  width: 200px;
 }
-/* line 84, ../scss/_slides.scss */
+/* line 88, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item:hover .title {
   border-color: #e00;
   opacity: 1;
@@ -4019,21 +4021,21 @@
   transform: translate(0, 100px);
 }
 
-/* line 93, ../scss/_slides.scss */
+/* line 97, ../scss/_slides.scss */
 .front .region-postscript-second-inner h2.block-title {
   font-size: 2.5em;
   text-align: center;
 }
 
-/* line 99, ../scss/_slides.scss */
+/* line 103, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
 }
-/* line 103, ../scss/_slides.scss */
+/* line 107, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
   width: 100%;
 }
-/* line 107, ../scss/_slides.scss */
+/* line 111, ../scss/_slides.scss */
 .outlet-carousel .jcarousel-skin-default .jcarousel-item {
   margin-left: 10px;
   margin-right: 10px;
@@ -4044,11 +4046,11 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 117, ../scss/_slides.scss */
+/* line 121, ../scss/_slides.scss */
 .outlet-carousel .title {
   padding: 20px 0 10px;
 }
-/* line 121, ../scss/_slides.scss */
+/* line 125, ../scss/_slides.scss */
 .outlet-carousel .price {
   bottom: auto !important;
   top: 50%;
