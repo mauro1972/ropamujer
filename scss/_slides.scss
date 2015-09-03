@@ -81,8 +81,8 @@
   } */
   
   .jcarousel-skin-default .jcarousel-item  {
-    /*position: 550px;
-    width: 100%;*/
+    max-width: 550px;
+    width: 100%;
 
     &:hover {
 

@@ -4013,8 +4013,8 @@
 }
 /* line 83, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item {
-  /*position: 550px;
-  width: 100%;*/
+  max-width: 550px;
+  width: 100%;
 }
 /* line 89, ../scss/_slides.scss */
 #block-views-categorias-block .jcarousel-skin-default .jcarousel-item:hover .title {
