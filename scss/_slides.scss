@@ -38,6 +38,7 @@
   @extend .fa-angle-double-right;
 }
 
+#block-views-categorias-block,
 #block-views-demo-content-slideshow-block-1 {
 
   .jcarousel-skin-default .jcarousel-container-horizontal {
@@ -70,18 +71,18 @@
     @include transition-duration(0.5s);    
   }
 
-  .jcarousel-skin-default .jcarousel-container-horizontal {
+  /*.jcarousel-skin-default .jcarousel-container-horizontal {
     padding: 0;
     width: 100%;
   } 
 
   .jcarousel-skin-default .jcarousel-clip-horizontal {
     width: 100%;
-  } 
+  } */
   
   .jcarousel-skin-default .jcarousel-item  {
-    position: 550px;
-    width: 100%;
+    /*position: 550px;
+    width: 100%;*/
 
     &:hover {
 
