@@ -22,7 +22,7 @@
 .fa, #block-block-10 .content a,
 #block-block-8 .content a, .outlet-carousel .jcarousel-item input[type="submit"],
 .product-row input[type="submit"], .jcarousel-skin-default .jcarousel-next-horizontal,
-.jcarousel-skin-default .jcarousel-prev-horizontal, .page-nuevos-productos .block-shopping-cart-block h2.block-title,
+.jcarousel-skin-default .jcarousel-prev-horizontal, .flex-direction-nav a.flex-next:before, .page-nuevos-productos .block-shopping-cart-block h2.block-title,
 .page-nuevos-productos #block-views-shopping-cart-block h2.block-title, .page-nuevos-productos #block-search-form h2.block-title {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -111,7 +111,7 @@
 .fa.fa-pull-left, #block-block-10 .content a.fa-pull-left,
 #block-block-8 .content a.fa-pull-left, .outlet-carousel .jcarousel-item input.fa-pull-left[type="submit"],
 .product-row input.fa-pull-left[type="submit"], .jcarousel-skin-default .fa-pull-left.jcarousel-next-horizontal,
-.jcarousel-skin-default .fa-pull-left.jcarousel-prev-horizontal, .page-nuevos-productos .block-shopping-cart-block h2.fa-pull-left.block-title,
+.jcarousel-skin-default .fa-pull-left.jcarousel-prev-horizontal, .flex-direction-nav a.fa-pull-left.flex-next:before, .page-nuevos-productos .block-shopping-cart-block h2.fa-pull-left.block-title,
 .page-nuevos-productos #block-views-shopping-cart-block h2.fa-pull-left.block-title, .page-nuevos-productos #block-search-form h2.fa-pull-left.block-title {
   margin-right: .3em;
 }
@@ -119,7 +119,7 @@
 .fa.fa-pull-right, #block-block-10 .content a.fa-pull-right,
 #block-block-8 .content a.fa-pull-right, .outlet-carousel .jcarousel-item input.fa-pull-right[type="submit"],
 .product-row input.fa-pull-right[type="submit"], .jcarousel-skin-default .fa-pull-right.jcarousel-next-horizontal,
-.jcarousel-skin-default .fa-pull-right.jcarousel-prev-horizontal, .page-nuevos-productos .block-shopping-cart-block h2.fa-pull-right.block-title,
+.jcarousel-skin-default .fa-pull-right.jcarousel-prev-horizontal, .flex-direction-nav a.fa-pull-right.flex-next:before, .page-nuevos-productos .block-shopping-cart-block h2.fa-pull-right.block-title,
 .page-nuevos-productos #block-views-shopping-cart-block h2.fa-pull-right.block-title, .page-nuevos-productos #block-search-form h2.fa-pull-right.block-title {
   margin-left: .3em;
 }
@@ -139,7 +139,7 @@
 .fa.pull-left, #block-block-10 .content a.pull-left,
 #block-block-8 .content a.pull-left, .outlet-carousel .jcarousel-item input.pull-left[type="submit"],
 .product-row input.pull-left[type="submit"], .jcarousel-skin-default .pull-left.jcarousel-next-horizontal,
-.jcarousel-skin-default .pull-left.jcarousel-prev-horizontal, .page-nuevos-productos .block-shopping-cart-block h2.pull-left.block-title,
+.jcarousel-skin-default .pull-left.jcarousel-prev-horizontal, .flex-direction-nav a.pull-left.flex-next:before, .page-nuevos-productos .block-shopping-cart-block h2.pull-left.block-title,
 .page-nuevos-productos #block-views-shopping-cart-block h2.pull-left.block-title, .page-nuevos-productos #block-search-form h2.pull-left.block-title {
   margin-right: .3em;
 }
@@ -147,7 +147,7 @@
 .fa.pull-right, #block-block-10 .content a.pull-right,
 #block-block-8 .content a.pull-right, .outlet-carousel .jcarousel-item input.pull-right[type="submit"],
 .product-row input.pull-right[type="submit"], .jcarousel-skin-default .pull-right.jcarousel-next-horizontal,
-.jcarousel-skin-default .pull-right.jcarousel-prev-horizontal, .page-nuevos-productos .block-shopping-cart-block h2.pull-right.block-title,
+.jcarousel-skin-default .pull-right.jcarousel-prev-horizontal, .flex-direction-nav a.pull-right.flex-next:before, .page-nuevos-productos .block-shopping-cart-block h2.pull-right.block-title,
 .page-nuevos-productos #block-views-shopping-cart-block h2.pull-right.block-title, .page-nuevos-productos #block-search-form h2.pull-right.block-title {
   margin-left: .3em;
 }
@@ -4131,12 +4131,12 @@
   width: 100%;
 }
 
-/* line 194, ../scss/_slides.scss */
+/* line 195, ../scss/_slides.scss */
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
 }
-/* line 198, ../scss/_slides.scss */
+/* line 199, ../scss/_slides.scss */
 .flex-nav-prev a {
   display: block !important;
 }

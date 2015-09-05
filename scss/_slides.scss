@@ -187,6 +187,7 @@
 
   a.flex-next {
     &:before {
+      @extend .fa;
       @extend .fa-angle-double-right;
     }
   }
