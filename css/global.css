@@ -3915,7 +3915,7 @@
 }
 
 /* line 1, ../scss/_slides.scss */
-.popup-title-hidden, #block-views-flexslider-block-cat-flex .title {
+.popup-title-hidden {
   position: absolute;
   top: 0;
   left: 0;
@@ -3936,7 +3936,7 @@
   transition-duration: 0.5s;
 }
 /* line 13, ../scss/_slides.scss */
-.popup-title-hidden a, #block-views-flexslider-block-cat-flex .title a {
+.popup-title-hidden a {
   color: #FFF !important;
   display: inline-block;
   font-size: 2em;
@@ -3946,7 +3946,7 @@
 }
 
 /* line 22, ../scss/_slides.scss */
-.popup-title-shown, #block-views-flexslider-block-cat-flex .flex-active-slide .title {
+.popup-title-shown, #block-views-flexslider-block-cat-flex .title {
   opacity: 1;
   -moz-transform: translate(0, 100px);
   -ms-transform: translate(0, 100px);
@@ -4112,10 +4112,6 @@
 /* line 166, ../scss/_slides.scss */
 #block-views-flexslider-block-cat-flex {
   border: 1px #000 solid;
-}
-/* line 173, ../scss/_slides.scss */
-#block-views-flexslider-block-cat-flex .flex-active-slide {
-  border: 1px #E00 solid;
 }
 
 /**

@@ -167,15 +167,8 @@
   border: 1px #000 solid;
 
     .title {
-      @extend .popup-title-hidden;
-    }
 
-  .flex-active-slide {
-    border: 1px #E00 solid;
-
-    .title {
       @extend .popup-title-shown;
     }
-  }
 }
 
