@@ -4336,46 +4336,44 @@
   background: #d733be;
 }
 
-/* line 173, ../scss/_landing2.scss */
-#block-views-estilos-collection {
-  border-bottom: 1px #CCC solid;
-  border-top: 1px #CCC solid;
-}
-/* line 177, ../scss/_landing2.scss */
+/* line 176, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary {
   margin: 0;
   padding: 0;
 }
-/* line 181, ../scss/_landing2.scss */
+/* line 180, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li {
   background: #F8F8F8;
+  border-bottom: 1px #CCC solid;
+  border-top: 1px #CCC solid;
   border-left: 1px #CCC solid;
   float: left;
-  font-size: 1.5em;
+  font-size: 1.1em;
   margin: 0;
-  padding-top: 35px;
+  padding-top: 40px;
   text-align: center;
-  height: 125px;
+  height: 120px;
 }
-/* line 191, ../scss/_landing2.scss */
+/* line 192, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li:last-child {
   border-right: 1px #CCC solid;
 }
 @media (min-width: 720px) {
-  /* line 181, ../scss/_landing2.scss */
+  /* line 180, ../scss/_landing2.scss */
   #block-views-estilos-collection .views-summary li {
     width: 16.5%;
   }
 }
-/* line 199, ../scss/_landing2.scss */
+/* line 200, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 204, ../scss/_landing2.scss */
+/* line 205, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li a {
   color: #333;
   display: block;
+  font-size: 1.5em;
 }
 
 @media (min-width: 720px) {

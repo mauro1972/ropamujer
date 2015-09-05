@@ -171,8 +171,7 @@
 }
 
 #block-views-estilos-collection {
-  border-bottom: 1px #CCC solid;
-  border-top: 1px #CCC solid;
+
   
   .views-summary {
     margin: 0;
@@ -180,13 +179,15 @@
 
     li {
       background: #F8F8F8;
+      border-bottom: 1px #CCC solid;
+      border-top: 1px #CCC solid;      
       border-left: 1px #CCC solid;
       float: left;
-      font-size: 1.5em;
+      font-size: 1.1em;
       margin: 0;
-      padding-top: 35px;
+      padding-top: 40px;
       text-align: center;
-      height: 125px;
+      height: 120px;
 
       &:last-child {
         border-right: 1px #CCC solid;
@@ -204,6 +205,7 @@
       a {
         color: #333;
         display: block;
+        font-size: 1.5em;
       }
     }
   }
