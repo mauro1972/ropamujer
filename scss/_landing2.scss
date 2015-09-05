@@ -177,11 +177,12 @@
 
     li {
       float: left;
+      margin: 0;
       text-align: center;
       height: 160px;
 
       @include breakpoint(720px) {
-        width: 16%;
+        width: 16.6%;
       }
     }
   }
