@@ -4166,16 +4166,6 @@
   right: 10px;
 }
 
-/* line 226, ../scss/_slides.scss */
-.flex-nav-prev {
-  border: 1px #000 solid;
-  display: block !important;
-}
-/* line 230, ../scss/_slides.scss */
-.flex-nav-prev a {
-  display: block !important;
-}
-
 /**
  * Landing page 2
  */
