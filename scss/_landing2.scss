@@ -90,6 +90,7 @@
 
   #block-search-form {
     padding: 20px 20px 0;
+    overflow: hidden;
     
     h2.block-title {
       color: #FFF;
@@ -108,20 +109,24 @@
       }      
     }
 
-    &:hover h2.block-title {
-      height: 55px;
+    &:hover {
+      overflow: visible;
+      
+      h2.block-title {
+        height: 55px;
 
-      &:after {
-        border: 7px #000 solid;
-        border-color: transparent transparent #B4239E transparent;
-        bottom: 0;
-        display: block;
-        content: "";
-        position: absolute;
-        height: 0;
-        left: 40%;
-        width: 0;
-      }      
+        &:after {
+          border: 7px #000 solid;
+          border-color: transparent transparent #B4239E transparent;
+          bottom: 0;
+          display: block;
+          content: "";
+          position: absolute;
+          height: 0;
+          left: 40%;
+          width: 0;
+        } 
+      }     
     }
 
     .content {
