@@ -178,6 +178,10 @@
   }
 }
 
+
+.flex-direction-nav {
+  top: 50%;
+}
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
@@ -186,41 +190,3 @@
     display: block !important;
   }
 }
-.flex-prev,
-.flex-next {
-  background: #666;
-  height: 68px;
-  top: 40%;
-  width: 30px;
-
-  @include transition-property("all");
-  @include transition-duration(0.4s);   
-
-  @extend .fa;
-  &:before {
-    font-family: "FontAwesome";
-    font-size: 1.6em;
-    color: #FFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -14px;
-    margin-left: -5px;
-  } 
-
-  &:hover {
-    background: #B4239E;
-  }    
-}
-
-.flex-prev {
-  left: 5px;
-
-  @extend .fa-angle-double-left;
-}
-.flex-next {
-  right: 5px;
-
-  @extend .fa-angle-double-right;
-}
-
