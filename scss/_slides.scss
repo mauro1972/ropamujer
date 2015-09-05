@@ -184,6 +184,12 @@
   position: absolute;
   top: 50%;
   width: 100%;
+
+  a.flex-next {
+    &:before {
+      @extend .fa-angle-double-right;
+    }
+  }
 }
 .flex-nav-prev {
   border: 1px #000 solid;

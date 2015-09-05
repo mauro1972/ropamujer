@@ -1444,7 +1444,7 @@
 }
 
 /* line 262, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
-.fa-angle-double-right:before, .jcarousel-skin-default .jcarousel-next-horizontal:before {
+.fa-angle-double-right:before, .jcarousel-skin-default .jcarousel-next-horizontal:before, .flex-direction-nav a.flex-next:before {
   content: "";
 }
 
@@ -4131,12 +4131,12 @@
   width: 100%;
 }
 
-/* line 188, ../scss/_slides.scss */
+/* line 194, ../scss/_slides.scss */
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
 }
-/* line 192, ../scss/_slides.scss */
+/* line 198, ../scss/_slides.scss */
 .flex-nav-prev a {
   display: block !important;
 }
