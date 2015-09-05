@@ -169,3 +169,20 @@
     }
   }
 }
+
+#block-views-estilos-collection {
+  border: 1px #000 solid;
+
+  .views-summary {
+
+    li {
+      float: left;
+      text-align: center;
+      height: 160px;
+
+      @include breakpoint(720px) {
+        width: 16%;
+      }
+    }
+  }
+}

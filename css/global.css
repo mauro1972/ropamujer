@@ -4336,6 +4336,23 @@
   background: #d733be;
 }
 
+/* line 173, ../scss/_landing2.scss */
+#block-views-estilos-collection {
+  border: 1px #000 solid;
+}
+/* line 178, ../scss/_landing2.scss */
+#block-views-estilos-collection .views-summary li {
+  float: left;
+  text-align: center;
+  height: 160px;
+}
+@media (min-width: 720px) {
+  /* line 178, ../scss/_landing2.scss */
+  #block-views-estilos-collection .views-summary li {
+    width: 16%;
+  }
+}
+
 @media (min-width: 720px) {
   /* line 9, ../scss/_layout.scss */
   #region-preface-first,
