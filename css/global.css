@@ -3915,7 +3915,7 @@
 }
 
 /* line 1, ../scss/_slides.scss */
-.popup-title-hidden {
+.popup-title-hidden, #block-views-flexslider-block-cat-flex .title {
   position: absolute;
   top: 0;
   left: 0;
@@ -3936,7 +3936,7 @@
   transition-duration: 0.5s;
 }
 /* line 13, ../scss/_slides.scss */
-.popup-title-hidden a {
+.popup-title-hidden a, #block-views-flexslider-block-cat-flex .title a {
   color: #FFF !important;
   display: inline-block;
   font-size: 2em;
