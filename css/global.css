@@ -4339,7 +4339,7 @@
 @media (min-width: 720px) {
   /* line 9, ../scss/_layout.scss */
   #region-preface-first,
-  #region-preface-third {
+  #region-preface-second {
     float: left;
     width: 48%;
   }
