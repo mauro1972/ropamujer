@@ -4135,10 +4135,11 @@
   background: #666;
   height: 68px;
   padding: 0 5px;
+  text-align: center;
   text-indent: -9999px;
   width: 30px;
 }
-/* line 195, ../scss/_slides.scss */
+/* line 196, ../scss/_slides.scss */
 .flex-direction-nav a.flex-next:before {
   color: #FFF;
   font-size: 2em;
@@ -4148,12 +4149,12 @@
   right: 0;
 }
 
-/* line 207, ../scss/_slides.scss */
+/* line 208, ../scss/_slides.scss */
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
 }
-/* line 211, ../scss/_slides.scss */
+/* line 212, ../scss/_slides.scss */
 .flex-nav-prev a {
   display: block !important;
 }
