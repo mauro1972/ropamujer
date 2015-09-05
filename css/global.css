@@ -4158,18 +4158,19 @@
 /* line 214, ../scss/_slides.scss */
 .flex-direction-nav a.flex-next {
   right: 0 !important;
+  text-align: center;
 }
-/* line 217, ../scss/_slides.scss */
+/* line 218, ../scss/_slides.scss */
 .flex-direction-nav a.flex-next:before {
   right: 10px;
 }
 
-/* line 224, ../scss/_slides.scss */
+/* line 225, ../scss/_slides.scss */
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
 }
-/* line 228, ../scss/_slides.scss */
+/* line 229, ../scss/_slides.scss */
 .flex-nav-prev a {
   display: block !important;
 }
