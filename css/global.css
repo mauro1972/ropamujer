@@ -4343,15 +4343,21 @@
 /* line 178, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li {
   float: left;
+  font-size: 1.5em;
   margin: 0;
+  padding-top: 50px;
   text-align: center;
-  height: 160px;
+  height: 110px;
 }
 @media (min-width: 720px) {
   /* line 178, ../scss/_landing2.scss */
   #block-views-estilos-collection .views-summary li {
     width: 16.6%;
   }
+}
+/* line 190, ../scss/_landing2.scss */
+#block-views-estilos-collection .views-summary li a {
+  display: block;
 }
 
 @media (min-width: 720px) {

@@ -177,12 +177,18 @@
 
     li {
       float: left;
+      font-size: 1.5em;
       margin: 0;
+      padding-top: 50px;
       text-align: center;
-      height: 160px;
+      height: 110px;
 
       @include breakpoint(720px) {
         width: 16.6%;
+      }
+
+      a {
+        display: block;
       }
     }
   }
