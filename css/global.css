@@ -4353,8 +4353,9 @@
   padding-top: 50px;
   text-align: center;
   height: 110px;
+  width: 32%;
 }
-/* line 192, ../scss/_landing2.scss */
+/* line 193, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li:last-child {
   border-right: 1px #CCC solid;
 }
@@ -4364,12 +4365,12 @@
     width: 16.5%;
   }
 }
-/* line 200, ../scss/_landing2.scss */
+/* line 201, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 205, ../scss/_landing2.scss */
+/* line 206, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li a {
   color: #333;
   display: block;
