@@ -4125,15 +4125,18 @@
 
 /* line 182, ../scss/_slides.scss */
 .flex-direction-nav {
+  left: 0;
+  position: absolute;
   top: 50%;
+  width: 100%;
 }
 
-/* line 185, ../scss/_slides.scss */
+/* line 188, ../scss/_slides.scss */
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
 }
-/* line 189, ../scss/_slides.scss */
+/* line 192, ../scss/_slides.scss */
 .flex-nav-prev a {
   display: block !important;
 }
