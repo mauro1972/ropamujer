@@ -4130,13 +4130,23 @@
   top: 50%;
   width: 100%;
 }
+/* line 188, ../scss/_slides.scss */
+.flex-direction-nav a.flex-next {
+  background: #666;
+  text-indent: -9999px;
+}
+/* line 192, ../scss/_slides.scss */
+.flex-direction-nav a.flex-next:before {
+  color: #FFF;
+  text-indent: 0;
+}
 
-/* line 195, ../scss/_slides.scss */
+/* line 200, ../scss/_slides.scss */
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
 }
-/* line 199, ../scss/_slides.scss */
+/* line 204, ../scss/_slides.scss */
 .flex-nav-prev a {
   display: block !important;
 }

@@ -186,9 +186,14 @@
   width: 100%;
 
   a.flex-next {
+    background: #666;
+    text-indent: -9999px;
+
     &:before {
       @extend .fa;
       @extend .fa-angle-double-right;
+      color: #FFF;
+      text-indent: 0;
     }
   }
 }
