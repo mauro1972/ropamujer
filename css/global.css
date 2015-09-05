@@ -4133,8 +4133,12 @@
   border: 1px #000 solid;
   display: block !important;
 }
-
 /* line 185, ../scss/_slides.scss */
+.flex-nav-prev a {
+  display: block !important;
+}
+
+/* line 189, ../scss/_slides.scss */
 .flex-prev,
 .flex-next {
   background: #666;
@@ -4150,7 +4154,7 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 196, ../scss/_slides.scss */
+/* line 200, ../scss/_slides.scss */
 .flex-prev:before,
 .flex-next:before {
   font-family: "FontAwesome";
@@ -4162,18 +4166,18 @@
   margin-top: -14px;
   margin-left: -5px;
 }
-/* line 207, ../scss/_slides.scss */
+/* line 211, ../scss/_slides.scss */
 .flex-prev:hover,
 .flex-next:hover {
   background: #B4239E;
 }
 
-/* line 212, ../scss/_slides.scss */
+/* line 216, ../scss/_slides.scss */
 .flex-prev {
   left: 5px;
 }
 
-/* line 217, ../scss/_slides.scss */
+/* line 221, ../scss/_slides.scss */
 .flex-next {
   right: 5px;
 }
