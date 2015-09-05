@@ -4150,27 +4150,28 @@
 /* line 205, ../scss/_slides.scss */
 .flex-direction-nav a.flex-prev {
   left: 0 !important;
+  margin-left: -10px;
 }
-/* line 208, ../scss/_slides.scss */
+/* line 209, ../scss/_slides.scss */
 .flex-direction-nav a.flex-prev:before {
   left: 10px;
 }
-/* line 214, ../scss/_slides.scss */
+/* line 215, ../scss/_slides.scss */
 .flex-direction-nav a.flex-next {
   right: 0 !important;
   text-align: center;
 }
-/* line 218, ../scss/_slides.scss */
+/* line 219, ../scss/_slides.scss */
 .flex-direction-nav a.flex-next:before {
   right: 10px;
 }
 
-/* line 225, ../scss/_slides.scss */
+/* line 226, ../scss/_slides.scss */
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
 }
-/* line 229, ../scss/_slides.scss */
+/* line 230, ../scss/_slides.scss */
 .flex-nav-prev a {
   display: block !important;
 }

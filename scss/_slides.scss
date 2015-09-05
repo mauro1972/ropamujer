@@ -204,6 +204,7 @@
 
     &.flex-prev {
       left: 0 !important;
+      margin-left: -10px;
 
       &:before {
         @extend .fa-angle-double-left;
