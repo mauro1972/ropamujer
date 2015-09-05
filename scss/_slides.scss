@@ -167,8 +167,9 @@
   border: 1px #000 solid;
 
     .title {
-
       @extend .popup-title-shown;
+      opacity: 1;
+      top: 50%;
     }
 }
 
