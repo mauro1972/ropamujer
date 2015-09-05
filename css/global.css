@@ -4354,8 +4354,16 @@
   text-align: center;
   height: 110px;
   width: 32%;
+  -moz-transition-property: "all";
+  -o-transition-property: "all";
+  -webkit-transition-property: "all";
+  transition-property: "all";
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
-/* line 193, ../scss/_landing2.scss */
+/* line 196, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li:last-child {
   border-right: 1px #CCC solid;
 }
@@ -4365,12 +4373,12 @@
     width: 16.5%;
   }
 }
-/* line 201, ../scss/_landing2.scss */
+/* line 204, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 206, ../scss/_landing2.scss */
+/* line 209, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li a {
   color: #333;
   display: block;

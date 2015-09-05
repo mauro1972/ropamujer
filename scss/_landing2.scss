@@ -190,6 +190,9 @@
       height: 110px;
       width: 32%;
 
+      @include transition-property("all");
+      @include transition-duration(0.4s);
+
       &:last-child {
         border-right: 1px #CCC solid;
       }
