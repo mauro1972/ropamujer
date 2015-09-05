@@ -4114,6 +4114,10 @@
   border: 1px #000 solid;
 }
 /* line 169, ../scss/_slides.scss */
+#block-views-flexslider-block-cat-flex li {
+  position: relative;
+}
+/* line 173, ../scss/_slides.scss */
 #block-views-flexslider-block-cat-flex .title {
   opacity: 1;
   top: 50%;
