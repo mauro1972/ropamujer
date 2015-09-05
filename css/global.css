@@ -4338,10 +4338,16 @@
 
 /* line 173, ../scss/_landing2.scss */
 #block-views-estilos-collection {
-  border: 1px #000 solid;
+  border-bottom: 1px #CCC solid;
+  border-top: 1px #CCC solid;
   background: #F8F8F8;
 }
-/* line 179, ../scss/_landing2.scss */
+/* line 178, ../scss/_landing2.scss */
+#block-views-estilos-collection .views-summary {
+  margin: 0;
+  padding: 0;
+}
+/* line 182, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li {
   border-left: 1px #CCC solid;
   float: left;
@@ -4351,17 +4357,17 @@
   text-align: center;
   height: 130px;
 }
-/* line 188, ../scss/_landing2.scss */
+/* line 191, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li li:last-child {
   border-right: 1px #CCC solid;
 }
 @media (min-width: 720px) {
-  /* line 179, ../scss/_landing2.scss */
+  /* line 182, ../scss/_landing2.scss */
   #block-views-estilos-collection .views-summary li {
     width: 16.5%;
   }
 }
-/* line 196, ../scss/_landing2.scss */
+/* line 199, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li a {
   display: block;
 }

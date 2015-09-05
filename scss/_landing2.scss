@@ -171,10 +171,13 @@
 }
 
 #block-views-estilos-collection {
-  border: 1px #000 solid;
+  border-bottom: 1px #CCC solid;
+  border-top: 1px #CCC solid;
   background: #F8F8F8;
 
   .views-summary {
+    margin: 0;
+    padding: 0;
 
     li {
       border-left: 1px #CCC solid;
