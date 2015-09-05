@@ -4119,14 +4119,19 @@
   top: 50%;
 }
 
-/* line 181, ../scss/_slides.scss */
+/* line 180, ../scss/_slides.scss */
+.flexslider {
+  border: 5px #F8F8F8 solid;
+}
+
+/* line 184, ../scss/_slides.scss */
 .flex-direction-nav {
   left: 0;
   position: absolute;
   top: 50%;
   width: 100%;
 }
-/* line 187, ../scss/_slides.scss */
+/* line 190, ../scss/_slides.scss */
 .flex-direction-nav a {
   background: #666;
   height: 68px;
@@ -4135,7 +4140,7 @@
   text-indent: -9999px;
   width: 30px;
 }
-/* line 195, ../scss/_slides.scss */
+/* line 198, ../scss/_slides.scss */
 .flex-direction-nav a:before {
   color: #FFF;
   font-size: 2em;
@@ -4143,21 +4148,21 @@
   text-indent: 0;
   top: 25%;
 }
-/* line 204, ../scss/_slides.scss */
+/* line 207, ../scss/_slides.scss */
 .flex-direction-nav a.flex-prev {
   left: 0 !important;
   margin-left: -10px;
 }
-/* line 208, ../scss/_slides.scss */
+/* line 211, ../scss/_slides.scss */
 .flex-direction-nav a.flex-prev:before {
   left: 10px;
 }
-/* line 214, ../scss/_slides.scss */
+/* line 217, ../scss/_slides.scss */
 .flex-direction-nav a.flex-next {
   right: 0 !important;
   text-align: center;
 }
-/* line 218, ../scss/_slides.scss */
+/* line 221, ../scss/_slides.scss */
 .flex-direction-nav a.flex-next:before {
   right: 10px;
 }
