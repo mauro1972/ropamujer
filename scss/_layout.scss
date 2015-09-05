@@ -1,6 +1,14 @@
 #region-preface-first {
-  border: 1px #e00 solid;
+
 }
 #region-preface-third {
-  border: #fa0;
+
+}
+
+@include breakpoint(720px) {
+  #region-preface-first,
+  #region-preface-third {
+    float: left;
+    width: 50%;
+  }
 }

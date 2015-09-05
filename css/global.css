@@ -4340,16 +4340,14 @@
   background: #d733be;
 }
 
-/* line 1, ../scss/_layout.scss */
-#region-preface-first {
-  border: 1px #e00 solid;
+@media (min-width: 720px) {
+  /* line 9, ../scss/_layout.scss */
+  #region-preface-first,
+  #region-preface-third {
+    float: left;
+    width: 50%;
+  }
 }
-
-/* line 4, ../scss/_layout.scss */
-#region-preface-third {
-  border: #fa0;
-}
-
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
