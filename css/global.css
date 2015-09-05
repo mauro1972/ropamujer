@@ -4350,9 +4350,9 @@
   float: left;
   font-size: 1.1em;
   margin: 0;
-  padding-top: 40px;
+  padding-top: 50px;
   text-align: center;
-  height: 120px;
+  height: 110px;
 }
 /* line 192, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li:last-child {
