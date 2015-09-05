@@ -4339,23 +4339,29 @@
 /* line 173, ../scss/_landing2.scss */
 #block-views-estilos-collection {
   border: 1px #000 solid;
+  background: #F8F8F8;
 }
-/* line 178, ../scss/_landing2.scss */
+/* line 179, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li {
+  border-left: 1px #CCC solid;
   float: left;
   font-size: 1.5em;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
-  height: 110px;
+  height: 130px;
+}
+/* line 188, ../scss/_landing2.scss */
+#block-views-estilos-collection .views-summary li li:last-child {
+  border-right: 1px #CCC solid;
 }
 @media (min-width: 720px) {
-  /* line 178, ../scss/_landing2.scss */
+  /* line 179, ../scss/_landing2.scss */
   #block-views-estilos-collection .views-summary li {
     width: 16.6%;
   }
 }
-/* line 190, ../scss/_landing2.scss */
+/* line 196, ../scss/_landing2.scss */
 #block-views-estilos-collection .views-summary li a {
   display: block;
 }
