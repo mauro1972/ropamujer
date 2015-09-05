@@ -4135,26 +4135,27 @@
   background: #666;
   height: 68px;
   padding: 0 5px;
+  right: 0;
   text-align: center;
   text-indent: -9999px;
   width: 30px;
 }
-/* line 196, ../scss/_slides.scss */
+/* line 197, ../scss/_slides.scss */
 .flex-direction-nav a.flex-next:before {
   color: #FFF;
   font-size: 2em;
   position: absolute;
   text-indent: 0;
-  top: 15%;
-  right: 0;
+  top: 25%;
+  right: 10px;
 }
 
-/* line 208, ../scss/_slides.scss */
+/* line 209, ../scss/_slides.scss */
 .flex-nav-prev {
   border: 1px #000 solid;
   display: block !important;
 }
-/* line 212, ../scss/_slides.scss */
+/* line 213, ../scss/_slides.scss */
 .flex-nav-prev a {
   display: block !important;
 }
