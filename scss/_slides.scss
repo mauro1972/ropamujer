@@ -187,13 +187,20 @@
 
   a.flex-next {
     background: #666;
+    height: 68px;
+    padding: 0 5px;
     text-indent: -9999px;
+    width: 30px;
 
     &:before {
       @extend .fa;
       @extend .fa-angle-double-right;
       color: #FFF;
+      font-size: 2em;
+      position: absolute;
       text-indent: 0;
+      top: 15%;
+      right: 0;
     }
   }
 }
