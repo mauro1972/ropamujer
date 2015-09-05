@@ -188,7 +188,7 @@
       text-align: center;
       height: 130px;
 
-      li:last-child {
+      &:last-child {
         border-right: 1px #CCC solid;
       }
 

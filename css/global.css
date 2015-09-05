@@ -4358,7 +4358,7 @@
   height: 130px;
 }
 /* line 191, ../scss/_landing2.scss */
-#block-views-estilos-collection .views-summary li li:last-child {
+#block-views-estilos-collection .views-summary li:last-child {
   border-right: 1px #CCC solid;
 }
 @media (min-width: 720px) {
