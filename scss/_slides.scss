@@ -286,12 +286,17 @@
       a {
         color: #FFF;
         font-size: 1.6em;
+
+        &:hover, &:active {
+          color: #B4239E;
+        }
       }
     }
 
     .price {
       color: #FFF;
       font-size: 1.5em;
+      font-weight: bold;
     }
 
     input[type="submit"] {
