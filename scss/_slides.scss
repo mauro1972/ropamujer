@@ -240,10 +240,13 @@
     top: 0;
     width: 100%;
 
-    .title a {
-      color: #FFF;
-      font-size: 1.6em;
+    .title {
       margin-top: 50px;
+
+      a {
+        color: #FFF;
+        font-size: 1.6em;
+      }
     }
 
     .price {
