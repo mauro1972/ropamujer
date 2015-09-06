@@ -4180,10 +4180,10 @@
     -o-transition-property: "all";
     -webkit-transition-property: "all";
     transition-property: "all";
-    -moz-transition-duration: 0.4s;
-    -o-transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
   }
   /* line 244, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info {
