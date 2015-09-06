@@ -4207,15 +4207,16 @@
   }
   /* line 257, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info .title a {
+    opacity: 1;
     top: 0;
   }
-  /* line 261, ../scss/_slides.scss */
+  /* line 262, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info .button {
     opacity: 1;
     top: 20px;
   }
 }
-/* line 270, ../scss/_slides.scss */
+/* line 271, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info {
   height: 100%;
   position: absolute;
@@ -4225,32 +4226,32 @@
   width: 100%;
 }
 @media (min-width: 720px) {
-  /* line 270, ../scss/_slides.scss */
+  /* line 271, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .images-info {
     opacity: 0;
   }
 }
-/* line 282, ../scss/_slides.scss */
+/* line 283, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .title {
   margin-top: 50px;
   padding: 0 20px;
 }
-/* line 286, ../scss/_slides.scss */
+/* line 287, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .title a {
   color: #FFF;
   font-size: 1.6em;
 }
-/* line 290, ../scss/_slides.scss */
+/* line 291, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .title a:hover, #block-views-display-products-flex-outlet .images-info .title a:active {
   color: #B4239E;
 }
-/* line 296, ../scss/_slides.scss */
+/* line 297, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .price {
   color: #FFF;
   font-size: 1.5em;
   font-weight: bold;
 }
-/* line 302, ../scss/_slides.scss */
+/* line 303, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info input[type="submit"] {
   background: #B4239E;
   border: none;
@@ -4260,7 +4261,7 @@
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 309, ../scss/_slides.scss */
+/* line 310, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info input[type="submit"]:hover, #block-views-display-products-flex-outlet .images-info input[type="submit"]:active {
   background: #d733be;
 }
