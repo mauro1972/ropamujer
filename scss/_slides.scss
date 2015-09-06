@@ -230,6 +230,14 @@
 
   .flexslider_views_slideshow_slide {
     position: relative;
+
+    &:hover {
+      @include breakpoint(720px) {
+        .images-info {
+          opacity: 1;
+        }
+      }
+    }
   }
 
   .images-info {
@@ -239,6 +247,10 @@
     left: 0;
     top: 0;
     width: 100%;
+
+    @include breakpoint(720px) {
+      opacity: 0;
+    }
 
     .title {
       margin-top: 50px;
