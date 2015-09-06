@@ -4267,7 +4267,7 @@
   background: #d733be;
 }
 /* line 315, ../scss/_slides.scss */
-#block-views-display-products-flex-outlet .images-info input[disabled], #block-views-display-products-flex-outlet .images-info input[disabled] {
+#block-views-display-products-flex-outlet .images-info input[disabled], #block-views-display-products-flex-outlet .images-info input[disabled]:hover {
   background: #F8F8F8;
   color: #CCC;
   cursor: default;
