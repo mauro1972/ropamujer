@@ -260,6 +260,10 @@
       color: #FFF;
       padding: 15px 25px;
       @include border-radius(2px);
+
+      &:hover, &:active {
+        background: lighten(#B4239E, 10);
+      }
     }
   }
 }
