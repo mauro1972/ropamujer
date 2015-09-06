@@ -238,6 +238,8 @@
         display: block;
         position: relative;
         top: -30px;
+        @include transition-property("all");
+        @include transition-duration(0.8s);        
       }
       .button {
         position: relative;
