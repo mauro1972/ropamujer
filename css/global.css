@@ -4266,6 +4266,10 @@
 #block-views-display-products-flex-outlet .images-info input[type="submit"]:hover, #block-views-display-products-flex-outlet .images-info input[type="submit"]:active {
   background: #d733be;
 }
+/* line 315, ../scss/_slides.scss */
+#block-views-display-products-flex-outlet .images-info input[disabled] {
+  background: #F8F8F8;
+}
 
 /**
  * Landing page 2

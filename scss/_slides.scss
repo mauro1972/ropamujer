@@ -312,5 +312,8 @@
         background: lighten(#B4239E, 10);
       }
     }
+    input[disabled] {
+      background: #F8F8F8;
+    }
   }
 }
