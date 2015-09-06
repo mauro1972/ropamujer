@@ -233,6 +233,11 @@
 
 
     @include breakpoint(720px) {
+
+      .title {
+        position: relative;
+        top: -30px;
+      }
       .button {
         position: relative;
         opacity: 0.2;
@@ -245,6 +250,10 @@
         .images-info {
           background: rgba(0, 0, 0, 0.5);
           opacity: 1;
+
+          .title {
+            top: 0;
+          }
 
           .button {
             opacity: 1;
