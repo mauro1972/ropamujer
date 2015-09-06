@@ -226,3 +226,18 @@
   }
 }
 
+#block-views-display-products-flex-outlet {
+  border: 1px #000 solid;
+
+  .flexslider_views_slideshow_slide {
+    position: relative;
+  }
+
+  .images-info {
+    border: 1px #e00 solid;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

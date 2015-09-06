@@ -4167,6 +4167,23 @@
   right: 10px;
 }
 
+/* line 229, ../scss/_slides.scss */
+#block-views-display-products-flex-outlet {
+  border: 1px #000 solid;
+}
+/* line 232, ../scss/_slides.scss */
+#block-views-display-products-flex-outlet .flexslider_views_slideshow_slide {
+  position: relative;
+}
+/* line 236, ../scss/_slides.scss */
+#block-views-display-products-flex-outlet .images-info {
+  border: 1px #e00 solid;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 /**
  * Landing page 2
  */
