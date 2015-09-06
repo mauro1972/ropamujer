@@ -289,7 +289,7 @@
         font-size: 1.6em;
 
         &:hover, &:active {
-          color: #B4239E;
+          color: lighten(#B4239E, 20);
         }
       }
     }
