@@ -235,6 +235,7 @@
     @include breakpoint(720px) {
       .button {
         position: relative;
+        opacity: 0.2;
         top: 50px;
         @include transition-property("all");
         @include transition-duration(0.8s);
@@ -246,6 +247,7 @@
           opacity: 1;
 
           .button {
+            opacity: 1;
             top: 20px;
           }
         }
