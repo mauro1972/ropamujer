@@ -227,17 +227,33 @@
 }
 
 #block-views-display-products-flex-outlet {
-  border: 1px #000 solid;
 
   .flexslider_views_slideshow_slide {
     position: relative;
   }
 
   .images-info {
-    border: 1px #e00 solid;
     height: 100%;
     position: absolute;
+    text-align: center;
     left: 0;
     top: 0;
+    width: 100%;
+
+    .title a {
+      color: #FFF;
+      font-size: 1.6em;
+    }
+
+    .price {
+      color: #FFF;
+      font-size: 1.5em;
+    }
+
+    input[type="submit"] {
+      background: #B4239E;
+      color: #FFF;
+      @include border-radius(2px);
+    }
   }
 }
