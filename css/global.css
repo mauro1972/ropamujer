@@ -4269,6 +4269,7 @@
 /* line 315, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info input[disabled] {
   background: #F8F8F8;
+  color: #CCC;
 }
 
 /**
