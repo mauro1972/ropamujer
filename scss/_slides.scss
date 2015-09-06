@@ -234,7 +234,7 @@
 
     @include breakpoint(720px) {
 
-      .title {
+      .title a {
         position: relative;
         top: -30px;
       }
@@ -251,7 +251,7 @@
           background: rgba(0, 0, 0, 0.5);
           opacity: 1;
 
-          .title {
+          .title a {
             top: 0;
           }
 
