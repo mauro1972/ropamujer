@@ -236,6 +236,7 @@
 
       .title a {
         display: block;
+        opacity: 0.3;
         position: relative;
         top: -30px;
         @include transition-property("all");
