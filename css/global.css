@@ -4174,10 +4174,11 @@
 @media (min-width: 720px) {
   /* line 237, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide .title a {
+    display: block;
     position: relative;
     top: -30px;
   }
-  /* line 241, ../scss/_slides.scss */
+  /* line 242, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide .button {
     position: relative;
     opacity: 0.2;
@@ -4191,22 +4192,22 @@
     -webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
   }
-  /* line 250, ../scss/_slides.scss */
+  /* line 251, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info {
     background: rgba(0, 0, 0, 0.5);
     opacity: 1;
   }
-  /* line 254, ../scss/_slides.scss */
+  /* line 255, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info .title a {
     top: 0;
   }
-  /* line 258, ../scss/_slides.scss */
+  /* line 259, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info .button {
     opacity: 1;
     top: 20px;
   }
 }
-/* line 267, ../scss/_slides.scss */
+/* line 268, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info {
   height: 100%;
   position: absolute;
@@ -4216,27 +4217,27 @@
   width: 100%;
 }
 @media (min-width: 720px) {
-  /* line 267, ../scss/_slides.scss */
+  /* line 268, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .images-info {
     opacity: 0;
   }
 }
-/* line 279, ../scss/_slides.scss */
+/* line 280, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .title {
   margin-top: 50px;
   padding: 0 20px;
 }
-/* line 283, ../scss/_slides.scss */
+/* line 284, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .title a {
   color: #FFF;
   font-size: 1.6em;
 }
-/* line 289, ../scss/_slides.scss */
+/* line 290, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .price {
   color: #FFF;
   font-size: 1.5em;
 }
-/* line 294, ../scss/_slides.scss */
+/* line 295, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info input[type="submit"] {
   background: #B4239E;
   border: none;
@@ -4246,7 +4247,7 @@
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 301, ../scss/_slides.scss */
+/* line 302, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info input[type="submit"]:hover, #block-views-display-products-flex-outlet .images-info input[type="submit"]:active {
   background: #d733be;
 }

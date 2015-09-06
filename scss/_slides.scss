@@ -235,6 +235,7 @@
     @include breakpoint(720px) {
 
       .title a {
+        display: block;
         position: relative;
         top: -30px;
       }
