@@ -231,11 +231,23 @@
   .flexslider_views_slideshow_slide {
     position: relative;
 
-    &:hover {
-      @include breakpoint(720px) {
+
+    @include breakpoint(720px) {
+      .button {
+        position: relative;
+        top: 50px;
+        @include transition-property("all");
+        @include transition-duration(0.4s);
+      }
+      &:hover {
+      
         .images-info {
           background: rgba(0, 0, 0, 0.5);
           opacity: 1;
+
+          .button {
+            top: 20px;
+          }
         }
       }
     }
