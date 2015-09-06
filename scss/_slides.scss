@@ -312,9 +312,10 @@
         background: lighten(#B4239E, 10);
       }
     }
-    input[disabled] {
+    input[disabled], input[disabled] {
       background: #F8F8F8;
       color: #CCC;
+      cursor: default;
     }
   }
 }
