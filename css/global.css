@@ -4519,6 +4519,18 @@
     width: 48%;
   }
 }
+/**
+ * Landing page 2
+ */
+@media (min-width: 720px) {
+  /* line 22, ../scss/_layout.scss */
+  .page-nuevos-productos #block-block-11,
+  .page-nuevos-productos #block-views-display-products-flex-outlet {
+    float: left;
+    width: 49%;
+  }
+}
+
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
