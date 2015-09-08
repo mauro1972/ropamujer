@@ -10,10 +10,10 @@
   <?php if ($display_submitted): ?>
   <footer class="submitted"><?php print $date; ?> -- <?php print $name; ?></footer>
   <?php endif; ?>
-  <div class="clearfix">
+  <div class="images-region clearfix">
     <?php print render($content['product:field_images']); ?>
   </div>
-  <div class="">
+  <div class="content-region">
     <div<?php print $content_attributes; ?>>
       <?php
         // We hide the comments and links now so that we can render them later.
@@ -23,7 +23,7 @@
       ?>
     </div>
   </div>
-  <div class="clearfix">
+  <div class="links-region clearfix">
     <?php if (!empty($content['links'])): ?>
     <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
     <?php endif; ?>
