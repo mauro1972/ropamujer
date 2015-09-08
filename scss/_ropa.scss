@@ -356,12 +356,16 @@
 }
 
 #block-block-11 {
-  border: 1px #000 solid;
-  font-size: 2em;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
+
+  h2.block-title {
+    font-size: 28px;
+    text-align: center;
+  }
 
   .content {
+    border: 1px #000 solid;
     padding: 50px 30px;
   }
 }

@@ -3713,20 +3713,24 @@
 
 /* line 358, ../scss/_ropa.scss */
 #block-block-11 {
-  border: 1px #000 solid;
-  font-size: 2em;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
-/* line 364, ../scss/_ropa.scss */
+/* line 362, ../scss/_ropa.scss */
+#block-block-11 h2.block-title {
+  font-size: 28px;
+  text-align: center;
+}
+/* line 367, ../scss/_ropa.scss */
 #block-block-11 .content {
+  border: 1px #000 solid;
   padding: 50px 30px;
 }
 
 /**
  * Products view Style
  */
-/* line 372, ../scss/_ropa.scss */
+/* line 376, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -3739,62 +3743,62 @@
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 384, ../scss/_ropa.scss */
+  /* line 388, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 388, ../scss/_ropa.scss */
+  /* line 392, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 393, ../scss/_ropa.scss */
+/* line 397, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 372, ../scss/_ropa.scss */
+  /* line 376, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 401, ../scss/_ropa.scss */
+  /* line 405, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 405, ../scss/_ropa.scss */
+  /* line 409, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 372, ../scss/_ropa.scss */
+  /* line 376, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 414, ../scss/_ropa.scss */
+  /* line 418, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 418, ../scss/_ropa.scss */
+  /* line 422, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 424, ../scss/_ropa.scss */
+/* line 428, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item,
 .product-row {
   position: relative;
 }
-/* line 428, ../scss/_ropa.scss */
+/* line 432, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .title,
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 433, ../scss/_ropa.scss */
+/* line 437, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price,
 .product-row .price {
   background: #f37324;
@@ -3808,7 +3812,7 @@
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 444, ../scss/_ropa.scss */
+/* line 448, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price:after,
 .product-row .price:after {
   content: "";
@@ -3820,7 +3824,7 @@
   left: 0;
   bottom: -5px;
 }
-/* line 456, ../scss/_ropa.scss */
+/* line 460, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"],
 .product-row input[type="submit"] {
   border: none;
@@ -3831,12 +3835,12 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 465, ../scss/_ropa.scss */
+/* line 469, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:before,
 .product-row input[type="submit"]:before {
   font-family: "FontAwesome";
 }
-/* line 469, ../scss/_ropa.scss */
+/* line 473, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:hover, .outlet-carousel .jcarousel-item input[type="submit"]:active,
 .product-row input[type="submit"]:hover,
 .product-row input[type="submit"]:active {
@@ -3845,12 +3849,12 @@
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 475, ../scss/_ropa.scss */
+/* line 479, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled],
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 478, ../scss/_ropa.scss */
+/* line 482, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled]:hover, .outlet-carousel .jcarousel-item input[disabled]:active,
 .product-row input[disabled]:hover,
 .product-row input[disabled]:active {
@@ -3863,29 +3867,29 @@
 /**
  * Postscript style
  */
-/* line 488, ../scss/_ropa.scss */
+/* line 492, ../scss/_ropa.scss */
 .block-simplenews {
   padding: 10px 0;
   text-align: center;
 }
-/* line 492, ../scss/_ropa.scss */
+/* line 496, ../scss/_ropa.scss */
 .block-simplenews h2.block-title {
   font-size: 2.5em;
 }
-/* line 500, ../scss/_ropa.scss */
+/* line 504, ../scss/_ropa.scss */
 .block-simplenews .form-item {
   display: inline;
 }
-/* line 504, ../scss/_ropa.scss */
+/* line 508, ../scss/_ropa.scss */
 .block-simplenews input {
   display: inline;
   font-size: 1.4em;
 }
-/* line 509, ../scss/_ropa.scss */
+/* line 513, ../scss/_ropa.scss */
 .block-simplenews input[type="submit"] {
   font-weight: normal;
 }
-/* line 513, ../scss/_ropa.scss */
+/* line 517, ../scss/_ropa.scss */
 .block-simplenews label,
 .block-simplenews .issues-link,
 .block-simplenews .feed-icon {
@@ -3895,20 +3899,20 @@
 /**
  * Footer Style
  */
-/* line 523, ../scss/_ropa.scss */
+/* line 527, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 527, ../scss/_ropa.scss */
+/* line 531, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 530, ../scss/_ropa.scss */
+/* line 534, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 534, ../scss/_ropa.scss */
+/* line 538, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;
