@@ -4501,9 +4501,14 @@
   font-size: 1.5em;
 }
 
-/* line 224, ../scss/_landing2.scss */
+/* line 223, ../scss/_landing2.scss */
+#block-views-display-products-flex-outlet {
+  margin-top: 20px;
+}
+/* line 226, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet h2.block-title {
   font-size: 28px;
+  text-align: center;
 }
 
 @media (min-width: 720px) {
