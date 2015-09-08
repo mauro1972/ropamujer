@@ -4501,6 +4501,11 @@
   font-size: 1.5em;
 }
 
+/* line 224, ../scss/_landing2.scss */
+#block-views-display-products-flex-outlet h2.block-title {
+  font-size: 28px;
+}
+
 @media (min-width: 720px) {
   /* line 9, ../scss/_layout.scss */
   #region-preface-first,
