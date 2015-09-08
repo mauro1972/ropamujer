@@ -4543,6 +4543,15 @@
 .node-product-type {
   border: 1px #000 solid;
 }
+/* line 7, ../scss/_product.scss */
+.node-product-type .field-field-images {
+  float: left;
+}
+/* line 10, ../scss/_product.scss */
+.node-product-type .field-field-images .wrap {
+  border: 1px #fefefe solid;
+  padding: 9px;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------

@@ -3,4 +3,13 @@
  */
 .node-product-type {
   border: 1px #000 solid;
+
+  .field-field-images {
+    float: left;
+    
+    .wrap {
+      border: 1px #fefefe solid;
+      padding: 9px;
+    }
+  }
 }
