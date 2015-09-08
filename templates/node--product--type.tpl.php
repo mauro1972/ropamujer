@@ -1,7 +1,7 @@
 <?php
-  print '<pre>';
-  print_r($content);
-  print '</pre>';
+ // print '<pre>';
+  //print_r($content);
+  //print '</pre>';
 ?>
 <article<?php print $attributes; ?>>
   <?php print $user_picture; ?>
@@ -24,13 +24,15 @@
         // We hide the comments and links now so that we can render them later.
         hide($content['comments']);
         hide($content['links']);
+        hide($content['service_links']);
         print render($content);
       ?>
     </div>
   </div>
   <div class="links-region clearfix">
-    <?php if (!empty($content['links'])): ?>
+    <?php if (!empty($content['links']) || !empty($content['service_links'])): ?>
     <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
+    <nav class="service-links node-links clearfix"><?php print render($content['service_links']); ?></nav>
     <?php endif; ?>
     <?php
     print render($content['comments']);
