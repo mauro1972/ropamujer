@@ -4552,6 +4552,10 @@
   border: 1px #efefef solid;
   padding: 9px;
 }
+/* line 16, ../scss/_product.scss */
+.node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart {
+  background: transparent;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
