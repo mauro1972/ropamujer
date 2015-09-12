@@ -212,6 +212,9 @@
 }
 
 #block-block-9 {
+  position: relative;
+  width: 70px;
+  z-index: 500;  
 
   h2.block-title {
     background: transparent url(../images/icon_whatsapp.png) 50% 10px no-repeat;

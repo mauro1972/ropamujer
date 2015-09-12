@@ -3506,7 +3506,13 @@
   background: #d733be;
 }
 
-/* line 216, ../scss/_header.scss */
+/* line 214, ../scss/_header.scss */
+#block-block-9 {
+  position: relative;
+  width: 70px;
+  z-index: 500;
+}
+/* line 219, ../scss/_header.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 10px no-repeat;
   background-size: 45px;
