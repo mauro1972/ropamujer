@@ -4820,6 +4820,10 @@
   font-size: 2em;
   text-align: center;
 }
+/* line 258, ../scss/_product.scss */
+#block-views-productos-populares-block .node {
+  border: 1px #EFEFEF solid;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
