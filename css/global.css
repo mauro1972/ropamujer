@@ -4828,7 +4828,7 @@
   width: 90%;
 }
 /* line 265, ../scss/_product.scss */
-#block-views-productos-populares-block .node-tile {
+#block-views-productos-populares-block h2.node-tile {
   font-size: 1.6em;
   font-weight: 100;
 }
