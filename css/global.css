@@ -4758,7 +4758,7 @@
 }
 /* line 194, ../scss/_product.scss */
 .node-product-type .field-field-images {
-  margin: 0 auto;
+  margin: 0 auto !important;
   width: 300px;
 }
 /* line 198, ../scss/_product.scss */
