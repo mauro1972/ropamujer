@@ -4827,7 +4827,19 @@
   text-align: center;
   width: 90%;
 }
-/* line 265, ../scss/_product.scss */
+@media (min-width: 720px) {
+  /* line 258, ../scss/_product.scss */
+  #block-views-productos-populares-block .node {
+    float: left;
+    margin-right: 2%;
+    width: 22%;
+  }
+  /* line 269, ../scss/_product.scss */
+  #block-views-productos-populares-block .node:last-child {
+    margin-right: 0;
+  }
+}
+/* line 275, ../scss/_product.scss */
 #block-views-productos-populares-block h2.node-title {
   font-size: 1.6em;
   font-weight: 100;
