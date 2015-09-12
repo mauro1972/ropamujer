@@ -4833,27 +4833,35 @@
 #block-views-productos-populares-block .node {
   border: 1px transparent solid;
   padding-top: 10px;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
-/* line 272, ../scss/_product.scss */
+/* line 275, ../scss/_product.scss */
 #block-views-productos-populares-block .node:hover {
   border: 1px #EFEFEF solid;
 }
-/* line 277, ../scss/_product.scss */
+/* line 280, ../scss/_product.scss */
 #block-views-productos-populares-block .block-title {
-  font-size: 2em;
+  font-size: 1.6em;
   margin-bottom: 10px;
   text-align: center;
 }
-/* line 283, ../scss/_product.scss */
+/* line 286, ../scss/_product.scss */
 #block-views-productos-populares-block h2.node-title {
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: 100;
 }
-/* line 288, ../scss/_product.scss */
+/* line 291, ../scss/_product.scss */
 #block-views-productos-populares-block .images-region {
   float: none;
 }
-/* line 292, ../scss/_product.scss */
+/* line 295, ../scss/_product.scss */
 #block-views-productos-populares-block .field-field-images {
   width: 100%;
 }
