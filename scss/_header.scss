@@ -193,10 +193,15 @@
     .line-item-summary-checkout a {
       background: #B4239E;
       color: #FFF;
+      display: inline-block;
       font-size: 1em;
-      padding: 10px 15px;
+      margin-top: 10px;
+      padding: 5px 10px;
 
       @include border-radius(2px);
+
+      @include transition-property("all");
+      @include transition-duration(0.4s);
 
       &:hover {
         background: lighten(#B4239E, 10);

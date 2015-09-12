@@ -3485,13 +3485,23 @@
 .block-shopping-cart-block .content .line-item-summary-checkout a {
   background: #B4239E;
   color: #FFF;
+  display: inline-block;
   font-size: 1em;
-  padding: 10px 15px;
+  margin-top: 10px;
+  padding: 5px 10px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  -moz-transition-property: "all";
+  -o-transition-property: "all";
+  -webkit-transition-property: "all";
+  transition-property: "all";
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
-/* line 201, ../scss/_header.scss */
+/* line 206, ../scss/_header.scss */
 .block-shopping-cart-block .content .line-item-summary-checkout a:hover {
   background: #d733be;
 }
