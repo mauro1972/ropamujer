@@ -4840,7 +4840,7 @@
 }
 /* line 273, ../scss/_product.scss */
 #block-views-productos-populares-block .node:hover {
-  border-color: #FEFEFE;
+  border: 1px #FEFEFE solid;
 }
 /* line 278, ../scss/_product.scss */
 #block-views-productos-populares-block .block-title {
