@@ -175,6 +175,11 @@
 }
 
 .block-shopping-cart-block {
+  overflow: hidden;
+
+  &:hover {
+    overflow: visible;
+  }
 
   .content {
     background: #FFF;
