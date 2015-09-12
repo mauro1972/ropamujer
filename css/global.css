@@ -3473,12 +3473,6 @@
   padding: 10px 0 0 20px;
   width: 300px;
 }
-/* line 185, ../scss/_header.scss */
-.block-shopping-cart-block .content .line-item-summary > div,
-.block-shopping-cart-block .content .line-item-summary > ul {
-  display: inline-block;
-  float: left;
-}
 
 /**
  * Ropa Mujer styles
