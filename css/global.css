@@ -4738,39 +4738,46 @@
 }
 
 /* line 175, ../scss/_product.scss */
+.service-links ul.links {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #efefef;
+}
+/* line 182, ../scss/_product.scss */
 .service-links ul li {
   display: inline;
   margin: 0 5px;
   padding: 0;
   width: 90px;
 }
-/* line 180, ../scss/_product.scss */
+/* line 187, ../scss/_product.scss */
 .service-links ul li:first {
   margin-left: 0;
 }
 
-/* line 191, ../scss/_product.scss */
+/* line 198, ../scss/_product.scss */
 .node-product-type {
   text-align: center;
 }
-/* line 194, ../scss/_product.scss */
+/* line 201, ../scss/_product.scss */
 .node-product-type .field-field-images {
   margin: 0 auto;
   width: 300px;
 }
-/* line 198, ../scss/_product.scss */
+/* line 205, ../scss/_product.scss */
 .node-product-type .field-field-images #wrap {
   border: 1px #efefef solid;
   padding: 9px;
 }
-/* line 204, ../scss/_product.scss */
+/* line 211, ../scss/_product.scss */
 .node-product-type .form-item-quantity,
 .node-product-type .attribute-widgets {
   display: inline-block;
   margin: 0 auto !important;
   width: 300px;
 }
-/* line 211, ../scss/_product.scss */
+/* line 218, ../scss/_product.scss */
 .node-product-type form.commerce-add-to-cart .form-submit {
   border: none;
   background: #B4239E;
@@ -4782,7 +4789,7 @@
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 220, ../scss/_product.scss */
+/* line 227, ../scss/_product.scss */
 .node-product-type form.commerce-add-to-cart .form-submit:hover, .node-product-type form.commerce-add-to-cart .form-submit:active, .node-product-type form.commerce-add-to-cart .form-submit:focus {
   background-color: #d733be;
   -moz-box-shadow: transparent 0 0 0;
@@ -4790,11 +4797,11 @@
   box-shadow: transparent 0 0 0;
 }
 @media (min-width: 720px) {
-  /* line 228, ../scss/_product.scss */
+  /* line 235, ../scss/_product.scss */
   .node-product-type .images-region {
     float: left;
   }
-  /* line 232, ../scss/_product.scss */
+  /* line 239, ../scss/_product.scss */
   .node-product-type form.commerce-add-to-cart .form-submit {
     display: block;
     margin: 50px auto 0;
