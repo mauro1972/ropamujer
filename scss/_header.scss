@@ -221,5 +221,11 @@
     background-size: 45px;
     height: 60px;
     text-indent: -9999px;
-  }  
+  } 
+
+  .content {
+    background: #FFF;
+    border: 1px darken(#f4f4f4, 30) solid;
+    width: 120px;
+  }   
 }

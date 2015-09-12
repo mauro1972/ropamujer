@@ -3519,6 +3519,12 @@
   height: 60px;
   text-indent: -9999px;
 }
+/* line 226, ../scss/_header.scss */
+#block-block-9 .content {
+  background: #FFF;
+  border: 1px #a8a8a8 solid;
+  width: 120px;
+}
 
 /**
  * Ropa Mujer styles
