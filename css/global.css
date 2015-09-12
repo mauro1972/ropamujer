@@ -4794,6 +4794,10 @@
   .node-product-type .images-region {
     float: left;
   }
+  /* line 232, ../scss/_product.scss */
+  .node-product-type form.commerce-add-to-cart .form-submit {
+    display: block;
+  }
 }
 
 /* End Variables & Mixins */
