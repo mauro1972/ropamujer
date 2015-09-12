@@ -150,8 +150,8 @@
       .form-submit {
         xbackground-color: #2698F2;
         background-image: url('../images/bg_add_to_cart.png');
-        xbackground-position: 90% 50%; /* LTR */
-        xbackground-repeat: no-repeat;
+        background-position: 90% 50%; /* LTR */
+        background-repeat: no-repeat;
         xborder: 0;
         /*@include rounded-corners(8px);*/
         xcolor: #ffffff;
@@ -212,6 +212,7 @@
     background: #B4239E;
     color: #FFF;
     font-size: 1.4em;
+    font-weight: 100;
     padding: 10px 20px;
     @include border-radius(2px);
 
