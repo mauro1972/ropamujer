@@ -4790,7 +4790,7 @@
 }
 @media (min-width: 720px) {
   /* line 227, ../scss/_product.scss */
-  .node-product-type .field-field-images {
+  .node-product-type .images-region {
     float: left;
   }
 }
