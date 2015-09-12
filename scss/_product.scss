@@ -251,20 +251,18 @@
   border: 1px #000 solid;
 
   .view-content > div {
-    .node {
-      border: 1px #EFEFEF solid;
-      margin: 0 auto 20px;
-      text-align: center;
-      width: 90%;      
+    border: 1px #EFEFEF solid;
+    margin: 0 auto 20px;
+    text-align: center;
+    width: 90%;      
 
-      @include breakpoint(720px) {
-        float: left;
-        margin-right: 2%;
-        width: 22%;
+    @include breakpoint(720px) {
+      float: left;
+      margin-right: 2%;
+      width: 22%;
 
-        &:last-child {
-          margin-right: 0;
-        }
+      &:last-child {
+        margin-right: 0;
       }
     }
   }

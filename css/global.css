@@ -4815,31 +4815,31 @@
 #block-views-productos-populares-block {
   border: 1px #000 solid;
 }
-/* line 254, ../scss/_product.scss */
-#block-views-productos-populares-block .view-content > div .node {
+/* line 253, ../scss/_product.scss */
+#block-views-productos-populares-block .view-content > div {
   border: 1px #EFEFEF solid;
   margin: 0 auto 20px;
   text-align: center;
   width: 90%;
 }
 @media (min-width: 720px) {
-  /* line 254, ../scss/_product.scss */
-  #block-views-productos-populares-block .view-content > div .node {
+  /* line 253, ../scss/_product.scss */
+  #block-views-productos-populares-block .view-content > div {
     float: left;
     margin-right: 2%;
     width: 22%;
   }
-  /* line 265, ../scss/_product.scss */
-  #block-views-productos-populares-block .view-content > div .node:last-child {
+  /* line 264, ../scss/_product.scss */
+  #block-views-productos-populares-block .view-content > div:last-child {
     margin-right: 0;
   }
 }
-/* line 272, ../scss/_product.scss */
+/* line 270, ../scss/_product.scss */
 #block-views-productos-populares-block .block-title {
   font-size: 2em;
   text-align: center;
 }
-/* line 277, ../scss/_product.scss */
+/* line 275, ../scss/_product.scss */
 #block-views-productos-populares-block h2.node-title {
   font-size: 1.6em;
   font-weight: 100;
