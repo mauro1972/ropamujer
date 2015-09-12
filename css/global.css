@@ -3486,7 +3486,7 @@
   background: #B4239E;
   color: #FFF;
   display: inline-block;
-  font-size: 1em;
+  font-size: 1em !important;
   margin-top: 10px;
   padding: 5px 10px;
   -moz-border-radius: 2px;
