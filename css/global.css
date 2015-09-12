@@ -4815,6 +4815,11 @@
 #block-views-productos-populares-block {
   border: 1px #000 solid;
 }
+/* line 253, ../scss/_product.scss */
+#block-views-productos-populares-block .block-title {
+  font-size: 2.5em;
+  text-align: center;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
