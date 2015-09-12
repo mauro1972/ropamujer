@@ -4788,6 +4788,12 @@
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
+@media (min-width: 720px) {
+  /* line 227, ../scss/_product.scss */
+  .node-product-type .field-field-images {
+    float: left;
+  }
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------

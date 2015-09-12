@@ -224,6 +224,10 @@
 
   @include breakpoint(720px) {
 
+    .field-field-images {
+      float: left;
+    }
+
   }  
 }
 
