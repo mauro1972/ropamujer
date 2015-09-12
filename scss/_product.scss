@@ -251,15 +251,9 @@
   border: 1px #000 solid;
 
   .view-content > div {
-    border: 1px transparent solid;
     margin: 0 auto 20px;
-    padding-top: 10px;
     text-align: center;
     width: 90%;
-
-    &:hover {
-      border-color: #FEFEFE;
-    }      
 
     @include breakpoint(720px) {
       float: left;
@@ -270,6 +264,15 @@
         margin-right: 0;
       }
     }
+  }
+
+  .node {
+    border: 1px transparent solid;    
+    padding-top: 10px;
+
+    &:hover {
+      border-color: #FEFEFE;
+    }    
   }
 
   .block-title {
