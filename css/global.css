@@ -4772,6 +4772,21 @@
   margin: 0 auto !important;
   width: 300px;
 }
+/* line 210, ../scss/_product.scss */
+.node-product-type form.commerce-add-to-cart .form-submit {
+  background: #B4239E;
+  color: #FFF;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 215, ../scss/_product.scss */
+.node-product-type form.commerce-add-to-cart .form-submit:hover, .node-product-type form.commerce-add-to-cart .form-submit:active {
+  background: ligthen(#B4239E, 10);
+  -moz-box-shadow: 0, 0, 0, 0;
+  -webkit-box-shadow: 0, 0, 0, 0;
+  box-shadow: 0, 0, 0, 0;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------

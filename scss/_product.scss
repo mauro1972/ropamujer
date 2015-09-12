@@ -207,6 +207,17 @@
     width: 300px;
   }
 
+  form.commerce-add-to-cart .form-submit {
+    background: #B4239E;
+    color: #FFF;
+    @include border-radius(2px);
+
+    &:hover, &:active {
+      background: ligthen(#B4239E, 10);
+      @include box-shadow(0,0,0,0);
+    }
+  }
+
   @include breakpoint(720px) {
 
   }  
