@@ -3470,8 +3470,15 @@
 .block-shopping-cart-block .content {
   background: #FFF;
   border: 1px #a8a8a8 solid;
-  padding: 10px 0 0 20px;
+  padding: 10px 20px 0 20px;
   width: 300px;
+}
+/* line 185, ../scss/_header.scss */
+.block-shopping-cart-block .content ul.links-inline {
+  clear: none;
+  margin: 0;
+  text-align: center;
+  width: 100%;
 }
 
 /**
