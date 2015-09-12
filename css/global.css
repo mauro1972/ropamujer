@@ -4823,9 +4823,13 @@
 /* line 258, ../scss/_product.scss */
 #block-views-productos-populares-block .node {
   border: 1px #EFEFEF solid;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   text-align: center;
   width: 90%;
+}
+/* line 265, ../scss/_product.scss */
+#block-views-productos-populares-block .node-tile {
+  font-size: 1.6em;
 }
 
 /* End Variables & Mixins */

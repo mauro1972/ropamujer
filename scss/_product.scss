@@ -257,8 +257,12 @@
 
   .node {
     border: 1px #EFEFEF solid;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     text-align: center;
     width: 90%;
+  }
+
+  .node-tile {
+    font-size: 1.6em;
   }
 }
