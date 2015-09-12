@@ -4766,10 +4766,11 @@
 /* line 204, ../scss/_product.scss */
 .node-product-type .form-item-quantity,
 .node-product-type .attribute-widgets {
+  display: inline-block;
   margin: 0 auto !important;
   width: 300px;
 }
-/* line 210, ../scss/_product.scss */
+/* line 211, ../scss/_product.scss */
 .node-product-type form.commerce-add-to-cart .form-submit {
   border: none;
   background: #B4239E;
@@ -4781,7 +4782,7 @@
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 219, ../scss/_product.scss */
+/* line 220, ../scss/_product.scss */
 .node-product-type form.commerce-add-to-cart .form-submit:hover, .node-product-type form.commerce-add-to-cart .form-submit:active, .node-product-type form.commerce-add-to-cart .form-submit:focus {
   background-color: #d733be;
   -moz-box-shadow: transparent 0 0 0;
@@ -4789,7 +4790,7 @@
   box-shadow: transparent 0 0 0;
 }
 @media (min-width: 720px) {
-  /* line 227, ../scss/_product.scss */
+  /* line 228, ../scss/_product.scss */
   .node-product-type .images-region {
     float: left;
   }
