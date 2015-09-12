@@ -4844,6 +4844,14 @@
   font-size: 1.6em;
   font-weight: 100;
 }
+/* line 280, ../scss/_product.scss */
+#block-views-productos-populares-block .images-region {
+  float: none;
+}
+/* line 284, ../scss/_product.scss */
+#block-views-productos-populares-block .field-field-images {
+  width: 100%;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
