@@ -201,6 +201,12 @@
     }
   }
 
+  .form-item-quantity,
+  .attribute-widgets {
+    margin: 0 auto;
+    width: 300px;
+  }
+
   @include breakpoint(720px) {
 
   }  

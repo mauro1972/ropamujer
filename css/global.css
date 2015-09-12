@@ -4766,6 +4766,12 @@
   border: 1px #efefef solid;
   padding: 9px;
 }
+/* line 204, ../scss/_product.scss */
+.node-product-type .form-item-quantity,
+.node-product-type .attribute-widgets {
+  margin: 0 auto;
+  width: 300px;
+}
 
 /* End Variables & Mixins */
 /*------------------------------------------------
