@@ -149,7 +149,7 @@
       }
       .form-submit {
         xbackground-color: #2698F2;
-        xbackground-image: url('../images/bg_add_to_cart.png');
+        background-image: url('../images/bg_add_to_cart.png');
         xbackground-position: 90% 50%; /* LTR */
         xbackground-repeat: no-repeat;
         xborder: 0;
@@ -208,8 +208,11 @@
   }
 
   form.commerce-add-to-cart .form-submit {
+    border: none;
     background: #B4239E;
     color: #FFF;
+    font-size: 1.4em;
+    padding: 10px 20px;
     @include border-radius(2px);
 
     &:hover, &:active {
