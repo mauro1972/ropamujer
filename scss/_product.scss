@@ -213,7 +213,7 @@
     @include border-radius(2px);
 
     &:hover, &:active {
-      background: ligthen(#B4239E, 10);
+      background: lighten(#B4239E, 10);
       @include box-shadow(0,0,0,0);
     }
   }
