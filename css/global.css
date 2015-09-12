@@ -4817,10 +4817,15 @@
 }
 /* line 253, ../scss/_product.scss */
 #block-views-productos-populares-block .view-content > div {
-  border: 1px #EFEFEF solid;
+  border: 1px transparent solid;
   margin: 0 auto 20px;
+  padding-top: 10px;
   text-align: center;
   width: 90%;
+}
+/* line 260, ../scss/_product.scss */
+#block-views-productos-populares-block .view-content > div:hover {
+  border-color: #FEFEFE;
 }
 @media (min-width: 720px) {
   /* line 253, ../scss/_product.scss */
@@ -4829,26 +4834,27 @@
     margin-right: 1%;
     width: 18%;
   }
-  /* line 264, ../scss/_product.scss */
+  /* line 269, ../scss/_product.scss */
   #block-views-productos-populares-block .view-content > div:last-child {
     margin-right: 0;
   }
 }
-/* line 270, ../scss/_product.scss */
+/* line 275, ../scss/_product.scss */
 #block-views-productos-populares-block .block-title {
   font-size: 2em;
+  margin-bottom: 10px;
   text-align: center;
 }
-/* line 275, ../scss/_product.scss */
+/* line 281, ../scss/_product.scss */
 #block-views-productos-populares-block h2.node-title {
   font-size: 1.6em;
   font-weight: 100;
 }
-/* line 280, ../scss/_product.scss */
+/* line 286, ../scss/_product.scss */
 #block-views-productos-populares-block .images-region {
   float: none;
 }
-/* line 284, ../scss/_product.scss */
+/* line 290, ../scss/_product.scss */
 #block-views-productos-populares-block .field-field-images {
   width: 100%;
 }
