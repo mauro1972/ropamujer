@@ -3508,25 +3508,30 @@
 
 /* line 214, ../scss/_header.scss */
 #block-block-9 {
+  overflow: hidden;
   position: relative;
   width: 70px;
   z-index: 500;
 }
-/* line 219, ../scss/_header.scss */
+/* line 220, ../scss/_header.scss */
+#block-block-9:hover {
+  overflow: visible;
+}
+/* line 224, ../scss/_header.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 10px no-repeat;
   background-size: 35px;
   height: 60px;
   text-indent: -9999px;
 }
-/* line 226, ../scss/_header.scss */
+/* line 231, ../scss/_header.scss */
 #block-block-9 .content {
   background: #FFF;
   border: 1px #a8a8a8 solid;
   padding: 10px;
   width: 120px;
 }
-/* line 232, ../scss/_header.scss */
+/* line 237, ../scss/_header.scss */
 #block-block-9 .content p {
   font-size: 1.2em;
   margin-bottom: 0;

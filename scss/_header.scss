@@ -212,9 +212,14 @@
 }
 
 #block-block-9 {
+  overflow: hidden;
   position: relative;
   width: 70px;
-  z-index: 500;  
+  z-index: 500; 
+
+  &:hover {
+    overflow: visible;
+  } 
 
   h2.block-title {
     background: transparent url(../images/icon_whatsapp.png) 50% 10px no-repeat;
