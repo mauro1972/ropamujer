@@ -269,6 +269,9 @@
     border: 1px transparent solid;    
     padding-top: 10px;
 
+    @include transition-property(all);
+    @include transition-duration(0.5s);    
+
     &:hover {
       border: 1px #EFEFEF solid;
     }    
