@@ -4717,7 +4717,7 @@
 .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit {
   xbackground-color: #2698F2;
   background-image: url("../images/bg_add_to_cart.png");
-  background-position: 90% 50%;
+  background-position: 95% 50%;
   /* LTR */
   background-repeat: no-repeat;
   xborder: 0;
@@ -4776,14 +4776,14 @@
   color: #FFF;
   font-size: 1.4em;
   font-weight: 100;
-  padding: 10px 20px;
+  padding: 10px 50px 10px 20px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
 /* line 219, ../scss/_product.scss */
 .node-product-type form.commerce-add-to-cart .form-submit:hover, .node-product-type form.commerce-add-to-cart .form-submit:active {
-  background: #d733be;
+  background-color: #d733be;
   -moz-box-shadow: 0, 0, 0, 0;
   -webkit-box-shadow: 0, 0, 0, 0;
   box-shadow: 0, 0, 0, 0;
