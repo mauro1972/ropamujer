@@ -3466,6 +3466,13 @@
   background: #d733be;
 }
 
+/* line 179, ../scss/_header.scss */
+.block-shopping-cart-block .content {
+  background: #FFF;
+  border: 1px #a8a8a8 solid;
+  width: 300px;
+}
+
 /**
  * Ropa Mujer styles
  */
