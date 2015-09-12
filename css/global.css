@@ -4782,7 +4782,7 @@
   border-radius: 2px;
 }
 /* line 219, ../scss/_product.scss */
-.node-product-type form.commerce-add-to-cart .form-submit:hover, .node-product-type form.commerce-add-to-cart .form-submit:active {
+.node-product-type form.commerce-add-to-cart .form-submit:hover, .node-product-type form.commerce-add-to-cart .form-submit:active, .node-product-type form.commerce-add-to-cart .form-submit:focus {
   background-color: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;

@@ -216,7 +216,7 @@
     padding: 10px 50px 10px 20px;
     @include border-radius(2px);
 
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
       background-color: lighten(#B4239E, 10);
       @include box-shadow(transparent 0 0 0);
     }
