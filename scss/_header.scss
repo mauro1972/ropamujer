@@ -228,5 +228,10 @@
     border: 1px darken(#f4f4f4, 30) solid;
     padding: 10px;
     width: 120px;
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 0;
+    }
   }   
 }

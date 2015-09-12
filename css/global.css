@@ -3526,6 +3526,11 @@
   padding: 10px;
   width: 120px;
 }
+/* line 232, ../scss/_header.scss */
+#block-block-9 .content p {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
 
 /**
  * Ropa Mujer styles
