@@ -4830,6 +4830,7 @@
 /* line 265, ../scss/_product.scss */
 #block-views-productos-populares-block .node-tile {
   font-size: 1.6em;
+  font-weight: 100;
 }
 
 /* End Variables & Mixins */
