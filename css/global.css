@@ -4740,35 +4740,28 @@
   cursor: pointer;
 }
 
-/* line 173, ../scss/_product.scss */
-.service-links {
-  float: right;
-  /* LTR */
-  width: 315px;
-}
-/* line 177, ../scss/_product.scss */
+/* line 175, ../scss/_product.scss */
 .service-links ul li {
   display: inline;
-  float: left;
-  /* LTR */
   margin: 0 5px;
   padding: 0;
   width: 90px;
 }
-/* line 183, ../scss/_product.scss */
+/* line 180, ../scss/_product.scss */
 .service-links ul li:first {
   margin-left: 0;
 }
 
-/* line 190, ../scss/_product.scss */
+/* line 191, ../scss/_product.scss */
 .node-product-type {
-  border: 1px #000 solid;
+  text-align: center;
 }
-/* line 193, ../scss/_product.scss */
+/* line 194, ../scss/_product.scss */
 .node-product-type .field-field-images {
-  float: left;
+  margin: 0 auto;
+  width: 300px;
 }
-/* line 196, ../scss/_product.scss */
+/* line 198, ../scss/_product.scss */
 .node-product-type .field-field-images #wrap {
   border: 1px #efefef solid;
   padding: 9px;

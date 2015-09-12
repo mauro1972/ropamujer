@@ -171,12 +171,9 @@
 }
 
 .service-links {
-  float: right; /* LTR */
-  width: 315px;
 
   ul li {
     display: inline;
-    float: left; /* LTR */
     margin: 0 5px;
     padding: 0;
     width: 90px;
@@ -184,19 +181,28 @@
       margin-left: 0;
     }
   }
+
+  @include breakpoint(720px) {
+
+  }  
 }
 
 
 .node-product-type {
-  border: 1px #000 solid;
+  text-align: center;
 
   .field-field-images {
-    float: left;
+    margin: 0 auto;
+    width: 300px;
 
     #wrap {
       border: 1px #efefef solid;
       padding: 9px;
     }
   }
+
+  @include breakpoint(720px) {
+
+  }  
 }
 
