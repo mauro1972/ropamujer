@@ -218,7 +218,7 @@
 
     &:hover, &:active {
       background-color: lighten(#B4239E, 10);
-      @include box-shadow(0,0,0,0);
+      @include box-shadow(transparent 0 0 0);
     }
   }
 
