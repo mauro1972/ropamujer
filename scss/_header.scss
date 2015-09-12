@@ -184,9 +184,23 @@
 
     ul.links {
       clear: none;
+      display: inline-block;
       margin: 0;
       text-align: center;
       width: 100%;
+    }
+
+    .line-item-summary-checkout a {
+      background: #B4239E;
+      color: #FFF;
+      font-size: 1em;
+      padding: 10px 15px;
+
+      @include border-radius(2px);
+
+      &:hover {
+        background: lighten(#B4239E, 10);
+      }
     }
 
   }

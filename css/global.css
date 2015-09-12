@@ -3476,9 +3476,24 @@
 /* line 185, ../scss/_header.scss */
 .block-shopping-cart-block .content ul.links {
   clear: none;
+  display: inline-block;
   margin: 0;
   text-align: center;
   width: 100%;
+}
+/* line 193, ../scss/_header.scss */
+.block-shopping-cart-block .content .line-item-summary-checkout a {
+  background: #B4239E;
+  color: #FFF;
+  font-size: 1em;
+  padding: 10px 15px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 201, ../scss/_header.scss */
+.block-shopping-cart-block .content .line-item-summary-checkout a:hover {
+  background: #d733be;
 }
 
 /**
