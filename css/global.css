@@ -4826,8 +4826,8 @@
   /* line 253, ../scss/_product.scss */
   #block-views-productos-populares-block .view-content > div {
     float: left;
-    margin-right: 2%;
-    width: 22%;
+    margin-right: 1%;
+    width: 18%;
   }
   /* line 264, ../scss/_product.scss */
   #block-views-productos-populares-block .view-content > div:last-child {
