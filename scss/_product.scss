@@ -192,7 +192,7 @@
   text-align: center;
 
   .field-field-images {
-    margin: 0 auto !important;
+    margin: 0 auto;
     width: 300px;
 
     #wrap {
@@ -203,7 +203,7 @@
 
   .form-item-quantity,
   .attribute-widgets {
-    margin: 0 auto;
+    margin: 0 auto !important;
     width: 300px;
   }
 
