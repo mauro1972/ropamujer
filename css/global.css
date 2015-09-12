@@ -4797,6 +4797,7 @@
   /* line 232, ../scss/_product.scss */
   .node-product-type form.commerce-add-to-cart .form-submit {
     display: block;
+    margin: 50px auto 0;
   }
 }
 
