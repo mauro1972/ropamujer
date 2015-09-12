@@ -148,19 +148,19 @@
         padding-bottom: 1em;
       }
       .form-submit {
-        background-color: #2698F2;
-        background-image: url('../images/bg_add_to_cart.png');
-        background-position: 90% 50%; /* LTR */
-        background-repeat: no-repeat;
-        border: 0;
-        @include rounded-corners(8px);
-        color: #ffffff;
-        font-family: $headerfont;
-        font-size: 17px;
-        font-weight: 400;
-        margin-top: 40px;
-        margin-left: 5px; /* LTR */
-        padding: 5px 50px 5px 10px; /* LTR */
+        xbackground-color: #2698F2;
+        xbackground-image: url('../images/bg_add_to_cart.png');
+        xbackground-position: 90% 50%; /* LTR */
+        xbackground-repeat: no-repeat;
+        xborder: 0;
+        /*@include rounded-corners(8px);*/
+        xcolor: #ffffff;
+        xfont-family: $headerfont;
+        xfont-size: 17px;
+        xfont-weight: 400;
+        xmargin-top: 40px;
+        xmargin-left: 5px; /* LTR */
+        xpadding: 5px 50px 5px 10px; /* LTR */
 
         &:hover {
           cursor: pointer;
