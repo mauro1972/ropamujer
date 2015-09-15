@@ -179,6 +179,7 @@
     border: 1px #A8A8A8 solid;
     padding: 5px;
     @include border-radius(0);
+    @include box-shadow(#CCC 2px 2px 0);
 
     form {
       border: none;
