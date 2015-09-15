@@ -176,6 +176,8 @@
 
   .content {
     background: #FFF;
+    border: 1px #A8A8A8 solid;
+    padding: 5px;
     @include border-radius(0);
 
     form {
@@ -195,6 +197,10 @@
           line-height: 40px;
           font-size: 1.8em;
           padding: 10px 5px;
+
+          &:active, &:focus {
+            @include box-shadow(transparent 0 0 0);
+          }
         }
       }
       .form-actions {
