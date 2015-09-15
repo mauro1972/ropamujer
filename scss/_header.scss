@@ -296,3 +296,36 @@
     }
   }   
 }
+
+#block-block-10,
+#block-block-8 {
+  padding-top: 16px;
+
+  .content {
+    p {
+      background: #B4239E;
+      border: 3px #FFF solid;
+      color: #FFF;
+      display: block;
+      padding: 5px 10px;
+
+      @include background-image(linear-gradient(lighten(#B4239E, 20), #B4239E));
+      @include border-radius(10px);
+      @include box-shadow(#CCC 1px 1px 2px);
+    }
+
+    a {
+      color: #F5F5F5;
+
+      &:hover {
+        color: #FFF;
+      }
+      @extend .fa;
+      @extend .fa-envelope-o;
+      &:before {
+        font-family: "FontAwesome";
+      }
+
+    }
+  }
+}
