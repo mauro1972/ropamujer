@@ -10,6 +10,40 @@
 
 }
 
+.zone-branding .region-branding {
+  margin: 0;
+
+  .logo-img {
+    float: none;
+    margin: 10px 0 5px;
+    text-align: center;
+  }
+}
+.region-branding-inner {
+  & > div, & > section {
+    float: left;
+    margin-right: 5px;
+    /*min-height: 20px;*/
+    padding: 20px 5px 0;
+    position: relative;
+    z-index: 500;
+  }
+
+  .branding-data {
+    padding: 0 5px 0 0;
+
+    img {
+      width: 120px;
+    }
+  }
+
+  #block-views-shopping-cart-block {
+    a {
+      font-size: 10px;
+    }
+  }
+}
+
 .region-branding-inner > div, 
 .region-branding-inner > section {
   height: 55px;
@@ -51,9 +85,20 @@
     border-color: transparent;
     border-bottom-color: #B4239E;
 
-    h2.block-title:after {
-      bottom: 0 !important;
-      color: #FFF;
+    h2.block-title {
+      &:after {
+        bottom: 0 !important;
+        color: #FFF;
+        border: 7px #000 solid;
+        border-color: transparent transparent #B4239E transparent;
+        bottom: 0;
+        display: block;
+        content: "";
+        position: absolute;
+        height: 0;
+        left: 40%;
+        width: 0;
+      }
     }
 
     .content {

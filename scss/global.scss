@@ -337,39 +337,7 @@ select {
 /**********************************************
 * 2.2. Zone branding
 **********************************************/
-.zone-branding .region-branding {
-  margin: 0;
 
-  .logo-img {
-    float: none;
-    margin: 10px 0 5px;
-    text-align: center;
-  }
-}
-.region-branding-inner {
-  & > div, & > section {
-    float: left;
-    margin-right: 5px;
-    /*min-height: 20px;*/
-    padding: 20px 5px 0;
-    position: relative;
-    z-index: 500;
-  }
-
-  .branding-data {
-    padding: 0 5px 0 0;
-
-    img {
-      width: 120px;
-    }
-  }
-
-  #block-views-shopping-cart-block {
-    a {
-      font-size: 10px;
-    }
-  }
-}
 /**
 * Search block
 */
