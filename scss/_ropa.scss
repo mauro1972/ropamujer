@@ -246,4 +246,14 @@
 
 .block-facetapi {
   border: 1px #000 solid;
+
+  @include breakpoint(720px) {
+    float: left;
+    margin-right: 3%;
+    width: 22%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }

@@ -3914,6 +3914,18 @@
 .block-facetapi {
   border: 1px #000 solid;
 }
+@media (min-width: 720px) {
+  /* line 247, ../scss/_ropa.scss */
+  .block-facetapi {
+    float: left;
+    margin-right: 3%;
+    width: 22%;
+  }
+  /* line 255, ../scss/_ropa.scss */
+  .block-facetapi:last-child {
+    margin-right: 0;
+  }
+}
 
 /* line 1, ../scss/_slides.scss */
 .popup-title-hidden, #block-views-flexslider-block-cat-flex .title {
