@@ -222,6 +222,10 @@
 .block-shopping-cart-block {
   overflow: hidden;
 
+  .block-inner {
+    height: 100%;
+  }
+
   &:hover {
     overflow: visible;
   }
