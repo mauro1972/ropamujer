@@ -390,40 +390,7 @@ select {
 /**********************************************
 * 2.3. Zone menu
 **********************************************/
-#zone-menu-wrapper {
-  background: #006680;
-  @include background-image(linear-gradient(lighten(#006680, 10), #006680));
 
-  .sf-menu.sf-style-space-teal {
-    background: transparent;
-    margin-bottom: 0;
-
-    li {
-      background: transparent;
-      color: #666;
-      margin-left: 0;
-
-      a {
-        color: #D2DAdB;
-        font-size: 1.1em;
-        font-weight: bold;
-
-        &.active, &:hover.active {
-          color: #FFF;
-          background: #B4239E; 
-          @include background-image(linear-gradient(lighten(#B4239E, 10), #B4239E));          
-        }
-
-        &:hover,&:active, 
-        &:focus {
-          background: transparent;
-          color: #FFF;
-          text-decoration: none;
-        }
-      }
-    }
-  }
-}
 /**
 * Navigation
 */
