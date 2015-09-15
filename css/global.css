@@ -3910,9 +3910,9 @@
   width: 0;
 }
 
-/* line 247, ../scss/_ropa.scss */
-.block-facetapi {
-  border: 1px #000 solid;
+/* line 249, ../scss/_ropa.scss */
+.block-facetapi h2.block-title {
+  text-align: center;
 }
 @media (min-width: 720px) {
   /* line 247, ../scss/_ropa.scss */
@@ -3921,7 +3921,7 @@
     margin-right: 3%;
     width: 22%;
   }
-  /* line 255, ../scss/_ropa.scss */
+  /* line 258, ../scss/_ropa.scss */
   .block-facetapi:last-child {
     margin-right: 0;
   }

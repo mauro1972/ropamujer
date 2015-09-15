@@ -245,7 +245,10 @@
 }
 
 .block-facetapi {
-  border: 1px #000 solid;
+
+  h2.block-title {
+    text-align: center;
+  }
 
   @include breakpoint(720px) {
     float: left;
