@@ -3698,7 +3698,7 @@
  * Ropa Mujer styles
  */
 /* line 4, ../scss/_ropa.scss */
-body:before {
+body {
   background: url(../images/flower-tile.png) 0 0 repeat;
 }
 
