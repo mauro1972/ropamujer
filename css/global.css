@@ -3478,11 +3478,12 @@
 .block-shopping-cart-block .content {
   background: #FFF;
   border: 1px #a8a8a8 solid;
+  left: auto !important;
   padding: 10px 20px 0 20px;
   right: 0;
   width: 300px;
 }
-/* line 191, ../scss/_header.scss */
+/* line 192, ../scss/_header.scss */
 .block-shopping-cart-block .content ul.links {
   clear: none;
   display: inline-block;
@@ -3490,7 +3491,7 @@
   text-align: center;
   width: 100%;
 }
-/* line 199, ../scss/_header.scss */
+/* line 200, ../scss/_header.scss */
 .block-shopping-cart-block .content .line-item-summary-checkout a {
   background: #B4239E;
   color: #FFF;
@@ -3510,37 +3511,37 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 212, ../scss/_header.scss */
+/* line 213, ../scss/_header.scss */
 .block-shopping-cart-block .content .line-item-summary-checkout a:hover {
   background: #d733be;
 }
 
-/* line 220, ../scss/_header.scss */
+/* line 221, ../scss/_header.scss */
 #block-block-9 {
   overflow: hidden;
   position: relative;
   width: 70px;
   z-index: 500;
 }
-/* line 226, ../scss/_header.scss */
+/* line 227, ../scss/_header.scss */
 #block-block-9:hover {
   overflow: visible;
 }
-/* line 230, ../scss/_header.scss */
+/* line 231, ../scss/_header.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 10px no-repeat;
   background-size: 35px;
   height: 60px;
   text-indent: -9999px;
 }
-/* line 237, ../scss/_header.scss */
+/* line 238, ../scss/_header.scss */
 #block-block-9 .content {
   background: #FFF;
   border: 1px #a8a8a8 solid;
   padding: 10px;
   width: 120px;
 }
-/* line 243, ../scss/_header.scss */
+/* line 244, ../scss/_header.scss */
 #block-block-9 .content p {
   font-size: 1.2em;
   margin-bottom: 0;
