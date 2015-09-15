@@ -349,6 +349,9 @@
         font-size: 1.1em;
         font-weight: bold;
 
+        @include transition-property("all");
+        @include transition-duration(0.4s);        
+
         &.active, &:hover.active {
           color: #FFF;
           background: #B4239E; 
