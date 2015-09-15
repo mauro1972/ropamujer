@@ -3513,10 +3513,14 @@
   overflow: hidden;
 }
 /* line 225, ../scss/_header.scss */
+.block-shopping-cart-block .block-inner {
+  height: 100%;
+}
+/* line 229, ../scss/_header.scss */
 .block-shopping-cart-block:hover {
   overflow: visible;
 }
-/* line 229, ../scss/_header.scss */
+/* line 233, ../scss/_header.scss */
 .block-shopping-cart-block .content {
   background: #FFF;
   border: 1px #a8a8a8 solid;
@@ -3525,7 +3529,7 @@
   right: 0;
   width: 300px;
 }
-/* line 237, ../scss/_header.scss */
+/* line 241, ../scss/_header.scss */
 .block-shopping-cart-block .content ul.links {
   clear: none;
   display: inline-block;
@@ -3533,7 +3537,7 @@
   text-align: center;
   width: 100%;
 }
-/* line 245, ../scss/_header.scss */
+/* line 249, ../scss/_header.scss */
 .block-shopping-cart-block .content .line-item-summary-checkout a {
   background: #B4239E;
   color: #FFF;
@@ -3553,37 +3557,37 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 258, ../scss/_header.scss */
+/* line 262, ../scss/_header.scss */
 .block-shopping-cart-block .content .line-item-summary-checkout a:hover {
   background: #d733be;
 }
 
-/* line 266, ../scss/_header.scss */
+/* line 270, ../scss/_header.scss */
 #block-block-9 {
   overflow: hidden;
   position: relative;
   width: 70px;
   z-index: 500;
 }
-/* line 272, ../scss/_header.scss */
+/* line 276, ../scss/_header.scss */
 #block-block-9:hover {
   overflow: visible;
 }
-/* line 276, ../scss/_header.scss */
+/* line 280, ../scss/_header.scss */
 #block-block-9 h2.block-title {
   background: transparent url(../images/icon_whatsapp.png) 50% 10px no-repeat;
   background-size: 35px;
   height: 60px;
   text-indent: -9999px;
 }
-/* line 283, ../scss/_header.scss */
+/* line 287, ../scss/_header.scss */
 #block-block-9 .content {
   background: #FFF;
   border: 1px #a8a8a8 solid;
   padding: 10px;
   width: 120px;
 }
-/* line 289, ../scss/_header.scss */
+/* line 293, ../scss/_header.scss */
 #block-block-9 .content p {
   font-size: 1.2em;
   margin-bottom: 0;
