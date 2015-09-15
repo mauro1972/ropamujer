@@ -3914,6 +3914,10 @@
 .block-facetapi h2.block-title {
   text-align: center;
 }
+/* line 253, ../scss/_ropa.scss */
+.block-facetapi ul li {
+  list-style: none;
+}
 @media (min-width: 720px) {
   /* line 247, ../scss/_ropa.scss */
   .block-facetapi {
@@ -3921,7 +3925,7 @@
     margin-right: 3%;
     width: 22%;
   }
-  /* line 258, ../scss/_ropa.scss */
+  /* line 262, ../scss/_ropa.scss */
   .block-facetapi:last-child {
     margin-right: 0;
   }
