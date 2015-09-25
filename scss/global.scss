@@ -1587,6 +1587,10 @@ div.messages.commerce-add-to-cart-confirmation {
         }
         &.continue {
           background-color: #b3b3b3;
+
+          &:hover {
+            background-color: lighten(#b3b3b3, 10);
+          }          
         }
       }
     }

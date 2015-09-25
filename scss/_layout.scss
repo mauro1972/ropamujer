@@ -5,6 +5,15 @@
 
 }
 
+#zone-content {
+  position: inherit;
+
+  #messages {
+    position: absolute;
+    top: 150px;
+  }
+}
+
 @include breakpoint(720px) {
   #region-preface-first,
   #region-preface-second {
