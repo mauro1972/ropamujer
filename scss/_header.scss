@@ -60,6 +60,8 @@
 #block-views-shopping-cart-block,
 #block-block-9 {
   border-bottom: 2px transparent solid;
+  border-left: 1px transparent solid;
+  border-right: 1px transparent solid;
   color: #FFF;
   position: relative;
 
@@ -85,6 +87,8 @@
     background: rgba(0, 0, 0, 0.2);
     border-color: transparent;
     border-bottom-color: #B4239E;
+    border-left-color: #555;
+    border-right-color: #555;
 
     h2.block-title {
       &:after {
