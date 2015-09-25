@@ -1579,7 +1579,11 @@ div.messages.commerce-add-to-cart-confirmation {
 
       .button {
         &.checkout {
-          background-color: $color1;
+          background-color: #B4239E;
+
+          &:hover {
+            background-color: lighten(#B4239E, 10);
+          }
         }
         &.continue {
           background-color: #b3b3b3;
