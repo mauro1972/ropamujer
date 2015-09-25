@@ -1548,7 +1548,7 @@ body.activebar-container .zone-footer2-wrapper {
 * Add to cart popin.
 */
 div.messages.commerce-add-to-cart-confirmation {
-  background-color: #E4F5FE;
+  background-color: #FFF;
   border-color: #D7D7D7;
   margin-left: -30% !important; /* width/2 */
   top: 50px;
@@ -1571,6 +1571,7 @@ div.messages.commerce-add-to-cart-confirmation {
       //width: 180px;
     }
     .button-wrapper {
+      background: transparent;
       height: auto;
       position: relative;
       right: none;
