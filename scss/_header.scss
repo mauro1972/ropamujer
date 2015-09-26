@@ -342,6 +342,12 @@
   }
 }
 
+#block-system-user-menu {
+  .content {
+    background: #FFF;
+  }
+}
+
 #zone-menu-wrapper {
   background: #F8F8F8;
   /*@include background-image(linear-gradient(lighten(#006680, 10), #006680));*/
