@@ -4415,9 +4415,24 @@ body {
 /* line 61, ../scss/_landing2.scss */
 .views-summary li {
   display: block;
-  height: 100px;
+  float: left;
+  margin: 0 !important;
   text-align: center;
   width: 20%;
+}
+/* line 68, ../scss/_landing2.scss */
+.views-summary li a {
+  background: #F8F8F8;
+  color: #333;
+  display: inline-block;
+  font-size: 1.4em;
+  height: 60px;
+  padding-top: 40px !important;
+}
+/* line 76, ../scss/_landing2.scss */
+.views-summary li a:hover {
+  background: #d733be;
+  color: #FFF;
 }
 
 /* line 8, ../scss/_layout.scss */
