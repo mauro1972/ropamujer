@@ -4491,6 +4491,11 @@ body {
     float: left;
     width: 49%;
   }
+  /* line 38, ../scss/_layout.scss */
+  .page-nuevos-productos #block-views-display-products-flex-outlet {
+    margin: 0 auto;
+    width: 90%;
+  }
 }
 
 /**
