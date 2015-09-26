@@ -4414,7 +4414,7 @@ body {
 
 /* line 60, ../scss/_landing2.scss */
 .views-summary {
-  width: 95%;
+  width: 99%;
 }
 /* line 63, ../scss/_landing2.scss */
 .views-summary li {
@@ -4436,7 +4436,7 @@ body {
 @media (min-width: 720px) {
   /* line 63, ../scss/_landing2.scss */
   .views-summary li {
-    width: 19%;
+    width: 19.5%;
   }
 }
 /* line 84, ../scss/_landing2.scss */

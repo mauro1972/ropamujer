@@ -58,7 +58,7 @@
 }
 
   .views-summary {
-    width: 95%;
+    width: 99%;
 
     li {
       border: 1px #FFF solid;
@@ -78,7 +78,7 @@
       padding-top: 40px !important; 
 
       @include breakpoint(720px) {
-        width: 19%;
+        width: 19.5%;
       }       
 
       a {
