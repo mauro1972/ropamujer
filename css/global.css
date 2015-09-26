@@ -4424,10 +4424,12 @@ body {
 #zone-content #messages {
   position: absolute;
   top: 150px;
+  width: 90%;
+  z-index: 999;
 }
 
 @media (min-width: 720px) {
-  /* line 18, ../scss/_layout.scss */
+  /* line 20, ../scss/_layout.scss */
   #region-preface-first,
   #region-preface-second {
     float: left;
@@ -4438,7 +4440,7 @@ body {
  * Landing page 2
  */
 @media (min-width: 720px) {
-  /* line 31, ../scss/_layout.scss */
+  /* line 33, ../scss/_layout.scss */
   .page-nuevos-productos #block-block-11,
   .page-nuevos-productos #block-views-display-products-flex-outlet {
     float: left;
