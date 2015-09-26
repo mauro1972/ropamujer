@@ -4412,16 +4412,17 @@ body {
   text-align: center;
 }
 
-/* line 61, ../scss/_landing2.scss */
+/* line 60, ../scss/_landing2.scss */
+.views-summary {
+  width: 95%;
+}
+/* line 63, ../scss/_landing2.scss */
 .views-summary li {
   display: block;
   float: left;
   margin: 0 !important;
   text-align: center;
-  width: 20%;
-}
-/* line 68, ../scss/_landing2.scss */
-.views-summary li a {
+  width: 50%;
   background: #F8F8F8;
   color: #333;
   display: inline-block;
@@ -4429,9 +4430,23 @@ body {
   height: 60px;
   padding-top: 40px !important;
 }
-/* line 76, ../scss/_landing2.scss */
-.views-summary li a:hover {
+@media (min-width: 720px) {
+  /* line 63, ../scss/_landing2.scss */
+  .views-summary li {
+    width: 20%;
+  }
+}
+/* line 81, ../scss/_landing2.scss */
+.views-summary li a {
+  color: #333;
+}
+/* line 85, ../scss/_landing2.scss */
+.views-summary li:hover {
   background: #d733be;
+  color: #FFF;
+}
+/* line 89, ../scss/_landing2.scss */
+.views-summary li:hover a {
   color: #FFF;
 }
 

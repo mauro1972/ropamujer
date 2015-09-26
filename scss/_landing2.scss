@@ -58,25 +58,38 @@
 }
 
   .views-summary {
+    width: 95%;
+
     li {
       display: block;
       float: left;
       margin: 0 !important;
       text-align: center;
-      width: 20%;
+      width: 50%;
+
+      background: #F8F8F8;  
+      color: #333;      
+      display: inline-block;
+      font-size: 1.4em;
+      height: 60px;
+      padding-top: 40px !important; 
+
+      @include breakpoint(720px) {
+        width: 20%;
+      }       
 
       a {
-        background: #F8F8F8;  
-        color: #333;      
-        display: inline-block;
-        font-size: 1.4em;
-        height: 60px;
-        padding-top: 40px !important;  
-        
-        &:hover {
-          background: lighten(#B4239E, 10);
+        color: #333;
+      }
+      
+      &:hover {
+        background: lighten(#B4239E, 10);
+        color: #FFF;
+
+        a {
           color: #FFF;
-        }              
+        }
+            
       }
     }
   }
