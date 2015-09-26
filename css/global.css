@@ -3659,29 +3659,35 @@
   font-family: "FontAwesome";
 }
 
-/* line 346, ../scss/_header.scss */
+/* line 345, ../scss/_header.scss */
+#block-system-user-menu {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 349, ../scss/_header.scss */
 #block-system-user-menu .content {
   background: #FFF;
+  padding: 10px 20px;
 }
 
-/* line 351, ../scss/_header.scss */
+/* line 355, ../scss/_header.scss */
 #zone-menu-wrapper {
   background: #F8F8F8;
   /*@include background-image(linear-gradient(lighten(#006680, 10), #006680));*/
   border-bottom: 1px #CCC solid;
 }
-/* line 356, ../scss/_header.scss */
+/* line 360, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal {
   background: transparent;
   margin-bottom: 0;
 }
-/* line 360, ../scss/_header.scss */
+/* line 364, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li {
   background: transparent;
   color: #666;
   margin-left: 0;
 }
-/* line 365, ../scss/_header.scss */
+/* line 369, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a {
   color: #4d4d4d;
   font-size: 1.1em;
@@ -3695,13 +3701,13 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 373, ../scss/_header.scss */
+/* line 377, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a.active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover.active {
   color: #FFF;
   background: #B4239E;
   /*@include background-image(linear-gradient(lighten(#B4239E, 10), #B4239E));*/
 }
-/* line 379, ../scss/_header.scss */
+/* line 383, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:focus {
   background: #B4239E;
   color: #FFF;
