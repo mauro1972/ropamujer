@@ -4418,6 +4418,9 @@ body {
 }
 /* line 63, ../scss/_landing2.scss */
 .views-summary li {
+  border: 1px #FFF solid;
+  border-left: none;
+  border-top: none;
   display: block;
   float: left;
   margin: 0 !important;
@@ -4433,19 +4436,19 @@ body {
 @media (min-width: 720px) {
   /* line 63, ../scss/_landing2.scss */
   .views-summary li {
-    width: 20%;
+    width: 19%;
   }
 }
-/* line 81, ../scss/_landing2.scss */
+/* line 84, ../scss/_landing2.scss */
 .views-summary li a {
   color: #333;
 }
-/* line 85, ../scss/_landing2.scss */
+/* line 88, ../scss/_landing2.scss */
 .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 89, ../scss/_landing2.scss */
+/* line 92, ../scss/_landing2.scss */
 .views-summary li:hover a {
   color: #FFF;
 }
