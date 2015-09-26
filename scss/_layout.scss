@@ -30,8 +30,7 @@
 .page-nuevos-productos {
 
   @include breakpoint(720px) {
-    #block-block-11,
-    #block-views-display-products-flex-outlet {
+    #block-block-11 {
       float: left;
       width: 49%;
     }

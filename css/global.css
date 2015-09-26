@@ -4404,19 +4404,20 @@ body {
 }*/
 /* line 51, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet {
-  margin-top: 20px;
+  margin-top: 0;
 }
 /* line 54, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet h2.block-title {
   font-size: 28px;
   text-align: center;
+  display: none;
 }
 
-/* line 60, ../scss/_landing2.scss */
+/* line 61, ../scss/_landing2.scss */
 .views-summary {
   width: 99%;
 }
-/* line 63, ../scss/_landing2.scss */
+/* line 64, ../scss/_landing2.scss */
 .views-summary li {
   border: 1px #FFF solid;
   border-left: none;
@@ -4442,21 +4443,21 @@ body {
   transition-duration: 0.4s;
 }
 @media (min-width: 720px) {
-  /* line 63, ../scss/_landing2.scss */
+  /* line 64, ../scss/_landing2.scss */
   .views-summary li {
     width: 19.5%;
   }
 }
-/* line 87, ../scss/_landing2.scss */
+/* line 88, ../scss/_landing2.scss */
 .views-summary li a {
   color: #333;
 }
-/* line 91, ../scss/_landing2.scss */
+/* line 92, ../scss/_landing2.scss */
 .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 95, ../scss/_landing2.scss */
+/* line 96, ../scss/_landing2.scss */
 .views-summary li:hover a {
   color: #FFF;
 }
@@ -4486,8 +4487,7 @@ body {
  */
 @media (min-width: 720px) {
   /* line 33, ../scss/_layout.scss */
-  .page-nuevos-productos #block-block-11,
-  .page-nuevos-productos #block-views-display-products-flex-outlet {
+  .page-nuevos-productos #block-block-11 {
     float: left;
     width: 49%;
   }
