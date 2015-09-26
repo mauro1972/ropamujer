@@ -4412,6 +4412,14 @@ body {
   text-align: center;
 }
 
+/* line 61, ../scss/_landing2.scss */
+.views-summary li {
+  display: block;
+  height: 100px;
+  text-align: center;
+  width: 20%;
+}
+
 /* line 8, ../scss/_layout.scss */
 #zone-content {
   position: inherit;
