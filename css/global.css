@@ -5168,7 +5168,6 @@ input[type="week"] {
   background: #F6F6F6;
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
   line-height: 16px;
   width: 210px;
   border: 1px solid #DADADA;
@@ -5177,7 +5176,7 @@ input[type="week"] {
   border-radius: 3px;
   padding: 0px 5px;
 }
-/* line 245, ../scss/global.scss */
+/* line 244, ../scss/global.scss */
 textarea:active, textarea:focus,
 select:active,
 select:focus,
