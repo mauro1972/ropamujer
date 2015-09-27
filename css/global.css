@@ -3684,26 +3684,27 @@
 #block-system-user-menu .content {
   background: #FFF;
   padding: 10px 20px;
+  min-width: 60px;
 }
 
-/* line 373, ../scss/_header.scss */
+/* line 374, ../scss/_header.scss */
 #zone-menu-wrapper {
   background: #F8F8F8;
   /*@include background-image(linear-gradient(lighten(#006680, 10), #006680));*/
   border-bottom: 1px #CCC solid;
 }
-/* line 378, ../scss/_header.scss */
+/* line 379, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal {
   background: transparent;
   margin-bottom: 0;
 }
-/* line 382, ../scss/_header.scss */
+/* line 383, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li {
   background: transparent;
   color: #666;
   margin-left: 0;
 }
-/* line 387, ../scss/_header.scss */
+/* line 388, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a {
   color: #4d4d4d;
   font-size: 1.1em;
@@ -3717,13 +3718,13 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 395, ../scss/_header.scss */
+/* line 396, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a.active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover.active {
   color: #FFF;
   background: #B4239E;
   /*@include background-image(linear-gradient(lighten(#B4239E, 10), #B4239E));*/
 }
-/* line 401, ../scss/_header.scss */
+/* line 402, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:focus {
   background: #B4239E;
   color: #FFF;
