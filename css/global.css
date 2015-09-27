@@ -4083,6 +4083,10 @@ body {
 #block-system-main .create-account {
   float: right;
 }
+/* line 292, ../scss/_ropa.scss */
+#block-system-main input[type="text"] {
+  background: #F6F6F6;
+}
 
 /* line 1, ../scss/_slides.scss */
 .popup-title-hidden, #block-views-flexslider-block-cat-flex .title {
@@ -5173,21 +5177,35 @@ input[type="week"] {
   padding: 0px 5px;
 }
 /* line 245, ../scss/global.scss */
-textarea:active,
+textarea:active, textarea:focus,
 select:active,
+select:focus,
 input[type="date"]:active,
+input[type="date"]:focus,
 input[type="datetime"]:active,
+input[type="datetime"]:focus,
 input[type="datetime-local"]:active,
+input[type="datetime-local"]:focus,
 input[type="email"]:active,
+input[type="email"]:focus,
 input[type="month"]:active,
+input[type="month"]:focus,
 input[type="number"]:active,
+input[type="number"]:focus,
 input[type="password"]:active,
+input[type="password"]:focus,
 input[type="search"]:active,
+input[type="search"]:focus,
 input[type="tel"]:active,
+input[type="tel"]:focus,
 input[type="text"]:active,
+input[type="text"]:focus,
 input[type="time"]:active,
+input[type="time"]:focus,
 input[type="url"]:active,
-input[type="week"]:active {
+input[type="url"]:focus,
+input[type="week"]:active,
+input[type="week"]:focus {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
