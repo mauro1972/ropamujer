@@ -4071,7 +4071,7 @@ body {
 @media (min-width: 720px) {
   /* line 273, ../scss/_ropa.scss */
   #block-system-main #user_login_form,
-  #block-system-main #create-account {
+  #block-system-main .create-account {
     float: left;
     width: 45%;
   }

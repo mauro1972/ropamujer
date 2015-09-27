@@ -271,7 +271,7 @@
 #block-system-main {
 
   #user_login_form,
-  #create-account {
+  .create-account {
 
     @include breakpoint(720px) {
       float: left;
