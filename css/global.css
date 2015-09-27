@@ -4076,6 +4076,10 @@ body {
     width: 45%;
   }
 }
+/* line 283, ../scss/_ropa.scss */
+#block-system-main .hybridauth-widget-wrapper {
+  clear: both;
+}
 
 /* line 1, ../scss/_slides.scss */
 .popup-title-hidden, #block-views-flexslider-block-cat-flex .title {
