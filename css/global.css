@@ -4068,6 +4068,12 @@ body {
   }
 }
 
+/* line 273, ../scss/_ropa.scss */
+#block-system-main #user_login_form,
+#block-system-main .create-account,
+#block-system-main .hybridauth-widget-wrapper {
+  border: none;
+}
 @media (min-width: 720px) {
   /* line 273, ../scss/_ropa.scss */
   #block-system-main #user_login_form,
@@ -4078,7 +4084,7 @@ body {
     clear: none;
   }
 }
-/* line 283, ../scss/_ropa.scss */
+/* line 284, ../scss/_ropa.scss */
 #block-system-main #user_login_form input#edit-pass,
 #block-system-main #user_login_form input#edit-name,
 #block-system-main .create-account input#edit-pass,
@@ -4088,7 +4094,7 @@ body {
   background: #F6F6F6 !important;
   height: 40px;
 }
-/* line 290, ../scss/_ropa.scss */
+/* line 291, ../scss/_ropa.scss */
 #block-system-main .hybridauth-widget-wrapper,
 #block-system-main .create-account {
   float: right;
