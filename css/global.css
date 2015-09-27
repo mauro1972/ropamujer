@@ -4079,12 +4079,13 @@ body {
   #block-system-main #user_login_form,
   #block-system-main .create-account,
   #block-system-main .hybridauth-widget-wrapper {
+    border: none;
     float: left;
     width: 45%;
     clear: none;
   }
 }
-/* line 284, ../scss/_ropa.scss */
+/* line 285, ../scss/_ropa.scss */
 #block-system-main #user_login_form input#edit-pass,
 #block-system-main #user_login_form input#edit-name,
 #block-system-main .create-account input#edit-pass,
@@ -4094,7 +4095,7 @@ body {
   background: #F6F6F6 !important;
   height: 40px;
 }
-/* line 291, ../scss/_ropa.scss */
+/* line 292, ../scss/_ropa.scss */
 #block-system-main .hybridauth-widget-wrapper,
 #block-system-main .create-account {
   float: right;

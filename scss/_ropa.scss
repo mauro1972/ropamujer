@@ -276,6 +276,7 @@
     border: none;
 
     @include breakpoint(720px) {
+      border: none;
       float: left;
       width: 45%;
       clear: none;
