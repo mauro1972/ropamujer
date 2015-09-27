@@ -3675,8 +3675,9 @@
 #block-system-user-menu {
   padding-left: 5px;
   padding-right: 5px;
+  overflow: hidden;
 }
-/* line 351, ../scss/_header.scss */
+/* line 352, ../scss/_header.scss */
 #block-user-login h2.block-title,
 #block-system-user-menu h2.block-title {
   color: #FFF;
@@ -3686,7 +3687,7 @@
   text-indent: -9999px;
   min-width: 20px;
 }
-/* line 361, ../scss/_header.scss */
+/* line 362, ../scss/_header.scss */
 #block-user-login h2.block-title:before,
 #block-system-user-menu h2.block-title:before {
   font-family: "FontAwesome";
@@ -3694,7 +3695,7 @@
   position: absolute;
   text-indent: 0;
 }
-/* line 369, ../scss/_header.scss */
+/* line 370, ../scss/_header.scss */
 #block-user-login .content,
 #block-system-user-menu .content {
   background: #FFF;
@@ -3702,36 +3703,43 @@
   min-width: 120px;
 }
 
-/* line 376, ../scss/_header.scss */
+/* line 377, ../scss/_header.scss */
 #block-user-login {
   min-width: 60px;
+  padding-left: 35px;
 }
-/* line 383, ../scss/_header.scss */
+/* line 385, ../scss/_header.scss */
 #block-user-login h2.block-title:before {
   font-family: "FontAwesome";
   right: 0;
   position: absolute;
   text-indent: 0;
 }
+/* line 393, ../scss/_header.scss */
+#block-user-login .content {
+  left: inherit;
+  min-width: 150px;
+  right: 0;
+}
 
-/* line 392, ../scss/_header.scss */
+/* line 400, ../scss/_header.scss */
 #zone-menu-wrapper {
   background: #F8F8F8;
   /*@include background-image(linear-gradient(lighten(#006680, 10), #006680));*/
   border-bottom: 1px #CCC solid;
 }
-/* line 397, ../scss/_header.scss */
+/* line 405, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal {
   background: transparent;
   margin-bottom: 0;
 }
-/* line 401, ../scss/_header.scss */
+/* line 409, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li {
   background: transparent;
   color: #666;
   margin-left: 0;
 }
-/* line 406, ../scss/_header.scss */
+/* line 414, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a {
   color: #4d4d4d;
   font-size: 1.1em;
@@ -3745,13 +3753,13 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 414, ../scss/_header.scss */
+/* line 422, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a.active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover.active {
   color: #FFF;
   background: #B4239E;
   /*@include background-image(linear-gradient(lighten(#B4239E, 10), #B4239E));*/
 }
-/* line 420, ../scss/_header.scss */
+/* line 428, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:focus {
   background: #B4239E;
   color: #FFF;

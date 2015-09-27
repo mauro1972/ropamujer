@@ -347,6 +347,7 @@
 #block-system-user-menu {
   padding-left: 5px;
   padding-right: 5px; 
+  overflow: hidden;
 
   h2.block-title {
     color: #FFF;
@@ -375,6 +376,7 @@
 
 #block-user-login {
   min-width: 60px;
+  padding-left: 35px;
 
   h2.block-title {
 
@@ -386,6 +388,12 @@
       position: absolute;
       text-indent: 0;
     }     
+  }
+
+  .content {
+    left: inherit;
+    min-width: 150px;
+    right: 0;
   }
 }
 
