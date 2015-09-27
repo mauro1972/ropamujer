@@ -273,10 +273,10 @@
   #user_login_form,
   .create-account,
   .hybridauth-widget-wrapper {
-    border: none;
+    border: none !important;
 
     @include breakpoint(720px) {
-      border: none;
+      border: none !important;
       float: left;
       width: 45%;
       clear: none;
