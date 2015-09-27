@@ -21,7 +21,7 @@
 /* line 4, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_core.scss */
 .fa, .block-shopping-cart-block h2.block-title,
 #block-views-shopping-cart-block h2.block-title, #block-search-form h2.block-title, #block-block-10 .content a,
-#block-block-8 .content a, #block-system-user-menu h2.block-title, #block-user-login form a, .outlet-carousel .jcarousel-item input[type="submit"],
+#block-block-8 .content a, #block-system-user-menu h2.block-title, #block-user-login h2.block-title, .outlet-carousel .jcarousel-item input[type="submit"],
 .product-row input[type="submit"], .jcarousel-skin-default .jcarousel-next-horizontal,
 .jcarousel-skin-default .jcarousel-prev-horizontal, .flex-direction-nav a:before {
   display: inline-block;
@@ -110,7 +110,7 @@
 /* line 14, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-left, .block-shopping-cart-block h2.fa-pull-left.block-title,
 #block-views-shopping-cart-block h2.fa-pull-left.block-title, #block-search-form h2.fa-pull-left.block-title, #block-block-10 .content a.fa-pull-left,
-#block-block-8 .content a.fa-pull-left, #block-system-user-menu h2.fa-pull-left.block-title, #block-user-login form a.fa-pull-left, .outlet-carousel .jcarousel-item input.fa-pull-left[type="submit"],
+#block-block-8 .content a.fa-pull-left, #block-system-user-menu h2.fa-pull-left.block-title, #block-user-login h2.fa-pull-left.block-title, .outlet-carousel .jcarousel-item input.fa-pull-left[type="submit"],
 .product-row input.fa-pull-left[type="submit"], .jcarousel-skin-default .fa-pull-left.jcarousel-next-horizontal,
 .jcarousel-skin-default .fa-pull-left.jcarousel-prev-horizontal, .flex-direction-nav a.fa-pull-left:before {
   margin-right: .3em;
@@ -118,7 +118,7 @@
 /* line 15, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-right, .block-shopping-cart-block h2.fa-pull-right.block-title,
 #block-views-shopping-cart-block h2.fa-pull-right.block-title, #block-search-form h2.fa-pull-right.block-title, #block-block-10 .content a.fa-pull-right,
-#block-block-8 .content a.fa-pull-right, #block-system-user-menu h2.fa-pull-right.block-title, #block-user-login form a.fa-pull-right, .outlet-carousel .jcarousel-item input.fa-pull-right[type="submit"],
+#block-block-8 .content a.fa-pull-right, #block-system-user-menu h2.fa-pull-right.block-title, #block-user-login h2.fa-pull-right.block-title, .outlet-carousel .jcarousel-item input.fa-pull-right[type="submit"],
 .product-row input.fa-pull-right[type="submit"], .jcarousel-skin-default .fa-pull-right.jcarousel-next-horizontal,
 .jcarousel-skin-default .fa-pull-right.jcarousel-prev-horizontal, .flex-direction-nav a.fa-pull-right:before {
   margin-left: .3em;
@@ -138,7 +138,7 @@
 /* line 23, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.pull-left, .block-shopping-cart-block h2.pull-left.block-title,
 #block-views-shopping-cart-block h2.pull-left.block-title, #block-search-form h2.pull-left.block-title, #block-block-10 .content a.pull-left,
-#block-block-8 .content a.pull-left, #block-system-user-menu h2.pull-left.block-title, #block-user-login form a.pull-left, .outlet-carousel .jcarousel-item input.pull-left[type="submit"],
+#block-block-8 .content a.pull-left, #block-system-user-menu h2.pull-left.block-title, #block-user-login h2.pull-left.block-title, .outlet-carousel .jcarousel-item input.pull-left[type="submit"],
 .product-row input.pull-left[type="submit"], .jcarousel-skin-default .pull-left.jcarousel-next-horizontal,
 .jcarousel-skin-default .pull-left.jcarousel-prev-horizontal, .flex-direction-nav a.pull-left:before {
   margin-right: .3em;
@@ -146,7 +146,7 @@
 /* line 24, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.pull-right, .block-shopping-cart-block h2.pull-right.block-title,
 #block-views-shopping-cart-block h2.pull-right.block-title, #block-search-form h2.pull-right.block-title, #block-block-10 .content a.pull-right,
-#block-block-8 .content a.pull-right, #block-system-user-menu h2.pull-right.block-title, #block-user-login form a.pull-right, .outlet-carousel .jcarousel-item input.pull-right[type="submit"],
+#block-block-8 .content a.pull-right, #block-system-user-menu h2.pull-right.block-title, #block-user-login h2.pull-right.block-title, .outlet-carousel .jcarousel-item input.pull-right[type="submit"],
 .product-row input.pull-right[type="submit"], .jcarousel-skin-default .pull-right.jcarousel-next-horizontal,
 .jcarousel-skin-default .pull-right.jcarousel-prev-horizontal, .flex-direction-nav a.pull-right:before {
   margin-left: .3em;
@@ -305,7 +305,7 @@
 }
 
 /* line 11, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
-.fa-user:before, #block-system-user-menu h2.block-title:before, #block-user-login form a:before {
+.fa-user:before, #block-system-user-menu h2.block-title:before, #block-user-login h2.block-title:before {
   content: "";
 }
 
@@ -3697,7 +3697,7 @@
   min-width: 40px;
 }
 /* line 378, ../scss/_header.scss */
-#block-user-login form a {
+#block-user-login h2.block-title {
   display: inline-block;
   color: #FFF;
   font-size: 2em;
@@ -3707,7 +3707,7 @@
   min-width: 20px;
 }
 /* line 389, ../scss/_header.scss */
-#block-user-login form a:before {
+#block-user-login h2.block-title:before {
   font-family: "FontAwesome";
   right: 40px;
   position: absolute;
