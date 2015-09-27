@@ -365,7 +365,11 @@
       position: absolute;
       text-indent: 0;
     }      
-  }  
+  } 
+
+  &:hover {
+    overflow: visible;
+  } 
 
   .content {
     background: #FFF;
