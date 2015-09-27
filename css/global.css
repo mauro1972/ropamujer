@@ -4088,6 +4088,7 @@ body {
 #block-system-main input[type="text"],
 #block-system-main input#edit-name {
   background: #F6F6F6 !important;
+  height: 40px;
 }
 
 /* line 1, ../scss/_slides.scss */
