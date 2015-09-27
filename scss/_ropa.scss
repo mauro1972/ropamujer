@@ -276,8 +276,13 @@
     @include breakpoint(720px) {
       float: left;
       width: 45%;
+      clear: none;
     }
 
+  }
+
+  .create-account {
+    float: right;
   }
 
   .hybridauth-widget-wrapper {

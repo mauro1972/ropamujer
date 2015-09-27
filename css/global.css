@@ -4074,9 +4074,14 @@ body {
   #block-system-main .create-account {
     float: left;
     width: 45%;
+    clear: none;
   }
 }
-/* line 283, ../scss/_ropa.scss */
+/* line 284, ../scss/_ropa.scss */
+#block-system-main .create-account {
+  float: right;
+}
+/* line 288, ../scss/_ropa.scss */
 #block-system-main .hybridauth-widget-wrapper {
   clear: both;
 }
