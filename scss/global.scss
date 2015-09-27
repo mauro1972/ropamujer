@@ -242,7 +242,7 @@ input[type="week"] {
   border-radius: 3px;
   padding: 0px 5px;  
 
-  &:active {
+  &:active, &:focus {
     @include box-shadow(none);
   }
 }
