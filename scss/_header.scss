@@ -343,6 +343,7 @@
   }
 }
 
+#block-user-login
 #block-system-user-menu {
   padding-left: 5px;
   padding-right: 5px; 
@@ -373,22 +374,15 @@
 }
 
 #block-user-login {
-  min-width: 40px;
+  min-width: 60px;
 
   h2.block-title {
-    display: inline-block;
-    color: #FFF;
-    font-size: 2em;
-    height: 55px;
-    position: relative;
-    text-indent: -9999px;
-    min-width: 20px;
 
     @extend .fa;
     @extend .fa-user;
     &:before {
       font-family: "FontAwesome";
-      right: 40px;
+      right: 0;
       position: absolute;
       text-indent: 0;
     }     

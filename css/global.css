@@ -21,7 +21,8 @@
 /* line 4, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_core.scss */
 .fa, .block-shopping-cart-block h2.block-title,
 #block-views-shopping-cart-block h2.block-title, #block-search-form h2.block-title, #block-block-10 .content a,
-#block-block-8 .content a, #block-system-user-menu h2.block-title, #block-user-login h2.block-title, .outlet-carousel .jcarousel-item input[type="submit"],
+#block-block-8 .content a, #block-user-login
+#block-system-user-menu h2.block-title, #block-user-login h2.block-title, .outlet-carousel .jcarousel-item input[type="submit"],
 .product-row input[type="submit"], .jcarousel-skin-default .jcarousel-next-horizontal,
 .jcarousel-skin-default .jcarousel-prev-horizontal, .flex-direction-nav a:before {
   display: inline-block;
@@ -110,7 +111,8 @@
 /* line 14, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-left, .block-shopping-cart-block h2.fa-pull-left.block-title,
 #block-views-shopping-cart-block h2.fa-pull-left.block-title, #block-search-form h2.fa-pull-left.block-title, #block-block-10 .content a.fa-pull-left,
-#block-block-8 .content a.fa-pull-left, #block-system-user-menu h2.fa-pull-left.block-title, #block-user-login h2.fa-pull-left.block-title, .outlet-carousel .jcarousel-item input.fa-pull-left[type="submit"],
+#block-block-8 .content a.fa-pull-left, #block-user-login
+#block-system-user-menu h2.fa-pull-left.block-title, #block-user-login h2.fa-pull-left.block-title, .outlet-carousel .jcarousel-item input.fa-pull-left[type="submit"],
 .product-row input.fa-pull-left[type="submit"], .jcarousel-skin-default .fa-pull-left.jcarousel-next-horizontal,
 .jcarousel-skin-default .fa-pull-left.jcarousel-prev-horizontal, .flex-direction-nav a.fa-pull-left:before {
   margin-right: .3em;
@@ -118,7 +120,8 @@
 /* line 15, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-right, .block-shopping-cart-block h2.fa-pull-right.block-title,
 #block-views-shopping-cart-block h2.fa-pull-right.block-title, #block-search-form h2.fa-pull-right.block-title, #block-block-10 .content a.fa-pull-right,
-#block-block-8 .content a.fa-pull-right, #block-system-user-menu h2.fa-pull-right.block-title, #block-user-login h2.fa-pull-right.block-title, .outlet-carousel .jcarousel-item input.fa-pull-right[type="submit"],
+#block-block-8 .content a.fa-pull-right, #block-user-login
+#block-system-user-menu h2.fa-pull-right.block-title, #block-user-login h2.fa-pull-right.block-title, .outlet-carousel .jcarousel-item input.fa-pull-right[type="submit"],
 .product-row input.fa-pull-right[type="submit"], .jcarousel-skin-default .fa-pull-right.jcarousel-next-horizontal,
 .jcarousel-skin-default .fa-pull-right.jcarousel-prev-horizontal, .flex-direction-nav a.fa-pull-right:before {
   margin-left: .3em;
@@ -138,7 +141,8 @@
 /* line 23, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.pull-left, .block-shopping-cart-block h2.pull-left.block-title,
 #block-views-shopping-cart-block h2.pull-left.block-title, #block-search-form h2.pull-left.block-title, #block-block-10 .content a.pull-left,
-#block-block-8 .content a.pull-left, #block-system-user-menu h2.pull-left.block-title, #block-user-login h2.pull-left.block-title, .outlet-carousel .jcarousel-item input.pull-left[type="submit"],
+#block-block-8 .content a.pull-left, #block-user-login
+#block-system-user-menu h2.pull-left.block-title, #block-user-login h2.pull-left.block-title, .outlet-carousel .jcarousel-item input.pull-left[type="submit"],
 .product-row input.pull-left[type="submit"], .jcarousel-skin-default .pull-left.jcarousel-next-horizontal,
 .jcarousel-skin-default .pull-left.jcarousel-prev-horizontal, .flex-direction-nav a.pull-left:before {
   margin-right: .3em;
@@ -146,7 +150,8 @@
 /* line 24, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_bordered-pulled.scss */
 .fa.pull-right, .block-shopping-cart-block h2.pull-right.block-title,
 #block-views-shopping-cart-block h2.pull-right.block-title, #block-search-form h2.pull-right.block-title, #block-block-10 .content a.pull-right,
-#block-block-8 .content a.pull-right, #block-system-user-menu h2.pull-right.block-title, #block-user-login h2.pull-right.block-title, .outlet-carousel .jcarousel-item input.pull-right[type="submit"],
+#block-block-8 .content a.pull-right, #block-user-login
+#block-system-user-menu h2.pull-right.block-title, #block-user-login h2.pull-right.block-title, .outlet-carousel .jcarousel-item input.pull-right[type="submit"],
 .product-row input.pull-right[type="submit"], .jcarousel-skin-default .pull-right.jcarousel-next-horizontal,
 .jcarousel-skin-default .pull-right.jcarousel-prev-horizontal, .flex-direction-nav a.pull-right:before {
   margin-left: .3em;
@@ -305,7 +310,8 @@
 }
 
 /* line 11, ../../../../../var/lib/gems/1.9.1/gems/font-awesome-sass-4.4.0/assets/stylesheets/font-awesome/_icons.scss */
-.fa-user:before, #block-system-user-menu h2.block-title:before, #block-user-login h2.block-title:before {
+.fa-user:before, #block-user-login
+#block-system-user-menu h2.block-title:before, #block-user-login h2.block-title:before {
   content: "";
 }
 
@@ -3665,11 +3671,13 @@
 }
 
 /* line 346, ../scss/_header.scss */
+#block-user-login
 #block-system-user-menu {
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 350, ../scss/_header.scss */
+/* line 351, ../scss/_header.scss */
+#block-user-login
 #block-system-user-menu h2.block-title {
   color: #FFF;
   font-size: 2em;
@@ -3678,60 +3686,52 @@
   text-indent: -9999px;
   min-width: 20px;
 }
-/* line 360, ../scss/_header.scss */
+/* line 361, ../scss/_header.scss */
+#block-user-login
 #block-system-user-menu h2.block-title:before {
   font-family: "FontAwesome";
   right: 40px;
   position: absolute;
   text-indent: 0;
 }
-/* line 368, ../scss/_header.scss */
+/* line 369, ../scss/_header.scss */
+#block-user-login
 #block-system-user-menu .content {
   background: #FFF;
   padding: 10px 20px;
   min-width: 120px;
 }
 
-/* line 375, ../scss/_header.scss */
+/* line 376, ../scss/_header.scss */
 #block-user-login {
-  min-width: 40px;
+  min-width: 60px;
 }
-/* line 378, ../scss/_header.scss */
-#block-user-login h2.block-title {
-  display: inline-block;
-  color: #FFF;
-  font-size: 2em;
-  height: 55px;
-  position: relative;
-  text-indent: -9999px;
-  min-width: 20px;
-}
-/* line 389, ../scss/_header.scss */
+/* line 383, ../scss/_header.scss */
 #block-user-login h2.block-title:before {
   font-family: "FontAwesome";
-  right: 40px;
+  right: 0;
   position: absolute;
   text-indent: 0;
 }
 
-/* line 398, ../scss/_header.scss */
+/* line 392, ../scss/_header.scss */
 #zone-menu-wrapper {
   background: #F8F8F8;
   /*@include background-image(linear-gradient(lighten(#006680, 10), #006680));*/
   border-bottom: 1px #CCC solid;
 }
-/* line 403, ../scss/_header.scss */
+/* line 397, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal {
   background: transparent;
   margin-bottom: 0;
 }
-/* line 407, ../scss/_header.scss */
+/* line 401, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li {
   background: transparent;
   color: #666;
   margin-left: 0;
 }
-/* line 412, ../scss/_header.scss */
+/* line 406, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a {
   color: #4d4d4d;
   font-size: 1.1em;
@@ -3745,13 +3745,13 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 420, ../scss/_header.scss */
+/* line 414, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a.active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover.active {
   color: #FFF;
   background: #B4239E;
   /*@include background-image(linear-gradient(lighten(#B4239E, 10), #B4239E));*/
 }
-/* line 426, ../scss/_header.scss */
+/* line 420, ../scss/_header.scss */
 #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:hover, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:active, #zone-menu-wrapper .sf-menu.sf-style-space-teal li a:focus {
   background: #B4239E;
   color: #FFF;
