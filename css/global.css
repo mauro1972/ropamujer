@@ -4068,6 +4068,15 @@ body {
   }
 }
 
+@media (min-width: 720px) {
+  /* line 273, ../scss/_ropa.scss */
+  #block-system-main #user_login_form,
+  #block-system-main #create-account clearfix {
+    float: left;
+    width: 50%;
+  }
+}
+
 /* line 1, ../scss/_slides.scss */
 .popup-title-hidden, #block-views-flexslider-block-cat-flex .title {
   position: absolute;
