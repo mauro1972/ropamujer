@@ -289,7 +289,8 @@
   .hybridauth-widget-wrapper {
   }
 
-  input[type="text"] {
-    background: #F6F6F6;
+  input[type="text"],
+  input#edit-name {
+    background: #F6F6F6 !important;
   }
 }

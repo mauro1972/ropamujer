@@ -4084,8 +4084,9 @@ body {
   float: right;
 }
 /* line 292, ../scss/_ropa.scss */
-#block-system-main input[type="text"] {
-  background: #F6F6F6;
+#block-system-main input[type="text"],
+#block-system-main input#edit-name {
+  background: #F6F6F6 !important;
 }
 
 /* line 1, ../scss/_slides.scss */
