@@ -241,6 +241,10 @@ input[type="week"] {
   line-height: 26px;
   border-radius: 3px;
   padding: 0px 5px;  
+
+  &:active {
+    @include box-shadow(none);
+  }
 }
 
 select {
