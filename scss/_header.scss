@@ -349,15 +349,16 @@
   h2.block-title {
     color: #FFF;
     font-size: 2em;
+    height: 5px;
     position: relative;
     text-indent: -9999px;
-    width: 40px;
+    min-width: 20px;
 
     @extend .fa;
     @extend .fa-user;
     &:before {
       font-family: "FontAwesome";
-      right: 0;
+      right: 40px;
       position: absolute;
       text-indent: 0;
     }      
