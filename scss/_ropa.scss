@@ -271,7 +271,8 @@
 #block-system-main {
 
   #user_login_form,
-  .create-account {
+  .create-account,
+  .hybridauth-widget-wrapper {
 
     @include breakpoint(720px) {
       float: left;
@@ -280,12 +281,11 @@
     }
 
   }
-
+  .hybridauth-widget-wrapper,
   .create-account {
     float: right;
   }
 
   .hybridauth-widget-wrapper {
-    clear: both;
   }
 }

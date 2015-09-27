@@ -4071,19 +4071,17 @@ body {
 @media (min-width: 720px) {
   /* line 273, ../scss/_ropa.scss */
   #block-system-main #user_login_form,
-  #block-system-main .create-account {
+  #block-system-main .create-account,
+  #block-system-main .hybridauth-widget-wrapper {
     float: left;
     width: 45%;
     clear: none;
   }
 }
 /* line 284, ../scss/_ropa.scss */
+#block-system-main .hybridauth-widget-wrapper,
 #block-system-main .create-account {
   float: right;
-}
-/* line 288, ../scss/_ropa.scss */
-#block-system-main .hybridauth-widget-wrapper {
-  clear: both;
 }
 
 /* line 1, ../scss/_slides.scss */
