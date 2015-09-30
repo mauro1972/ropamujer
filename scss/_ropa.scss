@@ -79,12 +79,19 @@
  /**
   * Products view Style
   */
-.view-collection-products .view-header h3 a {
-  background: transparent !important;
-  border: none !important;
-  font-size: 28px !important;
-  text-align: center;
-  width: 100%;
+.view-collection-products .view-header {
+  .item-list {
+    float: none;
+  }
+
+  h3 a {
+    background: transparent !important;
+    border: none !important;
+    font-size: 28px !important;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .product-row {
