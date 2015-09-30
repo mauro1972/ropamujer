@@ -4120,6 +4120,7 @@ body {
   float: right;
 }
 /* line 320, ../scss/_ropa.scss */
+#block-system-main #login-links a,
 #block-system-main #login-links a.lt-active {
   background: #F8F8F8;
   border: 1px #CCC solid;
