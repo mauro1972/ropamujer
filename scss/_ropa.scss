@@ -79,6 +79,10 @@
  /**
   * Products view Style
   */
+.view-collection-products .view-header h3 a {
+  background: transparent;
+}
+
 .product-row {
   border: 1px #EEE solid;
   float: left;
