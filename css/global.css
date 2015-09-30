@@ -4124,6 +4124,16 @@ body {
 #block-system-main #login-links a.lt-active {
   background: #F8F8F8;
   border: 1px #CCC solid;
+  color: #333;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 327, ../scss/_ropa.scss */
+#block-system-main #login-links a:hover,
+#block-system-main #login-links a.lt-active:hover {
+  background: #d733be;
+  color: #FFF;
 }
 
 /* line 1, ../scss/_slides.scss */

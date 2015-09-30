@@ -321,6 +321,13 @@
   #login-links a.lt-active {
     background: #F8F8F8;
     border: 1px #CCC solid;
+    color: #333;
+    @include border-radius(3px);
+
+    &:hover {
+      background: #d733be;
+      color: #FFF;
+    }
   }
 
 
