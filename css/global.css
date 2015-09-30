@@ -4122,7 +4122,7 @@ body {
 /* line 320, ../scss/_ropa.scss */
 #block-system-main #login-links a.lt-active {
   background: #F8F8F8;
-  border: none;
+  border: 1px #CCC solid;
 }
 
 /* line 1, ../scss/_slides.scss */
