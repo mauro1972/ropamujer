@@ -81,7 +81,10 @@
   */
 .view-collection-products .view-header {
   .item-list {
-    float: none;
+    display: inline-block !important;
+    float: none !important;
+    width: 100%;
+    text-align: center;
   }
 
   h3 a {

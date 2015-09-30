@@ -3861,9 +3861,12 @@ body {
  */
 /* line 83, ../scss/_ropa.scss */
 .view-collection-products .view-header .item-list {
-  float: none;
+  display: inline-block !important;
+  float: none !important;
+  width: 100%;
+  text-align: center;
 }
-/* line 87, ../scss/_ropa.scss */
+/* line 90, ../scss/_ropa.scss */
 .view-collection-products .view-header h3 a {
   background: transparent !important;
   border: none !important;
@@ -3873,7 +3876,7 @@ body {
   width: 100%;
 }
 
-/* line 97, ../scss/_ropa.scss */
+/* line 100, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -3886,62 +3889,62 @@ body {
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 109, ../scss/_ropa.scss */
+  /* line 112, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 113, ../scss/_ropa.scss */
+  /* line 116, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 118, ../scss/_ropa.scss */
+/* line 121, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 97, ../scss/_ropa.scss */
+  /* line 100, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 126, ../scss/_ropa.scss */
+  /* line 129, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 130, ../scss/_ropa.scss */
+  /* line 133, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 97, ../scss/_ropa.scss */
+  /* line 100, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 139, ../scss/_ropa.scss */
+  /* line 142, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 143, ../scss/_ropa.scss */
+  /* line 146, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 149, ../scss/_ropa.scss */
+/* line 152, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item,
 .product-row {
   position: relative;
 }
-/* line 153, ../scss/_ropa.scss */
+/* line 156, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .title,
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 158, ../scss/_ropa.scss */
+/* line 161, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price,
 .product-row .price {
   background: #f37324;
@@ -3955,7 +3958,7 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 169, ../scss/_ropa.scss */
+/* line 172, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price:after,
 .product-row .price:after {
   content: "";
@@ -3967,7 +3970,7 @@ body {
   left: 0;
   bottom: -5px;
 }
-/* line 181, ../scss/_ropa.scss */
+/* line 184, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"],
 .product-row input[type="submit"] {
   border: none;
@@ -3978,12 +3981,12 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 190, ../scss/_ropa.scss */
+/* line 193, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:before,
 .product-row input[type="submit"]:before {
   font-family: "FontAwesome";
 }
-/* line 194, ../scss/_ropa.scss */
+/* line 197, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:hover, .outlet-carousel .jcarousel-item input[type="submit"]:active,
 .product-row input[type="submit"]:hover,
 .product-row input[type="submit"]:active {
@@ -3992,12 +3995,12 @@ body {
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 200, ../scss/_ropa.scss */
+/* line 203, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled],
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 203, ../scss/_ropa.scss */
+/* line 206, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled]:hover, .outlet-carousel .jcarousel-item input[disabled]:active,
 .product-row input[disabled]:hover,
 .product-row input[disabled]:active {
@@ -4010,29 +4013,29 @@ body {
 /**
  * Postscript style
  */
-/* line 213, ../scss/_ropa.scss */
+/* line 216, ../scss/_ropa.scss */
 .block-simplenews {
   padding: 10px 0;
   text-align: center;
 }
-/* line 217, ../scss/_ropa.scss */
+/* line 220, ../scss/_ropa.scss */
 .block-simplenews h2.block-title {
   font-size: 2.5em;
 }
-/* line 225, ../scss/_ropa.scss */
+/* line 228, ../scss/_ropa.scss */
 .block-simplenews .form-item {
   display: inline;
 }
-/* line 229, ../scss/_ropa.scss */
+/* line 232, ../scss/_ropa.scss */
 .block-simplenews input {
   display: inline;
   font-size: 1.4em;
 }
-/* line 234, ../scss/_ropa.scss */
+/* line 237, ../scss/_ropa.scss */
 .block-simplenews input[type="submit"] {
   font-weight: normal;
 }
-/* line 238, ../scss/_ropa.scss */
+/* line 241, ../scss/_ropa.scss */
 .block-simplenews label,
 .block-simplenews .issues-link,
 .block-simplenews .feed-icon {
@@ -4042,54 +4045,54 @@ body {
 /**
  * Footer Style
  */
-/* line 248, ../scss/_ropa.scss */
+/* line 251, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 252, ../scss/_ropa.scss */
+/* line 255, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 255, ../scss/_ropa.scss */
+/* line 258, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 259, ../scss/_ropa.scss */
+/* line 262, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;
 }
 
-/* line 267, ../scss/_ropa.scss */
+/* line 270, ../scss/_ropa.scss */
 .block-facetapi h2.block-title {
   text-align: center;
 }
-/* line 271, ../scss/_ropa.scss */
+/* line 274, ../scss/_ropa.scss */
 .block-facetapi ul li {
   list-style: none;
 }
 @media (min-width: 720px) {
-  /* line 265, ../scss/_ropa.scss */
+  /* line 268, ../scss/_ropa.scss */
   .block-facetapi {
     float: left;
     margin-right: 3%;
     width: 22%;
   }
-  /* line 280, ../scss/_ropa.scss */
+  /* line 283, ../scss/_ropa.scss */
   .block-facetapi:last-child {
     margin-right: 0;
   }
 }
 
-/* line 288, ../scss/_ropa.scss */
+/* line 291, ../scss/_ropa.scss */
 #block-system-main #user_login_form,
 #block-system-main .create-account,
 #block-system-main .hybridauth-widget-wrapper {
   border: none !important;
 }
 @media (min-width: 720px) {
-  /* line 288, ../scss/_ropa.scss */
+  /* line 291, ../scss/_ropa.scss */
   #block-system-main #user_login_form,
   #block-system-main .create-account,
   #block-system-main .hybridauth-widget-wrapper {
@@ -4099,7 +4102,7 @@ body {
     clear: none;
   }
 }
-/* line 300, ../scss/_ropa.scss */
+/* line 303, ../scss/_ropa.scss */
 #block-system-main #user_login_form input#edit-pass,
 #block-system-main #user_login_form input#edit-name,
 #block-system-main .create-account input#edit-pass,
@@ -4109,7 +4112,7 @@ body {
   background: #F6F6F6 !important;
   height: 40px;
 }
-/* line 307, ../scss/_ropa.scss */
+/* line 310, ../scss/_ropa.scss */
 #block-system-main .hybridauth-widget-wrapper,
 #block-system-main .create-account {
   float: right;
