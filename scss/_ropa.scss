@@ -80,7 +80,11 @@
   * Products view Style
   */
 .view-collection-products .view-header h3 a {
-  background: transparent;
+  background: transparent !important;
+  border: none !important;
+  font-size: 28px !important;
+  text-align: center;
+  width: 100%;
 }
 
 .product-row {
