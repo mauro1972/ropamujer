@@ -4247,7 +4247,7 @@ body {
 
 /* line 91, ../scss/_slides.scss */
 .block-flexslider-block-cat-flex .jcarousel-skin-default .jcarousel-container-horizontal {
-  width: 100%;
+  width: 100% !important;
 }
 
 /* line 96, ../scss/_slides.scss */
