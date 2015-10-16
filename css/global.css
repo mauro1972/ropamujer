@@ -4621,13 +4621,12 @@ body {
 /* line 8, ../scss/_layout.scss */
 #zone-content {
   position: inherit;
-}
-/* line 11, ../scss/_layout.scss */
-#zone-content #messages {
-  position: absolute;
-  top: 150px;
-  width: 90%;
-  z-index: 999;
+  /*#messages {
+    position: absolute;
+    top: 150px;
+    width: 90%;
+    z-index: 999;
+  }*/
 }
 
 @media (min-width: 720px) {

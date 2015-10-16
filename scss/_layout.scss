@@ -8,12 +8,12 @@
 #zone-content {
   position: inherit;
 
-  #messages {
+  /*#messages {
     position: absolute;
     top: 150px;
     width: 90%;
     z-index: 999;
-  }
+  }*/
 }
 
 @include breakpoint(720px) {
