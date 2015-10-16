@@ -4242,7 +4242,7 @@ body {
 
 /* line 85, ../scss/_slides.scss */
 #block-views-demo-content-slideshow-block-1 .jcarousel-skin-default .jcarousel-item {
-  width: 650px;
+  /*width: 650px;*/
 }
 
 /* line 91, ../scss/_slides.scss */
