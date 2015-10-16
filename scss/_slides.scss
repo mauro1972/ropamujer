@@ -88,12 +88,11 @@
 }
 
 .block-flexslider-block-cat-flex .jcarousel-skin-default  {
-  .jcarousel-container-horizontal {
-    /*width: 100% !important;*/
+  .jcarousel-clip-horizontal {
+    width: 100%;
   }
-
   .jcarousel-item {
-    /*width: 320px;*/
+    width: 250px;
   }
 }
 
