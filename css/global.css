@@ -4666,8 +4666,8 @@ body {
   }
   /* line 59, ../scss/_layout.scss */
   .context-categoria #zone-postscript-wrapper .block-facetapi {
-    margin-bottom: 20px;
-    width: 100%;
+    margin-bottom: 0 auto 20px;
+    width: 90%;
   }
 }
 
