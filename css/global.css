@@ -4657,6 +4657,10 @@ body {
 .context-categoria #zone-content-wrapper {
   border: 1px #000 solid;
 }
+/* line 52, ../scss/_layout.scss */
+.context-categoria #zone-postscript-wrapper {
+  border: 1px #e00 solid;
+}
 
 /**
  * Products Page
