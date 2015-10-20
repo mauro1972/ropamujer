@@ -4579,14 +4579,15 @@ body {
 /* line 62, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet .jcarousel-skin-default .jcarousel-clip-horizontal li {
   border: none;
+  margin: 0;
   width: 260px;
 }
 
-/* line 69, ../scss/_landing2.scss */
+/* line 70, ../scss/_landing2.scss */
 .views-summary {
   width: 99%;
 }
-/* line 72, ../scss/_landing2.scss */
+/* line 73, ../scss/_landing2.scss */
 .views-summary li {
   border: 1px #FFF solid;
   border-left: none;
@@ -4612,21 +4613,21 @@ body {
   transition-duration: 0.4s;
 }
 @media (min-width: 720px) {
-  /* line 72, ../scss/_landing2.scss */
+  /* line 73, ../scss/_landing2.scss */
   .views-summary li {
     width: 19.5%;
   }
 }
-/* line 96, ../scss/_landing2.scss */
+/* line 97, ../scss/_landing2.scss */
 .views-summary li a {
   color: #333;
 }
-/* line 100, ../scss/_landing2.scss */
+/* line 101, ../scss/_landing2.scss */
 .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 104, ../scss/_landing2.scss */
+/* line 105, ../scss/_landing2.scss */
 .views-summary li:hover a {
   color: #FFF;
 }
