@@ -4409,8 +4409,13 @@ body {
 #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide {
   position: relative;
 }
+/* line 251, ../scss/_slides.scss */
+#block-views-display-products-flex-outlet .jcarousel-item img,
+#block-views-display-products-flex-outlet .flexslider_views_slideshow_slide img {
+  width: 100%;
+}
 @media (min-width: 720px) {
-  /* line 254, ../scss/_slides.scss */
+  /* line 258, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .jcarousel-item .title a,
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide .title a {
     display: block;
@@ -4426,14 +4431,14 @@ body {
     -webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
   }
-  /* line 262, ../scss/_slides.scss */
+  /* line 266, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .jcarousel-item .price,
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide .price {
     background: transparent;
     position: relative;
     top: inherit;
   }
-  /* line 267, ../scss/_slides.scss */
+  /* line 271, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .jcarousel-item .button,
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide .button {
     position: relative;
@@ -4448,26 +4453,26 @@ body {
     -webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
   }
-  /* line 276, ../scss/_slides.scss */
+  /* line 280, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .jcarousel-item:hover .images-info,
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info {
     background: rgba(0, 0, 0, 0.5);
     opacity: 1;
   }
-  /* line 280, ../scss/_slides.scss */
+  /* line 284, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .jcarousel-item:hover .images-info .title a,
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info .title a {
     opacity: 1;
     top: 0;
   }
-  /* line 285, ../scss/_slides.scss */
+  /* line 289, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .jcarousel-item:hover .images-info .button,
   #block-views-display-products-flex-outlet .flexslider_views_slideshow_slide:hover .images-info .button {
     opacity: 1;
     top: 20px;
   }
 }
-/* line 294, ../scss/_slides.scss */
+/* line 298, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info {
   height: 100%;
   position: absolute;
@@ -4477,32 +4482,32 @@ body {
   width: 100%;
 }
 @media (min-width: 720px) {
-  /* line 294, ../scss/_slides.scss */
+  /* line 298, ../scss/_slides.scss */
   #block-views-display-products-flex-outlet .images-info {
     opacity: 0;
   }
 }
-/* line 306, ../scss/_slides.scss */
+/* line 310, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .title {
   margin-top: 50px;
   padding: 0 20px;
 }
-/* line 310, ../scss/_slides.scss */
+/* line 314, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .title a {
   color: #FFF;
   font-size: 1.6em;
 }
-/* line 314, ../scss/_slides.scss */
+/* line 318, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .title a:hover, #block-views-display-products-flex-outlet .images-info .title a:active {
   color: #e05dcc;
 }
-/* line 320, ../scss/_slides.scss */
+/* line 324, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info .price {
   color: #FFF;
   font-size: 1.5em;
   font-weight: bold;
 }
-/* line 326, ../scss/_slides.scss */
+/* line 330, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info input[type="submit"] {
   background: #B4239E;
   border: none;
@@ -4512,11 +4517,11 @@ body {
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 333, ../scss/_slides.scss */
+/* line 337, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info input[type="submit"]:hover, #block-views-display-products-flex-outlet .images-info input[type="submit"]:active {
   background: #d733be;
 }
-/* line 337, ../scss/_slides.scss */
+/* line 341, ../scss/_slides.scss */
 #block-views-display-products-flex-outlet .images-info input[disabled], #block-views-display-products-flex-outlet .images-info input[disabled]:hover {
   background: #F8F8F8;
   color: #CCC;
@@ -4526,7 +4531,7 @@ body {
 /**
  * Jcarousel for flex cat slide
  */
-/* line 352, ../scss/_slides.scss */
+/* line 356, ../scss/_slides.scss */
 #block-views-flexslider-block-cat-flex .jcarousel-skin-default .jcarousel-clip-horizontal li {
   border: 1px #000 solid;
 }

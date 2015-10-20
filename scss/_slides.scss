@@ -248,6 +248,10 @@
   .flexslider_views_slideshow_slide {
     position: relative;
 
+    img {
+      width: 100%;
+    }
+
 
     @include breakpoint(720px) {
 
