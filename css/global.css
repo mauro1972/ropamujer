@@ -4529,14 +4529,6 @@ body {
 }
 
 /**
- * Jcarousel for flex cat slide
- */
-/* line 356, ../scss/_slides.scss */
-#block-views-flexslider-block-cat-flex .jcarousel-skin-default .jcarousel-clip-horizontal li {
-  border: 1px #000 solid;
-}
-
-/**
  * Landing page 2
  */
 /*
