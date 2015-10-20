@@ -4668,6 +4668,11 @@ body {
   }
 }
 
+/* line 64, ../scss/_layout.scss */
+.section-footer {
+  clear: both;
+}
+
 /**
  * Products Page
  */
