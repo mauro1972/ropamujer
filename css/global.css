@@ -4672,6 +4672,7 @@ body {
   /* line 26, ../scss/_layout.scss */
   #region-preface-first,
   #region-preface-second {
+    clear: none;
     float: left;
     width: 48%;
   }
@@ -4680,12 +4681,12 @@ body {
  * Landing page 2
  */
 @media (min-width: 720px) {
-  /* line 39, ../scss/_layout.scss */
+  /* line 40, ../scss/_layout.scss */
   .page-nuevos-productos #block-block-11 {
     float: left;
     width: 49%;
   }
-  /* line 44, ../scss/_layout.scss */
+  /* line 45, ../scss/_layout.scss */
   .page-nuevos-productos #block-views-display-products-flex-outlet {
     margin: 0 auto;
     width: 90%;
@@ -4693,28 +4694,28 @@ body {
 }
 
 @media (min-width: 720px) {
-  /* line 57, ../scss/_layout.scss */
+  /* line 58, ../scss/_layout.scss */
   .context-categoria #zone-content-wrapper {
     float: left;
     width: 75%;
   }
-  /* line 61, ../scss/_layout.scss */
+  /* line 62, ../scss/_layout.scss */
   .context-categoria #zone-postscript-wrapper {
     float: right;
     width: 24%;
   }
-  /* line 65, ../scss/_layout.scss */
+  /* line 66, ../scss/_layout.scss */
   .context-categoria #zone-postscript-wrapper .block-facetapi {
     margin: 0 auto 20px;
     width: 90%;
   }
-  /* line 69, ../scss/_layout.scss */
+  /* line 70, ../scss/_layout.scss */
   .context-categoria #zone-postscript-wrapper .block-facetapi h2.block-title {
     margin-bottom: 15px;
   }
 }
 
-/* line 77, ../scss/_layout.scss */
+/* line 78, ../scss/_layout.scss */
 .section-footer {
   clear: both;
 }

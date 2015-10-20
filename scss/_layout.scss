@@ -25,6 +25,7 @@
 @include breakpoint(720px) {
   #region-preface-first,
   #region-preface-second {
+    clear: none;
     float: left;
     width: 48%;
   }
