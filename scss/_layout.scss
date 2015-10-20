@@ -16,6 +16,12 @@
   }*/
 }
 
+#region-preface-first,
+#region-preface-second {
+  clear: both;
+  width: 100%;
+}
+
 @include breakpoint(720px) {
   #region-preface-first,
   #region-preface-second {
