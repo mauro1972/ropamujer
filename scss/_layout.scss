@@ -46,10 +46,17 @@
 
 
 .context-categoria {
-  #zone-content-wrapper {
-    border: 1px #000 solid;
-  }
-  #zone-postscript-wrapper {
-    border: 1px #e00 solid;
+
+  @include breakpoint(720px) {
+    #zone-content-wrapper {
+      border: 1px #000 solid;
+      float: left;
+      width: 75%;
+    }
+    #zone-postscript-wrapper {
+      border: 1px #e00 solid;
+      float: right;
+      width: 24%;
+    }
   }
 }

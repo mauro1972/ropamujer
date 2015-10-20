@@ -4653,13 +4653,19 @@ body {
   }
 }
 
-/* line 49, ../scss/_layout.scss */
-.context-categoria #zone-content-wrapper {
-  border: 1px #000 solid;
-}
-/* line 52, ../scss/_layout.scss */
-.context-categoria #zone-postscript-wrapper {
-  border: 1px #e00 solid;
+@media (min-width: 720px) {
+  /* line 51, ../scss/_layout.scss */
+  .context-categoria #zone-content-wrapper {
+    border: 1px #000 solid;
+    float: left;
+    width: 75%;
+  }
+  /* line 56, ../scss/_layout.scss */
+  .context-categoria #zone-postscript-wrapper {
+    border: 1px #e00 solid;
+    float: right;
+    width: 24%;
+  }
 }
 
 /**
