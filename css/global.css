@@ -4653,6 +4653,11 @@ body {
   }
 }
 
+/* line 48, ../scss/_layout.scss */
+.context-categoria {
+  border: 1px #000 solid;
+}
+
 /**
  * Products Page
  */
