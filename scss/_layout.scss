@@ -57,8 +57,12 @@
       width: 24%;
 
       .block-facetapi {
-        margin-bottom: 0 auto 20px;
+        margin: 0 auto 20px;
         width: 90%;
+
+        h2.block-title {
+          margin-bottom: 15px;
+        }
       }
     }
   }
