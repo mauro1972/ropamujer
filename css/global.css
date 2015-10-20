@@ -4666,9 +4666,13 @@ body {
     float: right;
     width: 24%;
   }
+  /* line 61, ../scss/_layout.scss */
+  .context-categoria #zone-postscript-wrapper .block-facetapi {
+    width: 100%;
+  }
 }
 
-/* line 64, ../scss/_layout.scss */
+/* line 68, ../scss/_layout.scss */
 .section-footer {
   clear: both;
 }
