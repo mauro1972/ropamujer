@@ -56,6 +56,13 @@
     text-align: center;
     display: none;
   }
+
+  .jcarousel-skin-default .jcarousel-clip-horizontal {
+    
+    li {
+      border: 1px #000 solid;
+    }
+  }  
 }
 
   .views-summary {
