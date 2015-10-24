@@ -3775,16 +3775,18 @@
  * Ropa Mujer styles
  */
 /* line 4, ../scss/_ropa.scss */
-body {
+body,
+#zone-preface {
   /*background: url(../images/flower-tile.png) 0 0 repeat;*/
+  background: #f8f8f8;
 }
 
-/* line 8, ../scss/_ropa.scss */
+/* line 10, ../scss/_ropa.scss */
 .page-nuevos-productos #breadcrumb {
   display: none;
 }
 
-/* line 12, ../scss/_ropa.scss */
+/* line 14, ../scss/_ropa.scss */
 .page-nuevos-productos h1#page-title {
   text-align: center;
 }
@@ -3792,23 +3794,23 @@ body {
 /**
  * Zone preface style
  */
-/* line 20, ../scss/_ropa.scss */
+/* line 22, ../scss/_ropa.scss */
 .zone-preface > div {
   display: inline-block !important;
 }
 
-/* line 24, ../scss/_ropa.scss */
+/* line 26, ../scss/_ropa.scss */
 #block-views-categorias-block-big-cat,
 #block-views-categorias-block-cat-list {
   padding: 20px 0;
 }
-/* line 28, ../scss/_ropa.scss */
+/* line 30, ../scss/_ropa.scss */
 #block-views-categorias-block-big-cat .row,
 #block-views-categorias-block-cat-list .row {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 32, ../scss/_ropa.scss */
+/* line 34, ../scss/_ropa.scss */
 #block-views-categorias-block-big-cat .row .title a,
 #block-views-categorias-block-cat-list .row .title a {
   display: block;
@@ -3820,7 +3822,7 @@ body {
   width: 50%;
 }
 @media (min-width: 720px) {
-  /* line 28, ../scss/_ropa.scss */
+  /* line 30, ../scss/_ropa.scss */
   #block-views-categorias-block-big-cat .row,
   #block-views-categorias-block-cat-list .row {
     float: left;
@@ -3829,27 +3831,27 @@ body {
 }
 
 @media (min-width: 720px) {
-  /* line 51, ../scss/_ropa.scss */
+  /* line 53, ../scss/_ropa.scss */
   #block-views-categorias-block-big-cat .row {
     width: 48%;
   }
-  /* line 56, ../scss/_ropa.scss */
+  /* line 58, ../scss/_ropa.scss */
   #block-views-categorias-block-big-cat .row:last-child {
     float: right;
   }
 }
 
-/* line 63, ../scss/_ropa.scss */
+/* line 65, ../scss/_ropa.scss */
 #block-block-11 {
   text-align: center;
   margin-top: 20px;
 }
-/* line 67, ../scss/_ropa.scss */
+/* line 69, ../scss/_ropa.scss */
 #block-block-11 h2.block-title {
   font-size: 28px;
   text-align: center;
 }
-/* line 72, ../scss/_ropa.scss */
+/* line 74, ../scss/_ropa.scss */
 #block-block-11 .content {
   border: 1px #000 solid;
   font-size: 20px;
@@ -3859,14 +3861,14 @@ body {
 /**
  * Products view Style
  */
-/* line 83, ../scss/_ropa.scss */
+/* line 85, ../scss/_ropa.scss */
 .view-collection-products .view-header .item-list {
   display: inline-block !important;
   float: none !important;
   width: 100%;
   text-align: center;
 }
-/* line 90, ../scss/_ropa.scss */
+/* line 92, ../scss/_ropa.scss */
 .view-collection-products .view-header h3 a {
   background: transparent !important;
   border: none !important;
@@ -3878,7 +3880,7 @@ body {
   width: 100%;
 }
 
-/* line 102, ../scss/_ropa.scss */
+/* line 104, ../scss/_ropa.scss */
 .product-row {
   border: 1px #EEE solid;
   float: left;
@@ -3891,63 +3893,63 @@ body {
   border-radius: 5px;
 }
 @media (max-width: 719px) {
-  /* line 114, ../scss/_ropa.scss */
+  /* line 116, ../scss/_ropa.scss */
   .product-row:nth-child(2n+2) {
     margin-right: 0;
   }
-  /* line 118, ../scss/_ropa.scss */
+  /* line 120, ../scss/_ropa.scss */
   .product-row:nth-child(2n+3) {
     clear: left;
   }
 }
-/* line 123, ../scss/_ropa.scss */
+/* line 125, ../scss/_ropa.scss */
 .product-row > div {
   margin-bottom: 5px;
 }
 @media (min-width: 720px) and (max-width: 959px) {
-  /* line 102, ../scss/_ropa.scss */
+  /* line 104, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 32%;
   }
-  /* line 131, ../scss/_ropa.scss */
+  /* line 133, ../scss/_ropa.scss */
   .product-row:nth-child(3n+3) {
     margin-right: 0;
   }
-  /* line 135, ../scss/_ropa.scss */
+  /* line 137, ../scss/_ropa.scss */
   .product-row:nth-child(3n+4) {
     clear: left;
   }
 }
 @media (min-width: 960px) {
-  /* line 102, ../scss/_ropa.scss */
+  /* line 104, ../scss/_ropa.scss */
   .product-row {
     margin-right: 1%;
     width: 24%;
   }
-  /* line 144, ../scss/_ropa.scss */
+  /* line 146, ../scss/_ropa.scss */
   .product-row:nth-child(4n+4) {
     margin-right: 0;
   }
-  /* line 148, ../scss/_ropa.scss */
+  /* line 150, ../scss/_ropa.scss */
   .product-row:nth-child(4n+5) {
     clear: left;
   }
 }
 
-/* line 154, ../scss/_ropa.scss */
+/* line 156, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item,
 .product-row {
   background: #FFF;
   position: relative;
 }
-/* line 159, ../scss/_ropa.scss */
+/* line 161, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .title,
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 164, ../scss/_ropa.scss */
+/* line 166, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price,
 .product-row .price {
   background: #f37324;
@@ -3961,7 +3963,7 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 175, ../scss/_ropa.scss */
+/* line 177, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price:after,
 .product-row .price:after {
   content: "";
@@ -3973,7 +3975,7 @@ body {
   left: 0;
   bottom: -5px;
 }
-/* line 187, ../scss/_ropa.scss */
+/* line 189, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"],
 .product-row input[type="submit"] {
   border: none;
@@ -3984,12 +3986,12 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 196, ../scss/_ropa.scss */
+/* line 198, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:before,
 .product-row input[type="submit"]:before {
   font-family: "FontAwesome";
 }
-/* line 200, ../scss/_ropa.scss */
+/* line 202, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:hover, .outlet-carousel .jcarousel-item input[type="submit"]:active,
 .product-row input[type="submit"]:hover,
 .product-row input[type="submit"]:active {
@@ -3998,12 +4000,12 @@ body {
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 206, ../scss/_ropa.scss */
+/* line 208, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled],
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 209, ../scss/_ropa.scss */
+/* line 211, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled]:hover, .outlet-carousel .jcarousel-item input[disabled]:active,
 .product-row input[disabled]:hover,
 .product-row input[disabled]:active {
@@ -4016,16 +4018,16 @@ body {
 /**
  * Postscript style
  */
-/* line 219, ../scss/_ropa.scss */
+/* line 221, ../scss/_ropa.scss */
 .block-simplenews {
   padding: 10px 0;
   text-align: center;
 }
-/* line 223, ../scss/_ropa.scss */
+/* line 225, ../scss/_ropa.scss */
 .block-simplenews h2.block-title {
   font-size: 2.5em;
 }
-/* line 228, ../scss/_ropa.scss */
+/* line 230, ../scss/_ropa.scss */
 .block-simplenews form.simplenews-subscribe .form-submit {
   border: none;
   color: #FFF;
@@ -4035,27 +4037,27 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 235, ../scss/_ropa.scss */
+/* line 237, ../scss/_ropa.scss */
 .block-simplenews form.simplenews-subscribe .form-submit:focus, .block-simplenews form.simplenews-subscribe .form-submit:active, .block-simplenews form.simplenews-subscribe .form-submit:hover {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 242, ../scss/_ropa.scss */
+/* line 244, ../scss/_ropa.scss */
 .block-simplenews .form-item {
   display: inline;
 }
-/* line 246, ../scss/_ropa.scss */
+/* line 248, ../scss/_ropa.scss */
 .block-simplenews input {
   display: inline;
   font-size: 1.4em;
 }
-/* line 251, ../scss/_ropa.scss */
+/* line 253, ../scss/_ropa.scss */
 .block-simplenews input[type="submit"] {
   font-weight: normal;
 }
-/* line 255, ../scss/_ropa.scss */
+/* line 257, ../scss/_ropa.scss */
 .block-simplenews label,
 .block-simplenews .issues-link,
 .block-simplenews .feed-icon {
@@ -4065,54 +4067,54 @@ body {
 /**
  * Footer Style
  */
-/* line 265, ../scss/_ropa.scss */
+/* line 267, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 269, ../scss/_ropa.scss */
+/* line 271, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 272, ../scss/_ropa.scss */
+/* line 274, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 276, ../scss/_ropa.scss */
+/* line 278, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;
 }
 
-/* line 284, ../scss/_ropa.scss */
+/* line 286, ../scss/_ropa.scss */
 .block-facetapi h2.block-title {
   text-align: center;
 }
-/* line 288, ../scss/_ropa.scss */
+/* line 290, ../scss/_ropa.scss */
 .block-facetapi ul li {
   list-style: none;
 }
 @media (min-width: 720px) {
-  /* line 282, ../scss/_ropa.scss */
+  /* line 284, ../scss/_ropa.scss */
   .block-facetapi {
     float: left;
     margin-right: 3%;
     width: 22%;
   }
-  /* line 297, ../scss/_ropa.scss */
+  /* line 299, ../scss/_ropa.scss */
   .block-facetapi:last-child {
     margin-right: 0;
   }
 }
 
-/* line 305, ../scss/_ropa.scss */
+/* line 307, ../scss/_ropa.scss */
 #block-system-main #user_login_form,
 #block-system-main .create-account,
 #block-system-main .hybridauth-widget-wrapper {
   border: none !important;
 }
 @media (min-width: 720px) {
-  /* line 305, ../scss/_ropa.scss */
+  /* line 307, ../scss/_ropa.scss */
   #block-system-main #user_login_form,
   #block-system-main .create-account,
   #block-system-main .hybridauth-widget-wrapper {
@@ -4122,7 +4124,7 @@ body {
     clear: none;
   }
 }
-/* line 317, ../scss/_ropa.scss */
+/* line 319, ../scss/_ropa.scss */
 #block-system-main #user_login_form input#edit-pass,
 #block-system-main #user_login_form input#edit-name,
 #block-system-main .create-account input#edit-pass,
@@ -4132,12 +4134,12 @@ body {
   background: #F6F6F6 !important;
   height: 40px;
 }
-/* line 324, ../scss/_ropa.scss */
+/* line 326, ../scss/_ropa.scss */
 #block-system-main .hybridauth-widget-wrapper,
 #block-system-main .create-account {
   float: right;
 }
-/* line 332, ../scss/_ropa.scss */
+/* line 334, ../scss/_ropa.scss */
 #block-system-main #login-links a,
 #block-system-main #login-links a.lt-active {
   background: #F8F8F8;
@@ -4147,7 +4149,7 @@ body {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 339, ../scss/_ropa.scss */
+/* line 341, ../scss/_ropa.scss */
 #block-system-main #login-links a:hover,
 #block-system-main #login-links a.lt-active:hover {
   background: #d733be;
