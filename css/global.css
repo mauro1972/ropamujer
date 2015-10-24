@@ -4035,7 +4035,7 @@ body {
   border-radius: 5px;
 }
 /* line 234, ../scss/_ropa.scss */
-.block-simplenews form.simplenews-subscribe .form-submit:focus, .block-simplenews form.simplenews-subscribe .form-submit:active {
+.block-simplenews form.simplenews-subscribe .form-submit:focus, .block-simplenews form.simplenews-subscribe .form-submit:active, .block-simplenews form.simplenews-subscribe .form-submit.hover {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
