@@ -225,7 +225,14 @@
 
   form.simplenews-subscribe {
     .form-submit {
+      border: none;
+      color: #FFF;
+      background: #B4239E;
+      padding: 7px 15px;
+      @include border-radius(5px);
+
       &:focus, &:active {
+        background: lighten(#B4239E, 10%);
         @include box-shadow(transparent 0 0 0);
       }
     }
