@@ -4198,7 +4198,7 @@ body {
  */
 /* line 30, ../scss/_slides.scss */
 .jcarousel-navigation {
-  margin-top: 5px !important;
+  padding-top: 5px !important;
 }
 /* line 33, ../scss/_slides.scss */
 .jcarousel-navigation li a {
