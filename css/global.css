@@ -3938,15 +3938,16 @@ body {
 /* line 154, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item,
 .product-row {
+  background: #FFF;
   position: relative;
 }
-/* line 158, ../scss/_ropa.scss */
+/* line 159, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .title,
 .product-row .title {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 163, ../scss/_ropa.scss */
+/* line 164, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price,
 .product-row .price {
   background: #f37324;
@@ -3960,7 +3961,7 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px 5px 5px 0;
 }
-/* line 174, ../scss/_ropa.scss */
+/* line 175, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item .price:after,
 .product-row .price:after {
   content: "";
@@ -3972,7 +3973,7 @@ body {
   left: 0;
   bottom: -5px;
 }
-/* line 186, ../scss/_ropa.scss */
+/* line 187, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"],
 .product-row input[type="submit"] {
   border: none;
@@ -3983,12 +3984,12 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 195, ../scss/_ropa.scss */
+/* line 196, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:before,
 .product-row input[type="submit"]:before {
   font-family: "FontAwesome";
 }
-/* line 199, ../scss/_ropa.scss */
+/* line 200, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[type="submit"]:hover, .outlet-carousel .jcarousel-item input[type="submit"]:active,
 .product-row input[type="submit"]:hover,
 .product-row input[type="submit"]:active {
@@ -3997,12 +3998,12 @@ body {
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 205, ../scss/_ropa.scss */
+/* line 206, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled],
 .product-row input[disabled] {
   background: #CCC;
 }
-/* line 208, ../scss/_ropa.scss */
+/* line 209, ../scss/_ropa.scss */
 .outlet-carousel .jcarousel-item input[disabled]:hover, .outlet-carousel .jcarousel-item input[disabled]:active,
 .product-row input[disabled]:hover,
 .product-row input[disabled]:active {
@@ -4015,16 +4016,16 @@ body {
 /**
  * Postscript style
  */
-/* line 218, ../scss/_ropa.scss */
+/* line 219, ../scss/_ropa.scss */
 .block-simplenews {
   padding: 10px 0;
   text-align: center;
 }
-/* line 222, ../scss/_ropa.scss */
+/* line 223, ../scss/_ropa.scss */
 .block-simplenews h2.block-title {
   font-size: 2.5em;
 }
-/* line 227, ../scss/_ropa.scss */
+/* line 228, ../scss/_ropa.scss */
 .block-simplenews form.simplenews-subscribe .form-submit {
   border: none;
   color: #FFF;
@@ -4034,27 +4035,27 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 234, ../scss/_ropa.scss */
+/* line 235, ../scss/_ropa.scss */
 .block-simplenews form.simplenews-subscribe .form-submit:focus, .block-simplenews form.simplenews-subscribe .form-submit:active, .block-simplenews form.simplenews-subscribe .form-submit:hover {
   background: #d733be;
   -moz-box-shadow: transparent 0 0 0;
   -webkit-box-shadow: transparent 0 0 0;
   box-shadow: transparent 0 0 0;
 }
-/* line 241, ../scss/_ropa.scss */
+/* line 242, ../scss/_ropa.scss */
 .block-simplenews .form-item {
   display: inline;
 }
-/* line 245, ../scss/_ropa.scss */
+/* line 246, ../scss/_ropa.scss */
 .block-simplenews input {
   display: inline;
   font-size: 1.4em;
 }
-/* line 250, ../scss/_ropa.scss */
+/* line 251, ../scss/_ropa.scss */
 .block-simplenews input[type="submit"] {
   font-weight: normal;
 }
-/* line 254, ../scss/_ropa.scss */
+/* line 255, ../scss/_ropa.scss */
 .block-simplenews label,
 .block-simplenews .issues-link,
 .block-simplenews .feed-icon {
@@ -4064,54 +4065,54 @@ body {
 /**
  * Footer Style
  */
-/* line 264, ../scss/_ropa.scss */
+/* line 265, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 268, ../scss/_ropa.scss */
+/* line 269, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 271, ../scss/_ropa.scss */
+/* line 272, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 275, ../scss/_ropa.scss */
+/* line 276, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;
 }
 
-/* line 283, ../scss/_ropa.scss */
+/* line 284, ../scss/_ropa.scss */
 .block-facetapi h2.block-title {
   text-align: center;
 }
-/* line 287, ../scss/_ropa.scss */
+/* line 288, ../scss/_ropa.scss */
 .block-facetapi ul li {
   list-style: none;
 }
 @media (min-width: 720px) {
-  /* line 281, ../scss/_ropa.scss */
+  /* line 282, ../scss/_ropa.scss */
   .block-facetapi {
     float: left;
     margin-right: 3%;
     width: 22%;
   }
-  /* line 296, ../scss/_ropa.scss */
+  /* line 297, ../scss/_ropa.scss */
   .block-facetapi:last-child {
     margin-right: 0;
   }
 }
 
-/* line 304, ../scss/_ropa.scss */
+/* line 305, ../scss/_ropa.scss */
 #block-system-main #user_login_form,
 #block-system-main .create-account,
 #block-system-main .hybridauth-widget-wrapper {
   border: none !important;
 }
 @media (min-width: 720px) {
-  /* line 304, ../scss/_ropa.scss */
+  /* line 305, ../scss/_ropa.scss */
   #block-system-main #user_login_form,
   #block-system-main .create-account,
   #block-system-main .hybridauth-widget-wrapper {
@@ -4121,7 +4122,7 @@ body {
     clear: none;
   }
 }
-/* line 316, ../scss/_ropa.scss */
+/* line 317, ../scss/_ropa.scss */
 #block-system-main #user_login_form input#edit-pass,
 #block-system-main #user_login_form input#edit-name,
 #block-system-main .create-account input#edit-pass,
@@ -4131,12 +4132,12 @@ body {
   background: #F6F6F6 !important;
   height: 40px;
 }
-/* line 323, ../scss/_ropa.scss */
+/* line 324, ../scss/_ropa.scss */
 #block-system-main .hybridauth-widget-wrapper,
 #block-system-main .create-account {
   float: right;
 }
-/* line 331, ../scss/_ropa.scss */
+/* line 332, ../scss/_ropa.scss */
 #block-system-main #login-links a,
 #block-system-main #login-links a.lt-active {
   background: #F8F8F8;
@@ -4146,7 +4147,7 @@ body {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 338, ../scss/_ropa.scss */
+/* line 339, ../scss/_ropa.scss */
 #block-system-main #login-links a:hover,
 #block-system-main #login-links a.lt-active:hover {
   background: #d733be;
