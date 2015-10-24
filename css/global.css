@@ -4680,7 +4680,7 @@ body {
   /* line 40, ../scss/_layout.scss */
   .page-nuevos-productos #block-block-11 {
     float: left;
-    width: 49%;
+    width: 100%;
   }
   /* line 45, ../scss/_layout.scss */
   .page-nuevos-productos #block-views-display-products-flex-outlet {
