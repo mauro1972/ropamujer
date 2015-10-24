@@ -35,18 +35,20 @@
       border: 1px darken(#CCC, 10) solid;
       color: #CCC;
       display: inline-block;
-      height: 15px;
-      width: 15px;
-      @include border-radius(15px);
+      height: 12px;
+      width: 12px;
+      @include border-radius(12px);
 
       &:hover {
         background-color: #B4239E;
+        border: 1px darken(#B4239E, 10) solid;
         color:#B4239E;
       }
     }
 
     &.active a {
       background-color: #B4239E;
+      border: 1px darken(#B4239E, 10) solid;
       color:#B4239E;      
     }
   }
