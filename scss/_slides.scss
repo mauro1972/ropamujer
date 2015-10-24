@@ -28,14 +28,15 @@
  * Slide Pager
  */
 .jcarousel-navigation {
+  margin-top: 5px;
   li {
     a {
       background-color: #CCC;
       color: #CCC;
       display: inline-block;
-      height: 20px;
-      width: 20px;
-      @include border-radius(20px);
+      height: 15px;
+      width: 15px;
+      @include border-radius(15px);
 
       &:hover {
         background-color: #B4239E;
