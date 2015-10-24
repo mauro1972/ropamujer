@@ -4665,7 +4665,7 @@ body {
 
 /* line 8, ../scss/_layout.scss */
 #zone-content {
-  position: inherit;
+  /*position: inherit;*/
   /*#messages {
     position: absolute;
     top: 150px;
