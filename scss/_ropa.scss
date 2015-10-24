@@ -224,7 +224,11 @@
   }
 
   form.simplenews-subscribe {
-
+    .form-submit {
+      &:focus, &:active {
+        @include box-shadow(transparent 0 0 0);
+      }
+    }
   }
 
   .form-item {

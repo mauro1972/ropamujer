@@ -4024,20 +4024,26 @@ body {
 .block-simplenews h2.block-title {
   font-size: 2.5em;
 }
-/* line 230, ../scss/_ropa.scss */
+/* line 228, ../scss/_ropa.scss */
+.block-simplenews form.simplenews-subscribe .form-submit:focus, .block-simplenews form.simplenews-subscribe .form-submit:active {
+  -moz-box-shadow: transparent 0 0 0;
+  -webkit-box-shadow: transparent 0 0 0;
+  box-shadow: transparent 0 0 0;
+}
+/* line 234, ../scss/_ropa.scss */
 .block-simplenews .form-item {
   display: inline;
 }
-/* line 234, ../scss/_ropa.scss */
+/* line 238, ../scss/_ropa.scss */
 .block-simplenews input {
   display: inline;
   font-size: 1.4em;
 }
-/* line 239, ../scss/_ropa.scss */
+/* line 243, ../scss/_ropa.scss */
 .block-simplenews input[type="submit"] {
   font-weight: normal;
 }
-/* line 243, ../scss/_ropa.scss */
+/* line 247, ../scss/_ropa.scss */
 .block-simplenews label,
 .block-simplenews .issues-link,
 .block-simplenews .feed-icon {
@@ -4047,54 +4053,54 @@ body {
 /**
  * Footer Style
  */
-/* line 253, ../scss/_ropa.scss */
+/* line 257, ../scss/_ropa.scss */
 #block-menu-menu-footer-navigation li.expanded {
   float: left;
 }
 
-/* line 257, ../scss/_ropa.scss */
+/* line 261, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li {
   float: left;
 }
-/* line 260, ../scss/_ropa.scss */
+/* line 264, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li:hover {
   background: transparent !important;
 }
-/* line 264, ../scss/_ropa.scss */
+/* line 268, ../scss/_ropa.scss */
 #block-menu-menu-social-connection ul.menu li a {
   text-indent: -9999px;
   width: 0;
 }
 
-/* line 272, ../scss/_ropa.scss */
+/* line 276, ../scss/_ropa.scss */
 .block-facetapi h2.block-title {
   text-align: center;
 }
-/* line 276, ../scss/_ropa.scss */
+/* line 280, ../scss/_ropa.scss */
 .block-facetapi ul li {
   list-style: none;
 }
 @media (min-width: 720px) {
-  /* line 270, ../scss/_ropa.scss */
+  /* line 274, ../scss/_ropa.scss */
   .block-facetapi {
     float: left;
     margin-right: 3%;
     width: 22%;
   }
-  /* line 285, ../scss/_ropa.scss */
+  /* line 289, ../scss/_ropa.scss */
   .block-facetapi:last-child {
     margin-right: 0;
   }
 }
 
-/* line 293, ../scss/_ropa.scss */
+/* line 297, ../scss/_ropa.scss */
 #block-system-main #user_login_form,
 #block-system-main .create-account,
 #block-system-main .hybridauth-widget-wrapper {
   border: none !important;
 }
 @media (min-width: 720px) {
-  /* line 293, ../scss/_ropa.scss */
+  /* line 297, ../scss/_ropa.scss */
   #block-system-main #user_login_form,
   #block-system-main .create-account,
   #block-system-main .hybridauth-widget-wrapper {
@@ -4104,7 +4110,7 @@ body {
     clear: none;
   }
 }
-/* line 305, ../scss/_ropa.scss */
+/* line 309, ../scss/_ropa.scss */
 #block-system-main #user_login_form input#edit-pass,
 #block-system-main #user_login_form input#edit-name,
 #block-system-main .create-account input#edit-pass,
@@ -4114,12 +4120,12 @@ body {
   background: #F6F6F6 !important;
   height: 40px;
 }
-/* line 312, ../scss/_ropa.scss */
+/* line 316, ../scss/_ropa.scss */
 #block-system-main .hybridauth-widget-wrapper,
 #block-system-main .create-account {
   float: right;
 }
-/* line 320, ../scss/_ropa.scss */
+/* line 324, ../scss/_ropa.scss */
 #block-system-main #login-links a,
 #block-system-main #login-links a.lt-active {
   background: #F8F8F8;
@@ -4129,7 +4135,7 @@ body {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 327, ../scss/_ropa.scss */
+/* line 331, ../scss/_ropa.scss */
 #block-system-main #login-links a:hover,
 #block-system-main #login-links a.lt-active:hover {
   background: #d733be;
