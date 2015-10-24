@@ -5077,24 +5077,25 @@ body,
 }
 /* line 275, ../scss/_product.scss */
 #block-views-productos-populares-block .node:hover {
+  background: #FFF;
   border: 1px #EFEFEF solid;
 }
-/* line 280, ../scss/_product.scss */
+/* line 281, ../scss/_product.scss */
 #block-views-productos-populares-block .block-title {
   font-size: 1.6em;
   margin-bottom: 10px;
   text-align: center;
 }
-/* line 286, ../scss/_product.scss */
+/* line 287, ../scss/_product.scss */
 #block-views-productos-populares-block h2.node-title {
   font-size: 1.2em;
   font-weight: 100;
 }
-/* line 291, ../scss/_product.scss */
+/* line 292, ../scss/_product.scss */
 #block-views-productos-populares-block .images-region {
   float: none;
 }
-/* line 295, ../scss/_product.scss */
+/* line 296, ../scss/_product.scss */
 #block-views-productos-populares-block .field-field-images {
   width: 100%;
 }
