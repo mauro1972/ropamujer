@@ -443,23 +443,15 @@
  * small screens
  */
 #region-branding {
-
+  padding-top: 50px;
   @include breakpoint(720px) {
-    padding-top: 50px;
+    padding-top: 0;
   }
 
 } 
 
 .block-shopping-cart-block {
 
-  @include breakpoint(720px) {
-    position: absolute;
-    top: 0;
-    left:0;
 
-    .content {
-      opacity: 1;
-    }
-  }
 
 }

@@ -3779,23 +3779,14 @@
 /**
  * small screens
  */
+/* line 445, ../scss/_header.scss */
+#region-branding {
+  padding-top: 50px;
+}
 @media (min-width: 720px) {
   /* line 445, ../scss/_header.scss */
   #region-branding {
-    padding-top: 50px;
-  }
-}
-
-@media (min-width: 720px) {
-  /* line 453, ../scss/_header.scss */
-  .block-shopping-cart-block {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  /* line 460, ../scss/_header.scss */
-  .block-shopping-cart-block .content {
-    opacity: 1;
+    padding-top: 0;
   }
 }
 
