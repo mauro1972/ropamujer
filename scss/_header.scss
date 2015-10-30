@@ -463,7 +463,16 @@
 #block-search-form {
   position: absolute;
   top: 0;
-  left: 0;
+  @include breakpoint(720px) {
+    position: relative;
+  }
+}
+#block-search-form {
+  right: 100px;
+
+  @include breakpoint(720px) {
+    right: inherit;
+  }  
 }
 #block-block-9 {
   left: inherit;

@@ -3804,32 +3804,49 @@
 #block-search-form {
   position: absolute;
   top: 0;
-  left: 0;
+}
+@media (min-width: 720px) {
+  /* line 462, ../scss/_header.scss */
+  #block-block-9,
+  #block-search-form {
+    position: relative;
+  }
 }
 
-/* line 468, ../scss/_header.scss */
+/* line 470, ../scss/_header.scss */
+#block-search-form {
+  right: 100px;
+}
+@media (min-width: 720px) {
+  /* line 470, ../scss/_header.scss */
+  #block-search-form {
+    right: inherit;
+  }
+}
+
+/* line 477, ../scss/_header.scss */
 #block-block-9 {
   left: inherit;
   right: 0;
 }
-/* line 472, ../scss/_header.scss */
+/* line 481, ../scss/_header.scss */
 #block-block-9 .content {
   left: inherit;
   right: 0;
 }
 @media (min-width: 720px) {
-  /* line 472, ../scss/_header.scss */
+  /* line 481, ../scss/_header.scss */
   #block-block-9 .content {
     left: 0;
   }
 }
 
-/* line 482, ../scss/_header.scss */
+/* line 491, ../scss/_header.scss */
 .block-shopping-cart-block {
   display: none;
 }
 @media (min-width: 720px) {
-  /* line 482, ../scss/_header.scss */
+  /* line 491, ../scss/_header.scss */
   .block-shopping-cart-block {
     display: inline-block;
   }
