@@ -3857,19 +3857,29 @@
 #block-user-login {
   left: 0;
 }
+/* line 505, ../scss/_header.scss */
+#block-user-login .content {
+  left: 0;
+  right: inherit;
+}
 @media (min-width: 720px) {
   /* line 502, ../scss/_header.scss */
   #block-user-login {
     left: inherit;
   }
+  /* line 512, ../scss/_header.scss */
+  #block-user-login .content {
+    left: inherit;
+    right: 0;
+  }
 }
 
-/* line 510, ../scss/_header.scss */
+/* line 519, ../scss/_header.scss */
 .block-shopping-cart-block {
   display: none;
 }
 @media (min-width: 720px) {
-  /* line 510, ../scss/_header.scss */
+  /* line 519, ../scss/_header.scss */
   .block-shopping-cart-block {
     display: inline-block;
   }
