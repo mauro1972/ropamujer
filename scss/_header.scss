@@ -23,7 +23,7 @@
     position: relative;
     z-index: 500;
 
-    @include bre akpoint(720px) {
+    @include breakpoint(720px) {
       float: left;
     }
   }
