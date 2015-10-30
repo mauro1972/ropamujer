@@ -3802,7 +3802,7 @@
 /* line 462, ../scss/_header.scss */
 #block-search-form {
   position: absolute;
-  top: 5px;
+  top: 0;
   left: 0;
 }
 
