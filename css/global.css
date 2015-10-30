@@ -3790,7 +3790,7 @@
  */
 /* line 448, ../scss/_header.scss */
 #region-branding {
-  padding-top: 50px;
+  padding-top: 70px;
 }
 @media (min-width: 720px) {
   /* line 448, ../scss/_header.scss */
@@ -3799,7 +3799,7 @@
   }
 }
 
-/* line 462, ../scss/_header.scss */
+/* line 463, ../scss/_header.scss */
 #block-user-login,
 #block-block-9,
 #block-search-form {
@@ -3807,7 +3807,7 @@
   top: 0;
 }
 @media (min-width: 720px) {
-  /* line 462, ../scss/_header.scss */
+  /* line 463, ../scss/_header.scss */
   #block-user-login,
   #block-block-9,
   #block-search-form {
@@ -3815,71 +3815,71 @@
   }
 }
 
-/* line 471, ../scss/_header.scss */
+/* line 472, ../scss/_header.scss */
 #block-search-form {
   right: 100px;
 }
-/* line 474, ../scss/_header.scss */
+/* line 475, ../scss/_header.scss */
 #block-search-form .content {
   left: inherit;
   right: 0;
 }
 @media (min-width: 720px) {
-  /* line 471, ../scss/_header.scss */
+  /* line 472, ../scss/_header.scss */
   #block-search-form {
     right: inherit;
   }
-  /* line 482, ../scss/_header.scss */
+  /* line 483, ../scss/_header.scss */
   #block-search-form .content {
     left: 0;
     right: inherit;
   }
 }
 
-/* line 488, ../scss/_header.scss */
+/* line 489, ../scss/_header.scss */
 #block-block-9 {
   left: inherit;
   right: 0;
 }
-/* line 492, ../scss/_header.scss */
+/* line 493, ../scss/_header.scss */
 #block-block-9 .content {
   left: inherit;
   right: 0;
 }
 @media (min-width: 720px) {
-  /* line 492, ../scss/_header.scss */
+  /* line 493, ../scss/_header.scss */
   #block-block-9 .content {
     left: 0;
   }
 }
 
-/* line 502, ../scss/_header.scss */
+/* line 503, ../scss/_header.scss */
 #block-user-login {
   left: 0;
 }
-/* line 505, ../scss/_header.scss */
+/* line 506, ../scss/_header.scss */
 #block-user-login .content {
   left: 0;
   right: inherit;
 }
 @media (min-width: 720px) {
-  /* line 502, ../scss/_header.scss */
+  /* line 503, ../scss/_header.scss */
   #block-user-login {
     left: inherit;
   }
-  /* line 512, ../scss/_header.scss */
+  /* line 513, ../scss/_header.scss */
   #block-user-login .content {
     left: inherit;
     right: 0;
   }
 }
 
-/* line 519, ../scss/_header.scss */
+/* line 520, ../scss/_header.scss */
 .block-shopping-cart-block {
   display: none;
 }
 @media (min-width: 720px) {
-  /* line 519, ../scss/_header.scss */
+  /* line 520, ../scss/_header.scss */
   .block-shopping-cart-block {
     display: inline-block;
   }
