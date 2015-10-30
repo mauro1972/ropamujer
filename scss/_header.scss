@@ -470,6 +470,7 @@
   right: 0;
 
   .content {
+    left: inherit;
     right: 0;
 
     @include breakpoint(720px) {

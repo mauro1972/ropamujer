@@ -3814,6 +3814,7 @@
 }
 /* line 472, ../scss/_header.scss */
 #block-block-9 .content {
+  left: inherit;
   right: 0;
 }
 @media (min-width: 720px) {
@@ -3823,12 +3824,12 @@
   }
 }
 
-/* line 481, ../scss/_header.scss */
+/* line 482, ../scss/_header.scss */
 .block-shopping-cart-block {
   display: none;
 }
 @media (min-width: 720px) {
-  /* line 481, ../scss/_header.scss */
+  /* line 482, ../scss/_header.scss */
   .block-shopping-cart-block {
     display: inline-block;
   }
