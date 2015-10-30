@@ -3822,7 +3822,7 @@
 /* line 475, ../scss/_header.scss */
 #block-search-form .content {
   left: inherit;
-  right: 0;
+  right: -30px;
 }
 @media (min-width: 720px) {
   /* line 472, ../scss/_header.scss */
