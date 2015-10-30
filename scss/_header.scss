@@ -459,6 +459,7 @@
 #block-views-shopping-cart-block,
 #block-block-9 {}
 
+#block-user-login,
 #block-block-9,
 #block-search-form {
   position: absolute;
@@ -496,6 +497,14 @@
       left: 0;
     }
   }
+}
+
+#block-user-login {
+  left: 0;
+
+  @include breakpoint(720px) {
+    left: inherit;
+  }  
 }
 
 .block-shopping-cart-block {
