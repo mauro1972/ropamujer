@@ -470,8 +470,18 @@
 #block-search-form {
   right: 100px;
 
+  .content {
+    left: inherit;
+    right: 0;
+  }
+
   @include breakpoint(720px) {
     right: inherit;
+
+    .content {
+      left: 0;
+      right: inherit;
+    }
   }  
 }
 #block-block-9 {

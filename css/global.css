@@ -3817,36 +3817,46 @@
 #block-search-form {
   right: 100px;
 }
+/* line 473, ../scss/_header.scss */
+#block-search-form .content {
+  left: inherit;
+  right: 0;
+}
 @media (min-width: 720px) {
   /* line 470, ../scss/_header.scss */
   #block-search-form {
     right: inherit;
   }
+  /* line 481, ../scss/_header.scss */
+  #block-search-form .content {
+    left: 0;
+    right: inherit;
+  }
 }
 
-/* line 477, ../scss/_header.scss */
+/* line 487, ../scss/_header.scss */
 #block-block-9 {
   left: inherit;
   right: 0;
 }
-/* line 481, ../scss/_header.scss */
+/* line 491, ../scss/_header.scss */
 #block-block-9 .content {
   left: inherit;
   right: 0;
 }
 @media (min-width: 720px) {
-  /* line 481, ../scss/_header.scss */
+  /* line 491, ../scss/_header.scss */
   #block-block-9 .content {
     left: 0;
   }
 }
 
-/* line 491, ../scss/_header.scss */
+/* line 501, ../scss/_header.scss */
 .block-shopping-cart-block {
   display: none;
 }
 @media (min-width: 720px) {
-  /* line 491, ../scss/_header.scss */
+  /* line 501, ../scss/_header.scss */
   .block-shopping-cart-block {
     display: inline-block;
   }
