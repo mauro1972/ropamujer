@@ -468,6 +468,14 @@
 #block-block-9 {
   left: inherit;
   right: 0;
+
+  .content {
+    right: 0;
+
+    @include breakpoint(720px) {
+      left: 0;
+    }
+  }
 }
 
 .block-shopping-cart-block {
