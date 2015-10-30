@@ -502,8 +502,17 @@
 #block-user-login {
   left: 0;
 
+  .content {
+    left: 0;
+    right: inherit;
+  }
   @include breakpoint(720px) {
     left: inherit;
+
+    .content {
+      left: inherit;
+      right: 0;
+    }    
   }  
 }
 
