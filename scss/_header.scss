@@ -64,7 +64,10 @@
   border-left: 1px transparent solid;
   border-right: 1px transparent solid;
   color: #FFF;
-  position: relative;
+
+  @include breakpoint(720px) {
+    position: relative;
+  }
 
   .content {
     color: #333;
@@ -449,6 +452,18 @@
   }
 
 } 
+
+#block-user-login,
+#block-system-user-menu,
+#block-search-form,
+#block-views-shopping-cart-block,
+#block-block-9 {}
+
+#block-search-form {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
 
 .block-shopping-cart-block {
   display: none;
