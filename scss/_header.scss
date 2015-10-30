@@ -451,7 +451,8 @@
 } 
 
 .block-shopping-cart-block {
-
-
-
+  display: none;
+  @include breakpoint(720px) {
+    display: inline-block;
+  }
 }

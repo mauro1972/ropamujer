@@ -3790,6 +3790,17 @@
   }
 }
 
+/* line 453, ../scss/_header.scss */
+.block-shopping-cart-block {
+  display: none;
+}
+@media (min-width: 720px) {
+  /* line 453, ../scss/_header.scss */
+  .block-shopping-cart-block {
+    display: inline-block;
+  }
+}
+
 /**
  * Ropa Mujer styles
  */
