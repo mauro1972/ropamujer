@@ -6,10 +6,6 @@
   background: rgba(0, 0, 0, 0.7);
 }
 
-#region-branding {
-
-}
-
 .zone-branding .region-branding {
   margin: 0;
 
@@ -27,7 +23,7 @@
     position: relative;
     z-index: 500;
 
-    @include breakpoint(720px) {
+    @include bre akpoint(720px) {
       float: left;
     }
   }
@@ -441,4 +437,29 @@
       }
     }
   }
+}
+
+/**
+ * small screens
+ */
+#region-branding {
+
+  @include breakpoint(720px) {
+    padding-top: 50px;
+  }
+
+} 
+
+.block-shopping-cart-block {
+
+  @include breakpoint(720px) {
+    position: absolute;
+    top: 0;
+    left:0;
+
+    .content {
+      opacity: 1;
+    }
+  }
+
 }
