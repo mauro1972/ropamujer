@@ -118,10 +118,10 @@ ul {
  */
 #user-login #edit-submit,
 button, input[type="reset"], input[type="submit"], input[type="button"] {
-  background-color: #B4239E;
+  background: #B4239E;
   text-shadow: 0 0 0 transparent;
   &:hover, &:active,&:focus {
-    background-color: lighten(#B4239E, 10);
+    background: lighten(#B4239E, 10);
     @include box-shadow(transparent 0 0 0);
   }  
 }
