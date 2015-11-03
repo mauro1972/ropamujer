@@ -165,12 +165,16 @@
 
   .price {
     background: #f37324;
-    top: 210px;
+    top: 110px;
     color: #FFF;
     font-weight: bold;
     left: -5px;
     padding: 5px 10px;
     position: absolute;
+
+    @include breakpoint(720px) {
+      top: 210px;
+    }
 
     @include border-radius(5px 5px 5px 0);
 
