@@ -4714,7 +4714,7 @@ body,
   border: 1px #000 solid;
 }
 /* line 9, ../scss/_landing2.scss */
-#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item {
+#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal {
   background: #F8F8F8;
   border-bottom: 1px #CCC solid;
   border-top: 1px #CCC solid;
@@ -4733,50 +4733,50 @@ body,
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 23, ../scss/_landing2.scss */
-#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item:last-child {
+/* line 24, ../scss/_landing2.scss */
+#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal:last-child {
   border-right: 1px #CCC solid;
 }
 @media (min-width: 720px) {
   /* line 9, ../scss/_landing2.scss */
-  #block-views-estilos-collection .jcarousel-skin-default .jcarousel-item {
-    /*width: 16.5%;*/
+  #block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal {
+    width: 16.5%;
   }
 }
-/* line 31, ../scss/_landing2.scss */
-#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item:hover {
+/* line 32, ../scss/_landing2.scss */
+#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 36, ../scss/_landing2.scss */
-#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item a {
+/* line 37, ../scss/_landing2.scss */
+#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal a {
   color: #333;
   display: block;
   font-size: 1.5em;
 }
 
-/* line 45, ../scss/_landing2.scss */
+/* line 46, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet {
   margin-top: 0;
 }
-/* line 48, ../scss/_landing2.scss */
+/* line 49, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet h2.block-title {
   font-size: 28px;
   text-align: center;
   display: none;
 }
-/* line 56, ../scss/_landing2.scss */
+/* line 57, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet .jcarousel-skin-default .jcarousel-clip-horizontal li {
   border: none;
   margin: 0 3px 0 0;
   width: 250px;
 }
 
-/* line 64, ../scss/_landing2.scss */
+/* line 65, ../scss/_landing2.scss */
 .views-summary {
   width: 99%;
 }
-/* line 67, ../scss/_landing2.scss */
+/* line 68, ../scss/_landing2.scss */
 .views-summary li {
   border: 1px #FFF solid;
   border-left: none;
@@ -4802,21 +4802,21 @@ body,
   transition-duration: 0.4s;
 }
 @media (min-width: 720px) {
-  /* line 67, ../scss/_landing2.scss */
+  /* line 68, ../scss/_landing2.scss */
   .views-summary li {
     width: 19.5%;
   }
 }
-/* line 91, ../scss/_landing2.scss */
+/* line 92, ../scss/_landing2.scss */
 .views-summary li a {
   color: #333;
 }
-/* line 95, ../scss/_landing2.scss */
+/* line 96, ../scss/_landing2.scss */
 .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 99, ../scss/_landing2.scss */
+/* line 100, ../scss/_landing2.scss */
 .views-summary li:hover a {
   color: #FFF;
 }

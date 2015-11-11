@@ -6,7 +6,7 @@
   border: 1px #000 solid;
   
 
-  .jcarousel-skin-default .jcarousel-item {
+  .jcarousel-skin-default .jcarousel-item-horizontal {
     background: #F8F8F8;
     border-bottom: 1px #CCC solid;
     border-top: 1px #CCC solid;      
@@ -17,6 +17,7 @@
     text-align: center;
     height: 110px;
 
+
     @include transition-property("all");
     @include transition-duration(0.4s);
 
@@ -25,7 +26,7 @@
     }
 
     @include breakpoint(720px) {
-      /*width: 16.5%;*/
+      width: 16.5%;
     }
 
     &:hover {
