@@ -4709,11 +4709,7 @@ body,
 /**
  * Landing page 2
  */
-/* line 5, ../scss/_landing2.scss */
-#block-views-estilos-collection {
-  border: 1px #000 solid;
-}
-/* line 11, ../scss/_landing2.scss */
+/* line 9, ../scss/_landing2.scss */
 #block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li {
   background: #F8F8F8;
   border-bottom: 1px #CCC solid;
@@ -4733,54 +4729,54 @@ body,
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 26, ../scss/_landing2.scss */
+/* line 24, ../scss/_landing2.scss */
 #block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li:last-child {
   border-right: 1px #CCC solid;
 }
 @media (min-width: 720px) {
-  /* line 11, ../scss/_landing2.scss */
+  /* line 9, ../scss/_landing2.scss */
   #block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li {
     width: 180px;
   }
 }
-/* line 34, ../scss/_landing2.scss */
+/* line 32, ../scss/_landing2.scss */
 #block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 38, ../scss/_landing2.scss */
+/* line 36, ../scss/_landing2.scss */
 #block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li:hover a {
   color: #FFF;
 }
-/* line 43, ../scss/_landing2.scss */
+/* line 41, ../scss/_landing2.scss */
 #block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li a {
   color: #333;
   display: block;
   font-size: 1.5em;
 }
 
-/* line 53, ../scss/_landing2.scss */
+/* line 51, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet {
   margin-top: 0;
 }
-/* line 56, ../scss/_landing2.scss */
+/* line 54, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet h2.block-title {
   font-size: 28px;
   text-align: center;
   display: none;
 }
-/* line 64, ../scss/_landing2.scss */
+/* line 62, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet .jcarousel-skin-default .jcarousel-clip-horizontal li {
   border: none;
   margin: 0 3px 0 0;
   width: 250px;
 }
 
-/* line 72, ../scss/_landing2.scss */
+/* line 70, ../scss/_landing2.scss */
 .views-summary {
   width: 99%;
 }
-/* line 75, ../scss/_landing2.scss */
+/* line 73, ../scss/_landing2.scss */
 .views-summary li {
   border: 1px #FFF solid;
   border-left: none;
@@ -4806,21 +4802,21 @@ body,
   transition-duration: 0.4s;
 }
 @media (min-width: 720px) {
-  /* line 75, ../scss/_landing2.scss */
+  /* line 73, ../scss/_landing2.scss */
   .views-summary li {
     width: 19.5%;
   }
 }
-/* line 99, ../scss/_landing2.scss */
+/* line 97, ../scss/_landing2.scss */
 .views-summary li a {
   color: #333;
 }
-/* line 103, ../scss/_landing2.scss */
+/* line 101, ../scss/_landing2.scss */
 .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 107, ../scss/_landing2.scss */
+/* line 105, ../scss/_landing2.scss */
 .views-summary li:hover a {
   color: #FFF;
 }
