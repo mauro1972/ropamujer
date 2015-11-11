@@ -2,9 +2,7 @@
  * Landing page 2
  */
 
-/*
 #block-views-estilos-collection {
-
   
   .views-summary {
     margin: 0;
@@ -21,7 +19,7 @@
       padding-top: 50px;
       text-align: center;
       height: 110px;
-      width: 32%;
+      width: 20%;
 
       @include transition-property("all");
       @include transition-duration(0.4s);
@@ -46,7 +44,7 @@
       }
     }
   }
-}*/
+}
 
 #block-views-display-products-flex-outlet {
   margin-top: 0;
