@@ -15,9 +15,9 @@
       border-left: 1px #CCC solid;
       font-size: 1.1em;
       margin: 0;
-      padding-top: 50px;
+      padding-top: 60px;
       text-align: center;
-      height: 110px;
+      height: 100px;
 
 
       @include transition-property("all");
@@ -34,6 +34,10 @@
       &:hover {
         background: lighten(#B4239E, 10);
         color: #FFF;
+
+        a {
+          color: #FFF;
+        }
       }
 
       a {
