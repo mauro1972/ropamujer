@@ -6,19 +6,16 @@
   border: 1px #000 solid;
   
 
-  .jcarousel-skin-default .jcarousel-item,
-  li {
+  .jcarousel-skin-default .jcarousel-item {
     background: #F8F8F8;
     border-bottom: 1px #CCC solid;
     border-top: 1px #CCC solid;      
     border-left: 1px #CCC solid;
-    float: left;
     font-size: 1.1em;
     margin: 0;
     padding-top: 50px;
     text-align: center;
     height: 110px;
-    width: 20%;
 
     @include transition-property("all");
     @include transition-duration(0.4s);
