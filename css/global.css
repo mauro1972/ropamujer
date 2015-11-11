@@ -4713,8 +4713,8 @@ body,
 #block-views-estilos-collection {
   border: 1px #000 solid;
 }
-/* line 9, ../scss/_landing2.scss */
-#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal {
+/* line 11, ../scss/_landing2.scss */
+#block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li {
   background: #F8F8F8;
   border-bottom: 1px #CCC solid;
   border-top: 1px #CCC solid;
@@ -4733,50 +4733,50 @@ body,
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 24, ../scss/_landing2.scss */
-#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal:last-child {
+/* line 26, ../scss/_landing2.scss */
+#block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li:last-child {
   border-right: 1px #CCC solid;
 }
 @media (min-width: 720px) {
-  /* line 9, ../scss/_landing2.scss */
-  #block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal {
+  /* line 11, ../scss/_landing2.scss */
+  #block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li {
     width: 16.5%;
   }
 }
-/* line 32, ../scss/_landing2.scss */
-#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal:hover {
+/* line 34, ../scss/_landing2.scss */
+#block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 37, ../scss/_landing2.scss */
-#block-views-estilos-collection .jcarousel-skin-default .jcarousel-item-horizontal a {
+/* line 39, ../scss/_landing2.scss */
+#block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li a {
   color: #333;
   display: block;
   font-size: 1.5em;
 }
 
-/* line 46, ../scss/_landing2.scss */
+/* line 49, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet {
   margin-top: 0;
 }
-/* line 49, ../scss/_landing2.scss */
+/* line 52, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet h2.block-title {
   font-size: 28px;
   text-align: center;
   display: none;
 }
-/* line 57, ../scss/_landing2.scss */
+/* line 60, ../scss/_landing2.scss */
 #block-views-display-products-flex-outlet .jcarousel-skin-default .jcarousel-clip-horizontal li {
   border: none;
   margin: 0 3px 0 0;
   width: 250px;
 }
 
-/* line 65, ../scss/_landing2.scss */
+/* line 68, ../scss/_landing2.scss */
 .views-summary {
   width: 99%;
 }
-/* line 68, ../scss/_landing2.scss */
+/* line 71, ../scss/_landing2.scss */
 .views-summary li {
   border: 1px #FFF solid;
   border-left: none;
@@ -4802,21 +4802,21 @@ body,
   transition-duration: 0.4s;
 }
 @media (min-width: 720px) {
-  /* line 68, ../scss/_landing2.scss */
+  /* line 71, ../scss/_landing2.scss */
   .views-summary li {
     width: 19.5%;
   }
 }
-/* line 92, ../scss/_landing2.scss */
+/* line 95, ../scss/_landing2.scss */
 .views-summary li a {
   color: #333;
 }
-/* line 96, ../scss/_landing2.scss */
+/* line 99, ../scss/_landing2.scss */
 .views-summary li:hover {
   background: #d733be;
   color: #FFF;
 }
-/* line 100, ../scss/_landing2.scss */
+/* line 103, ../scss/_landing2.scss */
 .views-summary li:hover a {
   color: #FFF;
 }

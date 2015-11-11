@@ -6,38 +6,41 @@
   border: 1px #000 solid;
   
 
-  .jcarousel-skin-default .jcarousel-item-horizontal {
-    background: #F8F8F8;
-    border-bottom: 1px #CCC solid;
-    border-top: 1px #CCC solid;      
-    border-left: 1px #CCC solid;
-    font-size: 1.1em;
-    margin: 0;
-    padding-top: 50px;
-    text-align: center;
-    height: 110px;
+  .jcarousel-skin-default .jcarousel-clip-horizontal {
+
+    li {
+      background: #F8F8F8;
+      border-bottom: 1px #CCC solid;
+      border-top: 1px #CCC solid;      
+      border-left: 1px #CCC solid;
+      font-size: 1.1em;
+      margin: 0;
+      padding-top: 50px;
+      text-align: center;
+      height: 110px;
 
 
-    @include transition-property("all");
-    @include transition-duration(0.4s);
+      @include transition-property("all");
+      @include transition-duration(0.4s);
 
-    &:last-child {
-      border-right: 1px #CCC solid;
-    }
+      &:last-child {
+        border-right: 1px #CCC solid;
+      }
 
-    @include breakpoint(720px) {
-      width: 16.5%;
-    }
+      @include breakpoint(720px) {
+        width: 16.5%;
+      }
 
-    &:hover {
-      background: lighten(#B4239E, 10);
-      color: #FFF;
-    }
+      &:hover {
+        background: lighten(#B4239E, 10);
+        color: #FFF;
+      }
 
-    a {
-      color: #333;
-      display: block;
-      font-size: 1.5em;
+      a {
+        color: #333;
+        display: block;
+        font-size: 1.5em;
+      }
     }
   }
 
