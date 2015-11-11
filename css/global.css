@@ -4740,7 +4740,7 @@ body,
 @media (min-width: 720px) {
   /* line 11, ../scss/_landing2.scss */
   #block-views-estilos-collection .jcarousel-skin-default .jcarousel-clip-horizontal li {
-    width: 16.5%;
+    width: 180px;
   }
 }
 /* line 34, ../scss/_landing2.scss */
